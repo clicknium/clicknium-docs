@@ -1,0 +1,12 @@
+- **API reference**
+  - [Overview](./doc/api/doc.md)
+  - [Clicknium](./doc/api/clicknium/doc.md)
+    - [Find Element](./doc/api/clicknium/findelement.md)
+  - Classes
+    - [UiElement](./doc/api/classes/uielement/doc.md)
+      - [Click](./doc/api/classes/uielement/click.md)
+    - [Browser](./doc/api/classes/browser/doc.md)
+    - [Desktop](./doc/api/classes/desktop/doc.md)
+    - [Sap](./doc/api/classes/sap/doc.md)
+  - [Exceptions](./doc/api/exceptions/doc.md)
+- [**Contact us**](./doc/contact/doc.md)
