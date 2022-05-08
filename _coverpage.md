@@ -4,11 +4,11 @@
 
 # clicknium <small>0.0.1</small>
 
-> 一个强大的自动化工具。
+> Powerful Automation Stack and Cloud native product
 
-- 简单
-- 强大的自动化技术
-- 快速部署
+- opensource RPA
+- powerful automation ability for variety application and browser 
+- friendly development tools
 
-[GitHub](https://github.com/k-saihua/clicknium-docs-test)
-[Get Started](./doc/api/doc.md)
+[GitHub](https://github.com/clicknium/product-docs)
+[Getting Started](./doc/gettingstart.md)
