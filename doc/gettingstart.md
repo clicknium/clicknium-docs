@@ -43,13 +43,11 @@ Then project is created.
 - open auto.py, write the following code
 ```
 from clicknium import clicknium as cc, locator, ui
-
-//open new browser window
+#open new browser window
 driver = cc.chrome.open("https://www.bing.com")
 driver.find_element(locator.chrome.bing.search_sb_form_q).set_text("automation")
 driver.find_element(locator.chrome.bing.svg).click
-
-//automation on already opened browser
+#automation on already opened browser
 ui(locator.chrome.bing.search_sb_form_q).set_text("automation")
 ui(locator.chrome.bing.svg).click
 ```
