@@ -34,24 +34,26 @@ pip install clicknium
   
 Then project is created.
 - Open browser, such as chrome, navigate to `www.bing.com`
-- In VSCode, open clicknium recorder, press `Ctrl+F10` or the following button
-  ![recorder button](img/recorder.png "locator recorder button")
-- record the input box and search button
+- In VSCode, open clicknium recorder, press `Ctrl+F10` or the following button    
+  
+![recorder button](img/recorder.png "locator recorder button")
+- record the input box and search button    
   
   ![](img/bing_input.png "bing input") ![](img/bing_searchbtn.png "bing search button")
 - open auto.py, write the following code
 ```
 from clicknium import clicknium as cc, locator, ui
 
-#open new browser window
+//open new browser window
 driver = cc.chrome.open("https://www.bing.com")
 driver.find_element(locator.chrome.bing.search_sb_form_q).set_text("automation")
 driver.find_element(locator.chrome.bing.svg).click
 
-#automation on already opened browser
+//automation on already opened browser
 ui(locator.chrome.bing.search_sb_form_q).set_text("automation")
 ui(locator.chrome.bing.svg).click
 ```
+
 - run the project
 Open the Command Palette: `Ctrl+Shift+P`, Input or select: clicknium:run project
 
