@@ -1,7 +1,7 @@
 # wait_property
-***def wait_property(locator, name, value, locator_variables = {}, wait_timeout = 30):***  
+***def wait_property(locator, name, value, locator_variables = {}, wait_timeout = 30)***  
 
-send hot key  
+wait for the element appear and the value of specified property is same as the expected value 
 
 **Parameters:**  
     &emsp;**locator[Required]**: str   
@@ -22,11 +22,12 @@ send hot key
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator
 
-    cc.wait_property(locator.chrome.bing.search_sb_form_q, 'isvisible', 'true')
+#wait for the web page loadding ready
+cc.wait_property(locator.chrome.bing.search_sb_form_q, 'readystate', '1')
 
-    #parametric locator
-    variables = {"name":"test"}
-     cc.wait_property(locator.chrome.bing.search_sb_form_q, 'isvisible', 'true', variables)
+#parametric locator, wait for the element is enabled, for example the element is blocked by one popup dialog
+variables = {"name":"test"}
+cc.wait_property(locator.notepad.notepad.document_151,'IsEnabled', 'True', variables)
 ```
