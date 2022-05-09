@@ -28,4 +28,8 @@ There is a aliase method ui for shorten clicknium.find_element,  `clicknium.find
     cc.find_element(locator.chrome.bing.search_sb_form_q)
     #or 
     ui(locator.chrome.bing.search_sb_form_q)
+
+    #parametric locator
+    variables = {"name":"test"}
+    ui(locator.chrome.bing.search_sb_form_q, variables)
 ```

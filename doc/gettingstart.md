@@ -62,7 +62,8 @@ Open the Command Palette: `Ctrl+Shift+P`, Input or select: clicknium:run project
 
 Then project is created.
 - open notepad
-- In VSCode, open clicknium recorder, press `Ctrl+F10` or the following button
+- In VSCode, open clicknium recorder, press `Ctrl+F10` or the following button   
+ 
   ![recorder button](img/recorder.png "locator recorder button")
 - record the input document area
 
