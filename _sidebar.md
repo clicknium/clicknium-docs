@@ -4,6 +4,7 @@
     - [Clicknium vscode extension](./doc/vscode.md)
   - [Automation](./doc/automation.md)
     - [UiElement Property](./doc/property.md)
+    - [locator](./doc/locator.md)
     - [Parametric locator](./doc/parametric_locator.md)
   - [Cloud Product](./doc/product.md)
   - [Clicknium Python SDK](./doc/api/python/pythonsdk.md)
