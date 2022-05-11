@@ -1,7 +1,6 @@
-# click
-***def click(
+# double_click
+***def double_click(
         self,
-        click_type: Literal["click", "up", "down"] = ClickType.Click,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
         click_location: Literal["center", "lefttop", "leftbottom", "righttop","rightbuttom"] = ClickLocation.Center,
         click_method: Union[Literal["default", "mouseemulation", "controlinvocation"], ClickMethod] = ClickMethod.Default,
@@ -11,14 +10,12 @@
         xrate: int = 0,
         yrate: int = 0,
         timeout: int = 30
-    )***  
+    ) ***  
 
-Click an element with single click, up click or down click.  
+Click an element with double click.  
 
 **Parameters:**  
-    &emsp;**click_type**: ClickType   
-        &emsp;&emsp; Click type for single click, up and down.'  
-    &emsp;**mouse_button**: MouseButton  
+     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; Mouse button is set to define the mouse button to click. Default value is left, it will click with mouse left button.  
     &emsp;**click_location**: ClickLocation  
         &emsp;&emsp; Click location is set to define the element position to click. Default value is center, it will click the element's center position.  
@@ -47,8 +44,6 @@ Click an element with single click, up click or down click.
 ***
 ```python
     from clicknium import clicknium as cc, locator, ui
-    ui(locator.chrome.bing.svg).click(mouse_button = "right")
-    # same as
-    cc.find_element(locator.chrome.bing.svg).click(mouse_button = "right")
-    
+    cc.find_element(locator.chrome.bing.svg).double_click(mouse_button = "left")
+    ui(locator.chrome.bing.svg).double_click(mouse_button = "left")
 ```

@@ -5,12 +5,12 @@ Ui element locator is a string, actually XML fragment, content is in the followi
 <Application .../><Tab .../>/<Web .../>  
 include all information to locate the element.
 First node `Application` contains attributes of the target application
-<Application processName="notepad" filePath="notepad.exe" version="1.3" />
+<Application processName="notepad" filePath="notepad.exe" version="1.3" />  
 | Name      | Description |
 | ----------- | ----------- |
 | processName      |  name of the target process   |
 | filePath      |  the process file name, can ignore during locate element  |
-| version      |  clicknium locator schema version   |
+| version      |  clicknium locator schema version   |  
 
 The last node contains the atrtbiutes of the targe Ui element.
 The nodes between `Application` and the last node are the parent or ancestor of the target element.
