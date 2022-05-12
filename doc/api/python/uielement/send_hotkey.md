@@ -4,7 +4,7 @@
         hotkey: str,
         preaction: Literal["setfocus", "click"] = PreAction.SetFocus,
         timeout: int = 30
-    ) ***  
+    )***  
 
 send hot key  
 

@@ -1,5 +1,5 @@
 # get_position
-***def get_position(self, timeout: int = 30) ***  
+***def get_position(self, timeout: int = 30)***  
 
 Get element's bounding rectangle  
 

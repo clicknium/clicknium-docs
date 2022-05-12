@@ -3,7 +3,7 @@
         self,
         check_type: Literal["check", "uncheck", "toggle"] = CheckType.Check,
         timeout: int = 30
-    ) ***  
+    )***  
 
 do check operation on target element
 

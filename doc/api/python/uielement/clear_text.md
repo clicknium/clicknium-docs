@@ -5,7 +5,7 @@
         clear_hotkey: Union[Literal["{CTRL}{A}{DELETE}", "{END}{SHIFT}{HOME}{DELETE}", "{HOME}{SHIFT}{END}{DELETE}"], ClearHotKey] = ClearHotKey.CtrlA_Delete,
         preaction: Literal["setfocus", "click"] = PreAction.SetFocus,
         timeout: int = 30
-    )  ***  
+    )***  
 
 Click an element with double click.  
 

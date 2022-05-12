@@ -3,7 +3,7 @@
         self,
         name: str,
         timeout: int = 30
-    ) ***  
+    )***  
 
 Get property value of the element  
 

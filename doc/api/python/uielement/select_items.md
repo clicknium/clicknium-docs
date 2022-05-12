@@ -4,7 +4,7 @@
         items: list,
         clear_selected: bool = True,
         timeout: int = 30
-    ) ***  
+    )***  
 
 select multiple option for the target  
 

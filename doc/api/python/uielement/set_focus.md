@@ -1,5 +1,5 @@
 # set_focus
-***set_focus(self, timeout: int = 30) ***  
+***set_focus(self, timeout: int = 30)***  
 
 set focus for the target element
 

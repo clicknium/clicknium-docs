@@ -5,7 +5,7 @@
         ypoint: int = 0,
         speed: int = 50,
         timeout: int = 30
-    )  ***  
+    )***  
 
 Click an element with double click.  
 

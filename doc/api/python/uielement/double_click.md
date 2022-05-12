@@ -10,7 +10,7 @@
         xrate: int = 0,
         yrate: int = 0,
         timeout: int = 30
-    ) ***  
+    )***  
 
 Click an element with double click.  
 
