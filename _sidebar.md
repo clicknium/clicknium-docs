@@ -8,7 +8,7 @@
     - [Parametric locator](./doc/parametric_locator.md)
   - [Cloud Product](./doc/product.md)
   - [Clicknium Python SDK](./doc/api/python/pythonsdk.md)
-    - [clicknium](./doc/api/python/clicknium.md)
+    - [Clicknium](./doc/api/python/clicknium.md)
       - [find_element](./doc/api/python/find_element.md)
       - [is_exist](./doc/api/python/is_exist.md)
       - [send_hotkey](./doc/api/python/send_hotkey.md)

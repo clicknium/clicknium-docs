@@ -25,9 +25,31 @@ Click an element with double click.
     &emsp;None
 
 **Example:**
-***
+- Desktop file saveas dialog 
+![sample1](../../../img/clear_text_sample1.png)  
+For the file saveas dialog, filename input box can use clear_text to clear the existing content,
+as the control support ValueAction so can use "controlclearvalue" method
+
+
 ```python
-    from clicknium import clicknium as cc, locator, ui
-    cc.find_element(locator.chrome.bing.search_sb_form_q).clear_text(clear_method="controlclearvalue")
-    ui(locator.chrome.bing.search_sb_form_q).clear_text(clear_method="controlclearvalue")
+    from clicknium import clicknium as cc, locator, ui  
+    ui(locator.chrome.edit_1001).clear_text(clear_method="controlclearvalue")
+```
+
+- Wechat message input box
+![sample1](../../../img/clear_text_sample2.png)
+the Ui element don't support "controlclearvalue", if need clear text, can use the following way  
+
+```python
+    from clicknium import clicknium as cc, locator, ui  
+    ui(locator.wechat.edit1).clear_text(clear_method="sendhotkey", clear_hotkey="{CTRL}{A}{DELETE}", preaction="click")
+
+```
+
+- Web input
+```python
+driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+driver.find_element(locator.chrome.getbootstrap.text).set_text("hello")
+driver.find_element(locator.chrome.getbootstrap.text).clear_text(clear_method=ClearMethod.ControlClearValue)
+
 ```

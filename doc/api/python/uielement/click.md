@@ -30,13 +30,13 @@ Click an element with single click, up click or down click.
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; Modifier key is set to click with the modifier key("alt", "ctrl", "shift","win"). Default vaule is none.    
     &emsp;**xoffset**: int 
-        &emsp;&emsp; X offset is set the click position based on element's center position. Default value is 0.   
+        &emsp;&emsp; X offset is set the click position based on click_location. Default value is 0, means no offset. 
     &emsp;**yoffset**: int  
-        &emsp;&emsp; Y offset is set the click position based on element's center position. Default value is 0.  
+        &emsp;&emsp; Y offset is set the click position based on click_location. Default value is 0.  
     &emsp;**xrate**: int  
-        &emsp;&emsp; X rate percent is set the click position based on element's center position. Default value is 0.  
+        &emsp;&emsp; X rate percent of the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means X of click postion move to right, the distance is 1*element's width pixsels
     &emsp;**yrate**: int  
-        &emsp;&emsp; X rate percent is set the click position based on element's center position. Default value is 0.    
+        &emsp;&emsp; Y rate percent is set the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means Y of click postion move to right, the distance is 1*element's height pixsels   
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for locating element. The unit of parameter is seconds. Default is set to 30 seconds.  
 
@@ -44,11 +44,34 @@ Click an element with single click, up click or down click.
     &emsp;None
 
 **Example:**
+
+- click left button
 ***
 ```python
     from clicknium import clicknium as cc, locator, ui
-    ui(locator.chrome.bing.svg).click(mouse_button = "right")
+    ui(locator.chrome.bing.svg).click(mouse_button = "left")
     # same as
-    cc.find_element(locator.chrome.bing.svg).click(mouse_button = "right")
+    cc.find_element(locator.chrome.bing.svg).click(mouse_button = "left")
     
 ```
+
+- click with offset  
+![sample1](../../../img/click_sample1.png)
+
+through clicknium recorder, recorde '5' button  
+Default if we invoke click on button '5', `ui(locator.applicationframe.button_num5butto).click()`, will click on the central point of button '5'.  
+We can set the xrate to 1, it will move the point from default(button '5' central position) to right， button '6' central position
+`ui(locator.applicationframe.button_num5butto).click(xrate=1)`
+We can set the yrate to 1, it will move the point from default(button '5' central position) to down button '2' central position
+`ui(locator.applicationframe.button_num5butto).click(yrate=1)`  
+
+- click with modifier_key  
+for windows file explorer as the following:  
+![sample2-1](../../../img/click_sample21.png)  
+if we invoke click on control 'test3 folder' like  
+`ui(locator.explorer.edit_system_item).click()`
+the select item will be 'test3 folder', 'test1 folder' will be deselected.
+![sample2-2](../../../img/click_sample22.png)  
+if you want to add 'test3 folder' in selection list, you can click like the following:
+`ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`
+![sample2-3](../../../img/click_sample23.png) 
