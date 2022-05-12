@@ -12,8 +12,6 @@ set focus for the target element
 **Returns:**  
     &emsp;None
 
-# TODO 
-prepare the example
 **Example:**
 ***
 ```python

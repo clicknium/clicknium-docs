@@ -16,8 +16,6 @@ select one option for the target
 **Returns:**  
     &emsp;None
 
-# TODO 
-prepare the example
 **Example:**
 ***
 ```python

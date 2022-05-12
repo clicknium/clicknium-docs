@@ -18,5 +18,22 @@ Get text of the element
     text = ui(locator.chrome.bing.search_sb_form_q).get_text()
 ```
 
-# TODO
-show examples, for different applicaiton.control. the return value, to explain the usage
+- edit control on windows application: will return value
+```python
+    from clicknium import clicknium as cc, locator, ui
+    
+    # return value of the edit document
+    text = ui(locator.notepad.document).get_text()
+```
+
+- button, menuitem etc on windows application: will return name
+```python
+    from clicknium import clicknium as cc, locator, ui
+    
+    # return value of the edit document
+    text = ui(locator.notepad.menuitem_format).get_text()
+
+    #text is 'format'
+```
+
+- element on web page: will return innerText

@@ -36,8 +36,8 @@ as the control support ValueAction so can use "controlclearvalue" method
     ui(locator.chrome.edit_1001).clear_text(clear_method="controlclearvalue")
 ```
 
-- Wechat message input box
-![sample1](../../../img/clear_text_sample2.png)
+- Wechat message input box  
+![sample1](../../../img/clear_text_sample2.png)  
 the Ui element don't support "controlclearvalue", if need clear text, can use the following way  
 
 ```python
