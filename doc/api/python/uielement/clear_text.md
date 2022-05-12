@@ -25,7 +25,7 @@ Click an element with double click.
     &emsp;None
 
 **Example:**
-- Desktop file saveas dialog 
+- Desktop file saveas dialog   
 ![sample1](../../../img/clear_text_sample1.png)  
 For the file saveas dialog, filename input box can use clear_text to clear the existing content,
 as the control support ValueAction so can use "controlclearvalue" method
