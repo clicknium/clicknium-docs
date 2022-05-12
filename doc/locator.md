@@ -6,6 +6,7 @@ Ui element locator is a string, actually XML fragment, content is in the followi
 include all information to locate the element.
 First node `Application` contains attributes of the target application
 <Application processName="notepad" filePath="notepad.exe" version="1.3" />  
+
 | Name      | Description |
 | ----------- | ----------- |
 | processName      |  name of the target process   |
