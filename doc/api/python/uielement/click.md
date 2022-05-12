@@ -23,10 +23,10 @@ Click an element with single click, up click or down click.
     &emsp;**click_location**: ClickLocation  
         &emsp;&emsp; Click location is set to define the element position to click. Default value is center, it will click the element's center position.  
     &emsp;**click_method**: ClickMethod  
-        &emsp;&emsp; Click method is set to which method to use when clicking the element. Default vaule is dafult.
-        `mouseemulation`: perform mouse emulator, will move mouse to the target element and click  
-        `controlinvocation`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or will be failed.
-        `default`: for web element, will use `controlinvocation`; for desktop element, will use `mouseemulation`
+        &emsp;&emsp; Click method is set to which method to use when clicking the element. Default vaule is dafult.  
+        &emsp;&emsp; `mouseemulation`: perform mouse emulator, will move mouse to the target element and click  
+        &emsp;&emsp; `controlinvocation`: invoke the action on the target element, for web element, perform through javascript; for windows application element, it should support the action, or will be failed.  
+        &emsp;&emsp; `default`: for web element, will use `controlinvocation`; for desktop element, will use `mouseemulation`
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; Modifier key is set to click with the modifier key("alt", "ctrl", "shift","win"). Default vaule is none.    
     &emsp;**xoffset**: int 
