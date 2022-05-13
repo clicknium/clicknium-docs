@@ -1,7 +1,7 @@
 # send_hotkey
-***def send_hotkey(hotkey)***  
+***def send_hotkey(hotkey: str) -> None***  
 
-send hot key  
+Send hot key.  
 
 **Parameters:**  
     &emsp;**hotkey[Required]**: str   
@@ -13,7 +13,7 @@ send hot key
 **Remark:**
 This method is global send hotkey.
 If you want to send hotkey on one ui element, there are two choice:
-- you should invoke [send_hotkey](/doc/api/python/uielement/send_hotkey.md) on ui element.
+- you should invoke [send_hotkey](/doc/api/python/uielement/send_hotkey.md) on ui element
 - before invoke this method, call [click](/doc/api/python/uielement/click.md) or [set_focus](/doc/api/python/uielement/set_focus.md) on the ui element first
 
 **Example:**

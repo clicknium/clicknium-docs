@@ -1,11 +1,11 @@
 # get_text
-***get_text(self, timeout: int = 30)***  
+***def get_text(self, timeout: int = 30) -> str***  
 
-Get text of the element
+Get text of the element.
 
 **Parameters:**    
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
     &emsp;str
