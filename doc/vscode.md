@@ -11,6 +11,10 @@ can do IntelliSense, error hint etc.
 
 ## Create Project
 
+## Install browser extensions
+
+## install java extension
+
 ## Record UI Locators
 In Visual Studio Code, press `CTRL+F10` can invoke clicknium recorder and minimize current Visual Studio Code window,  
 ![clicknium recorder](img/recorder_main.png)  
@@ -45,7 +49,7 @@ if you want to capture the element, press `Ctrl` and click, the element locator 
 
 ## Edit and Validate Locator
 After record the locators, you can open and edit the locator  
-![clicknium ycode](img/main.png) 
+![clicknium vscode](img/main.png) 
 
 - locator store: file to store locator data. the locators of the same application are stored in one locator store defaultly, user can manage the locator store from Visual Studio Code or Clicnium Recorder.
 - locator: Ui element locator, locator is string(XML fragment) that used to find the element, it includes application info, includes all necessary parent nodes of the element in the user interface, and using several attributes to identify each node include element itself.
