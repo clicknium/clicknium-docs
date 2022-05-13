@@ -11,12 +11,14 @@ Hover on the element, the mouse will move upon the element for a while.
     &emsp;None
 
 **Example:**
-***
-```python
-    from clicknium import clicknium as cc, locator, ui
-    
-    ui(locator.chrome.bing.search_sb_form_q).hover()
-```
 
-# TODO
-show case for hover, for example on the popup menu
+- hover on the web element  
+  
+![sample](../../../img/hover_sample1.png)  
+
+```python
+from clicknium import clicknium as cc, locator, ui
+    
+ui(locator.chrome.bing.li_dots_overflow).hover()
+```
+![sample](../../../img/hover_sample2.png) 

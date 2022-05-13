@@ -19,11 +19,17 @@ Select multiple option for the target.
 **Returns:**  
     &emsp;None
 
-# TODO 
-prepare the example
 **Example:**
 ***
+- select items on web
+  
+![sample](../../../img/select_items_sample1.png)  
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
+
+driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+driver.find_element(locator.chrome.getbootstrap.multiselect).select_item({'One', 'Three'})
 
 ```
+
+![sample](../../../img/select_items_sample2.png)  

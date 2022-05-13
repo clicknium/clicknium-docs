@@ -25,7 +25,7 @@ Click an element with single click, up click or down click.
     &emsp;**click_method**: ClickMethod  
         &emsp;&emsp; click method is set to which method to use when clicking the element. Default vaule is default  
         &emsp;&emsp; `mouseemulation`: perform mouse emulator, will move mouse to the target element and click  
-        &emsp;&emsp; `controlinvocation`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or will be failed  
+        &emsp;&emsp; `controlinvocation`: invoke the action on the target element, for web element, perform through javascript; for windows application element, it should support the action, or will be failed  
         &emsp;&emsp; `default`: for web element, will use `controlinvocation`; for desktop element, will use `mouseemulation`  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; modifier key is set to click with the modifier key("alt", "ctrl", "shift","win"). Default vaule is none    

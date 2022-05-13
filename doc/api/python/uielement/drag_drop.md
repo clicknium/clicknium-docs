@@ -31,3 +31,13 @@ Holds down the left mouse button on the source element, then moves to the target
     # drag the target scroll button down to 20 pixels
     ui(locator.app.bing.scrollbutton).drag_drop(0, 20)
 ```
+
+- move scroll bar of notepad  
+![sample1](../../../img/drap_drop_sample1.png)  
+if you need scroll down 50 pixels, can invoke like this: `ui(locator.notepad.thumb_scrollbart).drag_drop(0, 50)`  
+![sample1](../../../img/drap_drop_sample1_2.png)  
+
+- move slipper from left to right  
+![sample2](../../../img/drap_drop_sample2_1.png)  
+if you need scroll right 20 pixels, can invoke like this: `ui(locator.uiautomationwpfd.thumb_thumb).drag_drop(20, 0)`  
+![sample2](../../../img/drap_drop_sample2_2.png)  

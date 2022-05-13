@@ -10,11 +10,10 @@ Set focus for the target element.
 **Returns:**  
     &emsp;None
 
-# TODO 
-prepare the example
 **Example:**
 ***
 ```python
     from clicknium import clicknium as cc, locator, ui
 
+    ui(locator.chrome.bing.search_sb_form_q).set_focus()
 ```

@@ -16,11 +16,23 @@ Select one option for the target.
 **Returns:**  
     &emsp;None
 
-# TODO 
-prepare the example
 **Example:**
 ***
+- select item on web input(type is select)
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
+
+driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+driver.find_element(locator.chrome.getbootstrap.select).select_item('One')
 
 ```
+
+![sample](../../../img/select_item_sample1.png)  
+-  select item on windows file save as dialog  
+```python
+from clicknium import clicknium as cc, locator, ui
+
+ui(locator.notepad.combobox_filetype).select_item('All Files  (*.*)')
+
+```
+![sample](../../../img/select_item_sample2.png)  
