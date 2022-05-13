@@ -19,7 +19,7 @@ In current opened browser, wait for the element appear and set its specified pro
     &emsp;**value[Required]**: str  
         &emsp;&emsp; property value  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; The locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](/doc/parametric_locator.md)  
+        &emsp;&emsp; The locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/parametric_locator.md)  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
 

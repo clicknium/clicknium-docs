@@ -11,7 +11,7 @@ Initialize ui element by the given locator.
     &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](../../parametric_locator.md)  
+        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/parametric_locator.md)  
     &emsp;**window_mode**: WindowMode  
         &emsp;&emsp; Window mode define whether to set the window on topmost for the following operation on the element  
         &emsp;&emsp;**Auto**：Default value is auto, it means setting the window automatically, we set the internal context for automation operation, the context stores info about the ui element operated just now, include process name, main window title etc. if current ui element's info is same as previous, then don't need set window topmost as it should be already set; or will set window topmost  
