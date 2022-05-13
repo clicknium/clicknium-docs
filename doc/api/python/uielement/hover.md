@@ -1,11 +1,11 @@
 # hover
-***hover(self, timeout: int = 30)***  
+***def hover(self, timeout: int = 30) -> None***  
 
-hover on the element, the mouse will move upon the element for a while
+Hover on the element, the mouse will move upon the element for a while.
 
 **Parameters:**    
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
     &emsp;None

@@ -5,16 +5,16 @@
         ypoint: int = 0,
         speed: int = 50,
         timeout: int = 30
-    )***  
+    ) -> None***  
 
-Click an element with double click.  
+Holds down the left mouse button on the source element, then moves to the target offset and releases the mouse button. 
 
 **Parameters:**  
-    &emsp;**xpoint**:  pixels of X-Axis will be move.  
-    &emsp;**ypoint**: pixels of X-Axis will be move.  
-    &emsp;**speed**: drag speed. The unit of parameter is ms/10px. Default is 50.  
+    &emsp;**xpoint**:  pixels of X-Axis will be moved  
+    &emsp;**ypoint**: pixels of X-Axis will be moved  
+    &emsp;**speed**: drag speed. The unit of parameter is ms/10px. Default is 50  
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
     &emsp;None

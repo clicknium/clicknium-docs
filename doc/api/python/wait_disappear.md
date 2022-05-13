@@ -1,18 +1,22 @@
 # wait_disappear
-***def wait_disappear(selector_locator, selector_variables = {}, wait_timeout = 30)***  
+***def wait_disappear(
+        locator: Union[_Locator, str],
+        locator_variables: dict = {},
+        wait_timeout: int = 30
+    ) -> bool***  
 
-wait for the element disappear
+Wait for the element disappear.
 
 **Parameters:**  
-    &emsp;**locator[Required]**: str   
+    &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; The locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](/doc/api/python/parametric_locator.md)  
+        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](/doc/api/python/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the method call, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
 
 **Returns:**  
-    &emsp;Bool, return True if the element is disappear or return False
+    &emsp;bool, return True if the element is disappear or return False
 
 
 **Example:**
@@ -20,7 +24,7 @@ wait for the element disappear
 ```python
 from clicknium import clicknium as cc, locator
 
-#wait element appear
+#wait element disappear
 cc.wait_disappear(locator.chrome.bing.search_sb_form_q)
 
 #parametric locator

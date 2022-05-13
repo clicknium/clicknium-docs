@@ -1,14 +1,21 @@
 # get_size
-***def get_size(self, timeout: int = 30)***  
+***def get_size(self, timeout: int = 30) -> ElementSize***  
 
-Get element's size(height and width)
+Get element's size(height and width).
 
 **Parameters:**   
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
-    &emsp;ElementSize
+    &emsp;ElementSize, the class definition as following: 
+```python
+    class ElementSize:
+
+    def __init__(self, width, height) -> None:
+        self.Width = width
+        self.Height = height
+```
 
 **Example:**
 ***
