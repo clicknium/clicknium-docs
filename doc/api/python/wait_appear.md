@@ -1,4 +1,4 @@
-# wait_appear
+# clicknium.wait_appear
 ***def wait_appear(
         locator: Union[_Locator, str],
         locator_variables: dict = {},

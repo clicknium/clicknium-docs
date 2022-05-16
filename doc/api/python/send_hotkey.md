@@ -1,4 +1,4 @@
-# send_hotkey
+# clicknium.send_hotkey
 ***def send_hotkey(hotkey: str) -> None***  
 
 Send hot key.  

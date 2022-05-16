@@ -1,5 +1,5 @@
-# clicknium
-**clicknium class provides global methods over UI element, and driver for different types of applications.**
+# Global functions
+**Global functions provides methods over UI element, and driver for different types of applications.**
 
 - import
   ```
@@ -19,10 +19,10 @@
 - java driver, `cc.java` return driver for [Java](./doc/api/python/java/java.md), java driver provides method to install java extension
 
 ## methods <!-- {docsify-ignore} -->
-- [find_element](./doc/api/python/find_element.md): locate the UI element, return [UiElement](./doc/api/python/uielement/uielement.md) object
-- [is_exist](./doc/api/python/is_exist.md): whether the ui element exist
-- [send_hotkey](./doc/api/python/send_hotkey.md): send hotkey
-- [wait_appear](./doc/api/python/wait_appear.md): wait for one ui element appear in specified timeout interval 
-- [wait_disappear](./doc/api/python/wait_disappear.md): wait for one ui element disappear in specified timeout interval
-- [wait_property](./doc/api/python/wait_property.md): wait for one ui element appear and one property's value equals the value specified in specified timeout interval 
+- [clicknium.find_element](./doc/api/python/find_element.md): locate the UI element, return [UiElement](./doc/api/python/uielement/uielement.md) object
+- [clicknium.is_exist](./doc/api/python/is_exist.md): whether the ui element exist
+- [clicknium.send_hotkey](./doc/api/python/send_hotkey.md): send hotkey
+- [clicknium.wait_appear](./doc/api/python/wait_appear.md): wait for one ui element appear in specified timeout interval 
+- [clicknium.wait_disappear](./doc/api/python/wait_disappear.md): wait for one ui element disappear in specified timeout interval
+- [clicknium.wait_property](./doc/api/python/wait_property.md): wait for one ui element appear and one property's value equals the value specified in specified timeout interval 
 
