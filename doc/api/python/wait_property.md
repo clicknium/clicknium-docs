@@ -1,4 +1,4 @@
-# wait_property
+# clicknium.wait_property
 ***def wait_property(
         locator: Union[_Locator, str],
         name: str, 

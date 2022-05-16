@@ -1,4 +1,4 @@
-# wait_disappear
+# clicknium.wait_disappear
 ***def wait_disappear(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
