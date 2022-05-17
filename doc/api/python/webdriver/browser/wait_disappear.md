@@ -20,7 +20,7 @@ In current opened browser, wait for the element disappear.
     &emsp;bool, return True if the element is disappear in given time or return False
 
 **Remark**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear()`, it is different with `clicknium.wait_disappear()` [wait_disappear](./doc/api/python/wait_disappear.md) when locating the ui element.
+It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear()`, it is different with `clicknium.wait_disappear()` [clicknium.wait_disappear](./doc/api/python/wait_disappear.md) when locating the ui element.
 - `clicknium.wait_disappear()` is for both web and desktop's uielement, and does not specified a scope to locate the element
 - `clicknium.chrome.open("https://bing.com").wait_disappear()` will locate element in the specified browser
 

@@ -20,7 +20,7 @@ In current opened browser, check whether the ui element exist or not.
     &emsp;return True if ui element exist, or return False
 
 **Remark**  
-It should be used like `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with `clicknium.is_exist()` [is_exist](./doc/api/python/is_exist.md) when locating the ui element.
+It should be used like `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the ui element.
 - `clicknium.is_exist()` is for both web and desktop's uielement, and does not specified a scope to locate the element
 - `clicknium.chrome.open("https://bing.com").is_exist()` will locate element in the specified browser
 

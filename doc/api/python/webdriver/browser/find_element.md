@@ -17,7 +17,7 @@ In current opened browser, initialize ui element by the given locator.
     &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
 
 **Remark**  
-It should be used like `clicknium.chrome.open("https://bing.com").find_element()`, it is different with `clicknium.find_element()` [find_element](./doc/api/python/find_element.md) when locating the ui element.
+It should be used like `clicknium.chrome.open("https://bing.com").find_element()`, it is different with `clicknium.find_element()` [clicknium.find_element](./doc/api/python/find_element.md) when locating the ui element.
 - `clicknium.find_element()` is for both web and desktop's uielement, and does not specified a scope to locate the element
 - `clicknium.chrome.open("https://bing.com").find_element()` will locate element in the specified browser
 

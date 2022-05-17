@@ -1,7 +1,7 @@
 # UiElement Property
 Different ui elements may support different property list, based on automation technology, the following tables list the properties supported.
 
-# UIA element property
+# UIA Element Property
 
 | Name      | Description |
 | ----------- | ----------- |
@@ -23,7 +23,7 @@ Different ui elements may support different property list, based on automation t
 | FrameworkId   | the name of the underlying UI framework. The name of the UI framework, such as "Win32", "WinForm", or "DirectUI". The default value is an empty string.|
 | ControlType | the ControlType of the element.|
 
-# Java element property
+# Java Element Property
 
 | Name      | Description |
 | ----------- | ----------- |
@@ -43,7 +43,7 @@ Different ui elements may support different property list, based on automation t
 | IsOffscreen   | indicates whether the UI Automation element is visible on the screen(true if the control is not visible; otherwise false)|
 | ProcessId   |the process identifier (ID) of this element|
 
-# Web element property
+# Web Element Property
 
 | Name      | Description |
 | ----------- | ----------- |
