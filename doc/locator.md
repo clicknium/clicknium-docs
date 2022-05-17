@@ -85,3 +85,37 @@ Due to we support different automation technologies, they may have diffrent tag 
 | TableCol |  <font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
 | IsLeaf |  <font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
 | Index |  <font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+
+
+# Examples
+## wildword locator
+Open Edge browser, press `F12` to show developer tool sidebar, you can see the 'Toggle device emulation' button.  
+![sample1](img/locator_sample1_1.png)  
+If you record the locator of 'Toggle device emulation' button, you can see the following locator
+
+- normal mode  
+  
+![sample1](img/locator_sample1_2.png)  
+- mobile emulation mode  
+
+![sample1](img/locator_sample1_3.png)  
+
+attribute classname is dynamic, so how to stable identify the 'Toggle device emulation' button? you can leverage wildword locator  
+![sample1](img/locator_sample1_4.png) 
+
+then in both mode, the button can be located succesfully.
+And you can through get_property to know the current mode  
+```
+from clicknium import clicknium as cc, ui, locator
+
+class_name = ui(locator.msedge.bing.button_toggledeviceemulation).get_property("ClassName")
+if class_name.endswith('state-off'):
+    print('normal mode')
+else:
+    print('mobile emulation mode')
+```
+
+The following cases can consider wildword locator:
+- the window title is dynamic, for example the title includes version string, but application version can be upgraded
+- the url of the web page is dynamic
+- value of the attribute is dynamic

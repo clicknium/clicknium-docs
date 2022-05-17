@@ -3,9 +3,11 @@
   - Develop tools
     - [Clicknium vscode extension](./doc/vscode.md)
   - [Automation](./doc/automation.md)
+    - [Image Automation](./doc/image.md)
     - [UiElement Property](./doc/property.md)
     - [Locator](./doc/locator.md)
     - [Parametric Locator](./doc/parametric_locator.md)
+    - [SAP Automation](./doc/sap.md)
   - [Cloud Product](./doc/product.md)
   - [Clicknium Python SDK](./doc/api/python/pythonsdk.md)
     - [General Functions](./doc/api/python/globalfunctions.md)
