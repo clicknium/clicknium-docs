@@ -1,14 +1,23 @@
 # get_position
-***def get_position(self, timeout: int = 30)***  
+***def get_position(self, timeout: int = 30) -> ElementPosition***  
 
-Get element's bounding rectangle  
+Get element's position.
 
 **Parameters:**   
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
-    &emsp;ElementPosition
+    &emsp;ElementPosition class, the class definition as following: 
+```python
+    class ElementPosition:
+
+    def __init__(self, left, top, right, bottom):
+        self.Left = left
+        self.Top = top
+        self.Right = right
+        self.Bottom = bottom
+```
 
 **Example:**
 ***

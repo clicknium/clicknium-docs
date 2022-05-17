@@ -3,15 +3,15 @@
         self,
         check_type: Literal["check", "uncheck", "toggle"] = CheckType.Check,
         timeout: int = 30
-    )***  
+    ) -> None***  
 
-do check operation on target element
+Do check operation on target element.
 
 **Parameters:**  
-    &emsp;**check_type **: str|CheckType   
-        &emsp;&emsp; set option for check operation, "check", "uncheck" or "toggle"
+    &emsp;**check_type**: str | CheckType   
+        &emsp;&emsp; set option for check operation, "check", "uncheck" or "toggle"  
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.   
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds   
 
 **Returns:**  
     &emsp;None

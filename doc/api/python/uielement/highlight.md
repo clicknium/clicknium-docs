@@ -4,17 +4,17 @@
         duration: int = 3,
         color: Union[str, Color] = Color.Yellow,
         timeout: int = 30
-    )***  
+    ) -> None***  
 
-Get text of the element
+Highlight the element with specified color.
 
-**Parameters:** 
+**Parameters:**  
     &emsp;**duration**: int  
-        &emsp;&emsp; The duration for highlighting the element. The unit of parameter is second. Default is set to 3 seconds.  
-    &emsp;**color**: Union[str, Color]   
-        &emsp;&emsp; The color of the highlighting rectangle, default is Yellow     
+        &emsp;&emsp; the duration for highlighting the element. The unit of parameter is second. Default is set to 3 seconds  
+    &emsp;**color**: str | Color
+        &emsp;&emsp; the color of the highlighting rectangle, default is Yellow     
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
     &emsp;None

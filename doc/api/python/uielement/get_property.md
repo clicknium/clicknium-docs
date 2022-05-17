@@ -1,17 +1,17 @@
-# get_position
+# get_property
 ***def get_property(
         self,
         name: str,
         timeout: int = 30
-    )***  
+    ) -> str***  
 
-Get property value of the element  
+Get property value of the element.  
 
 **Parameters:**   
     &emsp;**name [Required]**: str  
         &emsp;&emsp; property name, different ui elements may support different property list, for general property list, please refer to [property list](/doc/property.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
     &emsp;str

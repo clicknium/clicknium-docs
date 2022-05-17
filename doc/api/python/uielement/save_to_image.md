@@ -6,11 +6,12 @@
         img_height: int = 0,
         xoffset: int = 0,
         yoffset: int  = 0,
-        timeout: int = 30)***
+        timeout: int = 30
+    ) -> None***
 
 Save target element's screenshot to file with specified size and offset.
 
-**Parameters:** 
+**Parameters:**   
     &emsp;**image_file**: str  
         file path to save image  
     &emsp;**img_width**: int  
@@ -22,7 +23,7 @@ Save target element's screenshot to file with specified size and offset.
     &emsp;**yoffset**: int  
         &emsp;&emsp; offset of Y-Axis, Default 0, means not offset  
     &emsp;**timeout**: int  
-        &emsp;&emsp; Timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds.  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
 **Returns:**  
     &emsp;None
