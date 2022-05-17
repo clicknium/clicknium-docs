@@ -92,6 +92,7 @@ Due to we support different automation technologies, they may have diffrent tag 
 Open Edge browser, press `F12` to show developer tool sidebar, you can see the 'Toggle device emulation' button.  
 ![sample1](img/locator_sample1_1.png)  
 If you record the locator of 'Toggle device emulation' button, you can see the following locator
+
 - normal mode  
   
 ![sample1](img/locator_sample1_2.png)  
@@ -113,3 +114,8 @@ if class_name.endswith('state-off'):
 else:
     print('mobile emulation mode')
 ```
+
+The following cases can consider wildword locator:
+- the window title is dynamic, for example the title includes version string, but application version can be upgraded
+- the url of the web page is dynamic
+- value of the attribute is dynamic

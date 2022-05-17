@@ -11,22 +11,23 @@ can do IntelliSense, error hint etc.
 
 ## Create Project
 
-## Install browser extensions
+## Extension Installation
+### Install browser extensions
 
-## install java extension
+### Install java extension
 
 ## Record UI Locators
 In Visual Studio Code, press `CTRL+F10` can invoke clicknium recorder and minimize current Visual Studio Code window,  
 ![clicknium recorder](img/recorder_main.png)  
 Capture Technology: indicate which automation technology current using to capture ui element, we support several automation tech:
 - UIA： Leverage Microsoft UI Automation, it is used for most windows application such as win32, winform, WPF application and so on
-- IA: based on MSAA (Microsoft )
-- Java
-- IE
-- Chrome
-- Edge
-- Firefox
-- Sap
+- IA: based on MSAA (Microsoft Active Accessibility)
+- Java: automation for java application, support JRE version about 1.6
+- IE: automation for Internet Explorer, support version above 5.5 
+- Chrome: automation for chrome, need install chrome extension first, support version above 60
+- Edge: automation for edge, need install msedge extension first
+- Firefox: automation for firefox, need install firefox extension first, support version above 56
+- Sap: automation for sap wingui, need enable SAP GUI Scripting setting first 
   
 Default is ***Auto Detect*** which means clicknium recorder automatically select rechnology:  
 if mouse moves on windows applicaiton, it will use UIA technology to locate element;   
