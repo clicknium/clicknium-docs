@@ -26,7 +26,7 @@ In current opened browser, wait for the element appear and the value of specifie
     &emsp;bool, return True if ui element exist and the property value equals expected value, or return False
 
 **Remark**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_property()`, it is different with `clicknium.wait_property()` [wait_property](./doc/api/python/wait_property.md) when locating the ui element.
+It should be used like `clicknium.chrome.open("https://bing.com").wait_property()`, it is different with `clicknium.wait_property()` [clicknium.wait_property](./doc/api/python/wait_property.md) when locating the ui element.
 - `clicknium.wait_property()` is for both web and desktop's uielement, and does not specified a scope to locate the element
 - `clicknium.chrome.open("https://bing.com").wait_property()` will locate element in the specified browser
 

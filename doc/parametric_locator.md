@@ -1,4 +1,4 @@
-# Parametric locator
+# Parametric Locator
 Parametric locator uses parameter in locator string as value or partial value of the attribute in locator. User can use the parametric locator in automation project, and replace the parameters in locator with the varaible or data in project. This allows the locator to stand for a series of elements, not only one target element.
 - dynamic value: {{varaible}}, the variable in locator
   
@@ -16,7 +16,7 @@ or set partial value as parameter:
     ui(locator.chrome.bing.search_sb_form_q, variables)
 ```
 
-# Example
+# Examples
 To illustrate parametric locator functionality, we use the following two samples, one is for web page, the other is for windows applciation.  
 ## Web Example  
 ![sample1](img/parametric_locator_sample1.png)  
