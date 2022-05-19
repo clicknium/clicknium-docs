@@ -1,4 +1,4 @@
-SAP WinGUI Automation
+# SAP WinGUI Automation
 SAP WinGUI is commonly used to access SAP functionality in SAP applications.
 Clicknium automation stack supports automation for SAP WinGUI， need enable SAP WinGUI API scripting.
 

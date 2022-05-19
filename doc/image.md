@@ -2,7 +2,7 @@
 Clicknium automation stask supports image automation, many functions support image automation.
 Clicknium locator schema is designed for extension. There are windows application locator, java application locator, also there can be image locator.
 
-## Recrod image locator
+## Record image locator
 Open project in Visual Studio Code, press `Ctrl` + F10, or click the `record` button to invoke clicknium recorder.  
 ![recorder button](img/recorder.png "locator recorder button")  
 
@@ -23,6 +23,7 @@ You will get the locator as the following:
 Actually, image locator contians two parts.  
 First part is anchor element, during running, will first try to find the anchor element, and then capture anchor image depens on the image method attrbiute, try find the target image in anchor image through image matching, we use opencv library to do image matching. 
 Second part is image, support the following attrbiutes:  
+
 | Name      | Description | equals | contains |startWith |endWith |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | accuracy | The minimum similarity between the target image to be found and the one in image locator. It is useful when the image to be found is slightly different than the one in locator. Measurement unit is from 0 to 1 with default value 0.75. |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
