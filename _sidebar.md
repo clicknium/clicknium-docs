@@ -1,7 +1,7 @@
 - **Clicknium Document**
   - [Getting started](./doc/gettingstart.md)
   - Develop tools
-    - [Clicknium vscode extension](./doc/developtools/vscode.md)
+    - [Clicknium VSCode Extension](./doc/developtools/vscode.md)
     - [Automation Extensions](./doc/developtools/extensions/extensions.md)
       - [Chrome Extension](./doc/developtools/extensions/chromeextension.md)
       - [Edge Extension](./doc/developtools/extensions/edgeextension.md)
@@ -13,7 +13,7 @@
     - [Locator](./doc/automation/locator.md)
     - [Parametric Locator](./doc/automation/parametric_locator.md)
     - [SAP Automation](./doc/automation/sap.md)
-  - [Cloud Product](./doc/product.md)
+  - [Cloud Product](./doc/products.md)
   - [Clicknium Python SDK](./doc/api/python/pythonsdk.md)
     - [General Functions](./doc/api/python/globalfunctions.md)
       - [clicknium.find_element](./doc/api/python/find_element.md)
@@ -56,7 +56,7 @@
         - [refresh](./doc/api/python/webdriver/browser/refresh.md)        
       - [WebExtension](./doc/api/python/webdriver/webextension/webextension.md)
         - [install](./doc/api/python/webdriver/webextension/install.md)
-        - [upgrade](./doc/api/python/webdriver/webextension/upgrade.md)
+        - [update](./doc/api/python/webdriver/webextension/update.md)
     - [Desktop](./doc/api/python/desktop/desktop.md)
       - [maximize](./doc/api/python/desktop/maximize.md)
       - [minimize](./doc/api/python/desktop/minimize.md)

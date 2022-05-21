@@ -9,7 +9,7 @@ Get property value of the element.
 
 **Parameters:**   
     &emsp;**name [Required]**: str  
-        &emsp;&emsp; property name, different ui elements may support different property list, for general property list, please refer to [property list](/doc/property.md)  
+        &emsp;&emsp; property name, different ui elements may support different property list, for general property list, please refer to [property list](./doc/automation/property.md)  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 

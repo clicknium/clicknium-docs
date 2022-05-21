@@ -16,7 +16,7 @@ Call sap transaction.
     &emsp;**transaction_code[Required]**: str  
         &emsp;&emsp; transaction code string  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/parametric_locator.md)  
+        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
 

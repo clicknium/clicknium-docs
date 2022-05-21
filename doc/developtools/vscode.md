@@ -1,4 +1,4 @@
-# Visual Studio Code
+# Clicknium VSCode Extension
 ## Overview
 For python developer, if you use Visual Studio Code, Clickcorp provides clicknium extension that include all RPA features. 
 With our extension for Visual Studio Code, you can create python automation project; capture ui elements in web browsers 
@@ -6,7 +6,7 @@ and variety desktop applications, easy to edit ui locator, validate or recapture
 centeral locator store managerment on cloud. Besides these features, we also improve writing code experience, 
 can do IntelliSense, error hint etc.
 
-***Installation​***: Install through VS marketplace [Clicknium VS Ccode extension]() or search clicknium in Visual Studio Code.  
+***Installation​***: Install through VS marketplace `Clicknium VS Code extension` or search clicknium in Visual Studio Code.  
 ***Remark***: Clicknium extension is completely free, developer can use all features in Visual Studio Code.
 
 ## Create Project
@@ -18,7 +18,7 @@ can do IntelliSense, error hint etc.
 
 ## Record UI Locators
 In Visual Studio Code, press `CTRL+F10` can invoke clicknium recorder and minimize current Visual Studio Code window,  
-![clicknium recorder](img/recorder_main.png)  
+![clicknium recorder](../img/recorder_main.png)  
 Capture Technology: indicate which automation technology current using to capture ui element, we support several automation tech:
 - UIA： Leverage Microsoft UI Automation, it is used for most windows application such as win32, winform, WPF application and so on
 - IA: based on MSAA (Microsoft Active Accessibility)
@@ -46,21 +46,21 @@ Cursor Position(X,Y): indicate current mouse postion in screen
 After invoke Clicknium Recorder, you can move mouse on the target applicaiton, it will highlight the element recognized, 
 if you want to capture the element, press `Ctrl` and click, the element locator will be added.
 
-![clicknium recorder](img/record1.gif) 
+![clicknium recorder](../img/record1.gif) 
 
 ## Edit and Validate Locator
 After record the locators, you can open and edit the locator  
-![clicknium vscode](img/main.png) 
+![clicknium vscode](../img/main.png) 
 
 - locator store: file to store locator data. the locators of the same application are stored in one locator store defaultly, user can manage the locator store from Visual Studio Code or Clicnium Recorder.
 - locator: Ui element locator, locator is string(XML fragment) that used to find the element, it includes application info, includes all necessary parent nodes of the element in the user interface, and using several attributes to identify each node include element itself.
 - Screenshot: during record the element, we will store the screenshot together with the locator
 - Attributes: user can select/deselect or edit the value of each attribute
 
-More about locator, please refer to [clicknium locator](locator.md)
+More about locator, please refer to [clicknium locator](./doc/automation/locator.md)
 
 After edit locator, you can press `Validate` button to verify, it will minimize Visual Studio Code and highlight the found element, if not found, will show detail error.
-![validate error](img/validate_err.png)
+![validate error](../img/validate_err.png)
 
 ## Writing code
 - Auto Code Complete
@@ -68,7 +68,7 @@ when you write code, need pass locator as parameter, for example, `cc.find_eleme
 
 - IntelliSense
 You can select one locator already in locator store, clicknium code extension can help you to show locator store list and locator list  
-![intellisense](img/intelliSense.png)
+![intellisense](../img/intelliSense.png)
 
 ## Run/Debug Project
 
