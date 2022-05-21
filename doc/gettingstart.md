@@ -3,9 +3,9 @@
 
 [Clickcorp](https://wwww.clickcorp.com) builds an open-source automation stack for developers to write software robot projects, and hosts cloud native approach products for software robot running，managment. Automation stack includes the following parts: 
 
-[Clicknium automation SDK](api/python/pythonsdk.md): current supply python sdk, if has other language requirement, [create issue]()
+[Clicknium Python SDK](./doc/api/python/pythonsdk.md): current supply python sdk, if has other language requirement, [create issue]()
 
-[Clicknium Visual Studio Ccode extension](): extension for developer to create automation project, capture UI element, edit and manage ui element store, supply intelligent for writing code.  ​​
+[Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md): extension for developer to create automation project, capture UI element, edit and manage ui element store, supply intelligent for writing code.  ​​
 
 
 # Installation​
@@ -15,7 +15,7 @@ Clicknium requires Python 3.7 or above, work with windows 7 SP1 or above
 
 ## Steps​
 
-- Install [Clicknium Visual Studio Ccode extension]()
+- Install [Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md)
 - Install python SDK through [pip]()
 
 ```
@@ -27,8 +27,8 @@ pip install --pre pythonnet
 pip install clicknium
 ```
 # First web automation project
-- [install browser extension](./doc/vscode.md)
-- In Visual Studio Ccode, Open the Command Palette: `Ctrl+Shift+P`
+- [install browser extension](./doc/developtools/extensions/extensions.md)
+- In Visual Studio Code, Open the Command Palette: `Ctrl+Shift+P`
 - Input or select: clicknium:create project
 - Select project path and name
   

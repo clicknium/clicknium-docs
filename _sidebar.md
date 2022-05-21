@@ -1,7 +1,7 @@
 - **Clicknium Document**
   - [Getting started](./doc/gettingstart.md)
   - Develop tools
-    - [Clicknium vscode extension](./doc/developtools/vscode.md)
+    - [Clicknium VSCode Extension](./doc/developtools/vscode.md)
     - [Automation Extensions](./doc/developtools/extensions/extensions.md)
       - [Chrome Extension](./doc/developtools/extensions/chromeextension.md)
       - [Edge Extension](./doc/developtools/extensions/edgeextension.md)
@@ -13,7 +13,7 @@
     - [Locator](./doc/automation/locator.md)
     - [Parametric Locator](./doc/automation/parametric_locator.md)
     - [SAP Automation](./doc/automation/sap.md)
-  - [Cloud Product](./doc/product.md)
+  - [Cloud Product](./doc/products.md)
   - [Clicknium Python SDK](./doc/api/python/pythonsdk.md)
     - [General Functions](./doc/api/python/globalfunctions.md)
       - [clicknium.find_element](./doc/api/python/find_element.md)
