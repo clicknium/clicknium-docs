@@ -56,7 +56,7 @@
         - [refresh](./doc/api/python/webdriver/browser/refresh.md)        
       - [WebExtension](./doc/api/python/webdriver/webextension/webextension.md)
         - [install](./doc/api/python/webdriver/webextension/install.md)
-        - [upgrade](./doc/api/python/webdriver/webextension/upgrade.md)
+        - [update](./doc/api/python/webdriver/webextension/update.md)
     - [Desktop](./doc/api/python/desktop/desktop.md)
       - [maximize](./doc/api/python/desktop/maximize.md)
       - [minimize](./doc/api/python/desktop/minimize.md)
