@@ -4,21 +4,21 @@ Clicknium locator schema is designed for extension. There are windows applicatio
 
 ## Record image locator
 Open project in Visual Studio Code, press `Ctrl` + F10, or click the `record` button to invoke clicknium recorder.  
-![recorder button](img/recorder.png "locator recorder button")  
+![recorder button](../img/recorder.png "locator recorder button")  
 
 When you move the mouse, it will highlight the element, if you want to record the element, press `Ctrl` and click. If you want to record the image, you can press `Shift`, then use mouse to select one area, the area will be stored as image in locator.  
-![recorder helper](img/recorder_help.png)   
+![recorder helper](../img/recorder_help.png)   
 
 For example  
 - choose the target element  
 
-![recorder sample1](img/image_locator_sample1_1.png)  
+![recorder sample1](../img/image_locator_sample1_1.png)  
 - press `Shift` and drag to select an area  
 
-![recorder sample1](img/image_locator_sample1_2.png)  
+![recorder sample1](../img/image_locator_sample1_2.png)  
 
 You will get the locator as the following:  
-![recorder sample1](img/image_locator_sample1_3.png)  
+![recorder sample1](../img/image_locator_sample1_3.png)  
 
 Actually, image locator contians two parts.  
 First part is anchor element, during running, will first try to find the anchor element, and then capture anchor image depens on the image method attrbiute, try find the target image in anchor image through image matching, we use opencv library to do image matching. 

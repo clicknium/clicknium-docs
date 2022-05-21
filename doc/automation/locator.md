@@ -90,18 +90,18 @@ Due to we support different automation technologies, they may have diffrent tag 
 # Examples
 ## wildword locator
 Open Edge browser, press `F12` to show developer tool sidebar, you can see the 'Toggle device emulation' button.  
-![sample1](img/locator_sample1_1.png)  
+![sample1](../img/locator_sample1_1.png)  
 If you record the locator of 'Toggle device emulation' button, you can see the following locator
 
 - normal mode  
   
-![sample1](img/locator_sample1_2.png)  
+![sample1](../img/locator_sample1_2.png)  
 - mobile emulation mode  
 
-![sample1](img/locator_sample1_3.png)  
+![sample1](../img/locator_sample1_3.png)  
 
 attribute classname is dynamic, so how to stable identify the 'Toggle device emulation' button? you can leverage wildword locator  
-![sample1](img/locator_sample1_4.png) 
+![sample1](../img/locator_sample1_4.png) 
 
 then in both mode, the button can be located succesfully.
 And you can through get_property to know the current mode  

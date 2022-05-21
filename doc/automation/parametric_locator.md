@@ -19,11 +19,11 @@ or set partial value as parameter:
 # Examples
 To illustrate parametric locator functionality, we use the following two samples, one is for web page, the other is for windows applciation.  
 ## Web Example  
-![sample1](img/parametric_locator_sample1.png)  
+![sample1](../img/parametric_locator_sample1.png)  
 to locator the item in list, after record, the locator string as the following:  
-![sample1](img/parametric_locator_sample1_2.png)  
+![sample1](../img/parametric_locator_sample1_2.png)  
 To iterate access each item, we can add parameter as the following:  
-![sample1](img/parametric_locator_sample1_3.png)  
+![sample1](../img/parametric_locator_sample1_3.png)  
 
 ```python
     from clicknium import clicknium as cc, locator, ui
@@ -41,11 +41,11 @@ To iterate access each item, we can add parameter as the following:
 ```
 
 ## Windows application Example  
-![sample1](img/parametric_locator_sample2.png)  
+![sample1](../img/parametric_locator_sample2.png)  
 to locator the menu item, after record, the locator string as the following:  
-![sample1](img/parametric_locator_sample2_2.png)  
+![sample1](../img/parametric_locator_sample2_2.png)  
 To iterate access each menu item, we can add parameter as the following:  
-![sample1](img/parametric_locator_sample2_3.png)  
+![sample1](../img/parametric_locator_sample2_3.png)  
 
 ```python
     from clicknium import clicknium as cc, locator, ui
