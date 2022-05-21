@@ -1,4 +1,4 @@
-# click
+# click <!-- {docsify-ignore-all} -->
 ***def click(
         self,
         click_type: Literal["click", "up", "down"] = ClickType.Click,
@@ -29,14 +29,14 @@ Click an element with single click, up click or down click.
         &emsp;&emsp; `default`: for web element, will use `controlinvocation`; for desktop element, will use `mouseemulation`  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; modifier key is set to click with the modifier key("alt", "ctrl", "shift","win"). Default vaule is none    
-    &emsp;**xoffset**: int 
+    &emsp;**xoffset**: int   
         &emsp;&emsp; x offset is set the click position based on click_location. Default value is 0, means no offset  
     &emsp;**yoffset**: int  
         &emsp;&emsp; y offset is set the click position based on click_location. Default value is 0  
     &emsp;**xrate**: int  
         &emsp;&emsp; x rate percent of the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means X of click postion move to right, the distance is 1*element's width pixsels  
     &emsp;**yrate**: int  
-        &emsp;&emsp; y rate percent is set the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means Y of click postion move to right, the distance is 1*element's height pixsels   
+        &emsp;&emsp; y rate percent is set the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means Y of click postion move to right, the distance is element's height pixsels   
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 
@@ -70,7 +70,7 @@ for windows file explorer as the following:
 ![sample2-1](../../../img/click_sample21.png)  
 if we invoke click on control 'test3 folder' like  
 `ui(locator.explorer.edit_system_item).click()`
-the select item will be 'test3 folder', 'test1 folder' will be deselected.
+the select item will be 'test3 folder', 'test1 folder' will be deselected.  
 ![sample2-2](../../../img/click_sample22.png)  
 if you want to add 'test3 folder' in selection list, you can click like the following:
 `ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`

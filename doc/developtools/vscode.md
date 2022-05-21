@@ -7,7 +7,7 @@ centeral locator store managerment on cloud. Besides these features, we also imp
 can do IntelliSense, error hint etc.
 
 ***Installation​***: Install through VS marketplace `Clicknium VS Code extension` or search clicknium in Visual Studio Code.  
-***Remark***: Clicknium extension is completely free, developer can use all features in Visual Studio Code.
+***Remarks***: Clicknium extension is completely free, developer can use all features in Visual Studio Code.
 
 ## Create Project
 

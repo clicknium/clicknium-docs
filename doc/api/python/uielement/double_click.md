@@ -1,4 +1,4 @@
-# double_click
+# double_click<!-- {docsify-ignore-all} -->
 ***def double_click(
         self,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
@@ -26,14 +26,14 @@ Click an element with double click.
         &emsp;&emsp; `default`: for web element, will use `controlinvocation`; for desktop element, will use `mouseemulation`  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; modifier key is set to click with the modifier key("alt", "ctrl", "shift","win"). Default vaule is none    
-    &emsp;**xoffset**: int 
-        &emsp;&emsp; x offset is set the click position based on element's center position. Default value is 0   
+    &emsp;**xoffset**: int   
+        &emsp;&emsp; x offset is set the click position based on click_location. Default value is 0, means no offset  
     &emsp;**yoffset**: int  
-        &emsp;&emsp; y offset is set the click position based on element's center position. Default value is 0  
+        &emsp;&emsp; y offset is set the click position based on click_location. Default value is 0  
     &emsp;**xrate**: int  
-        &emsp;&emsp; x rate percent is set the click position based on element's center position. Default value is 0  
+        &emsp;&emsp; x rate percent of the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means X of click postion move to right, the distance is 1*element's width pixsels  
     &emsp;**yrate**: int  
-        &emsp;&emsp; x rate percent is set the click position based on element's center position. Default value is 0    
+        &emsp;&emsp; y rate percent is set the click position based on click_location. Default value is 0, means no offset, if xrate is 1, means Y of click postion move to right, the distance is element's height pixsels   
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 

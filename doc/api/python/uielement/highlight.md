@@ -11,7 +11,7 @@ Highlight the element with specified color.
 **Parameters:**  
     &emsp;**duration**: int  
         &emsp;&emsp; the duration for highlighting the element. The unit of parameter is second. Default is set to 3 seconds  
-    &emsp;**color**: str | Color
+    &emsp;**color**: str | Color  
         &emsp;&emsp; the color of the highlighting rectangle, default is Yellow     
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  

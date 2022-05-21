@@ -18,14 +18,14 @@ In current opened browser, wait for the element appear and the value of specifie
     &emsp;**value[Required]**: str  
         &emsp;&emsp; expected property value  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; The locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
         &emsp;&emsp; wait timeout for the operation, unit is second, default value is 30 seconds 
 
 **Returns:**  
     &emsp;bool, return True if ui element exist and the property value equals expected value, or return False
 
-**Remark**  
+**Remarks**  
 It should be used like `clicknium.chrome.open("https://bing.com").wait_property()`, it is different with `clicknium.wait_property()` [clicknium.wait_property](./doc/api/python/wait_property.md) when locating the ui element.
 - `clicknium.wait_property()` is for both web and desktop's uielement, and does not specified a scope to locate the element
 - `clicknium.chrome.open("https://bing.com").wait_property()` will locate element in the specified browser

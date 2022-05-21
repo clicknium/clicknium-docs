@@ -10,9 +10,9 @@ Set text for the target element.
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  
-        &emsp;&emsp;text string, is set to be input  
-    &emsp;**input_method**: str | InputMethod
-        &emsp;&emsp;the input method for the set text opeartion  
+        &emsp;&emsp; text string, is set to be input  
+    &emsp;**input_method**: str | InputMethod  
+        &emsp;&emsp; the input method for the set text opeartion  
         &emsp;&emsp; `controlsetvalue`: invoke the action on the target element, for web element, perform through javascript; for windows application element, it should support the action, or will be failed  
         &emsp;&emsp; `keyboardsimulatewithclick`: click(mouse emulator) the target element first and then input text through keyboard simulate   
         &emsp;&emsp; `keyboardsimulatewithsetfocus`: set focus on the target element first and then input text through keyboard simulate  

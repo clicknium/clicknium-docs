@@ -11,9 +11,7 @@ Install java extension.
 **Returns:**  
     &emsp;None
 
-**TODO----steps+update link in popup window**
-
-**Remark:**  
+**Remarks:**  
     &emsp;1. Make sure you have installed java or jre.
 
 **Example:**
