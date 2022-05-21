@@ -21,7 +21,7 @@ Initialize ui element by the given locator.
 **Returns:**  
     &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
 
-**Remark:**  
+**Remarks:**  
     &emsp;There is a aliase method ui for shorten clicknium.find_element,  `clicknium.find_element()` can be written as `ui()`
 
 **Example:**

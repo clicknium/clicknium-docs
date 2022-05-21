@@ -2,7 +2,7 @@
 
 ***def refresh(
         self,
-        is_wait_complete: bool = False,
+        is_wait_complete: bool = True,
         timeout: int = 30
     ) -> None***  
 
@@ -10,7 +10,7 @@ Refresh the current browser.
 
 **Parameters:**  
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for a broswser to load completely. Default is False  
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for a broswser to load completely. Default is True  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
 

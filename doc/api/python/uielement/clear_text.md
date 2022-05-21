@@ -11,16 +11,16 @@ Clear the element's text.
 
 **Parameters:**  
      &emsp;**clear_method**: ClearMethod  
-        &emsp;&emsp;clear method, the method to clear text for the target element  
-        &emsp;&emsp;`controlclearvalue`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or will be failed    
-        &emsp;&emsp;`sendhotkey`:  through send hotkey to clear text on the target element, need specify "clear_hotkey" parameter  
+        &emsp;&emsp; clear method, the method to clear text for the target element  
+        &emsp;&emsp; `controlclearvalue`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or will be failed    
+        &emsp;&emsp; `sendhotkey`:  through send hotkey to clear text on the target element, need specify "clear_hotkey" parameter  
     &emsp;**clear_hotkey**: ClearHotKey  
-        &emsp;&emsp;clear hotkey, default is `{CTRL}{A}{DELETE}`  
-        &emsp;&emsp;`{CTRL}{A}{DELETE}`: send the combined hotkey "{CTRL}{A}" first, then send hotkey "{DELETE}"  
-        &emsp;&emsp;`{END}{SHIFT}{HOME}{DELETE}`: send the hotkey "{END}" first, then send combined hotkey "{SHIFT}{HOME}, then send hotkey "{DELETE}"  
-        &emsp;&emsp;`{HOME}{SHIFT}{END}{DELETE}`: send the hotkey "{HOME}" first, then send combined hotkey "{SHIFT}{END}, then send hotkey "{DELETE}"  
+        &emsp;&emsp; clear hotkey, default is `{CTRL}{A}{DELETE}`  
+        &emsp;&emsp; `{CTRL}{A}{DELETE}`: send the combined hotkey "{CTRL}{A}" first, then send hotkey "{DELETE}"  
+        &emsp;&emsp; `{END}{SHIFT}{HOME}{DELETE}`: send the hotkey "{END}" first, then send combined hotkey "{SHIFT}{HOME}, then send hotkey "{DELETE}"  
+        &emsp;&emsp; `{HOME}{SHIFT}{END}{DELETE}`: send the hotkey "{HOME}" first, then send combined hotkey "{SHIFT}{END}, then send hotkey "{DELETE}"  
     &emsp;**preaction**:  
-        &emsp;&emsp;pre action, before clear text, which action should be taken on the target element   
+        &emsp;&emsp; pre action, before clear text, which action should be taken on the target element   
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
 

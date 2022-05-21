@@ -4,9 +4,9 @@
 
 Install web extension.
 
-**Remark:**  
+**Remarks:**  
     &emsp;1. Before installing extension, you should make sure you have already closed edge, firefox and chrome browser.  
-    &emsp;2. When extension is installed successfully, then you should enable extension manually.  
+    &emsp;2. When extension is installed successfully, then you should turn on the extension manually.  
 
 **Example:**
 ***

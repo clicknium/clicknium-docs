@@ -3,7 +3,7 @@
 ***def navigate(
         self,
         url: str,
-        is_wait_complete: bool = False,
+        is_wait_complete: bool = True,
         timeout: int = 30
     ) -> None***  
 
@@ -13,7 +13,7 @@ In current opened browser, navigate to other website.
     &emsp;**url[Required]**: str   
         &emsp;&emsp; website string, ex: <https://www.bing.com>  
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for a broswser to load completely. Default is False  
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for a broswser to load completely. Default is True  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
 
