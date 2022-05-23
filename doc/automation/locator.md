@@ -1,5 +1,15 @@
-# Locator
+# Locator<!-- {docsify-ignore-all} -->
 
+  - [Overview](#overview)
+  - [Uia](#uia)
+  - [IA](#ia)
+  - [Web Automation](#web-automation)
+    - [Tab](#tab)
+    - [Web](#web)
+  - [Examples](#examples)
+    - [wildword locator](#wildword-locator)
+
+## Overview 
 Ui element locator is a string, actually XML fragment, content is in the following format:
 <Application .../><Uia .../>/<Uia .../>  
 <Application .../><Tab .../>/<Web .../>  
@@ -87,8 +97,8 @@ Due to we support different automation technologies, they may have diffrent tag 
 | Index |  <font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
 
 
-# Examples
-## wildword locator
+## Examples
+### wildword locator
 Open Edge browser, press `F12` to show developer tool sidebar, you can see the 'Toggle device emulation' button.  
 ![sample1](../img/locator_sample1_1.png)  
 If you record the locator of 'Toggle device emulation' button, you can see the following locator

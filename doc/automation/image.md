@@ -1,4 +1,11 @@
-# Image Automation
+# Image Automation<!-- {docsify-ignore-all} -->
+
+  - [Overview](#overview)
+  - [Record image locator](#record-image-locator)
+  - [Use image locator in project](#use-image-locator-in-project)
+  - [Example](#example)
+
+## Overview
 Clicknium automation stask supports image automation, many functions support image automation.
 Clicknium locator schema is designed for extension. There are windows application locator, java application locator, also there can be image locator.
 

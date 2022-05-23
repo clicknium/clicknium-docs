@@ -20,9 +20,9 @@ Uninstall java extension.
     java_driver = cc.java
 
     # uninstall java extension with default java install path "Program Files && Program Files (x86)"
-    java_driver.uninstall()
+    java_driver.extension.uninstall()
 
     # uninstall java extension with specified java install path
-    java_driver.uninstall(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
+    java_driver.extension.uninstall(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
 
 ```

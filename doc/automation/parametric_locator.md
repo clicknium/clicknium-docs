@@ -1,4 +1,11 @@
-# Parametric Locator
+# Parametric Locator<!-- {docsify-ignore-all} -->
+
+  - [Overview](#overview)
+  - [Examples](#examples)
+    - [Web Example](#web-example)
+    - [Windows application Example](#windows-application-example)
+
+## Overview
 Parametric locator uses parameter in locator string as value or partial value of the attribute in locator. User can use the parametric locator in automation project, and replace the parameters in locator with the varaible or data in project. This allows the locator to stand for a series of elements, not only one target element.
 - dynamic value: {{varaible}}, the variable in locator
   
@@ -16,9 +23,9 @@ or set partial value as parameter:
     ui(locator.chrome.bing.search_sb_form_q, variables)
 ```
 
-# Examples
+## Examples
 To illustrate parametric locator functionality, we use the following two samples, one is for web page, the other is for windows applciation.  
-## Web Example  
+### Web Example  
 ![sample1](../img/parametric_locator_sample1.png)  
 to locator the item in list, after record, the locator string as the following:  
 ![sample1](../img/parametric_locator_sample1_2.png)  
@@ -40,7 +47,7 @@ To iterate access each item, we can add parameter as the following:
             break
 ```
 
-## Windows application Example  
+### Windows application Example  
 ![sample1](../img/parametric_locator_sample2.png)  
 to locator the menu item, after record, the locator string as the following:  
 ![sample1](../img/parametric_locator_sample2_2.png)  

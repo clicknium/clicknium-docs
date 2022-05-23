@@ -23,9 +23,9 @@ Install java extension.
     java_driver = cc.java
 
     # install java extension with default java install path "Program Files && Program Files (x86)"
-    java_driver.install()
+    java_driver.extension.install()
 
     # install java extension with specified java install path
-    java_driver.install(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
+    java_driver.extension.install(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
 
 ```
