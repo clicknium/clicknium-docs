@@ -33,5 +33,5 @@ Save target element's screenshot to file with specified size and offset.
 ```python
     from clicknium import clicknium as cc, locator, ui
     
-    ui(locator.chrome.bing.search_sb_form_q).save_to_image("D:\screenshot.png")
+    ui(locator.chrome.bing.search_sb_form_q).save_to_image("D:\\screenshot.png")
 ```

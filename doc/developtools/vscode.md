@@ -1,4 +1,14 @@
-# Clicknium VSCode Extension
+# Clicknium VSCode Extension<!-- {docsify-ignore-all} -->
+
+  - [Overview](#overview)
+  - [Create Project](#create-project)
+  - [Extension Installation](#extension-installation)
+  - [Record UI Locators](#record-ui-locators)
+  - [Edit and Validate Locator](#edit-and-validate-locator)
+  - [Writing code](#writing-code)
+  - [Run/Debug Project](#rundebug-project)
+  - [For Existing Project](#for-existing-project)
+
 ## Overview
 For python developer, if you use Visual Studio Code, Clickcorp provides clicknium extension that include all RPA features. 
 With our extension for Visual Studio Code, you can create python automation project; capture ui elements in web browsers 
@@ -12,9 +22,7 @@ can do IntelliSense, error hint etc.
 ## Create Project
 
 ## Extension Installation
-### Install browser extensions
-
-### Install java extension
+[Automation Extensions](./doc/developtools/extensions/extensions.md)
 
 ## Record UI Locators
 In Visual Studio Code, press `CTRL+F10` can invoke clicknium recorder and minimize current Visual Studio Code window,  

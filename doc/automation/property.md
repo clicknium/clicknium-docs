@@ -1,49 +1,13 @@
-# UiElement Property
+# UiElement Property<!-- {docsify-ignore-all} -->
+
+- [Web Element Property](#web-element-property)
+- [UIA Element Property](#uia-element-property)
+- [Java Element Property](#java-element-property)
+
+## Overview
 Different ui elements may support different property list, based on automation technology, the following tables list the properties supported.
 
-# UIA Element Property
-
-| Name      | Description |
-| ----------- | ----------- |
-| Name      |  name of the user interface      |
-| IsEnabled  |indicating whether this element is enabled in the user interface|
-| AccessKey   |  a string containing the access key character for the element|
-| AutomationId |a string containing the UI Automation identifier (ID) for the element|
-| BoundingRectangle   | the coordinates of the rectangle that completely encloses the element|
-| ProcessId   | the process identifier (ID) of this element|
-| ItemType   | a description of the type of an item |
-| IsPassword   | indicates whether the UI Automation element contains protected content|
-| IsOffscreen   |  indicates whether the UI Automation element is visible on the screen(true if the control is not visible; otherwise false)|
-| AcceleratorKey   | a string containing the accelerator key combinations for the element|
-| HelpText   |the help text associated with the element|
-| IsKeyboardFocusable   |indicates whether the UI Automation element can accept keyboard focus|
-| IsContentElement   |specifies whether the element is a content element|
-| IsControlElement   |indicates whether the element is viewed as a control|
-| HasKeyboardFocus   | indicates whether the element has keyboard focus|
-| FrameworkId   | the name of the underlying UI framework. The name of the UI framework, such as "Win32", "WinForm", or "DirectUI". The default value is an empty string.|
-| ControlType | the ControlType of the element.|
-
-# Java Element Property
-
-| Name      | Description |
-| ----------- | ----------- |
-| Name      |name of the user interface |
-|Role| |
-| BoundingRectangle   |the coordinates of the rectangle that completely encloses the element|
-| States    |         |
-| Actions   |         |
-| Selection   |         |
-| Hypertext   |         |
-| Text   |         |
-| Value   |         |
-| Table   |         |
-| IndexInParent   |         |
-| IsKeyboardFocusable   |         |
-| IsEditable   |         |
-| IsOffscreen   | indicates whether the UI Automation element is visible on the screen(true if the control is not visible; otherwise false)|
-| ProcessId   |the process identifier (ID) of this element|
-
-# Web Element Property
+## Web Element Property
 
 | Name      | Description |
 | ----------- | ----------- |
@@ -86,3 +50,45 @@ Different ui elements may support different property list, based on automation t
 | Src      |value of element's src attribute|
 | Role      |value of element's role attribute|
 | Name      |value of element's name attribute|
+
+## UIA Element Property
+
+| Name      | Description |
+| ----------- | ----------- |
+| Name      |  name of the user interface      |
+| IsEnabled  |indicating whether this element is enabled in the user interface|
+| AccessKey   |  a string containing the access key character for the element|
+| AutomationId |a string containing the UI Automation identifier (ID) for the element|
+| BoundingRectangle   | the coordinates of the rectangle that completely encloses the element|
+| ProcessId   | the process identifier (ID) of this element|
+| ItemType   | a description of the type of an item |
+| IsPassword   | indicates whether the UI Automation element contains protected content|
+| IsOffscreen   |  indicates whether the UI Automation element is visible on the screen(true if the control is not visible; otherwise false)|
+| AcceleratorKey   | a string containing the accelerator key combinations for the element|
+| HelpText   |the help text associated with the element|
+| IsKeyboardFocusable   |indicates whether the UI Automation element can accept keyboard focus|
+| IsContentElement   |specifies whether the element is a content element|
+| IsControlElement   |indicates whether the element is viewed as a control|
+| HasKeyboardFocus   | indicates whether the element has keyboard focus|
+| FrameworkId   | the name of the underlying UI framework. The name of the UI framework, such as "Win32", "WinForm", or "DirectUI". The default value is an empty string.|
+| ControlType | the ControlType of the element.|
+
+## Java Element Property
+
+| Name      | Description |
+| ----------- | ----------- |
+| Name      |name of the user interface |
+|Role| |
+| BoundingRectangle   |the coordinates of the rectangle that completely encloses the element|
+| States    |         |
+| Actions   |         |
+| Selection   |         |
+| Hypertext   |         |
+| Text   |         |
+| Value   |         |
+| Table   |         |
+| IndexInParent   |         |
+| IsKeyboardFocusable   |         |
+| IsEditable   |         |
+| IsOffscreen   | indicates whether the UI Automation element is visible on the screen(true if the control is not visible; otherwise false)|
+| ProcessId   |the process identifier (ID) of this element|
