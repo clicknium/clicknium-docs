@@ -10,7 +10,7 @@
 
 ## Overview
 
-[Clickcorp](https://wwww.clickcorp.com) builds an open-source automation stack for developers to write software robot projects, and hosts cloud native approach products for software robot running，managment. Automation stack includes the following parts: 
+[Clickcorp](https://wwww.clickcorp.com) builds an open-source automation stack for developers to write software robot projects, and hosts cloud native approach products for software robot running and managment. Automation stack includes the following parts: 
 
 [Clicknium Python SDK](./doc/api/python/pythonsdk.md): current supply python sdk, if has other language requirement, [create issue]()
 
@@ -65,7 +65,7 @@ ui(locator.chrome.bing.svg).click
 Open the Command Palette: `Ctrl+Shift+P`, Input or select: clicknium:run project
 
 ## First windows application automation project
-- In Visual Studio Ccode, Open the Command Palette: `Ctrl+Shift+P`
+- In Visual Studio Code, Open the Command Palette: `Ctrl+Shift+P`
 - Input or select: clicknium:create project
 - Select project path and name
 
