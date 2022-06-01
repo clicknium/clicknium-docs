@@ -12,9 +12,9 @@
 
 [Clickcorp](https://wwww.clickcorp.com) builds an open-source automation stack for developers to write software robot projects, and hosts cloud native approach products for software robot running，managment. Automation stack includes the following parts: 
 
-[Clicknium Python SDK](./doc/api/python/pythonsdk.md): current supply python sdk, if has other language requirement, [create issue]()
+[Clicknium Python SDK](./doc/api/python/pythonsdk.md): current supply python sdk, for other language requirements, [create issue]()
 
-[Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md): extension for developer to create automation project, capture UI element, edit and manage ui element store, supply intelligent for writing code.  ​​
+[Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md): extension for developer to create automation project, capture, edit and manage ui element locators, containing intelligent for writing code.  ​​
 
 
 ## Installation​
