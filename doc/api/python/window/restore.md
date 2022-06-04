@@ -1,13 +1,13 @@
-# minimize
+# restore
 
-***def minimize(
+***def restore(
         self, 
         locator: Union[_Locator, str],
         locator_variables: dict = {}, 
         timeout: int = 30
     ) -> None***  
 
-Minimize the window.
+Restore the window.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  
@@ -25,13 +25,13 @@ Minimize the window.
 ```python
     from clicknium import clicknium as cc
 
-    # get desktop driver
-    desktop_driver = cc.desktop
+    # get window driver
+    window_driver = cc.window
 
-    # minimize window
-    desktop_driver.minimize("locator.notepad.window_notitle_notepad")
+    # restore window
+    window_driver.restore("locator.notepad.window_notitle_notepad")
 
     # parametric locator
     variables = {"name":"test"}
-    desktop_driver.minimize("locator.notepad.window_notitle_notepad", variables)
+    window_driver.restore("locator.notepad.window_notitle_notepad", variables)
 ```

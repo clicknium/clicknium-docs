@@ -1,8 +1,8 @@
 # UiaPatternNotFoundError
 
-- extends: [DesktopError](./doc/api/python/exceptions/desktoperror.md)
+- extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
 
-**UiaPatternNotFoundError is raised when a desktop uielement with uia technology can not be found.**
+**UiaPatternNotFoundError is raised when a window uielement with uia technology can not be found.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)

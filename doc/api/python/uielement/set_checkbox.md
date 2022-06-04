@@ -15,12 +15,3 @@ Do check operation on target element.
 
 **Returns:**  
     &emsp;None
-
-# TODO 
-prepare the example
-**Example:**
-***
-```python
-    from clicknium import clicknium as cc, locator, ui
-
-```

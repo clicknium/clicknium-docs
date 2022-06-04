@@ -12,6 +12,9 @@
 
 Open browser with specified website and get a browser object.
 
+>**Remarks:**  
+>- When you use the open function and run the python script with VSCode's "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)", the opened browser will be closed after the run is finished. 
+
 **Parameters:**  
     &emsp;**url[Required]**: str   
         &emsp;&emsp; website string, ex: <https://www.bing.com>  
@@ -31,9 +34,6 @@ Open browser with specified website and get a browser object.
 
 **Returns:**  
     &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can use the browser to do the following operation: find_element, close_tab, refresh and so on
-
-**Remarks:**  
-    &emsp;When you use the open function and run the python script with VSCode's "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)", the opened browser will be closed after the run is finished. 
 
 **Example:**
 ***

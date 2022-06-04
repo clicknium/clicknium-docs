@@ -1,13 +1,13 @@
-# restore
+# maximize
 
-***def restore(
+***def maximize(
         self, 
         locator: Union[_Locator, str],
         locator_variables: dict = {}, 
         timeout: int = 30
     ) -> None***  
 
-Restore the window.
+Maximize the window.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  
@@ -25,13 +25,13 @@ Restore the window.
 ```python
     from clicknium import clicknium as cc
 
-    # get desktop driver
-    desktop_driver = cc.desktop
+    # get window driver
+    window_driver = cc.window
 
-    # restore window
-    desktop_driver.restore("locator.notepad.window_notitle_notepad")
+    # maximize window
+    window_driver.maximize("locator.notepad.window_notitle_notepad")
 
     # parametric locator
     variables = {"name":"test"}
-    desktop_driver.restore("locator.notepad.window_notitle_notepad", variables)
+    window_driver.maximize("locator.notepad.window_notitle_notepad", variables)
 ```
