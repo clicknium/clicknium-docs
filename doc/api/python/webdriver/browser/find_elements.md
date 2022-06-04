@@ -22,7 +22,7 @@ It should be used like `clicknium.chrome.open("https://bing.com").find_elements(
         &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds
 
 **Returns:**  
-    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist&emsp;list of [UiElement](./doc/api/python/uielement/uielement.md) object, you can use each of the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
+    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
 
 **Example:**
 ***
