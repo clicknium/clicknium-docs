@@ -10,5 +10,5 @@
 - powerful automation ability for variety application and browser 
 - friendly development tools
 
-[GitHub](https://github.com/clicknium/product-docs)
+[GitHub](https://github.com/clickcorp/clicknium-docs)
 [Getting Started](./doc/gettingstart.md)
