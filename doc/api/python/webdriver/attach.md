@@ -8,7 +8,7 @@
         timeout = 30
     ) -> Browser***  
 
-Attach to opened broswer.
+Attach to current broswer with specified locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  

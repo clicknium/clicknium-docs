@@ -16,3 +16,4 @@
 
 - [open](./doc/api/python/webdriver/open.md): open browser with specified website, return [Browser](./doc/api/python/webdriver/browser/browser.md) object
 - [attach](./doc/api/python/webdriver/attach.md): attach to opened browser, return [Browser](./doc/api/python/webdriver/browser/browser.md) object
+- [attach_by_title_url](./doc/api/python/webdriver/attach_by_title_url.md): attach to the broswer with specified title or url, return [Browser](./doc/api/python/webdriver/browser/browser.md) object

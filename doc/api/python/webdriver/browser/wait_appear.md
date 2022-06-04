@@ -8,6 +8,11 @@
 
 In current opened browser, wait for the element appear.
 
+>**Remarks:**  
+It should be used like `clicknium.chrome.open("https://bing.com").wait_appear()`, it is different with `clicknium.wait_appear()` [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the ui element.
+>- `clicknium.wait_appear()` is for both web and desktop's uielement, and does not specified a scope to locate the element
+>- `clicknium.chrome.open("https://bing.com").wait_appear()` will locate element in the specified browser
+
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
@@ -18,11 +23,6 @@ In current opened browser, wait for the element appear.
 
 **Returns:**  
     &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, or None if the element is not appear
-
-**Remarks**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_appear()`, it is different with `clicknium.wait_appear()` [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the ui element.
-- `clicknium.wait_appear()` is for both web and desktop's uielement, and does not specified a scope to locate the element
-- `clicknium.chrome.open("https://bing.com").wait_appear()` will locate element in the specified browser
 
 **Example:**
 ***

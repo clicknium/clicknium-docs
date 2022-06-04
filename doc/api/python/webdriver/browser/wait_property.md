@@ -10,6 +10,11 @@
 
 In current opened browser, wait for the element appear and the value of specified property is same as the expected value. 
 
+>**Remarks:**  
+It should be used like `clicknium.chrome.open("https://bing.com").wait_property()`, it is different with `clicknium.wait_property()` [clicknium.wait_property](./doc/api/python/wait_property.md) when locating the ui element.
+>- `clicknium.wait_property()` is for both web and desktop's uielement, and does not specified a scope to locate the element
+>- `clicknium.chrome.open("https://bing.com").wait_property()` will locate element in the specified browser
+
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
@@ -24,11 +29,6 @@ In current opened browser, wait for the element appear and the value of specifie
 
 **Returns:**  
     &emsp;bool, return True if ui element exist and the property value equals expected value, or return False
-
-**Remarks**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_property()`, it is different with `clicknium.wait_property()` [clicknium.wait_property](./doc/api/python/wait_property.md) when locating the ui element.
-- `clicknium.wait_property()` is for both web and desktop's uielement, and does not specified a scope to locate the element
-- `clicknium.chrome.open("https://bing.com").wait_property()` will locate element in the specified browser
 
 **Example:**
 ***

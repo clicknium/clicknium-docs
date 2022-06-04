@@ -1,8 +1,8 @@
-# DesktopError
+# WindowError
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**DesktopError is raised for common desktop exceptions.**
+**WindowError is raised for common window exceptions.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)

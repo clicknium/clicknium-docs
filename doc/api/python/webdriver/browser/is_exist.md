@@ -8,6 +8,12 @@
 
 In current opened browser, check whether the ui element exist or not.  
 
+>**Remarks:**  
+It should be used like `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the ui element.
+>- `clicknium.is_exist()` is for both web and desktop's uielement, and does not specified a scope to locate the element
+>- `clicknium.chrome.open("https://bing.com").is_exist()` will locate element in the specified browser
+
+
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
@@ -18,11 +24,6 @@ In current opened browser, check whether the ui element exist or not.
 
 **Returns:**  
     &emsp;return True if ui element exist, or return False
-
-**Remarks**  
-It should be used like `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the ui element.
-- `clicknium.is_exist()` is for both web and desktop's uielement, and does not specified a scope to locate the element
-- `clicknium.chrome.open("https://bing.com").is_exist()` will locate element in the specified browser
 
 **Example:**
 ***

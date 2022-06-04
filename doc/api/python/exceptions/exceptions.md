@@ -20,7 +20,7 @@ Exception is raised whenever certain operations are terminated abnormally. Excep
 | [NotSupportedOperationOptionError](./doc/api/python/exceptions/notsupportedoperationoptionerror)   | NotSupportedOperationOptionError is raised when an invoked method is supported for the target, but the specified option value is not supported. ex: can not clear text for desktop uielement with clear method option set to `ControlClearValue`|
 | [InvalidOperationError](./doc/api/python/exceptions/invalidoperationerror.md)   |  InvalidOperationError is raised when a method call is invalid for the object's current state|
 | [InvalidSelectedItemError](./doc/api/python/exceptions/invalidselecteditemerror.md)   | InvalidSelectedItemError is raised when a method call is valid for the object, but the set value is invalid for the object's current value. ex: can not select an invalid item for select item method|
-| [DesktopError](./doc/api/python/exceptions/desktoperror.md)   | DesktopError is raised for common desktop exceptions|
+| [WindowError](./doc/api/python/exceptions/windowerror.md)   | WindowError is raised for common window exceptions|
 | [WindowsNativeError](./doc/api/python/exceptions/windowsnativeerror.md)   | WindowsNativeError is raised when a method call with win32 native has any exceptions|
 | [UiaPatternNotFoundError](./doc/api/python/exceptions/uiapatternnotfounderror.md)   | UiaPatternNotFoundError is raised when a desktop uielement with uia technology can not be found|
 | [ScreenOperationError](./doc/api/python/exceptions/screenoperationerror.md)   | ScreenOperationError is raised when screen operations with desktop uielement has any exceptions|

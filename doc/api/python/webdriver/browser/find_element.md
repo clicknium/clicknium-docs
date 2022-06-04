@@ -7,6 +7,11 @@
 
 In current opened browser, initialize ui element by the given locator.  
 
+>**Remarks:**  
+It should be used like `clicknium.chrome.open("https://bing.com").find_element()`, it is different with `clicknium.find_element()` [clicknium.find_element](./doc/api/python/find_element.md) when locating the ui element.
+>- `clicknium.find_element()` is for both web and desktop's uielement, and does not specified a scope to locate the element
+>- `clicknium.chrome.open("https://bing.com").find_element()` will locate element in the specified browser
+
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator    
         &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
@@ -15,11 +20,6 @@ In current opened browser, initialize ui element by the given locator.
 
 **Returns:**  
     &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
-
-**Remarks**  
-It should be used like `clicknium.chrome.open("https://bing.com").find_element()`, it is different with `clicknium.find_element()` [clicknium.find_element](./doc/api/python/find_element.md) when locating the ui element.
-- `clicknium.find_element()` is for both web and desktop's uielement, and does not specified a scope to locate the element
-- `clicknium.chrome.open("https://bing.com").find_element()` will locate element in the specified browser
 
 **Example:**
 ***
