@@ -1,5 +1,5 @@
 - [Getting started](./doc/gettingstart.md)
-- Develop tools
+- [Develop tools](./doc/developtools/vscode.md)
   - [Clicknium VSCode Extension](./doc/developtools/vscode.md)
   - [Automation Extensions](./doc/developtools/extensions/extensions.md)
     - [Chrome Extension](./doc/developtools/extensions/chromeextension.md)
@@ -99,4 +99,5 @@
     - [UnreachableBrowserExtensionError](./doc/api/python/exceptions/unreachablebrowserextensionerror.md)
     - [WebElementNotRespondingError](./doc/api/python/exceptions/webelementnotrespondingerror.md)
 - [Sample automation cases](./doc/cases.md)
-- [**Contact us**](./doc/contact/contact.md)
+- [Contact us](./doc/contact/contact.md)
+   
