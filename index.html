@@ -11,24 +11,16 @@
     <meta name="description" content="Clicknium Products Docs">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- default theme -->
-    <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-    <!-- <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light"> -->
-    <!-- <link rel="stylesheet" href="assets/css/main-custom.css">
-    <link rel="stylesheet" href="assets/css/button-custom.css"> -->
+    <link rel="stylesheet" href="themes/vue.css">
 </head>
 
 <body>
-	<!-- <nav>		
-		<a href="https://github.com/clickcorp/clicknium-docs" target="_blank">Products</a>
-        <a href="https://github.com/clickcorp/clicknium-docs" target="_blank">Console</a>
-        <a href="https://github.com/clickcorp/clicknium-docs" target="_blank">About</a>
-	</nav> -->
     <!-- define loading action -->
     <div id="app">Loading...</div>
     <script>
         window.$docsify = {
             // project name
-            name: 'clicknium product docs',
+            // name: 'clicknium product docs',
             // project repo
             // repo: 'https://github.com/clickcorp/clicknium-docs',
             // enable sidebar
@@ -57,39 +49,40 @@
                 hideOtherSidebarContent: false,
                 namespace: 'product-docs',
             },
-            // count
-            count:{
-                countable:true,
-                fontsize:'0.9em',
-                color:'rgb(90,90,90)',
-                language:'english'
-            },
-            // back to top
-            scrollToTop: {
-                auto: true,
-                text: '🔼',
-                right: 12,
-                bottom: 52,
-                offset: 25
-            },
-        }
+            // // count
+            // count:{
+            //     countable:true,
+            //     fontsize:'0.9em',
+            //     color:'rgb(90,90,90)',
+            //     language:'english'
+            // },
+            // // back to top
+            // scrollToTop: {
+            //     auto: true,
+            //     text: '🔼',
+            //     right: 12,
+            //     bottom: 52,
+            //     offset: 25
+            // },
+    }
     </script>
     <!-- docsify js -->
-    <script src="//fastly.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>    
+    <script src="src/docsify.min.js"></script>    
     <!-- emoji -->
-    <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="src/emoji.min.js"></script>
     <!-- zoom-image -->
-    <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="src/zoom-image.min.js"></script>
     <!-- search -->
-    <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="src/search.min.js"></script>
     <!-- copy-code -->
-    <script src="//fastly.jsdelivr.net/npm/docsify-copy-code"></script>
+    <script src="src/docsify-copy-code.js"></script>
     <!-- sidebar-collapse -->
-    <script src="//fastly.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script src="src/docsify-sidebar-collapse.min.js"></script>
     <!-- count -->
-    <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+    <!-- <script src="//unpkg.com/docsify-count/dist/countable.js"></script>-->
     <!-- scroll-to-top -->
-    <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+    <!-- <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script> -->
+
 </body>
 
 </html>
