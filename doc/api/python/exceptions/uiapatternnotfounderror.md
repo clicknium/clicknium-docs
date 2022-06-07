@@ -1,20 +1,20 @@
 # UiaPatternNotFoundError
 
-- extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
+- Extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
 
-**UiaPatternNotFoundError is raised when a window uielement with uia technology can not be found.**
+**UiaPatternNotFoundError is raised when a window UI element with Uia technology can not be found.**
 
 ## Constructor<!-- {docsify-ignore} -->
-- [message](#message)
-- [stacktrace](#stacktrace)
+- [Message](#message)
+- [Stacktrace](#stacktrace)
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.

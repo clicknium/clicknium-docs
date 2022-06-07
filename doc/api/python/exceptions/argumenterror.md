@@ -1,6 +1,6 @@
 # ArgumentError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- Extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
 **ArgumentError is raised when one of the arguments provided to a method is not valid.**
 
@@ -9,13 +9,13 @@
 - [stacktrace](#stacktrace)
 
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.

@@ -1,27 +1,27 @@
 # BrowserNotInstallError
 
-- extends: [WebError](./doc/api/python/exceptions/weberror.md)
+- Extends: [WebError](./doc/api/python/exceptions/weberror.md)
 
 **BrowserNotInstallError is raised when the specified browser is not installed.**
 
 ## Constructor<!-- {docsify-ignore} -->
-- [message](#message)
-- [stacktrace](#stacktrace)
-- [browser_type](#browser_type)
+- [Message](#message)
+- [Stacktrace](#stacktrace)
+- [Browser_type](#browser_type)
 
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.
 
-### browser_type
+### Browser_type
 - type: str
 
-Type of the browser. The supported browsers are "ie", "chrome", "firefox" and "edge".
+Type of the browser. The supporting browsers are "ie", "chrome", "firefox" and "edge".

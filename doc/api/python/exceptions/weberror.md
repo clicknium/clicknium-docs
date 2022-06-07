@@ -1,6 +1,6 @@
 # WebError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- Extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
 **WebError is raised for common web automation exceptions.**
 
@@ -10,18 +10,18 @@
 - [browser_type](#browser_type)
 
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.
 
-### browser_type
+### Browser_type
 - type: str
 
-Type of the browser. The supported browsers are "ie", "chrome", "firefox" and "edge".
+Type of the browser. The supporting browsers are "IE", "Chrome", "Firefox" and "Edge".

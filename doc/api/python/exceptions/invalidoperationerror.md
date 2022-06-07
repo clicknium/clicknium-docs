@@ -1,21 +1,21 @@
 # InvalidOperationError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- Extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
 **InvalidOperationError is raised when a method call is invalid for the object's current state.**
 
 ## Constructor<!-- {docsify-ignore} -->
-- [message](#message)
-- [stacktrace](#stacktrace)
+- [Message](#message)
+- [Stacktrace](#stacktrace)
 
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.

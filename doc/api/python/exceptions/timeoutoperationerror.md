@@ -1,21 +1,21 @@
 # TimeoutOperationError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- Extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
 **TimeoutOperationError is raised when certain operation is terminated due to timeout.**
 
 ## Constructor<!-- {docsify-ignore} -->
-- [message](#message)
-- [stacktrace](#stacktrace)
+- [Message](#message)
+- [Stacktrace](#stacktrace)
 
 
 ### message
-- type: str
+- Type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.

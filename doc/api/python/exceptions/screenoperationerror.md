@@ -1,33 +1,33 @@
 # ScreenOperationError
 
-- extends: [WindowsNativeError](./doc/api/python/exceptions/windowsnativeerror.md)
+- Extends: [WindowsNativeError](./doc/api/python/exceptions/windowsnativeerror.md)
 
 **ScreenOperationError is raised when screen operations with desktop uielement has any exceptions.**
 
 ## Constructor<!-- {docsify-ignore} -->
-- [message](#message)
-- [stacktrace](#stacktrace)
-- [name](#name)
-- [native_errorcode](#native_errorcode)
+- [Message](#message)
+- [Stacktrace](#stacktrace)
+- [Name](#name)
+- [Native_errorcode](#native_errorcode)
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.
 
-### name
+### Name
 - type: str
 
-Win32 native api name.
+Win32 native API name.
 
 
-### native_errorcode
+### Native_errorcode
 - type: str
 
 Win32 native error code.

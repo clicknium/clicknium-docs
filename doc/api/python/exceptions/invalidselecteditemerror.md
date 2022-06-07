@@ -1,26 +1,26 @@
 # InvalidSelectedItemError
 
-- extends: [InvalidOperationError](./doc/api/python/exceptions/invalidoperationerror.md)
+- Extends: [InvalidOperationError](./doc/api/python/exceptions/invalidoperationerror.md)
 
-**InvalidSelectedItemError is raised when a method call is valid for the object, but the set value is invalid for the object's current value. ex: can not select an invalid item for select item method.**
+**InvalidSelectedItemError is raised when a method call is valid for the object, but the set value is invalid for the object's current value. Eg: can not select an invalid item with selecting item method.**
 
 ## Constructor<!-- {docsify-ignore} -->
-- [message](#message)
-- [stacktrace](#stacktrace)
-- [item](#item)
+- [Message](#message)
+- [Stacktrace](#stacktrace)
+- [Item](#item)
 
-### message
+### Message
 - type: str
 
 Message of the exception.
 
 
-### stacktrace
+### Stacktrace
 - type: str
 
 Stack of the exception which got raised inside the exception.
 
-### item
+### Item
 - type: str
 
 Value set for the method.
