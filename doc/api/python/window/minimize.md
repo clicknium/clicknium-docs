@@ -1,13 +1,13 @@
-# maximize
+# minimize
 
-***def maximize(
+***def minimize(
         self, 
         locator: Union[_Locator, str],
         locator_variables: dict = {}, 
         timeout: int = 30
     ) -> None***  
 
-Maximize the window.
+Minimize the window.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  
@@ -25,13 +25,13 @@ Maximize the window.
 ```python
     from clicknium import clicknium as cc
 
-    # get desktop driver
-    desktop_driver = cc.desktop
+    # get window driver
+    window_driver = cc.window
 
-    # maximize window
-    desktop_driver.maximize("locator.notepad.window_notitle_notepad")
+    # minimize window
+    window_driver.minimize("locator.notepad.window_notitle_notepad")
 
     # parametric locator
     variables = {"name":"test"}
-    desktop_driver.maximize("locator.notepad.window_notitle_notepad", variables)
+    window_driver.minimize("locator.notepad.window_notitle_notepad", variables)
 ```

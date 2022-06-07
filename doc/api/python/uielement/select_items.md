@@ -6,7 +6,7 @@
         timeout: int = 30
     ) -> None***  
 
-Select multiple option for the target.  
+Select multiple options for the target.  
 
 **Parameters:**  
     &emsp;**items [Required]**: list  
