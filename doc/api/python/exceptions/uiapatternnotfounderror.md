@@ -2,7 +2,7 @@
 
 - extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
 
-**UiaPatternNotFoundError is raised when a window UiElement with Uia technology can not be found.**
+**UiaPatternNotFoundError is raised when a window UiElement with UIA technology can not be found.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)

@@ -2,7 +2,7 @@
 
 - extends: [NotSupportedOperationError](./doc/api/python/exceptions/notsupportedoperationerror.md)
 
-**NotSupportedOperationOptionError is raised when an invoked method is supported for the target, but the specified option value is not supported. Eg: can not clear text for desktop UI element with clear method option set to `ControlClearValue`.**
+**NotSupportedOperationOptionError is raised when an invoked method is supported for the target, but the specified option value is not supported. Eg: can not clear text for desktop UiElement with clear method option set to `ControlClearValue`.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -27,7 +27,7 @@ Stack of the exception which got raised inside the exception.
 ### automation_tech
 - type: str
 
-Type of automation recorder technology. The supporting recorder technologies are as follows "Uia", "Ia", "Java", "IE", "Chrome", "Firefox", "Edge" and "Sap".
+Type of automation recorder technology. The supporting recorder technologies are as follows "UIA", "IA", "Java", "IE", "Chrome", "Firefox", "Edge" and "Sap".
 
 ### control_type
 - type: str

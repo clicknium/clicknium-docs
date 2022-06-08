@@ -26,12 +26,12 @@ Stack of the exception which got raised inside the exception.
 ### automation_tech
 - type: str
 
-Type of automation recorder technology. The supporting technologies are as follows,"Uia", "Ia", "Java", "Ie", "Chrome", "Firefox", "Edge" and "SAP".
+Type of automation recorder technology. The supporting technologies are as follows,"UIA", "IA", "Java", "Ie", "Chrome", "Firefox", "Edge" and "SAP".
 
 ### control_type
 - type: str
 
-Control type of target element. Eg: "button", "edit", "document", "checkBox", "image", and the "image" is specified for image UI elment.
+Control type of target element. Eg: "button", "edit", "document", "checkBox", "image", and the "image" is specified for image UiElment.
 
 ### operation
 - type: str
