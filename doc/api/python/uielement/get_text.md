@@ -5,7 +5,7 @@ Get text of the element.
 
 **Parameters:**    
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds. 
 
 **Returns:**  
     &emsp;str
@@ -18,7 +18,7 @@ Get text of the element.
     text = ui(locator.chrome.bing.search_sb_form_q).get_text()
 ```
 
-- edit control on windows application: will return value
+- when you edit control on windows application, it will return value
 ```python
     from clicknium import clicknium as cc, locator, ui
     
@@ -26,7 +26,7 @@ Get text of the element.
     text = ui(locator.notepad.document).get_text()
 ```
 
-- button, menuitem etc on windows application: will return name
+- When button, menuitem, etc on windows application,it will return name
 ```python
     from clicknium import clicknium as cc, locator, ui
     
@@ -36,4 +36,4 @@ Get text of the element.
     #text is 'format'
 ```
 
-- element on web page: will return innerText
+- When element on web page, it will return innerText
