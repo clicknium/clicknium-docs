@@ -2,7 +2,7 @@
 
 - extends: [NotSupportedError](./doc/api/python/exceptions/notsupportederror.md)
 
-**NotSupportedOperationError is raised when an invoked method, its automation technology or operation is not supported for the target. ex: can not set text for an image uielement.**
+**NotSupportedOperationError is raised when an invoked method whose automation technology or operation is not supported for the target. Eg: can not set text for an image UiElement.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -26,14 +26,14 @@ Stack of the exception which got raised inside the exception.
 ### automation_tech
 - type: str
 
-Type of automation recorder technology. The supported technologies are "uia", "ia", "java", "ie", "chrome", "firefox", "edge" and "sap".
+Type of automation recorder technology. The supporting technologies are as follows,"Uia", "Ia", "Java", "Ie", "Chrome", "Firefox", "Edge" and "SAP".
 
 ### control_type
 - type: str
 
-Control type of target element. ex: "Button", "Edit", "Document", "CheckBox", "Image", and the "Image" is specified for image uielment.
+Control type of target element. Eg: "button", "edit", "document", "checkBox", "image", and the "image" is specified for image UI elment.
 
 ### operation
 - type: str
 
-Opration method of the target element. ex: "click", "check", "highlight".
+Opration methods of the target element. Eg: "click", "check", "highlight".

@@ -2,7 +2,7 @@
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**ElementCanNotFoundError is raised when the loactor can be found in locator store, but the returned ui element can not be found.**
+**ElementCanNotFoundError is raised when the loactor can be found in locator store, but the returned Uielements can not be found.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)

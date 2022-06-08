@@ -2,7 +2,7 @@
 
 - extends: [WebError](./doc/api/python/exceptions/weberror.md)
 
-**BrowserNotRunError is raised when the specified browser is not run.**
+**BrowserNotRunError is raised when the specified browser is not running.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -24,4 +24,4 @@ Stack of the exception which got raised inside the exception.
 ### browser_type
 - type: str
 
-Type of the browser. The supported browsers are "ie", "chrome", "firefox" and "edge".
+Type of the browser. The supporting browsers are as follows, "IE", "Chrome", "Firefox" and "Edge".

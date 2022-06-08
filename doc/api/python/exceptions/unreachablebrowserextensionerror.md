@@ -2,7 +2,7 @@
 
 - extends: [WebError](./doc/api/python/exceptions/weberror.md)
 
-**UnreachableBrowserExtensionError is raised when the specified browser's extension not in ready state. May be the extension is not installed, not enabled or failed to run.**
+**UnreachableBrowserExtensionError is raised when the specified browser's extension not in ready state. Maybe the extension is not installed, not enabled or failed to run.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -24,4 +24,4 @@ Stack of the exception which got raised inside the exception.
 ### browser_type
 - type: str
 
-Type of the browser. The supported browsers are "ie", "chrome", "firefox" and "edge".
+Type of the browses. The supporting browsers are as follows, "IE", "Chrome", "Firefox" and "Edge".

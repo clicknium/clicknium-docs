@@ -2,7 +2,7 @@
 
 - extends: [ArgumentError](./doc/api/python/exceptions/argumenterror.md)
 
-**ArgumentOutOfRangeError is raised when the value of an argument is outside the allowable range of values as defined by the invoked method.**
+**ArgumentOutOfRangeError is raised when the value of an argument is out of the allowable range of values as defined by the invoked method.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
