@@ -2,7 +2,7 @@
 
 - extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
 
-**WindowsNativeError is raised when a method call with win32 native has any exceptions.**
+**WindowsNativeError is raised when a method call with win32 native has any exception.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
