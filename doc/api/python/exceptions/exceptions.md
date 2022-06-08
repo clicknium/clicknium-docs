@@ -8,7 +8,7 @@ Exception is raised whenever a certain operation is terminated abnormally. Excep
 | Exception Name      | Description |
 | -----------| ----------- |
 | [BaseError](./doc/api/python/exceptions/baseerror.md) |All Clicknium exceptions inherit from this class.|
-| [ArgumentError](./doc/api/python/exceptions/argumenterror.md) |  ArgumentError is raised when one of the arguments provided to a method is not valid.|
+| [ArgumentError](./doc/api/python/exceptions/argumenterror.md) |  ArgumentError is raised when at least one of the arguments provided to a method is not valid.|
 | [ArgumentNullError](./doc/api/python/exceptions/argumentnullerror.md) | ArgumentNullError is raised when a null reference is passed to a method that does not accept it as a valid argument.|
 | [ArgumentOutOfRangeError](./doc/api/python/exceptions/argumentoutofrangeerror.md) | ArgumentOutOfRangeError is raised when the value of an argument is out of the allowable range of values as defined by the invoked method.|
 | [LocatorUndefinedError](./doc/api/python/exceptions/locatorundefinederror.md) | LocatorUndefinedError is raised when the specified locator can not be found in locator store.|

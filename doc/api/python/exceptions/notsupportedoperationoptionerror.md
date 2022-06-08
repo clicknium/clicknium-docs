@@ -32,12 +32,12 @@ Type of automation recorder technology. The supporting recorder technologies are
 ### control_type
 - type: str
 
-Control type of target element. Eg: "button", "edit", "document", "checkBox", "image", and the "image" is specified for image UiElement.
+Control type of target element. Eg: "Button", "Edit", "Document", "CheckBox", "Image", and the "Image" is specified for image UiElement.
 
 ### operation
 - type: str
 
-Operation methods of the target element. Eg: "click", "check", "highlight".
+Operation methods of the target element. Eg: "Click", "Check", "Highlight".
 
 ### option
 - type: str
