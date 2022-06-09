@@ -1,6 +1,6 @@
 # Exceptions
 
-Exception is raised whenever a certain operation is terminated abnormally. Except for python [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#built-in-exceptions), we also define custom clicknium exceptions which are all inherited from [BaseError](./doc/api/python/exceptions/baseerror.md).
+Exception is raised whenever a certain operation is terminated abnormally. Except for python [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#built-in-exceptions), we also define custom clicknium exceptions which all inherit from [BaseError](./doc/api/python/exceptions/baseerror.md).
 
 
 ## Clicknium Exceptions <!-- {docsify-ignore} -->
