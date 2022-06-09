@@ -2,7 +2,7 @@
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**TimeoutOperationError is raised when certain operation is terminated due to timeout.**
+**TimeoutOperationError is raised when a certain operation is not completed within given time.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
