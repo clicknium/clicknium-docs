@@ -23,7 +23,7 @@ Save target element's screenshot to file with the specified size and offset.
     &emsp;**yoffset**: int  
         &emsp;&emsp; offset of Y-Axis, When default is 0, it means no offset.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set ia 30 seconds. 
+        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds. 
 
 **Returns:**  
     &emsp;None

@@ -1,9 +1,9 @@
 # Java
 
-**Java class provides methods to get java extension object and java extension class provides install/uninstall java extension.**
+**Java class provides methods to getting java extension object and java extension class provides install/uninstall java extension.**
 
 ## extension <!-- {docsify-ignore} -->
-- through the following way can get java extension  
+- You can get java extension by the following way.
     - import
   ```
   from clicknium import clicknium as cc

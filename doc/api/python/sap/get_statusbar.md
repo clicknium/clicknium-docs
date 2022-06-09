@@ -11,14 +11,14 @@ Get sap status bar info.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.sap.satus_bar_q', locator store is sap, locator name is satus_bar_q  
+        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.sap.satus_bar_q', locator store is sap, and locator name is satus_bar_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, Unit is second, anddefault value is 30 seconds. 
 
 **Returns:**  
-    &emsp;SapStatusBarInfo class, the class definition as following:  
+    &emsp;SapStatusBarInfo class, the class definition is as follows:  
 ```python
     class SapStatusBarInfo(object):
 

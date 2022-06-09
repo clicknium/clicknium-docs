@@ -10,11 +10,11 @@ Select multiple options for the target.
 
 **Parameters:**  
     &emsp;**items [Required]**: list  
-        &emsp;&emsp; options of the dropdown control, the control should support multiple selection  
+        &emsp;&emsp; options of the dropdown control, The control should support multiple selections.
     &emsp;**clear_selected**: bool  
-        &emsp;&emsp; whether need deselect the already selected options of target control, default is True    
+        &emsp;&emsp; Whether deselect the selected options of target control or not, default is True.    
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds   
+        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.   
 
 **Returns:**  
     &emsp;None

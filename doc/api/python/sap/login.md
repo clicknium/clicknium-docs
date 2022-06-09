@@ -14,7 +14,7 @@ Login in sap application.
 
 **Parameters:**  
     &emsp;**login_path[Required]**: str  
-        &emsp;&emsp; login path string, sap application login path  
+        &emsp;&emsp; login path string,  login path in sap application
     &emsp;**connection[Required]**: str  
         &emsp;&emsp; connection string, sap application connection  
     &emsp;**client[Required]**: str  
@@ -24,7 +24,7 @@ Login in sap application.
     &emsp;**password[Required]**: str  
         &emsp;&emsp; password string, sap application password  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None
