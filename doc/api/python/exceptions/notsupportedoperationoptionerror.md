@@ -37,7 +37,7 @@ Control type of target element. Eg: "Button", "Edit", "Document", "CheckBox", "I
 ### operation
 - type: str
 
-Operation methods of the target element. Eg: "Click", "Check", "Highlight".
+Operation methods of the target element. Eg: "click", "check", "highlight".
 
 ### option
 - type: str

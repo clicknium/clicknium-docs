@@ -2,7 +2,7 @@
 
 - extends: [WebError](./doc/api/python/exceptions/weberror.md)
 
-**WebElementNotRespondingError is raised when browser's visiting page is not responding.**
+**WebElementNotRespondingError is raised when the web page is not responding.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
