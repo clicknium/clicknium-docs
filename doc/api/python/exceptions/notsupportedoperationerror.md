@@ -26,7 +26,7 @@ Stack of the exception which got raised inside the exception.
 ### automation_tech
 - type: str
 
-Type of automation recorder technology. The supported technologies are "uia", "ia", "java", "ie", "chrome", "firefox", "edge" and "sap".
+Type of automation recorder technology. The supported technologies are "UIA", "IA", "Java", "IE", "Chrome", "Firefox", "Edge" and "SAP".
 
 ### control_type
 - type: str
