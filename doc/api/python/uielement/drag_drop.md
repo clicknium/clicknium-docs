@@ -40,7 +40,7 @@ Hold down the left mouse button on the source element, then move to the target o
 If you need scroll down 50 pixels, invoke like this: `ui(locator.notepad.thumb_scrollbart).drag_drop(0, 50)`  
 ![sample1](../../../img/drap_drop_sample1_2.png)  
 
-- move slipper from left to right  
+- move slider from left to right  
 ![sample2](../../../img/drap_drop_sample2_1.png)  
 If you need scroll right 20 pixels, invoke like this: `ui(locator.uiautomationwpfd.thumb_thumb).drag_drop(20, 0)`  
 ![sample2](../../../img/drap_drop_sample2_2.png)  
