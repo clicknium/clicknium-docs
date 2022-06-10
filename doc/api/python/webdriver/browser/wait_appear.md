@@ -6,7 +6,7 @@
         wait_timeout: int = 30
     ) -> UiElement***  
 
-In current opened browser, wait for the element appear.
+Wait for the element to appear in current open browser
 
 >**Remarks:**  
 It should be used like `clicknium.chrome.open("https://bing.com").wait_appear()`, it is different with `clicknium.wait_appear()` [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the ui element.

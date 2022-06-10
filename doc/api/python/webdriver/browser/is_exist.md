@@ -6,24 +6,24 @@
         timeout: int = 30
     ) -> bool***  
 
-In current opened browser, check whether the ui element exist or not.  
+ Check whether the UI element exists in current open browser
 
 >**Remarks:**  
-It should be used like `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the ui element.
->- `clicknium.is_exist()` is for both web and desktop's uielement, and does not specified a scope to locate the element
->- `clicknium.chrome.open("https://bing.com").is_exist()` will locate element in the specified browser
+Use the following method, `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with the method `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the UI element.
+>- `clicknium.is_exist()` is for  UiElement of both web and desktop, and does not specify a scope to locate the element.
+>- `clicknium.chrome.open("https://bing.com").is_exist()` will locate element in the specified browser.
 
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;return True if ui element exist, or return False
+    &emsp;return True if UI element exists, or return False
 
 **Example:**
 ***

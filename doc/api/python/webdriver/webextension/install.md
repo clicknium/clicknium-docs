@@ -2,11 +2,11 @@
 
 ***def install(self) -> None*** 
 
-Install web extension.
+Install web extension
 
 >**Remarks:**  
->- Before installing extension, you should make sure you have already closed edge, firefox and chrome browser.  
->- When extension is installed successfully, then you should turn on the extension manually.  
+>- Before installing extension, you should make sure you have already closed the browsers "Edge", "Firefox" and “Chrome”. 
+>- When extension is installed successfully, you should turn on the extension manually.  
 
 **Example:**
 ***

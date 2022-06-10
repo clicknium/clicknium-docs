@@ -2,7 +2,7 @@
 
 ***def update(self) -> None*** 
 
-Update web extension.
+Update web extension
 
 **Example:**
 ***

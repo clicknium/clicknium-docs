@@ -6,7 +6,7 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-In current opened browser, wait for the element disappear.
+Wait for the element disappear in current open browser
 
 >**Remarks:**  
 It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear()`, it is different with `clicknium.wait_disappear()` [clicknium.wait_disappear](./doc/api/python/wait_disappear.md) when locating the ui element.

@@ -5,21 +5,22 @@
         locator_variables: dict = {}
     ) -> UiElement***  
 
-In current opened browser, initialize ui element by the given locator.  
+ Initialize UI element by the given locator in current open browser
 
 >**Remarks:**  
-It should be used like `clicknium.chrome.open("https://bing.com").find_element()`, it is different with `clicknium.find_element()` [clicknium.find_element](./doc/api/python/find_element.md) when locating the ui element.
->- `clicknium.find_element()` is for both web and desktop's uielement, and does not specified a scope to locate the element
->- `clicknium.chrome.open("https://bing.com").find_element()` will locate element in the specified browser
+Use the following method,
+ `clicknium.chrome.open("https://bing.com").find_element()`, which is different with the method `clicknium.find_element()` [clicknium.find_element](./doc/api/python/find_element.md) when locating the UI element.
+>- `clicknium.find_element()` is for UiElement of both web and desktop, and does not specify a scope to locate the element.
+>- `clicknium.chrome.open("https://bing.com").find_element()` will locate the element in the specified browser.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator    
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)
 
 **Returns:**  
-    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
+    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can operate as the following with the UiElement, such as click, set_text.It will locate the element to verify whether the element exists before operating.
 
 **Example:**
 ***
