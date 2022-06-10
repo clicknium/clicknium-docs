@@ -7,22 +7,22 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-Wait for the element appear and the value of specified property is same as the expected value. 
+Wait for the element to appear and the value of specified property is the same as the expected. 
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
     &emsp;**name[Required]**: str  
-        &emsp;&emsp; property name, different ui elements may support different property list, for general property list, please refer to [property list](./doc/automation/property.md)  
+        &emsp;&emsp; property name, different UI elements support different property lists. For general property list, please refer to [property list](./doc/automation/property.md)  
     &emsp;**value[Required]**: str  
         &emsp;&emsp; expected property value  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, is set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; wait timeout for the operation, unit is second, default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;bool, return True if ui element exist and the property value equals expected value, or return False
+    &emsp;bool, return True if UI element exists and the property value equals the expected one, or return False
 
 
 **Example:**

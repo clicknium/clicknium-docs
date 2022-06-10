@@ -1,6 +1,6 @@
 # Automation<!-- {docsify-ignore-all} -->
 
-In the section, will illustrate the technology information about clicknium automation, also include how to leverage clicknium automation technology to make RPA/automation project robust and easily edit, write, maintain.
+In this section, we will illustrate the technology information about clicknium automation, including how to leverage clicknium automation technology to make RPA/automation project robust and easily edit, write and  maintain.
 
 ## Articles
 - [Image Automation](./doc/automation/image.md)

@@ -1,6 +1,6 @@
 # Window
 
-**Window class provides methods to maximize, minmize, restore window.**
+**Window class provides methods to maximizing, minmizing, restoring window.**
 
 ## methods <!-- {docsify-ignore} -->
 

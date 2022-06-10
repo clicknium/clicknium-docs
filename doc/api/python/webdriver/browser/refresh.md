@@ -6,13 +6,13 @@
         timeout: int = 30
     ) -> None***  
 
-Refresh the current browser.
+Refresh the current browser
 
 **Parameters:**  
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for a broswser to load completely. Default is True  
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to fully load. Default is True.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, Unit is second, ana default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

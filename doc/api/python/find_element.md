@@ -5,24 +5,24 @@
         window_mode: Literal["auto", "topmost", "noaction"] = WindowMode.Auto
     ) -> UiElement***  
 
-Initialize ui element by the given locator.  
+Initialize UI element in the given locator
 
 > **Remarks:**  
->- There is a aliase method ui for shorten clicknium.find_element,  `clicknium.find_element()` can be written as `ui()`
+>- an aliase method UI to shortening clicknium.find_element,  `clicknium.find_element()` can be written as `ui()`
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables,  set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**window_mode**: WindowMode  
-        &emsp;&emsp; Window mode define whether to set the window on topmost for the following operation on the element  
-        &emsp;&emsp;**Auto**：Default value is auto, it means setting the window automatically, we set the internal context for automation operation, the context stores info about the ui element operated just now, include process name, main window title etc. if current ui element's info is same as previous, then don't need set window topmost as it should be already set; or will set window topmost  
-        &emsp;&emsp;**TopMost**：always setting the window on topmost  
-        &emsp;&emsp;**NoAction**： always don't setting the window on topmost 
+        &emsp;&emsp; Window mode defines whether to set the window on topmost with the following operation on the element. 
+        &emsp;&emsp;**Auto**：Default value is auto,which means setting the window automatically. We set the internal context for automation operation, and the context stores info of the operated UI element, including process name, main window title etc. If current UI element's info is same as previous, there no need to set window topmost, otherwise, set window topmost. 
+        &emsp;&emsp;**TopMost**：always sett the window on topmost  
+        &emsp;&emsp;**NoAction**： always do not set the window on topmost 
 
 **Returns:**  
-    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
+    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can execute the following operations with the UiElement, such as click, set_text. Before operating, it will try locate the element to verify whether the element exists.
 
 **Example:**
 ***

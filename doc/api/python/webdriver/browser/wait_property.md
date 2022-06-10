@@ -8,12 +8,12 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-In current opened browser, wait for the element appear and the value of specified property is same as the expected value. 
+In current open browser, wait for the element to appear and the value of specified property is the same as expected. 
 
 >**Remarks:**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_property()`, it is different with `clicknium.wait_property()` [clicknium.wait_property](./doc/api/python/wait_property.md) when locating the ui element.
->- `clicknium.wait_property()` is for both web and desktop's uielement, and does not specified a scope to locate the element
->- `clicknium.chrome.open("https://bing.com").wait_property()` will locate element in the specified browser
+Use the following method, `clicknium.chrome.open("https://bing.com").wait_property()`, which is different with the method `clicknium.wait_property()` [clicknium.wait_property](./doc/api/python/wait_property.md) when locating the UI element.
+>- `clicknium.wait_property()` is for UiElement of both web and desktop, and does not specify a scope to locate the element.
+>- `clicknium.chrome.open("https://bing.com").wait_property()` will locate element in the specified browser.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
