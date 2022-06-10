@@ -27,30 +27,30 @@ For example
 You will get the locator as follows: 
 ![recorder sample1](../img/image_locator_sample1_3.png)  
 
-Image locator contians two parts.  
-The first part is anchor element. during running, will first try to find the anchor element, and then capture anchor image depens on the image method attrbiute, try find the target image in anchor image through image matching, we use opencv library to do image matching. 
-Second part is image, supporting the following attrbiutes:  
+Image locator contains two parts.  
+The first part is anchor element. In the process of running, firstly find the anchor element, then capture anchor image depending on the image method attributes, and find the target image in anchor image by image matching algorithm.
+The second part is image, supporting the following attributes:  
 
 | Name      | Description | equals | contains |startWith |endWith |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
-| accuracy | The minimum similarity between the target image to be found and the one in image locator. It is useful when the image to be found is slightly different than the one in locator. Measurement unit is from 0 to 1 with default value 0.75. |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| dpi |  the DPI settings of windows OS during recording, we recommend the DPI settings of windows OS during running is same as the seetins during recording|<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| method | enum values, define the algorithm about image matching.  the value is autoset during recording |  |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| filepaPath | the selection area image during recording, will be used during running for image matching |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| matchIndex | if find more during image matching, which one will be selected, default value is 0, means the first matching area |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| elementRect | store the anchor element area during recording. Don't need modify the value |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| selectionRect | store the selection area during recording. Don't need modify the value |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
-| timeout |Specifies the maximum time interval to do image matching, default value is 5000 milliseconds  |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| accuracy | The minimum similarity between the target image and the one in image locator. It is useful when the image to be found is slightly different from the one in the locator. Measurement unit is from 0 to 1 with default value 0.75. |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| dpi |  we recommend the DPI settings of windows OS in the process of running is the same as the ones when recording|<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| method | enum values define the algorithm of image matching. The value is autoset when recording |  |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| filepaPath | the selection area of image recording, used in the process of image matching |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| matchIndex | which will be selected when more than one area is found during image matching, default is 0, it means the first matching area |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| elementRect | store the anchor element area during recording. No need to modify the value |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| selectionRect | store the selection area during recording. No need to modify the value  |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
+| timeout |Specify the maximum time interval in image matching, default is 5000 milliseconds  |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
 
-the definition of method:
+the definition of methods:
 - HighestAccuracy: compare the images found in whole windows screen
 - InRegionHighestAccuracy: compare the images found in anchor element area
 - OutRegionHighestAccuracy: comapre the images found out of the anchor element area
 
-`method` attrbiute is auto set during recording based on the selection area corresponding to the anchor area,  
-if the selection area is inside the anchor element area, will be set to 'InRegionHighestAccuracy';  
-if the selection area is intersect with the anchor element area, will be set to 'HighestAccuracy';
-if the selection area is outside the anchor element area, will be set to 'OutRegionHighestAccuracy';
+`method` attributes are automatically set based on the selection area and corresponding anchor area in the process of recording 
+if the selection area is inside the anchor element area, set to 'InRegionHighestAccuracy';  
+if the selection area intersects with the anchor element area, set to 'HighestAccuracy';
+if the selection area is outside the anchor element area, set to 'OutRegionHighestAccuracy';
 
 ## Use image locator in project
 Image locator can be used in the same way as other locators, for example  
@@ -77,4 +77,4 @@ The following functions support image locator:
 - set_text: input_method should be `keyboardsimulatewithclick`
 
 ## Example
-If the application or the target UI element can not be located by all other automation technologies and the area image is stable, user can try image locator.
+If the application or the target UI element can not be located by other automation technologies when the area image is stable, users can try image locator.
