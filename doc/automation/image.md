@@ -6,14 +6,14 @@
   - [Example](#example)
 
 ## Overview
-Clicknium automation stask supports image automation, many functions support image automation.
-Clicknium locator schema is designed for extension. There are windows application locator, java application locator, also there can be image locator.
+Clicknium automation stask with many functions supports image automation.
+Clicknium locator schema is designed for extension in windows application locator, java application locator and image locator.
 
 ## Record image locator
-Open project in Visual Studio Code, press `Ctrl` + F10, or click the `record` button to invoke clicknium recorder.  
+Open project in Visual Studio Code by pressing `Ctrl` + F10, or clicking the button `record` to invoke clicknium recorder.  
 ![recorder button](../img/recorder.png "locator recorder button")  
 
-When you move the mouse, it will highlight the element, if you want to record the element, press `Ctrl` and click. If you want to record the image, you can press `Shift`, then use mouse to select one area, the area will be stored as image in locator.  
+When you move the mouse, it will highlight the element. If you want to record the element, press `Ctrl` and click it. If you want to record the image, you can press `Shift` and select one area with the mouse, which will be stored as image in locator.  
 ![recorder helper](../img/recorder_help.png)   
 
 For example  
@@ -24,12 +24,12 @@ For example
 
 ![recorder sample1](../img/image_locator_sample1_2.png)  
 
-You will get the locator as the following:  
+You will get the locator as follows: 
 ![recorder sample1](../img/image_locator_sample1_3.png)  
 
-Actually, image locator contians two parts.  
-First part is anchor element, during running, will first try to find the anchor element, and then capture anchor image depens on the image method attrbiute, try find the target image in anchor image through image matching, we use opencv library to do image matching. 
-Second part is image, support the following attrbiutes:  
+Image locator contians two parts.  
+The first part is anchor element. during running, will first try to find the anchor element, and then capture anchor image depens on the image method attrbiute, try find the target image in anchor image through image matching, we use opencv library to do image matching. 
+Second part is image, supporting the following attrbiutes:  
 
 | Name      | Description | equals | contains |startWith |endWith |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
@@ -43,9 +43,9 @@ Second part is image, support the following attrbiutes:
 | timeout |Specifies the maximum time interval to do image matching, default value is 5000 milliseconds  |<font color=Green><B>Yes</B></font>   |<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|<font color=Red><B>No</B></font>|
 
 the definition of method:
-- HighestAccuracy: compare the image to be found in whole windows screen
-- InRegionHighestAccuracy: compare the image to be found in anchor element area
-- OutRegionHighestAccuracy: comapre the image to be found out of the anchor element area
+- HighestAccuracy: compare the images found in whole windows screen
+- InRegionHighestAccuracy: compare the images found in anchor element area
+- OutRegionHighestAccuracy: comapre the images found out of the anchor element area
 
 `method` attrbiute is auto set during recording based on the selection area corresponding to the anchor area,  
 if the selection area is inside the anchor element area, will be set to 'InRegionHighestAccuracy';  

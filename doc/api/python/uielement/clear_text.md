@@ -12,8 +12,8 @@ Clear the element's text.
 **Parameters:**  
      &emsp;**clear_method**: ClearMethod  
         &emsp;&emsp; the method to clear text for the target element  
-        &emsp;&emsp; `controlclearvalue`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or it will be failed    
-        &emsp;&emsp; `sendhotkey`: if clear_method is set to "sendhotkey", then use this parameter to specify the hotkey pattern. 
+        &emsp;&emsp; `set_property`: clear the target element's text by setting its property.    
+        &emsp;&emsp; `send_hotkey`: clear text by sending hotkey to the target element. "clear_hotkey" and "preaction" parameters also need to be specified accordingly.  
     &emsp;**clear_hotkey**: ClearHotKey  
         &emsp;&emsp; clear hotkey, default is `{CTRL}{A}{DELETE}`  
         &emsp;&emsp; `{CTRL}{A}{DELETE}`: send the combined hotkey "{CTRL}{A}" first, then send hotkey "{DELETE}"  

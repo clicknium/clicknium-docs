@@ -8,7 +8,7 @@ Send text to current cursor's position.
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  
-        &emsp;&emsp; text string, is sent to be input  
+        &emsp;&emsp; text string is to be input  
 
 **Returns:**  
     &emsp;None
