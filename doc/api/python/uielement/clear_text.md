@@ -11,9 +11,9 @@ Clear the element's text.
 
 **Parameters:**  
      &emsp;**clear_method**: ClearMethod  
-        &emsp;&emsp; clear method, the method to clear text for the target element  
+        &emsp;&emsp; the method to clear text for the target element  
         &emsp;&emsp; `controlclearvalue`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or it will be failed    
-        &emsp;&emsp; `sendhotkey`:  through send hotkey to clear text on the target element, need specify "clear_hotkey" parameter  
+        &emsp;&emsp; `sendhotkey`: if clear_method is set to "sendhotkey", then use this parameter to specify the hotkey pattern. 
     &emsp;**clear_hotkey**: ClearHotKey  
         &emsp;&emsp; clear hotkey, default is `{CTRL}{A}{DELETE}`  
         &emsp;&emsp; `{CTRL}{A}{DELETE}`: send the combined hotkey "{CTRL}{A}" first, then send hotkey "{DELETE}"  
@@ -22,14 +22,14 @@ Clear the element's text.
     &emsp;**preaction**:  
         &emsp;&emsp; pre action, action should be taken on the target element before clear text  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, The unit is second. Default set is 30 seconds.  
+        &emsp;&emsp; timeout for the operation, The unit is second. Default is 30 seconds.  
 
 **Returns:**  
     &emsp;None
 
 **Example:**
 ***
-- Desktop file saveas dialog   
+- Desktop file save as dialog   
 ![sample1](../../../img/clear_text_sample1.png)  
 For the file saveas dialog, use clear_text to clear the existing content in filename input box as the control supports ValueAction, "controlclearvalue" method can be used.
 

@@ -3,9 +3,9 @@
         self,
         click_type: Literal["click", "up", "down"] = ClickType.Click,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
-        click_location: Literal["center", "lefttop", "leftbottom", "righttop","rightbuttom"] = ClickLocation.Center,
+        click_location: Literal["center", "lefttop", "leftbottom", "righttop","rightbottom"] = ClickLocation.Center,
         click_method: Union[Literal["default", "mouseemulation", "controlinvocation"], ClickMethod] = ClickMethod.Default,
-        modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
+        modifier_key: Literal["none", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         xoffset: int = 0,
         yoffset: int = 0,
         xrate: int = 0,
@@ -13,15 +13,15 @@
         timeout: int = 30
     ) -> None***  
 
-Click an element by single click, up click or down click.  
+Performing mouse action on target element: single click, mouse key up or mouse key down.  
 
 **Parameters:**  
     &emsp;**click_type**: ClickType   
-        &emsp;&emsp; click type for single click, up and down  
+        'click': default value, single click the target element; 'up': mouse key up on the target element; 'down': mouse key down on the target element; 
     &emsp;**mouse_button**: MouseButton  
-        &emsp;&emsp; mouse button is set to define the mouse button to click. Default value is left. It will click the left mouse button. 
+        &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'. 
     &emsp;**click_location**: ClickLocation  
-        &emsp;&emsp; click location is set to define the element position to click. Default value is center. It will click the element's central position. 
+        &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'lefttop', 'leftbottom', 'righttop' and 'rightbottom'. Default is 'center'.
     &emsp;**click_method**: ClickMethod  
         &emsp;&emsp; click method is set to choose which method to use when clicking the element. Default vaule is default. 
         &emsp;&emsp; `mouseemulation`: perform mouse emulator, move the mouse to the target element and click  
