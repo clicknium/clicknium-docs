@@ -2,7 +2,7 @@
 
 - extends: [InvalidOperationError](./doc/api/python/exceptions/invalidoperationerror.md)
 
-**InvalidSelectedItemError is raised when a method call is valid for the object, but the set value is invalid for the object's current value. ex: can not select an invalid item for select item method.**
+**InvalidSelectedItemError is raised when a method call is valid for the object, but the set value is invalid for the object's current value. Eg: can not select an invalid item for selecting item method.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)

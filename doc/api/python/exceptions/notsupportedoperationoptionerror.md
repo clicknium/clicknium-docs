@@ -2,7 +2,7 @@
 
 - extends: [NotSupportedOperationError](./doc/api/python/exceptions/notsupportedoperationerror.md)
 
-**NotSupportedOperationOptionError is raised when an invoked method is supported for the target, but the specified option value is not supported. ex: can not clear text for desktop uielement with clear method option set to `ControlClearValue`.**
+**NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element. Eg: can not clear text for desktop UiElement with clear method option set to `ControlClearValue`.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -27,19 +27,19 @@ Stack of the exception which got raised inside the exception.
 ### automation_tech
 - type: str
 
-Type of automation recorder technology. The supported technologies are "uia", "ia", "java", "ie", "chrome", "firefox", "edge" and "sap".
+Type of automation recorder technology. The supporting recorder technologies are as follows "UIA", "IA", "Java", "IE", "Chrome", "Firefox", "Edge" and "SAP".
 
 ### control_type
 - type: str
 
-Control type of target element. ex: "Button", "Edit", "Document", "CheckBox", "Image", and the "Image" is specified for image uielment.
+Control type of target element. Eg: "Button", "Edit", "Document", "CheckBox", "Image", and the "Image" is specified for image UiElement.
 
 ### operation
 - type: str
 
-Operation method of the target element. ex: "click", "check", "highlight".
+Operation methods of the target element. Eg: "click", "check", "highlight".
 
 ### option
 - type: str
 
-Option of the operation. ex: `ControlClearValue` is the option for "clear_text" operation's "clear_method".
+Option for the operation. Eg: `ControlClearValue` is the option for "clear_text" operation's "clear_method".

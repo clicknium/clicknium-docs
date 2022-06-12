@@ -3,6 +3,7 @@
 **Java class provides methods to getting java extension object and java extension class provides install/uninstall java extension.**
 
 ## extension <!-- {docsify-ignore} -->
+
 - You can get java extension by the following way.
     - import
   ```

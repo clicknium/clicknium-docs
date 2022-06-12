@@ -2,7 +2,7 @@
 
 - extends: [WebError](./doc/api/python/exceptions/weberror.md)
 
-**WebElementNotRespondingError is raised when browser's visiting page is not responding.**
+**WebElementNotRespondingError is raised when the web page is not responding.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -24,4 +24,4 @@ Stack of the exception which got raised inside the exception.
 ### browser_type
 - type: str
 
-Type of the browser. The supported browsers are "ie", "chrome", "firefox" and "edge".
+Type of the browsers. The supporting browsers are as follows, "IE", "Chrome", "Firefox" and "Edge".
