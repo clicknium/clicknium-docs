@@ -9,21 +9,21 @@
         timeout: int = 30
     ) -> None***
 
-Save target element's screenshot to file with specified size and offset.
+Save target element's screenshot to file with the specified size and offset.
 
 **Parameters:**   
     &emsp;**image_file[Required]**: str  
         &emsp;&emsp; file path to save image  
     &emsp;**img_width**: int  
-        &emsp;&emsp; image width. Default 0, will use target element's screenshot real width  
+        &emsp;&emsp; image width. When default is 0, target element's screenshot real width will be uesed.
     &emsp;**img_height**: int  
-        &emsp;&emsp; image height. Default 0, will use target element's screenshot real height  
+        &emsp;&emsp; image height. When default is 0, target element's screenshot real height will be used.
     &emsp;**xoffset**:  int  
-        &emsp;&emsp; offset of X-Axis, Default 0, means not offset  
+        &emsp;&emsp; offset of X-Axis, When default is 0, it means no offset.  
     &emsp;**yoffset**: int  
-        &emsp;&emsp; offset of Y-Axis, Default 0, means not offset  
+        &emsp;&emsp; offset of Y-Axis, When default is 0, it means no offset.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds. 
 
 **Returns:**  
     &emsp;None

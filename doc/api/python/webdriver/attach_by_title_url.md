@@ -12,16 +12,16 @@ Attach to the broswer with specified title or url.
 
 **Parameters:**  
     &emsp;**title**: str   
-        &emsp;&emsp; title string, current web page's title. It supports wildcard  
+        &emsp;&emsp; title string, current web page's title, supporting wildcard.  
     &emsp;**url**: str  
-        &emsp;&emsp; url string, current web page's url. It supports wildcard  
+        &emsp;&emsp; url string, current web page's url, supporting wildcard. 
     &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window. Default is True  
+        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window. Default is True. 
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds.
 
 **Returns:**  
-    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can use the browser to do the following operation: find_element, close_tab, refresh and so on
+    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can execute following operations in the browser: find_element, close_tab, refresh and so on.
 
 **Example:**
 ***

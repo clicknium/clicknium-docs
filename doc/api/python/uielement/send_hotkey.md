@@ -6,15 +6,15 @@
         timeout: int = 30
     ) -> None***  
 
-Send hot key based on target element.  
+Send hot key based on target element  
 
 **Parameters:**  
     &emsp;**hotkey [Required]**: str   
-        &emsp;&emsp; hotkey string, can be one key or combined keys, each key is represented by one or more characters. To specify a single keyboard character, use the character itself. For example, to represent the letter A, pass in the string "A" to the method. To represent more than one character, append each additional character to the one preceding it. To represent the letters A, B, and C, specify the parameter as "ABC". For special keys, please refer to [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks)  
+        &emsp;&emsp; hotkey string, one key or combined keys, Each key is represented by one or more characters. To specify a single keyboard character, use the character itself. For example, representing the letter A, pass in the string "A" to the method. Representing more than one character, append each additional character to the one preceding it. Representing the letters A, B, and C, specify the parameter as "ABC". For special keys, please refer to [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks)  
     &emsp;**preaction**: PreAction  
-        &emsp;&emsp; before send hotkey, which action should be taken on the target element   
+        &emsp;&emsp; Which action should be taken on the target element  before sending hotkey.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds 
+        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.
 
 **Returns:**  
     &emsp;None

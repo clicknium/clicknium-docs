@@ -6,23 +6,23 @@
         timeout: int = 30
     ) -> List[UiElement]***  
 
-Find elements by the given locator.  
+Find elements in the given locator.  
 
 > **Remarks:**  
-It should be used like `clicknium.chrome.open("https://bing.com").find_elements()`, it is different with `clicknium.find_elements()` [clicknium.find_elements](./doc/api/python/find_elements.md) when locating the ui elements.
->- `clicknium.find_elements()` is for both web and desktop's uielements, and does not specified a scope to locate the elements
->- `clicknium.chrome.open("https://bing.com").find_elements()` will locate elements in the specified browser
+Use the following method, `clicknium.chrome.open("https://bing.com").find_elements()`, which is different with the method`clicknium.find_elements()` [clicknium.find_elements](./doc/api/python/find_elements.md) when locating the UI elements.
+>- `clicknium.find_elements()` is for  UiElements of both web and desktop, and does not specify a scope to locate the elements.
+>- `clicknium.chrome.open("https://bing.com").find_elements()` will locate elements in the specified browser.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds
+        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds.
 
 **Returns:**  
-    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, you can use the uielement to do the following operation, such as click, set_text, before operating, it will try locate the element to verify whether the element exist
+    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, ou can operate as the following with the UiElement, such as click, set_text.It will locate the element to verify whether the element exists before operating.
 
 **Example:**
 ***

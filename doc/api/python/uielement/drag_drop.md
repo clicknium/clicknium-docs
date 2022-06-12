@@ -7,7 +7,7 @@
         timeout: int = 30
     ) -> None***  
 
-Holds down the left mouse button on the source element, then moves to the target offset and releases the mouse button. 
+Hold down the left mouse button on the source element, then move to the target offset and release the mouse button. 
 
 **Parameters:**  
     &emsp;**xpoint**: int    
@@ -17,7 +17,7 @@ Holds down the left mouse button on the source element, then moves to the target
     &emsp;**speed**: int  
         &emsp;&emsp; drag speed. The unit of parameter is ms/10px. Default is 50  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
+        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.  
 
 **Returns:**  
     &emsp;None
@@ -37,10 +37,10 @@ Holds down the left mouse button on the source element, then moves to the target
 
 - move scroll bar of notepad  
 ![sample1](../../../img/drap_drop_sample1.png)  
-if you need scroll down 50 pixels, can invoke like this: `ui(locator.notepad.thumb_scrollbart).drag_drop(0, 50)`  
+If you need scroll down 50 pixels, invoke like this: `ui(locator.notepad.thumb_scrollbart).drag_drop(0, 50)`  
 ![sample1](../../../img/drap_drop_sample1_2.png)  
 
-- move slipper from left to right  
+- move slider from left to right  
 ![sample2](../../../img/drap_drop_sample2_1.png)  
-if you need scroll right 20 pixels, can invoke like this: `ui(locator.uiautomationwpfd.thumb_thumb).drag_drop(20, 0)`  
+If you need scroll right 20 pixels, invoke like this: `ui(locator.uiautomationwpfd.thumb_thumb).drag_drop(20, 0)`  
 ![sample2](../../../img/drap_drop_sample2_2.png)  

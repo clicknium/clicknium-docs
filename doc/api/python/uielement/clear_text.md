@@ -11,28 +11,27 @@ Clear the element's text.
 
 **Parameters:**  
      &emsp;**clear_method**: ClearMethod  
-        &emsp;&emsp; clear method, the method to clear text for the target element  
-        &emsp;&emsp; `controlclearvalue`: invoke the action on the target element, for web element, perform through javascript; for desktop element, it should support the action, or will be failed    
-        &emsp;&emsp; `sendhotkey`:  through send hotkey to clear text on the target element, need specify "clear_hotkey" parameter  
+        &emsp;&emsp; the method to clear text for the target element  
+        &emsp;&emsp; `set_property`: clear the target element's text by setting its property.    
+        &emsp;&emsp; `send_hotkey`: clear text by sending hotkey to the target element. "clear_hotkey" and "preaction" parameters also need to be specified accordingly.  
     &emsp;**clear_hotkey**: ClearHotKey  
-        &emsp;&emsp; clear hotkey, default is `{CTRL}{A}{DELETE}`  
+        &emsp;&emsp; if clear_method is set to "send_hotkey", then specify hotkey with this parameter, default is `{CTRL}{A}{DELETE}`  
         &emsp;&emsp; `{CTRL}{A}{DELETE}`: send the combined hotkey "{CTRL}{A}" first, then send hotkey "{DELETE}"  
         &emsp;&emsp; `{END}{SHIFT}{HOME}{DELETE}`: send the hotkey "{END}" first, then send combined hotkey "{SHIFT}{HOME}, then send hotkey "{DELETE}"  
         &emsp;&emsp; `{HOME}{SHIFT}{END}{DELETE}`: send the hotkey "{HOME}" first, then send combined hotkey "{SHIFT}{END}, then send hotkey "{DELETE}"  
-    &emsp;**preaction**:  
-        &emsp;&emsp; pre action, before clear text, which action should be taken on the target element   
+    &emsp;**preaction**: PreAction
+        &emsp;&emsp; pre action, action should be taken on the target element before clear text  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds  
+        &emsp;&emsp; timeout for the operation, The unit is second. Default is 30 seconds.  
 
 **Returns:**  
     &emsp;None
 
 **Example:**
 ***
-- Desktop file saveas dialog   
+- Desktop file "Save As" dialog   
 ![sample1](../../../img/clear_text_sample1.png)  
-For the file saveas dialog, filename input box can use clear_text to clear the existing content,
-as the control support ValueAction so can use "controlclearvalue" method
+For the file "Save As" dialog, use clear_text to clear the existing content in "File name" input box, the clear_method can be set to "set_property" in this case.
 
 
 ```python
@@ -42,7 +41,7 @@ as the control support ValueAction so can use "controlclearvalue" method
 
 - Wechat message input box  
 ![sample1](../../../img/clear_text_sample2.png)  
-the Ui element don't support "controlclearvalue", if need clear text, can use the following way  
+The UI element does not support "set_property". If there is a need to clear text, use the following way.  
 
 ```python
     from clicknium import clicknium as cc, locator, ui  

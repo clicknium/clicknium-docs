@@ -10,30 +10,30 @@
         timeout: int = 30
     ) -> Browser***  
 
-Open browser with specified website and get a browser object.
+Open browser with specified website to get a browser object
 
 >**Remarks:**  
->- When you use the open function and run the python script with VSCode's "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)", the opened browser will be closed after the run is finished. 
+>- When you use the function open and run the python script with VSCode's "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)", the open browser will be closed.
 
 **Parameters:**  
     &emsp;**url[Required]**: str   
         &emsp;&emsp; website string, ex: <https://www.bing.com>  
     &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window. Default is True  
+        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window. Default is True. 
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for a broswser to load completely. Default is True  
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely. Default is True. 
     &emsp;**userdata_folder_mode**: WebUserDataMode  
-        &emsp;&emsp; userdata_folder_mode define whether to use custom user data folder when opening browser  
-        &emsp;&emsp; **Automatic**：it means use user data folder automatically  
-        &emsp;&emsp; **DefaultFolder**：it means use default user data folder  
-        &emsp;&emsp; **CustomFolder**： it means we will use the folder you specified with parameter 'userdata_folder_path'  
+        &emsp;&emsp; userdata_folder_mode defines whether using customized user data folder when opening the browser.  
+        &emsp;&emsp; **Automatic**：use user data folder automatically  
+        &emsp;&emsp; **DefaultFolder**：use default user data folder  
+        &emsp;&emsp; **CustomFolder**：use the folder specified with parameter 'userdata_folder_path'  
     &emsp;**userdata_folder_path**: str  
         &emsp;&emsp; user data's folder path  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, unit is second, default value is 30 seconds 
+        &emsp;&emsp; timeout for the operation, Unit is second,and default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can use the browser to do the following operation: find_element, close_tab, refresh and so on
+    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can execute the following operation in the browser, such as: find_element, close_tab, refresh and so on.
 
 **Example:**
 ***

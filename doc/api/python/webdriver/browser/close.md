@@ -2,7 +2,7 @@
 
 ***def close(self) -> None***  
 
-Close browser.
+Close the browser
 
 **Parameters:**  
     &emsp;None
