@@ -22,7 +22,7 @@ Clear the element's text.
     &emsp;**preaction**: PreAction
         &emsp;&emsp; pre action, action should be taken on the target element before clear text  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, The unit is second. Default is 30 seconds.  
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;None

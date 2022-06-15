@@ -11,7 +11,7 @@ Select one option for the target.
     &emsp;**item [Required]**: str   
         &emsp;&emsp; option of the dropdown control, The control suppors selection, such as selecting element in web, or combobox in desktop appication. 
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.   
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
     &emsp;None

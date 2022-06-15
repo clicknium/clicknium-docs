@@ -19,9 +19,9 @@ Open browser with specified website to get a browser object
     &emsp;**url[Required]**: str   
         &emsp;&emsp; website string, ex: <https://www.bing.com>  
     &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window. Default is True. 
+        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window, and the default value is True. 
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely. Default is True. 
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely, and the default value is True. 
     &emsp;**userdata_folder_mode**: WebUserDataMode  
         &emsp;&emsp; userdata_folder_mode defines whether using customized user data folder when opening the browser.  
         &emsp;&emsp; **Automatic**：use user data folder automatically  
@@ -30,10 +30,10 @@ Open browser with specified website to get a browser object
     &emsp;**userdata_folder_path**: str  
         &emsp;&emsp; user data's folder path  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, Unit is second,and default value is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second,and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can execute the following operation in the browser, such as: find_element, close_tab, refresh and so on.
+    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can execute the following operation in the browser such as, find_element, close_tab, refresh and so on.
 
 **Example:**
 ***

@@ -16,9 +16,9 @@ Attach to the broswer with specified title or url.
     &emsp;**url**: str  
         &emsp;&emsp; url string, current web page's url, supporting wildcard. 
     &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window. Default is True. 
+        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window, and the default value is True. 
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds.
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can execute following operations in the browser: find_element, close_tab, refresh and so on.

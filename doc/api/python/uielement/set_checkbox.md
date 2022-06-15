@@ -11,7 +11,7 @@ Check operation on target element
     &emsp;**check_type**: str | CheckType   
         &emsp;&emsp; set options for checking operation, "check", "uncheck" or "toggle"  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.   
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
     &emsp;None

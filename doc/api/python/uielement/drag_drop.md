@@ -15,9 +15,9 @@ Hold down the left mouse button on the source element, then move to the target o
     &emsp;**ypoint**: int   
         &emsp;&emsp; pixels of X-Axis will be moved  
     &emsp;**speed**: int  
-        &emsp;&emsp; drag speed. The unit of parameter is ms/10px. Default is 50  
+        &emsp;&emsp; drag speed, the unit is ms/10px, and the default value is 50  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.  
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;None

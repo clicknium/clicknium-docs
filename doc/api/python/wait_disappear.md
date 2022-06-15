@@ -13,7 +13,7 @@ Wait for the element to disappear.
     &emsp;**locator_variables**: dict  
         &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait timeout for the operation, unit is second, and default value is 30 seconds. 
+        &emsp;&emsp; wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;bool, return True if the element disappears or return False

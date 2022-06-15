@@ -10,9 +10,9 @@ Refresh the current browser
 
 **Parameters:**  
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to fully load. Default is True.  
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely, and the default value is True.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, Unit is second, ana default value is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second, ana default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

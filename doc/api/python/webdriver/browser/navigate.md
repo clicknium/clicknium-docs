@@ -13,9 +13,9 @@ In current open browser, navigate to other website.
     &emsp;**url[Required]**: str   
         &emsp;&emsp; website string, eg: <https://www.bing.com>  
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely. Default is True. 
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely, and the default value is True. 
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

@@ -14,7 +14,7 @@ Select multiple options for the target.
     &emsp;**clear_selected**: bool  
         &emsp;&emsp; Whether deselect the selected options of target control or not, default is True.    
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.   
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
     &emsp;None

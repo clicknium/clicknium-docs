@@ -5,7 +5,7 @@ Hover on the element, The mouse will move upon the element for a while.
 
 **Parameters:**    
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.  
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;None

@@ -35,7 +35,7 @@ Click an element with double click.
     &emsp;**yrate**: int  
         &emsp;&emsp; y rate percent sets the click position based on click_location. When default value is 0, it means no offset. If xrate is 1, it means Y of click postion move to right, and the distance is element's height pixsels.   
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit is second. Default set is 30 seconds.  
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;None

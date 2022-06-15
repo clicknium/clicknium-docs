@@ -11,7 +11,7 @@ Get property value of the element.
     &emsp;**name [Required]**: str  
         &emsp;&emsp; property name, Different UI elements may support different property list. For general property list, please refer to [property list](./doc/automation/property.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds  
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds  
 
 **Returns:**  
     &emsp;str

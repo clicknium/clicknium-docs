@@ -24,7 +24,7 @@ Login in sap application.
     &emsp;**password[Required]**: str  
         &emsp;&emsp; password string, sap application password  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

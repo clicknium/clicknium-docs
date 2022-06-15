@@ -19,7 +19,7 @@ Wait for the element to appear and the value of specified property is the same a
     &emsp;**locator_variables**: dict  
         &emsp;&emsp; locator variables, is set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait timeout for the operation, unit is second, default value is 30 seconds. 
+        &emsp;&emsp; wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;bool, return True if UI element exists and the property value equals the expected one, or return False

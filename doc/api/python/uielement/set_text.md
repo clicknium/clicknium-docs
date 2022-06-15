@@ -18,7 +18,7 @@ Set text for the target element
         &emsp;&emsp; `keyboardsimulatewithsetfocus`: set focus on the target element first and then input text through keyboard simulate  
         &emsp;&emsp; `default`: for web element, use `controlinvocation`; for desktop element, use `keyboardsimulatewithclick`  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is seconds. Default is set to 30 seconds
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;None

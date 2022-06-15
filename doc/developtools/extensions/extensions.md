@@ -4,7 +4,7 @@
 
 ## Browser Extensions
 
-The supported browsers are Chrome, Microsoft Edge, Firefox. You can automate these browsers by install extensions.
+ You can automate the supporting browsers, Chrome, Microsoft Edge and Firefox by installing the extensions.
 
 [Install Chrome extension](./doc/developtools/extensions/chromeextension.md)  
 [Install Microsoft Edge extension](./doc/developtools/extensions/edgeextension.md)  
@@ -12,6 +12,6 @@ The supported browsers are Chrome, Microsoft Edge, Firefox. You can automate the
 
 
 ## Java Extension
-The supported Java applications are Java 1.6 or higher. You can automate these Java applications by install extension.
+You can automate the supporting Java applications, Java 1.6 or higher by install extension.
 
 [Install Java extension](./doc/developtools/extensions/javaextension.md)  

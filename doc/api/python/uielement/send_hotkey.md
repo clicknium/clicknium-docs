@@ -14,7 +14,7 @@ Send hot key based on target element
     &emsp;**preaction**: PreAction  
         &emsp;&emsp; Which action should be taken on the target element  before sending hotkey.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit of parameter is second. Default set is 30 seconds.
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;None

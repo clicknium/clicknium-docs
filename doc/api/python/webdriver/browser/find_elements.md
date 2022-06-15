@@ -19,7 +19,7 @@ Use the following method, `clicknium.chrome.open("https://bing.com").find_elemen
     &emsp;**locator_variables**: dict  
         &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, Unit is second, and default value is 30 seconds.
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, ou can operate as the following with the UiElement, such as click, set_text.It will locate the element to verify whether the element exists before operating.

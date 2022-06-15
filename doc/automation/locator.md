@@ -1,7 +1,7 @@
 # Locator<!-- {docsify-ignore-all} -->
 
   - [Overview](#overview)
-  - [Uia](#uia)
+  - [UIA](#uia)
   - [IA](#ia)
   - [Web Automation](#web-automation)
     - [Tab](#tab)
@@ -10,28 +10,28 @@
     - [wildword locator](#wildword-locator)
 
 ## Overview 
-Ui element locator is a string, actually XML fragment, content is in the following format:
+UI element locator is a string, XML fragment in the following formats,
 <Application .../><Uia .../>/<Uia .../>  
 <Application .../><Tab .../>/<Web .../>  
-include all information to locate the element.
+with all information to locate the element.
 First node `Application` contains attributes of the target application
 <Application processName="notepad" filePath="notepad.exe" version="1.3" />  
 
 | Name      | Description |
 | ----------- | ----------- |
 | processName      |  name of the target process   |
-| filePath      |  the process file name, can ignore during locate element  |
+| filePath      |  the name of process file, can be ignored when locating element  |
 | version      |  clicknium locator schema version   |  
 
-The last node contains the atrtbiutes of the targe Ui element.
+The last node contains the attibutes of the target UI element.
 The nodes between `Application` and the last node are the parent or ancestor of the target element.
 
-The attributes in locator are used to identity the target element, the operator of attribute value is `equals` as default, we support the following operators:
+The attributes in locator are used to identify the target element. The operator of attribute value is `equals` by default, and we support the following operators:
 `equals`, `contains`, `startWith`, `endWith`.  
-Some attributes support wildword search, for example `name='test?_node*`. '?' match 1 character, '*' match 0 or more characters.  Only those attributes who support wildword search can use `contains`, `startWith`, `endWith`.  
-Due to we support different automation technologies, they may have diffrent tag and attributes collection in locator schema. Here we list the attributes of each tag.  
+The attributes only supporting wildword search, for example `name='test?_node*`. '?' match 1 character, '*' match 0 or more characters can use `contains`, `startWith`, `endWith`.  
+As Clicknium supports different automation technologies, shown as diffrent tags and attributes collection in locator schema, here we list the attributes of each tag.  
 
-## Uia
+## UIA
 | Name      | equals | contains |startWith |endWith |
 | ----------- | ----------- |----------- |----------- |----------- |
 | Name |  <font color=Green><B>Yes</B></font>   |<font color=Green><B>Yes</B></font>|<font color=Green><B>Yes</B></font>|<font color=Green><B>Yes</B></font>|
@@ -99,9 +99,9 @@ Due to we support different automation technologies, they may have diffrent tag 
 
 ## Examples
 ### wildword locator
-Open Edge browser, press `F12` to show developer tool sidebar, you can see the 'Toggle device emulation' button.  
+Open Edge browser, press `F12` to show developer tool sidebar, you can see the button 'Toggle device emulation'.
 ![sample1](../img/locator_sample1_1.png)  
-If you record the locator of 'Toggle device emulation' button, you can see the following locator
+If you record the locator of button 'Toggle device emulation', you can see the following locators.
 
 - normal mode  
   
@@ -110,11 +110,11 @@ If you record the locator of 'Toggle device emulation' button, you can see the f
 
 ![sample1](../img/locator_sample1_3.png)  
 
-attribute classname is dynamic, so how to stable identify the 'Toggle device emulation' button? you can leverage wildword locator  
+The attribute of classname is dynamic. To stabilize identification of button 'Toggle device emulation', you can leverage wildword locator.  
 ![sample1](../img/locator_sample1_4.png) 
 
-then in both mode, the button can be located succesfully.
-And you can through get_property to know the current mode  
+In both modes, the button can be located successfully.
+And you can know the current mode through get_property. 
 ```
 from clicknium import clicknium as cc, ui, locator
 
@@ -125,7 +125,7 @@ else:
     print('mobile emulation mode')
 ```
 
-The following cases can consider wildword locator:
+The following cases can be considered as wildword locator:
 - the window title is dynamic, for example the title includes version string, but application version can be upgraded
 - the url of the web page is dynamic
 - value of the attribute is dynamic

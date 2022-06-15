@@ -21,7 +21,7 @@ Performing mouse action on target element: single click, mouse key up or mouse k
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'. 
     &emsp;**click_location**: ClickLocation  
-        &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'lefttop', 'leftbottom', 'righttop' and 'rightbottom'. Default is 'center'.
+        &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'lefttop', 'leftbottom', 'righttop' and 'rightbottom', and the default value is 'center'.
     &emsp;**click_method**: ClickMethod  
         &emsp;&emsp; click method is set to choose which method to use when clicking the element. Default vaule is default. 
         &emsp;&emsp; `mouseemulation`: perform mouse emulator, move the mouse to the target element and click  
@@ -38,7 +38,7 @@ Performing mouse action on target element: single click, mouse key up or mouse k
     &emsp;**yrate**: int  
         &emsp;&emsp; y rate percent sets the click position based on click_location. When default value is 0, it means no offset. If xrate is 1, it means Y of click postion move to right. The distance is element's height pixsels.   
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation. The unit is second. Default set is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None
