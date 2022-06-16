@@ -27,7 +27,7 @@ Currently we provide Python SDK. If other programming languages are required, pl
 ### Install Clicknium Visual Studio Code extension
 Click the following link to install [Clicknium Visual Studio Code extension](),
 After installation, you need sign in to ClickCorp  
-![login](/doc/img/login1.png "login")  
+![login](https://clickcorp.github.io/clicknium-docs/doc/img/login1.png "login")  
 Click 'Allow' to open ClickCorp website to sign up and sign in, we support 'Sign in with Google and GitHub' too.
 
 ### Install Clicknium python module
@@ -55,7 +55,7 @@ pip install clicknium
 Then project is created, you need to reference the cloud locator first:
 Click 'Clicknium Explorer' from VS Code Activity Bar
 Show 'CLOUD LOCATORS' view from VS Code Side Bar, click the 'reference' button on the right side of the locator store  
-![locator ref](/doc/img/locator_ref.png "locator ref")  
+![locator ref](https://clickcorp.github.io/clicknium-docs/doc/img/locator_ref.png "locator ref")  
 
 The default project contains two automation samples, one is Edge web automation, another is notepad automation.
 ```
@@ -92,11 +92,11 @@ Input or select: `Clicknium: Run` to run project or `Clicknium: Debug` to debug 
 
 # Record UI Locators
 In Visual Studio Code, press `Ctrl+F10` will invoke clicknium recorder and minimize current Visual Studio Code window.  
-![clicknium recorder](/doc/img/recorder_main.png)
+![clicknium recorder](https://clickcorp.github.io/clicknium-docs/doc/img/recorder_main.png)
 
 After invoking Clicknium Recorder, you can move mouse on the target applicaiton, it will highlight the element recognized, 
 if you want to capture the element, press `Ctrl` and click, the element locator will be added.
 
 # Edit and Validate Locator
 After recording the locators, you can open and edit the locator  
-![clicknium VS code](/doc/img/main.png) 
+![clicknium VS code](https://clickcorp.github.io/clicknium-docs/doc/img/main.png) 
