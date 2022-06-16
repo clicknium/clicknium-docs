@@ -5,7 +5,7 @@
         timeout: int = 30
     ) -> List[UiElement]***  
 
-Find elements in the given locator  
+Find elements in the given locator, currently only supporting web automation.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
@@ -23,8 +23,11 @@ Find elements in the given locator
 ```python
     from clicknium import clicknium as cc, locator, ui
 
-    elements = cc.find_elements(locator.chrome.bing.search_sb_form_q)
+    cc.edge.open("https://www.bing.com/")
+    ui(locator.new_store.sample.bing.search_sb_form_q).set_text('clicknium')
+    ui(locator.new_store.sample.bing.svg).click()
 
-    for ele in elements:
-        ele.highlight()
+    result_elements = ui(locator.new_store.sample.bing.a_search_result)
+    for elem in result_elements:
+        elem.highlight(duration=1)
 ```

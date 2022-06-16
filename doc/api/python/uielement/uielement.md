@@ -1,7 +1,7 @@
 # UiElement <!-- {docsify-ignore-all} -->
 **UiElement class provides common operations for web and desktop's UiElement.**  
 
-## property
+## properties
 
 - `parent`   
     parent elements, return UiElement

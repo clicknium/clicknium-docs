@@ -27,12 +27,12 @@ Use the following method,
 ```python
     from clicknium import clicknium as cc, locator
 
-    browser = cc.chrome.open("https://bing.com")
+    chrome_tab = cc.chrome.open("https://bing.com")
 
     # find element
-    element = browser.find_element(locator.chrome.bing.search_sb_form_q)
+    element = chrome_tab.find_element(locator.chrome.bing.search_sb_form_q)
 
     # parametric locator
     variables = {"name":"test"}
-    element = browser.find_element(locator.chrome.bing.search_sb_form_q, variables)
+    element = chrome_tab.find_element(locator.chrome.bing.search_sb_form_q, variables)
 ```

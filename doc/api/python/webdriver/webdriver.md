@@ -8,12 +8,15 @@
   ```
   from clicknium import clicknium as cc
   ```
-  - cc.chrome.extension: chrome extension
-  - cc.edge.extension: edge extension
-  - cc.firefox.extension: firefox extension
+  - cc.chrome.extension: Chrome extension
+  - cc.edge.extension: Edge extension
+  - cc.firefox.extension: Firefox extension
+
+## Properties <!-- {docsify-ignore} -->
+- browsers: List[[Browser](./doc/api/python/webdriver/browser/browser.md)], get all open browsers by current browser type.
 
 ## methods <!-- {docsify-ignore} -->
 
-- [open](./doc/api/python/webdriver/open.md): open browser with specified website, return [Browser](./doc/api/python/webdriver/browser/browser.md) object
-- [attach](./doc/api/python/webdriver/attach.md): attach to the open browser, return [Browser](./doc/api/python/webdriver/browser/browser.md) object
-- [attach_by_title_url](./doc/api/python/webdriver/attach_by_title_url.md): attach to the broswer with specified title or url, return [Browser](./doc/api/python/webdriver/browser/browser.md) object
+- [open](./doc/api/python/webdriver/open.md): open the browser with specified url, and return [BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md) object.
+- [attach](./doc/api/python/webdriver/attach.md): attach to the open browser, return [BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md) object.
+- [attach_by_title_url](./doc/api/python/webdriver/attach_by_title_url.md): attach to the broswer with specified title or url, return [BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md) object.

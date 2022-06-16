@@ -1,8 +1,10 @@
 # UiElement Property<!-- {docsify-ignore-all} -->
 
-- [Web Element Property](#web-element-property)
-- [UIA Element Property](#uia-element-property)
-- [Java Element Property](#java-element-property)
+- [UiElement Property](#uielement-property)
+  - [Overview](#overview)
+  - [Web Element Property](#web-element-property)
+  - [UIA Element Property](#uia-element-property)
+  - [Java Element Property](#java-element-property)
 
 ## Overview
 Different UI elements support different property lists based on automation technology. The following tables list the properties supported.
@@ -78,7 +80,6 @@ Different UI elements support different property lists based on automation techn
 | Name      | Description |
 | ----------- | ----------- |
 | Name      |name of the user interface |
-|Role| |
 | BoundingRectangle   |the coordinates of the rectangle that completely encloses the element|
 | States    |         |
 | Actions   |         |
@@ -87,8 +88,8 @@ Different UI elements support different property lists based on automation techn
 | Text   |         |
 | Value   |         |
 | Table   |         |
-| IndexInParent   |         |
-| IsKeyboardFocusable   |         |
-| IsEditable   |         |
-| IsOffscreen   | whether the UI Automation element is visible on the screen(true when the control is not visible; otherwise false)|
+| IndexInParent   | the index of current UI element in parent element |
+| IsKeyboardFocusable   |  whether the UI element can accept keyboard focus |
+| IsEditable   |  whether the UI element is editable or not |
+| IsOffscreen   | whether the UI element is visible on the screen(true when the control is not visible; otherwise false)|
 | ProcessId   |the process identifier (ID) of this element|

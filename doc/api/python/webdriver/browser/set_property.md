@@ -31,13 +31,13 @@ Wait for the element to appear and set its specified property with specified val
 ```python
 from clicknium import clicknium as cc, locator
 
-browser = cc.chrome.open("https://bing.com")
+chrome_tab = cc.chrome.open("https://bing.com")
 
 # set the web propery with specified value
-browser.set_property(locator.chrome.bing.search_sb_form_q, "tag", "search_tag")
+chrome_tab.set_property(locator.chrome.bing.search_sb_form_q, "tag", "search_tag")
 
 # parametric locator
 variables = {"name":"test"}
-browser.set_property(locator.chrome.bing.search_sb_form_q, "tag", "search_tag", variables)
+chrome_tab.set_property(locator.chrome.bing.search_sb_form_q, "tag", "search_tag", variables)
 
 ```

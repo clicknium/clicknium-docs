@@ -29,13 +29,13 @@ It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear
 ```python
 from clicknium import clicknium as cc, locator
 
-browser = cc.chrome.open("https://bing.com")
+chrome_tab = cc.chrome.open("https://bing.com")
 
 # wait element disappear
-browser.wait_disappear(locator.chrome.bing.search_sb_form_q)
+chrome_tab.wait_disappear(locator.chrome.bing.search_sb_form_q)
 
 # parametric locator
 variables = {"name":"test"}
-browser.wait_disappear(locator.chrome.bing.search_sb_form_q, variables)
+chrome_tab.wait_disappear(locator.chrome.bing.search_sb_form_q, variables)
 
 ```

@@ -51,8 +51,8 @@ The UI element does not support "set_property". If there is a need to clear text
 
 - Web input
 ```python
-driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
-driver.find_element(locator.chrome.getbootstrap.text).set_text("hello")
-driver.find_element(locator.chrome.getbootstrap.text).clear_text(clear_method=ClearMethod.ControlClearValue)
+chrome_tab = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+chrome_tab.find_element(locator.chrome.getbootstrap.text).set_text("hello")
+chrome_tab.find_element(locator.chrome.getbootstrap.text).clear_text(clear_method=ClearMethod.ControlClearValue)
 
 ```

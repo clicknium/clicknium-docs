@@ -30,12 +30,12 @@ Use the following method, `clicknium.chrome.open("https://bing.com").is_exist()`
 ```python
     from clicknium import clicknium as cc, locator, ui
 
-    browser = cc.chrome.open("https://bing.com")
+    chrome_tab = cc.chrome.open("https://bing.com")
 
     # check element if exist
-    browser.is_exist(locator.chrome.bing.search_sb_form_q)
+    chrome_tab.is_exist(locator.chrome.bing.search_sb_form_q)
 
     # parametric locator
     variables = {"name":"test"}
-    browser.is_exist(locator.chrome.bing.search_sb_form_q, variables)
+    chrome_tab.is_exist(locator.chrome.bing.search_sb_form_q, variables)
 ```

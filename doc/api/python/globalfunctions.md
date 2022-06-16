@@ -8,10 +8,10 @@
 
 ## driver <!-- {docsify-ignore} -->
 - web driver, get web driver with different browserS by the following way, currently supporting  IE, Chrome, Edge, Firefox
-  - `cc.ie`: ie web driver
-  - `cc.chrome`: chrome web driver
-  - `cc.edge`: edge web driver
-  - `cc.firefox`: firefox web driver
+  - `cc.ie`: IE web driver
+  - `cc.chrome`: Chrome web driver
+  - `cc.edge`: Edge web driver
+  - `cc.firefox`: Firefox web driver
 
   &emsp;the [Webdriver](./doc/api/python/webdriver/webdriver.md) can be used to operate browser, eg: open new browser, attach to existing browser window
 - window driver, `cc.window` return driver for [Window](./doc/api/python/window/window.md), window driver can be used to operate on the application window or dialog, eg: maximize, minimize or restore the window

@@ -37,8 +37,8 @@ Execute javascript code snippet for the target element
     from clicknium import clicknium as cc
 
     # open chrome browser
-    chrome_browser = cc.chrome.open("https://www.bing.com")
+    chrome_tab = cc.chrome.open("https://www.bing.com")
 
     # execute js, set text for target element
-    result = chrome_browser.execute_js("locator.chrome.cn.search_sb_form_q", "function SetText(text){_context$.currentElement.value = text; console.log("exit 0"); return \"success\"}", "SetText(\"click\")")
+    result = chrome_tab.execute_js("locator.chrome.cn.search_sb_form_q", "function SetText(text){_context$.currentElement.value = text; console.log("exit 0"); return \"success\"}", "SetText(\"click\")")
 ```

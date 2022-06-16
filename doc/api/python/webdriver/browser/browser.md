@@ -1,19 +1,14 @@
 # Browser
 
-**Browser class provides methods to browser operations and web UiElement's particular operations with current browser.**
+**Browser class provides methods to browser operations.**
+
+## Properties <!-- {docsify-ignore} -->
+- tabs: List[[BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md)], get current browser's all tabs
 
 ## methods <!-- {docsify-ignore} -->
 
-- [find_element](./doc/api/python/webdriver/browser/find_element.md): locate the UI elements, return [uielement](./doc/api/python/uielement/uielement.md) object
-- [find_elements](./doc/api/python/webdriver/browser/find_elements.md): get UI elements, return  list of [uielement](./doc/api/python/uielement/uielement.md) object
-- [is_exist](./doc/api/python/webdriver/browser/is_exist.md): whether the UI elements exist
-- [wait_appear](./doc/api/python/webdriver/browser/wait_appear.md): wait for one UI element that will appear in the specified timeout interval, return [uielement](./doc/api/python/uielement/uielement.md) object
-- [wait_disappear](./doc/api/python/webdriver/browser/wait_disappear.md): wait for one UI element that will disappear in the specified timeout interval 
-- [wait_property](./doc/api/python/webdriver/browser/wait_property.md): wait for one UI element that will appear and the property's value equals the specified  value 
-- [set_property](./doc/api/python/webdriver/browser/set_property.md): set UI element's property value
+- [get_tab](./doc/api/python/webdriver/browser/get_tab.md): get tab by specified title and/or url, return [BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md)
+- get_active_tab: get actived tab, return [BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md)  
+  ***def get_active_tab(self) -> BrowserTab***
 - [close](./doc/api/python/webdriver/browser/close.md): close current browser
-- [close_tab](./doc/api/python/webdriver/browser/close_tab.md): close specified tab
-- [navigate](./doc/api/python/webdriver/browser/navigate.md): navigate to specified website
-- [refresh](./doc/api/python/webdriver/browser/refresh.md): refresh current website
-- [execute_js](./doc/api/python/webdriver/browser/execute_js.md): execute javascript code snippet for the target element
-- [execute_js_file](./doc/api/python/webdriver/browser/execute_js_file.md): execute javascript file for the target element
+- maximize: Maximize the browser window

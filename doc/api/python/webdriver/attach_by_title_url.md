@@ -6,9 +6,9 @@
         url: str = '',
         is_maximize: bool = True,
         timeout = 30
-    ) -> Browser***  
+    ) -> BrowserTab***  
 
-Attach to the broswer with specified title or url.
+AAttach to an opened browser tab with specified title and url.
 
 **Parameters:**  
     &emsp;**title**: str   
@@ -21,7 +21,7 @@ Attach to the broswer with specified title or url.
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
-    &emsp;[Browser](./doc/api/python/webdriver/browser/browser.md) object, you can execute following operations in the browser: find_element, close_tab, refresh and so on.
+    &emsp;[BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***
@@ -29,14 +29,14 @@ Attach to the broswer with specified title or url.
     from clicknium import clicknium as cc
 
     # attach ie browser, by title and url
-    ie_browser = cc.ie.attach_by_title_url("bing", "https://cn.bing.com/")
+    ie_tab = cc.ie.attach_by_title_url("bing", "https://cn.bing.com/")
 
     # attach chrome browser, by title only
-    chrome_browser = cc.chrome.attach_by_title_url("bing")
+    chrome_tab = cc.chrome.attach_by_title_url("bing")
 
     # attach edge browser, by url only
-    edge_browser = cc.edge.attach_by_title_url(url = "https://cn.bing.com/")
+    edge_tab = cc.edge.attach_by_title_url(url = "https://cn.bing.com/")
 
     # attach firefox browser, by title with wildcard
-    firefox_browser = cc.firefox.attach("bi*", "https://cn.bing.com/")
+    firefox_tab = cc.firefox.attach("bi*", "https://cn.bing.com/")
 ```

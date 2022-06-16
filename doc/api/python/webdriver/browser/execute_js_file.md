@@ -36,10 +36,10 @@ Execute javascript file for the target element.
 ```python
     from clicknium import clicknium as cc
 
-    # open chrome browser
-    chrome_browser = cc.chrome.open("https://www.bing.com")
+    # open Chrome browser
+    chrome_tab = cc.chrome.open("https://www.bing.com")
 
     # execute js, set text for target element
     # test.js's content can be "function SetText(st){_context$.currentElement.value = st; console.log("execute js"); return \"success\"}"
-    result = chrome_browser.execute_js("locator.chrome.cn.search_sb_form_q", "C:\\test\\test.js", "SetText(\"click\")")
+    result = chrome_tab.execute_js("locator.chrome.cn.search_sb_form_q", "C:\\test\\test.js", "SetText(\"click\")")
 ```

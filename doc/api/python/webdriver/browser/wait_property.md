@@ -35,13 +35,13 @@ Use the following method, `clicknium.chrome.open("https://bing.com").wait_proper
 ```python
 from clicknium import clicknium as cc, locator
 
-browser = cc.chrome.open("https://bing.com")
+chrome_tab = cc.chrome.open("https://bing.com")
 
 # wait for the web propery with expected value
-browser.wait_property(locator.chrome.bing.search_sb_form_q)
+chrome_tab.wait_property(locator.chrome.bing.search_sb_form_q)
 
-# parametric locator, wait for the element is enabled, for example the element is blocked by one popup dialog
+# parametric locator, wait for the element to be enabled, for example, the element is blocked by one popup dialog
 variables = {"name":"test"}
-browser.wait_property(locator.chrome.bing.search_sb_form_q, variables)
+chrome_tab.wait_property(locator.chrome.bing.search_sb_form_q, variables)
 
 ```

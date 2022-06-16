@@ -27,13 +27,13 @@ Use the following method, `clicknium.chrome.open("https://bing.com").find_elemen
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator
+    from clicknium import clicknium as cc, locator, ui
 
-    browser = cc.chrome.open("https://bing.com")
-
-    # find elements
-    elements = browser.find_elements(locator.chrome.bing.search_sb_form_q)
-
-    for ele in elements:
-        ele.highlight()
+    tab = cc.edge.open("https://www.bing.com/")
+    tab.find_element(locator.new_store.sample.bing.search_sb_form_q).set_text('clicknium')
+    tab.find_element(locator.new_store.sample.bing.svg).click()
+    result_elements = tab.find_elements(locator.new_store.sample.bing.a_search_result)
+    for elem in result_elements:
+        elem.highlight(duration=1)
+    tab.close()
 ```

@@ -27,8 +27,8 @@ Select multiple options for the target.
 ```python
 from clicknium import clicknium as cc, locator, ui
 
-driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
-driver.find_element(locator.chrome.getbootstrap.multiselect).select_item({'One', 'Three'})
+chrome_tab = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+chrome_tab.find_element(locator.chrome.getbootstrap.multiselect).select_item({'One', 'Three'})
 
 ```
 

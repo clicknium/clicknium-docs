@@ -23,9 +23,9 @@ Refresh the current browser
     from clicknium import clicknium as cc
 
     # open chrome browser
-    chrome_browser = cc.chrome.open("https://www.bing.com")
+    chrome_tab = cc.chrome.open("https://www.bing.com")
 
     # refresh browser
-    chrome_browser.refresh()
+    chrome_tab.refresh()
 
 ```
