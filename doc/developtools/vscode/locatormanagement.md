@@ -69,19 +69,19 @@
   ![validate success](../../img/vscode-validate-success.png)
 
 ### Validate失败
-  执行器找不到对应的locator，几秒钟后，会自动返回vscode窗口，并标记没有找到的层级。
+- 执行器找不到对应的locator，几秒钟后，会自动返回vscode窗口，并标记没有找到的层级。
 
   ![validate failed](../../img/vscode-validate-failed.png)
-  注意：验证时不会打开应用并输入对应的地址，如果错误标记在第一层或第二层，请确认应用和网址是否打开。
+- 注意：验证时不会打开应用并输入对应的地址，如果错误标记在第一层或第二层，请确认应用和网址是否打开。
 
   ![validate failed](../../img/vscode-validate-process.png)
 
 ### 验证时，多Window存在时
-  打开的有多窗口中同时包含locator时，执行器会提供选择window的窗口
+- 打开的有多窗口中同时包含locator时，执行器会提供选择window的窗口
 
   ![vscode-multiple-window](../../img/vscode-multiple-window.png)
 
-  选择窗口后，会在对应的窗口验证并返回vscode
+- 选择窗口后，会在对应的窗口验证并返回vscode
 
 ### 验证时，定位到多个元素时
 - 窗口中匹配到多个locator时，执行器会提供选择locator index的窗口

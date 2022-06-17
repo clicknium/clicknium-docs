@@ -12,7 +12,10 @@
 
 ## Locator Error Hint
 ### 类型错误
-ui或find_element函数参数必须是locator，如果是store或folder会提示错误信息
+- ui或find_element函数参数必须是locator，如果是store或folder会提示错误信息
 ![type error](../../img/vscode-type-error.png)
 ### locator不存在
-输入的locator在引用的store中不存在，会提示错误信息
+- 输入的locator在引用的store中不存在，会提示错误信息
+![not exist](../../img/vscode-locator-not-exist.png)
+- 选择Quick Fix打开录制器，录制元素后会已当前不存在的locator命名生成locator
+  
