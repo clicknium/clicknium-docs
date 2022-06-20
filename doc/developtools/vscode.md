@@ -80,7 +80,7 @@ If you want to capture the element, press `Ctrl` and click to add  the element l
 ![clicknium recorder](../img/record1.gif) 
 
 ## Edit and Validate Locator
-After recording the locators, you can open and edit the locator. 
+After recording the locators, you can open and edit the locator.
 ![clicknium vscode](../img/main.png) 
 
 - locator store: the file to store locator data. The locators of the same application are stored in one locator store by default. Users can manage the locator store in Visual Studio Code or Clicnium Recorder.
