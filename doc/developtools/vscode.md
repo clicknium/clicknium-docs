@@ -100,6 +100,7 @@ Set the locator as the parameter, for example, `cc.find_element(`, you can press
 - IntelliSense
 If you want to choose one locator in the locator store, Clicknium code extension can show you the locator store list and the locator list.  
 ![intellisense](../img/intelliSense.png)
+
 ## Run/Debug Project
 
 - 运行
