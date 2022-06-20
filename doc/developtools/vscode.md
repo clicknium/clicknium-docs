@@ -1,13 +1,13 @@
 # Clicknium VSCode Extension<!-- {docsify-ignore-all} -->
 
-- [Overview](#overview)
-- [Create Project](#create-project)
-- [Extension Installation](#extension-installation)
-- [Record UI Locators](#record-ui-locators)
-- [Edit and Validate Locator](#edit-and-validate-locator)
-- [Writing code](#writing-code)
-- [Run/Debug Project](#rundebug-project)
-- [For Existing Project](#for-existing-project)
+  - [Overview](#overview)
+  - [Create Project](#create-project)
+  - [Extension Installation](#extension-installation)
+  - [Record UI Locators](#record-ui-locators)
+  - [Edit and Validate Locator](#edit-and-validate-locator)
+  - [Writing code](#writing-code)
+  - [Run/Debug Project](#rundebug-project)
+  - [For Existing Project](#for-existing-project)
 
 ## Overview
 For python developers, ClickCorp provides clicknium extension that include all RPA features. 
