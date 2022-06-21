@@ -1,6 +1,22 @@
 # Overview  <!-- {docsify-ignore-all} -->
 
-## API reference
+## Install Clicknium Python SDK
+
+### System Requirements​
+- Python 3.7 or above  
+
+Install Clicknium automation sdk through [pip](https://pypi.org/project/clicknium/)  
+
+```
+# python version is 3.8 or below
+pip install clicknium
+
+# python version is 3.9 or above
+pip install --pre pythonnet
+pip install clicknium
+```
+
+## API reference  
 Clicknium python sdk provide ways to automate various applications, such as **Web** browser, **Windows Desktop** application, **Java** application, **Sap** windows Gui app, etc. 
 A sample code to drive web automation with clicknium is as follows.
 ```
