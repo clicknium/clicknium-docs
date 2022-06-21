@@ -1,8 +1,8 @@
-# ElementCanNotFoundError
+# ElementNotFoundError
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**ElementCanNotFoundError is raised when the target UI element can not be found by the given locator.**
+**ElementNotFoundError is raised when the target UI element can not be found by the given locator.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)

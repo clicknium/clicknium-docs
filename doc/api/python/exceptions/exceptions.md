@@ -12,8 +12,8 @@ Exception is raised whenever a certain operation is terminated abnormally. Excep
 | [ArgumentNullError](./doc/api/python/exceptions/argumentnullerror.md) | ArgumentNullError is raised when a null reference is passed to a method that does not accept it as a valid argument.|
 | [ArgumentOutOfRangeError](./doc/api/python/exceptions/argumentoutofrangeerror.md) | ArgumentOutOfRangeError is raised when the value of an argument is out of the allowable range of values as defined by the invoked method.|
 | [LocatorUndefinedError](./doc/api/python/exceptions/locatorundefinederror.md) | LocatorUndefinedError is raised when the specified locator can not be found in locator store.|
-| [TimeoutOperationError](./doc/api/python/exceptions/timeoutoperationerror.md) | TimeoutOperationError is raised when a certain operation is not completed within given time.|
-| [ElementCanNotFoundError](./doc/api/python/exceptions/elementcannotfounderror.md) | ElementCanNotFoundError is raised when the loactor can be found in locator store, but the returned UiElement can not be found.|
+| [OperationTimeoutError](./doc/api/python/exceptions/timeoutoperationerror.md) | OperationTimeoutError is raised when a certain operation is not completed within given time.|
+| [ElementNotFoundError](./doc/api/python/exceptions/elementcannotfounderror.md) | ElementNotFoundError is raised when the loactor can be found in locator store, but the returned UiElement can not be found.|
 | [ExtensionOperationError](./doc/api/python/exceptions/extensionoperationerror.md) | ExtensionOperationError is raised when the specified extension fails in operation "install", "update" or "uninstall".|
 | [NotSupportedError](./doc/api/python/exceptions/notsupportederror.md) | NotSupportedError is raised when an invoked method is not supported, or when an attempt to read, seek, or write to a stream that does not support the invoked functionality.|
 | [NotSupportedOperationError](./doc/api/python/exceptions/notsupportedoperationerror.md) | NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation. Eg: can not set text for an image UiElement. |
