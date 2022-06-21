@@ -1,8 +1,8 @@
-# TimeoutOperationError
+# OperationTimeoutError
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**TimeoutOperationError is raised when a certain operation is not completed within given time.**
+**OperationTimeoutError is raised when a certain operation is not completed within given time.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
