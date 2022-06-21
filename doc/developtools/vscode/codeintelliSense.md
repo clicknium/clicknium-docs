@@ -7,26 +7,27 @@
 
 
 ## Code Complete
-使用clicknium库下的locator。在locator后输入字符"."后，会自动提示项目中引用的Store，Store后输入"."后会提示Store下的folder和locator。
+Use the locator under the Clicknium reporsitory.  When the character "." after the loacor is entered, the Store referenced in the project is automatically displayed. When the character "." after Store is entered, folder and locator under  Store are displayed.
 ![code complete](../../img/vscode-code-complete.png)
 
 ## Locator Error Hint
-### 类型错误
-- ui或find_element函数参数必须是locator，如果是store或folder会提示错误信息
+### Error Type
+- UI or find_element function argument must be locator. If it is store or folder, an error message will be displayed.
 ![type error](../../img/vscode-type-error.png)
-### locator不存在
-- 输入的locator在引用的store中不存在，会提示错误信息
+### Locator Does Not Exsit
+- If the entered locator does not exist in the referenced store, an error message is displayed.
 ![not exist](../../img/vscode-locator-not-exist.png)
-- 选择Quick Fix打开录制器，录制元素后会已当前不存在的locator命名生成locator
+- Select Quick Fix to start the recorder. After recording elements, a locator that does not exist will be named to generate a locator.
   
 ## Locator Hover
-- 鼠标滑到代码中的locator上，会提示locator的内容，便于识别。
+- If you hover the mouse to the locator in the code, the locator content is displayed for easy identification.
 ![locator hover](../../img/vscode-code-hover.png)
-- Open:打开对应的locator，方便编辑
-- Validate:验证locator
-- Recapture:打开录制器，重新录制locator，录制后的locator跟编辑窗口中的不同，会直接保存。
+- Open: Open the corresponding locator to edit
+- Validate: Validate the locator
+- Recapture: Start the recorder to record the locator again. If the recorded locator is different from the one in the editing window, it will be saved directly. 
+
 
 ## Auto Fill
-1. 代码中按快捷键ctrl+f10或右键菜单中点击Capture,会打开录制器录制。
-2. 录制好后，录制器中选择希望填充的locator。
-3. 点击OK后，locator会自动填充到代码中。
+1. Press the shortcut key CTRL + F10 or click  "Capture" in the right menu to start the recorder.
+2. After recording, select a locator that is required to fill in the recorder.
+3. After clicking "OK", the locator will be automatically filled into the code.

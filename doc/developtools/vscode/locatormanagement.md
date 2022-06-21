@@ -10,91 +10,87 @@
 
   ![edit store](../../img/vscode-project-store-menu.png)
     
-1. New Folder: 选择的Store下创建文件夹
-2. Remove Reference： 项目中移除引用的Store
-3. Rename：引用的Store修改别名，代码中使用别名
+1. New Folder: create a new folder under the selected store
+2. Remove Reference：remove the referenced store in the project
+3. Rename：rename the referenced store in the code
 
 ## Edit Folder
 
   ![edit folder](../../img/vscode-project-folder-menu.png)
 
-1. New Folder: 选择的Folder下创建文件夹
-2. Rename：修改folder的名字
-3. Delete: 删除folder
+1. New Folder: reate a new folder under the selected store
+2. Rename：rename the folder
+3. Delete: delete the folder
 
 ## Edit Locator
 
   ![edit locator](../../img/vscode-project-locator-menu.png)
 
-1. Open: vscode编辑窗口打开locator详细内容。
-2. Validate: 验证locator的有效性。
-3. Copy: 在同目录下生成一个内容相同的locator
-4. Copy Path: 服务locator的路径，粘贴到python代码中可直接使用。
-5. Rename: 修改locator的名字
-6. Delete: 删除locator
+1. Open: open locator details in the VScode edit window. 
+2. Validate: validate the locator.
+3. Copy: creat a same locator under the same directory.
+4. Copy Path: The path of a service locator can be pasted and used directly in the Python code.
+5. Rename: rename the locator
+6. Delete: delete the locator
 
   ![edit locator](../../img/vscode-edit-locator.png)
 
-- 编辑locator详情页分为左右两部分。
-- 左侧：按照locator的层级已XML的形式展示。
-- 右侧：显示左侧选中的xml节点对应的属性详情。
+- The details page of editing the loactor is divided into two parts,left and right.
+- Left part:display as XML based on the locator hierarchy 
+- Right part：display the attribute details for the selected XML node on the left part.
 
-- 输入项①：勾选locator层级，未勾选的执行时查找元素会忽略此层级。
-- 输入项②：勾选选中层级对应的属性。未勾选的执行时查找元素会忽略此属性。
-- 输入项③: 匹配规则
-    |equals    |完全一致  |
-    |----------|----------|
-    |contains  |包含值即可|
-    |startWith |左侧一致  |
-    |endWith   |右侧一致  |
-- 输入项④：属性匹配的值。
-    注意：匹配规则为equals时，值支持统配符。
-    |通配符| 作用                 |
+- Input item ①: Check the locator tier. This unselected tier will be ignored if the elements are searched in the execution. 
+- Input item ②：Check the selected the property of the tier. This unselected property will be ignored if the elements are searched in the execution.
+- Input item ③: There are 4 matching rules, "equals", "contains", "startwith" and "endwith".
+  
+- Input item ④：The values of the property
+    Notes：When the matching rule is "equals", the value supports wildcard characters.
+    |Wildcard characters| Functions                 |
     |-------|----------|
-    |*    | 用来替代一个或多个字符 |
-    |?    | 用来替代一个字符      |
+    |*    | Substitute one or more characters |
+    |?    | Substitute a character      |
 
 ## Recapture
-1. 点击Recapture按钮，打开录制器，重新录制locator。
-2. 录制对应的元素。
-3. 录制成功后返回到vscode。Ctrl+S保存最新录制的元素。
+1. Click the "Recapture" button to open the recorder and record the locator again.
+2. Record the corresponding element.
+3. When recording succeeds, return to vscode and   save the newly recorded element by pressing Ctrl+S.
    
 ## Validate
-点击Validate按钮
+Click "Validate" button.
 
-### Validate成功
-1. 执行器会打开包含locator的window。并标记出对应的locator
+### Validate success
+1. The executor opens the window containing a locator and  marks the corresponding one.
   ![validate success](../../img/vscode-validate-success-recorder.png)
 
-2. 几秒钟后，自动返回到vscode窗口，并标记正确
+2. Within a few seconds, it automatically returns to the vscode window and marks as correct.
 3. 
   ![validate success](../../img/vscode-validate-success.png)
 
-### Validate失败
-- 执行器找不到对应的locator，几秒钟后，会自动返回vscode窗口，并标记没有找到的层级。
+### Validate failure
+- If the executor cannot find the corresponding locator, it automatically returns to the vscode window within a few seconds and marks the hierarchy that cannot be found.
 
   ![validate failed](../../img/vscode-validate-failed.png)
-- 注意：验证时不会打开应用并输入对应的地址，如果错误标记在第一层或第二层，请确认应用和网址是否打开。
+- Notes: The application will not be opened and the corresponding URL will not be entered in the verification. If the error is marked in layer one or layer two , please confirm whether the application and URL are opened.
 
   ![validate failed](../../img/vscode-validate-process.png)
 
-### 验证时，多Window存在时
-- 打开的有多窗口中同时包含locator时，执行器会提供选择window的窗口
+### Multiple windows exist in validation
+- If multiple opened Windows contain the locator at the same time, the executor will provide a pop-up dialog to select Window.
 
   ![vscode-multiple-window](../../img/vscode-multiple-window.png)
 
-- 选择窗口后，会在对应的窗口验证并返回vscode
+- After selecting the one among the matched windows, the corresponding window will be validated with in a few second and return to vscode.
 
-### 验证时，定位到多个元素时
-- 窗口中匹配到多个locator时，执行器会提供选择locator index的窗口
-- 切换Index，会高亮出对应的locator 
+### Multiple elements are located in validation
+- If multiple locators are matched in the window, the actuator will provide a window for selecting the locator index. 
+- If you switch the Index, the corresponding locator is highlighted.
   
   ![vscode-mach-multiple-locator](../../img/vscode-mach-multiple-locator.png)
 
-- 如果想把切换到的Index更新到locator当中，勾选 set single target，并点击OK。
+- If you want to update the switched Index in a locator, check "set single target" and click "OK". 
   
   ![vscode-set-single-target](../../img/vscode-set-single-target.png)
 
-- 切换回vscode后，在对应的Index属性上，会更新为最新的index，并处于勾选状态。
+- After switching back to vscode, the corresponding Index property will be updated as the latest Index and checked. 
   
   ![vscode-set-single-target-success](../../img/vscode-set-single-target-success.png)

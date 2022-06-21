@@ -4,16 +4,16 @@
   - [Sign Out](#sign-out)
 
 ## Sign In
-1. 未登录用户，在Locators面板中，点击Sign in按钮
+1. For users who have not logged in, click the Sign In button in the Locators panel.
    ![vscode sign in](../../img/vscode-sign-in.png)
-2. 在对话框中选择Allow， 允许跳转到ClickCorp官网登录
+2. Click "Allow" in the dialog box to navigate to ClickCorp official website and log in .
    ![confirm dialog](../../img/vscode-sign-in-dialog.png)
-3. 在ClickCorp官网登录或注册ClickCorp账号
+3. Log in to ClickCorp or sign up for a ClickCorp account.
    ![clickcorp site](../../img/vscode-clickcorp-site.png)
-4. 登录成功后，允许打开vscode 
-5. 打开vscode后，在弹出的对话框中选择Open
+4. When login succedes, VScode is allowed to open.
+5. When you open VScode, select "Open" in the  pop-up dialog box.
    ![clickcorp site](../../img/vscode-open-uri.png)
 
 ## Sign Out
-1. 单击左下角用户图标
-2. 鼠标移动到ClickCorp用户，在弹出的二级菜单中选择Sign Out
+1. Click the user icon in the lower left corner
+2. Hover the mouse over the ClickCorp user and select "Sign Out" from the pop-up secondary menu.
