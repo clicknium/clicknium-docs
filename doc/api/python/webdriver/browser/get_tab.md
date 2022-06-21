@@ -2,7 +2,7 @@
 
 ***def get_tab(self, title = '', url = '') -> BrowserTab***  
 
-Attach to an opened browser tab with specified title or url.
+Get tab by specified title and/or url.
 
 **Parameters:**  
     &emsp;**title**: str   

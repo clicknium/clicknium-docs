@@ -4,7 +4,7 @@
         text: str
     ) -> None***  
 
-Send text to current cursor's position.
+Send text to the current cursor's position.
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  

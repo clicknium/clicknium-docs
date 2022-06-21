@@ -1,7 +1,7 @@
 # clicknium.send_hotkey
 ***def send_hotkey(hotkey: str) -> None***  
 
-Send hot key
+Send hotkey to the current cursor's position.
 
 >**Remarks:**  
 This method is global send hotkey.

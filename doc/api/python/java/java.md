@@ -1,8 +1,8 @@
-# Java
+# Java <!-- {docsify-ignore-all} -->
 
 **Java class provides methods to getting java extension object and java extension class provides install/uninstall java extension.**
 
-## extension <!-- {docsify-ignore} -->
+## extension 
 
 - You can get java extension by the following way.
     - import
@@ -11,7 +11,7 @@
   ```
   - cc.java.extension: java extension
 
-## methods <!-- {docsify-ignore} -->
+## methods 
 
 - [install](./doc/api/python/java/install.md): install java extension
 - [uninstall](./doc/api/python/java/uninstall.md): uninstall java extension

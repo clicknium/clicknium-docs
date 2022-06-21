@@ -1,7 +1,7 @@
 # get_position
 ***def get_position(self, timeout: int = 30) -> ElementPosition***  
 
-Get element's position.
+Get the position of the element.
 
 **Parameters:**   
     &emsp;**timeout**: int  

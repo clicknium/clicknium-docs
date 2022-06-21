@@ -1,6 +1,6 @@
 # WebExtension
 
-**WebExtension class provides methods to installing and updating web extension.**
+**WebExtension class provides methods to install and update web extension.**
 
 ## methods <!-- {docsify-ignore} -->
 

@@ -1,18 +1,18 @@
 # highlight
 ***def highlight(
         self,
-        duration: int = 3,
         color: Union[str, Color] = Color.Yellow,
+        duration: int = 3,        
         timeout: int = 30
     ) -> None***  
 
 Highlight the element with specified color.
 
 **Parameters:**  
-    &emsp;**duration**: int  
-        &emsp;&emsp; the duration for highlighted the element, the unit is second, and the default value is 3 seconds  
     &emsp;**color**: str | Color  
-        &emsp;&emsp; the color of the highlighed rectangle, and the default value is Yellow.     
+        &emsp;&emsp; the color of the highlighed rectangle, and the default value is Yellow.  
+    &emsp;**duration**: int  
+        &emsp;&emsp; the duration for highlighted the element, the unit is second, and the default value is 3 seconds         
     &emsp;**timeout**: int  
         &emsp;&emsp;timeout for the operation, the unit is second, and the default value is 30 seconds.  
 

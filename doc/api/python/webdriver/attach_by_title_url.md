@@ -8,15 +8,15 @@
         timeout = 30
     ) -> BrowserTab***  
 
-AAttach to an opened browser tab with specified title and url.
+Attach to an opened browser tab with specified title and/or url.
 
 **Parameters:**  
     &emsp;**title**: str   
         &emsp;&emsp; title string, current web page's title, supporting wildcard.  
     &emsp;**url**: str  
-        &emsp;&emsp; url string, current web page's url, supporting wildcard. 
+        &emsp;&emsp; url string, current web page's url, supporting wildcard.  
     &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window, and the default value is True. 
+        &emsp;&emsp; is_maximize is set to define whether to maximize the browser window, and the default value is True.  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
@@ -38,5 +38,5 @@ AAttach to an opened browser tab with specified title and url.
     edge_tab = cc.edge.attach_by_title_url(url = "https://cn.bing.com/")
 
     # attach firefox browser, by title with wildcard
-    firefox_tab = cc.firefox.attach("bi*", "https://cn.bing.com/")
+    firefox_tab = cc.firefox.attach_by_title_url("bi*", "https://cn.bing.com/")
 ```

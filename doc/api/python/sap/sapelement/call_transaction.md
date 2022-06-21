@@ -2,21 +2,15 @@
 
 ***def call_transaction(
         self,
-        locator: Union[_Locator, str],
         transaction_code: str,
-        locator_variables: dict = {},
         timeout: int = 30
     ) -> None***  
 
 Call sap transaction.
 
 **Parameters:**  
-    &emsp;**locator[Required]**: str | _Locator  
-        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.sap.transaction_input', locator store is sap, locator name is transaction_input  
     &emsp;**transaction_code[Required]**: str  
         &emsp;&emsp; transaction code string  
-    &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [parametric locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
@@ -34,6 +28,9 @@ Call sap transaction.
     # login sap application
     sap_driver.login("path", "connection", "client", "username", "password")
 
+    # find sap element
+    sap_ele = sap_driver.find_element(locator.sap.control)
+
     # call transaction code
-    sap_driver.call_transaction(locator.sap.transaction_input, "code")
+    sap_ele.call_transaction( "code")
 ```

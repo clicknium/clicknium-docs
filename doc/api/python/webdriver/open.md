@@ -5,7 +5,7 @@
         url: str,
         is_maximize: bool = True,
         is_wait_complete: bool = True,
-        userdata_folder_mode: Literal["automatic", "defaultfolder", "customfolder"] = WebUserDataMode.Automatic,
+        userdata_folder_mode: Literal["automatic", "default-folder", "custom-folder"] = WebUserDataMode.Automatic,
         userdata_folder_path: str = "",
         timeout: int = 30
     ) -> BrowserTab***  
@@ -19,14 +19,14 @@ Open browser with specified url to get a browser tab.
     &emsp;**url[Required]**: str   
         &emsp;&emsp; url string, ex: <https://www.bing.com>  
     &emsp;**is_maximize**: bool  
-        &emsp;&emsp; is_maximize, define whether to maximize the browser window, and the default value is True. 
+        &emsp;&emsp; is_maximize, define whether to maximize the browser window, and the default value is True.  
     &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely, and the default value is True. 
+        &emsp;&emsp; is_wait_complete is set to define whether to wait for the broswser to load completely, and the default value is True.  
     &emsp;**userdata_folder_mode**: WebUserDataMode  
         &emsp;&emsp; userdata_folder_mode defines whether using customized user data folder when opening the browser.  
-        &emsp;&emsp; **Automatic**：use user data folder automatically  
-        &emsp;&emsp; **DefaultFolder**：use default user data folder  
-        &emsp;&emsp; **CustomFolder**：use the folder specified with parameter 'userdata_folder_path'  
+        &emsp;&emsp; `automatic`：use user data folder automatically  
+        &emsp;&emsp; `default-folder`：use default user data folder  
+        &emsp;&emsp; `custom-folder`：use the folder specified with parameter 'userdata_folder_path'  
     &emsp;**userdata_folder_path**: str  
         &emsp;&emsp; user data's folder path.  
     &emsp;**timeout**: int  

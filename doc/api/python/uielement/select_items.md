@@ -6,11 +6,11 @@
         timeout: int = 30
     ) -> None***  
 
-Select multiple options for the target.  
+Select multiple options for the target element.  
 
 **Parameters:**  
     &emsp;**items [Required]**: list  
-        &emsp;&emsp; options of the dropdown control, The control should support multiple selections.
+        &emsp;&emsp; options of the dropdown control, The control should support multiple selections.  
     &emsp;**clear_selected**: bool  
         &emsp;&emsp; Whether deselect the selected options of target control or not, default is True.    
     &emsp;**timeout**: int  

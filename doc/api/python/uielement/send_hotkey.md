@@ -6,7 +6,7 @@
         timeout: int = 30
     ) -> None***  
 
-Send hot key based on target element  
+Send hotkey based on target element.  
 
 **Parameters:**  
     &emsp;**hotkey [Required]**: str   

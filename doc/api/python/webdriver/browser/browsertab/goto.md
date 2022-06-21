@@ -1,19 +1,15 @@
-# navigate
+# goto
 
-***def navigate(
+***def goto(
         self,
-        url: str,
-        is_wait_complete: bool = True,
-        timeout: int = 30
+        url: str
     ) -> None***  
 
-Navigate to another website.
+Redirect current tab to the given url.
 
 **Parameters:**  
     &emsp;**url[Required]**: str   
         &emsp;&emsp; website string, eg: <https://www.bing.com>  
-    &emsp;**is_wait_complete**: bool  
-        &emsp;&emsp; is_wait_complete, define whether to wait for the browser to load completely, and the default value is True. 
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 

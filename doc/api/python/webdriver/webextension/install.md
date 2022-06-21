@@ -2,11 +2,12 @@
 
 ***def install(self) -> None*** 
 
-Install web extension
+Install web extension.
 
 >**Remarks:**  
->- Before installing extension, you should make sure you have already closed the browsers "Edge", "Firefox" and “Chrome”. 
+>- Before installing extension, make sure you have already closed the related browsers. 
 >- When extension is installed successfully, you should turn on the extension manually.  
+>- Refrenece: [Install extensions from vscode](./doc/developtools/extensions/extensions.md).
 
 **Example:**
 ***

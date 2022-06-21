@@ -1,7 +1,7 @@
 # get_size
 ***def get_size(self, timeout: int = 30) -> ElementSize***  
 
-Get element's size(height and width).
+Get the size(height and width) of the element.
 
 **Parameters:**   
     &emsp;**timeout**: int  

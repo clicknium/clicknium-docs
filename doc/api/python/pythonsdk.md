@@ -1,6 +1,6 @@
-# Overview
+# Overview  <!-- {docsify-ignore-all} -->
 
-## API reference  <!-- {docsify-ignore} -->
+## API reference
 Clicknium python sdk provide ways to automate various applications, such as **Web** browser, **Windows Desktop** application, **Java** application, **Sap** windows Gui app, etc. 
 A sample code to drive web automation with clicknium is as follows.
 ```

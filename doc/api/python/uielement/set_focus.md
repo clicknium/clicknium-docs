@@ -1,7 +1,7 @@
 # set_focus
 ***def set_focus(self, timeout: int = 30) -> None***  
 
-Set focus for the target element
+Set focus for the target element.
 
 **Parameters:**  
     &emsp;**timeout**: int  

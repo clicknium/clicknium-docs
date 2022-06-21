@@ -21,14 +21,11 @@
     cc.firefox.extension.install()
     ```
 
-2. Click "OK" in below pop-up dialog box.  
-    &emsp;&emsp;![firefox extension install confirm](../../img/firefox_install_confirm_dialog.png)
-
-3. When the installation is finished, click "OK" in below pop-up dialog box.  
+2. When the installation is finished, click "OK" in below pop-up dialog box.  
     &emsp;&emsp;![firefox extension install finish confirm](../../img/firefox_install_finish_dialog.png)  
 
-4. Open extension in Firefox 
+3. Open extension in Firefox 
     Open firefox browser and in the open page, find the "Clicknium Recorder" extension, and add it.  
     &emsp;&emsp;![firefox clickniuim extension page](../../img/firefox_extension_enable_on.png)
 
-5. You can refer to console output for more installation details.
+4. You can refer to console output for more installation details.
