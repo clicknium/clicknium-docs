@@ -47,7 +47,7 @@ After recording the locators, you can open and edit the locator.
 You can go to [Locator Management](/doc/developtools/locator_management.md) for more information about locator management.  
 For more about the locator, please refer to [clicknium locator](./doc/automation/locator.md).  
 
-After editing the locator, you can press the button`Validate` to minimize Visual Studio Code and find the element. If not found, it will show detailed errors.
+After editing the locator, you can press the button`Validate` to minimize Visual Studio Code and find the element. If not found, it will show detailed errors.  
 ![validate error](../img/validate_err.png)
 
 ## Writing code
