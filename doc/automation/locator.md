@@ -10,14 +10,6 @@
     - [wildword locator](#wildword-locator)
 
 ## Overview 
-You can open and edit the locator.  
-![clicknium vscode](../img/main.png) 
-- locator store, the file to store locator data. The locators of the same application are stored in one locator store by default. Users can manage the locator store in Visual Studio Code or Clicnium Recorder.
-- locator, UI element locator, the string(XML fragment) that used to find the elements including application information and all necessary parent nodes of the UI element, and attributes of each element.
-- Screenshot, While recording the elements, store the screenshot together with the locator
-- Attributes, Users can select/deselect or edit the value of each attribute.
-  
-## Locator
 UI element locator is a string, XML fragment in the following formats,
 <Application .../><Uia .../>/<Uia .../>  
 <Application .../><Tab .../>/<Web .../>  
