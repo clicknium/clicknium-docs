@@ -6,7 +6,7 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and ent
 When the project is created, a pop-up window in the lower right corner shows the general restored project information and the bottom page shows details. After restoring, the current Python virtual enviroment can be seen when you open app.py.
 ![project create](../img/create_project_apppy_env.png)
 
-## 项目结构
+## Project Structure
 
 ![project structure](../img/create_project_1.png)
 
