@@ -12,6 +12,9 @@ Exception is raised whenever a certain operation is terminated abnormally. Excep
 | [ArgumentNullError](./doc/api/python/exceptions/argumentnullerror.md) | ArgumentNullError is raised when a null reference is passed to a method that does not accept it as a valid argument.|
 | [ArgumentOutOfRangeError](./doc/api/python/exceptions/argumentoutofrangeerror.md) | ArgumentOutOfRangeError is raised when the value of an argument is out of the allowable range of values as defined by the invoked method.|
 | [LocatorUndefinedError](./doc/api/python/exceptions/locatorundefinederror.md) | LocatorUndefinedError is raised when the specified locator can not be found in locator store.|
+| [LocatorRequestError](./doc/api/python/exceptions/locatorrequesterror.md) | LocatorRequestError is raised when getting cloud locator failed with http request error.|
+| [UnAuthorizedError](./doc/api/python/exceptions/unauthoriederror.md) | UnAuthorizedError is raised when user does not sign in or the sign in state is expired.|
+| [ProjectSettingNotFoundError](./doc/api/python/exceptions/projectsettingnotfounderror.md) | ProjectSettingNotFoundError is raised when project setting file 'app.yaml' is missing.|
 | [OperationTimeoutError](./doc/api/python/exceptions/timeoutoperationerror.md) | OperationTimeoutError is raised when a certain operation is not completed within given time.|
 | [ElementNotFoundError](./doc/api/python/exceptions/elementcannotfounderror.md) | ElementNotFoundError is raised when the loactor can be found in locator store, but the returned UiElement can not be found.|
 | [ExtensionOperationError](./doc/api/python/exceptions/extensionoperationerror.md) | ExtensionOperationError is raised when the specified extension fails in operation "install", "update" or "uninstall".|
