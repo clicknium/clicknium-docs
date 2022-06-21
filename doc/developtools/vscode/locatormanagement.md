@@ -18,7 +18,7 @@
 
   ![edit folder](../../img/vscode-project-folder-menu.png)
 
-1. New Folder: reate a new folder under the selected store
+1. New Folder: create a new folder under the selected store
 2. Rename：rename the folder
 3. Delete: delete the folder
 
@@ -28,20 +28,20 @@
 
 1. Open: open locator details in the VScode edit window. 
 2. Validate: validate the locator.
-3. Copy: creat a same locator under the same directory.
+3. Copy: create a same locator under the same directory.
 4. Copy Path: The path of a service locator can be pasted and used directly in the Python code.
 5. Rename: rename the locator
 6. Delete: delete the locator
 
   ![edit locator](../../img/vscode-edit-locator.png)
 
-- The details page of editing the loactor is divided into two parts,left and right.
+- The details page of editing the locator is divided into two parts,left and right.
 - Left part:display as XML based on the locator hierarchy 
 - Right part：display the attribute details for the selected XML node on the left part.
 
 - Input item ①: Check the locator tier. This unselected tier will be ignored if the elements are searched in the execution. 
 - Input item ②：Check the selected the property of the tier. This unselected property will be ignored if the elements are searched in the execution.
-- Input item ③: There are 4 matching rules, "equals", "contains", "startwith" and "endwith".
+- Input item ③: There are 4 matching rules, "equals", "contains", "startWith" and "endWith".
   
 - Input item ④：The values of the property
     Notes：When the matching rule is "equals", the value supports wildcard characters.
@@ -63,7 +63,7 @@ Click "Validate" button.
   ![validate success](../../img/vscode-validate-success-recorder.png)
 
 2. Within a few seconds, it automatically returns to the vscode window and marks as correct.
-3. 
+  
   ![validate success](../../img/vscode-validate-success.png)
 
 ### Validate failure
@@ -91,6 +91,6 @@ Click "Validate" button.
   
   ![vscode-set-single-target](../../img/vscode-set-single-target.png)
 
-- After switching back to vscode, the corresponding Index property will be updated as the latest Index and checked. 
+- After switching back to vscode, the corresponding Index property will be updated to the last Index and checked. 
   
   ![vscode-set-single-target-success](../../img/vscode-set-single-target-success.png)
