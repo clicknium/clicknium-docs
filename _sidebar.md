@@ -12,7 +12,7 @@
       - [Chrome Extension](./doc/developtools/extensions/chromeextension.md)
       - [Edge Extension](./doc/developtools/extensions/edgeextension.md)
       - [FireFox Extension](./doc/developtools/extensions/firefoxextension.md)
-    - [Java Extension](./doc/developtools/extensions/javaextension.md)
+      - [Java Extension](./doc/developtools/extensions/javaextension.md)
 - [Clicknium Python SDK](./doc/api/python/pythonsdk.md)
   - [Global Functions](./doc/api/python/globalfunctions.md)
     - [clicknium.find_element](./doc/api/python/find_element.md)
