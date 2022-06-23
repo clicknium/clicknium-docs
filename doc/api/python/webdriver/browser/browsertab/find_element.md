@@ -5,7 +5,7 @@
         locator_variables: dict = {}
     ) -> WebElement***  
 
- Initialize UI element by the given locator in current open browser.
+ Initialize UI element by the given locator in currently open browser.
 
 >**Remarks:**  
 Use the following method,

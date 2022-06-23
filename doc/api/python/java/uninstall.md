@@ -6,7 +6,7 @@ Uninstall java extension.
 
 **Parameters:**  
     &emsp;**java_install_path**: str  
-        &emsp;&emsp; The java installation path, like "C:\\Program Files\\Java\\jdk-17.0.2\\bin". The system will try to find it under "Program Files && Program Files (x86)" if this parameter is not specified.
+        &emsp;&emsp; java installation path, set the java installation path as "C:\\Program Files\\Java\\jdk-17.0.2\\bin". If this parameter is not specified, the system will try to find it under "Program Files && Program Files (x86)" 
 
 **Returns:**  
     &emsp;None

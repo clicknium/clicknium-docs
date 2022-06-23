@@ -7,7 +7,7 @@
         timeout: int = 30
     ) -> None***  
 
-Minimize the current located window.
+Minimize the currently located window.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  

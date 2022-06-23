@@ -1,8 +1,8 @@
-# Sap <!-- {docsify-ignore-all} -->
+# SAP <!-- {docsify-ignore-all} -->
 
-**Sap class provides methods to sap application, such as login, find UI element in sap application.**
+**SAP class provides methods to SAP application, such as login, find UI element in SAP application.**
 
 ## methods 
 
-- [login](./doc/api/python/sap/login.md): login in sap application
-- [find_element](./doc/api/python/sap/find_element.md): initialize sap UI element by the given locator, return [SapElement](./doc/api/python/sap/sapelement/sapelement.md) object
+- [login](./doc/api/python/sap/login.md): login to the SAP application
+- [find_element](./doc/api/python/sap/find_element.md): initialize SAP UI element by the given locator, return [SapElement](./doc/api/python/sap/sapelement/sapelement.md) object

@@ -19,4 +19,4 @@
 
 - [open](./doc/api/python/webdriver/open.md): open browser with specified url to get a browser tab, return [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object
 - [attach](./doc/api/python/webdriver/attach.md): attach to an opened browser tab with specified locator, return [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object
-- [attach_by_title_url](./doc/api/python/webdriver/attach_by_title_url.md): attach to an opened browser tab with specified title and/or url, return [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object
+- [attach_by_title_url](./doc/api/python/webdriver/attach_by_title_url.md): attach to an open browser tab with a specified title and/or url, return [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object

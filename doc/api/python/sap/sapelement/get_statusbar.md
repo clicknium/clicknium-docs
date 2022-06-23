@@ -5,7 +5,7 @@
         timeout: int = 30
     ) -> SapStatusBarInfo***  
 
-Get sap status bar info.
+Get the information of the SAP status bar.
 
 **Parameters:**  
     &emsp;**timeout**: int  

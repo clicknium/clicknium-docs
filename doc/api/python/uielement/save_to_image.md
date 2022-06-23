@@ -15,9 +15,9 @@ Save target element's screenshot to file with the specified size and offset.
     &emsp;**image_file[Required]**: str  
         &emsp;&emsp; file path to save image  
     &emsp;**img_width**: int  
-        &emsp;&emsp; image width. When default is 0, target element's screenshot real width will be uesed.  
+        &emsp;&emsp; image width. When default is 0, the screenshot of the target element's real width will be used.  
     &emsp;**img_height**: int  
-        &emsp;&emsp; image height. When default is 0, target element's screenshot real height will be used.  
+        &emsp;&emsp; image height. When default is 0, the screenshot of the target element's real height will be used.  
     &emsp;**xoffset**:  int  
         &emsp;&emsp; offset of X-Axis, When default is 0, it means no offset.  
     &emsp;**yoffset**: int  

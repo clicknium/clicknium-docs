@@ -9,7 +9,7 @@ Select one option for the target element.
 
 **Parameters:**  
     &emsp;**item [Required]**: str   
-        &emsp;&emsp; option of the dropdown control, The control suppors selection, such as selecting element in web, or combobox in desktop appication.  
+        &emsp;&emsp; option for the dropdown control. The control supports multiple selections, such as selecting an element in web, or the combobox in desktop application.  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 

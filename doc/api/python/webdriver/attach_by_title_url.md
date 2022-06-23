@@ -8,7 +8,7 @@
         timeout = 30
     ) -> BrowserTab***  
 
-Attach to an opened browser tab with specified title and/or url.
+Attach to an open browser tab with a specified title and/or url.
 
 **Parameters:**  
     &emsp;**title**: str   

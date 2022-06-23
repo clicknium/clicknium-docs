@@ -6,7 +6,7 @@
         timeout: int = 30
     ) -> None***  
 
-Select sap item.
+Select the SAP item.
 
 **Parameters:**  
     &emsp;**item[Required]**: str  

@@ -6,7 +6,7 @@
         timeout: int = 30
     ) -> bool***  
 
- Check whether the UI element exists in current open browser.
+ Check whether the UI element exists in currently open browser.
 
 >**Remarks:**  
 Use the following method, `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with the method `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the UI element.
@@ -18,7 +18,7 @@ Use the following method, `clicknium.chrome.open("https://bing.com").is_exist()`
     &emsp;**locator[Required]**: str | _Locator   
         &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md)  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 

@@ -6,7 +6,7 @@
         timeout: int = 30
     ) -> None***  
 
-Call sap transaction.
+Call the SAP transaction.
 
 **Parameters:**  
     &emsp;**transaction_code[Required]**: str  

@@ -5,7 +5,7 @@
         wait_timeout: int = 30
     ) -> UiElement***  
 
-Wait for the UI element to appear in specified timeout interval.
+Wait for the UI element to appear in the given time.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   

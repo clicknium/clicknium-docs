@@ -2,7 +2,7 @@
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**LocatorRequestError is raised when getting cloud locator failed with http request error.**
+**LocatorRequestError is raised when the cloud locator cannot be acquired due to server request error.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -18,4 +18,4 @@ Message of the exception.
 ### stacktrace
 - type: str
 
-Stack of the exception which got raised inside the exception.
+A string representing all the calls prior to the function that raised the exception.

@@ -6,7 +6,7 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-Wait the element's value of specified property is the same as expected. 
+Wait for the element's value of specified property to be the same as expected.
 
 **Parameters:**  
     &emsp;**name[Required]**: str  
@@ -17,7 +17,7 @@ Wait the element's value of specified property is the same as expected.
         &emsp;&emsp; wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;bool, return True if UI element exists and the property value equals expected value, otherwise return False
+    &emsp;bool, return True if the UI element exists and the property value equals the expected one, otherwise return False.
 
 **Example:**
 ***

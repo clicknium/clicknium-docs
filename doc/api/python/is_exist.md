@@ -5,7 +5,7 @@
         timeout: int = 30
     ) -> bool***  
 
-Check whether the ui element exists or not.  
+Check whether the UI element exists or not.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   

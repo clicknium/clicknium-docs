@@ -17,10 +17,10 @@ Clear text of the element.
     &emsp;**clear_hotkey**: ClearHotKey  
         &emsp;&emsp; if clear_method is set to "send_hotkey", then specify hotkey with this parameter, default is `{CTRL}{A}{DELETE}`  
         &emsp;&emsp; `CAD` means`{CTRL}{A}-{DELETE}`: send the combined hotkey "{CTRL}{A}" first, then send hotkey "{DELETE}"  
-        &emsp;&emsp; `ESHD` means `{END}-{SHIFT}{HOME}-{DELETE}`: send the hotkey "{END}" first, then send combined hotkey "{SHIFT}{HOME}, then send hotkey "{DELETE}"  
-        &emsp;&emsp; `HSED` means `{HOME}-{SHIFT}{END}-{DELETE}`: send the hotkey "{HOME}" first, then send combined hotkey "{SHIFT}{END}, then send hotkey "{DELETE}"  
+        &emsp;&emsp; `ESHD` means `{END}-{SHIFT}{HOME}-{DELETE}`: send the hotkey "{END}" first, and send combined hotkey "{SHIFT}{HOME}, then send hotkey "{DELETE}"  
+        &emsp;&emsp; `HSED` means `{HOME}-{SHIFT}{END}-{DELETE}`: send the hotkey "{HOME}" first, and send combined hotkey "{SHIFT}{END}, then send hotkey "{DELETE}"  
     &emsp;**preaction**: PreAction  
-        &emsp;&emsp; pre action, action should be taken on the target element before clear text  
+        &emsp;&emsp; pre action, action should be taken on the target element before clearing the text.   
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 

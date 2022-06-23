@@ -5,7 +5,7 @@
         timeout: int = 30
     ) -> None***  
 
-Check operation on target element.
+Check operation on the target element.
 
 **Parameters:**  
     &emsp;**check_type**: str | CheckType   

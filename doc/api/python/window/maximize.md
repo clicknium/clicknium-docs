@@ -7,7 +7,7 @@
         timeout: int = 30
     ) -> None***  
 
-Maximize the current located window.
+Maximize the currently located window.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  

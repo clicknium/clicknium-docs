@@ -2,7 +2,7 @@
 
 ***def refresh(self) -> None -> None***  
 
-Refresh the page of the current tab.
+Refresh the page of the currently tab.
 
 **Returns:**  
     &emsp;None

@@ -1,7 +1,7 @@
 # hover
 ***def hover(self, timeout: int = 30) -> None***  
 
-Hover on the element, and the mouse will move upon the element for a while.
+Hover over the element, and the mouse will move upon the element for a while.
 
 **Parameters:**    
     &emsp;**timeout**: int  

@@ -9,9 +9,9 @@
     &emsp;**Yoffset**: int  
         &emsp;&emsp; y offset sets the click position based on Location. Default value is 0.  
     &emsp;**Xrate**: int  
-        &emsp;&emsp; x rate percent of the click position is based on Location. When default value is 0, it means no offset. If xrate is 1, it means X of click postion move to right. The distance is 1*element's width pixsels.  
+        &emsp;&emsp; x rate percent of the click position is based on Location. When default value is 0, it means no offset. If xrate is 1, it means X of click postion moving to right. The distance is 1*element's width pixsels.  
     &emsp;**Yrate**: int  
-        &emsp;&emsp; y rate percent sets the click position based on Location. When default value is 0, it means no offset. If xrate is 1, it means Y of click postion move to right. The distance is element's height pixsels. 
+        &emsp;&emsp; y rate percent sets the click position based on Location. When default value is 0, it means no offset. If xrate is 1, it means Y of click postion moving to right. The distance is element's height pixsels. 
     
 **Definition:**
 ```python

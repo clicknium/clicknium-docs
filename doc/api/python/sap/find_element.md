@@ -5,7 +5,7 @@
         locator_variables: dict = {}
     ) -> SapElement***  
 
-Initialize sap UI element by the given locator.
+Initialize SAP UI element by the given locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   

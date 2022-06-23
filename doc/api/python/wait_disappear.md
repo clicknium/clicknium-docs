@@ -5,7 +5,7 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-Wait for the UI element to disappear in specified timeout interval.
+Wait for the UI element to disappear in the given time.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   

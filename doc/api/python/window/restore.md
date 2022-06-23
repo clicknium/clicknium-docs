@@ -7,7 +7,7 @@
         timeout: int = 30
     ) -> None***  
 
-Restore the current located window.
+Restore the currently located window.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  

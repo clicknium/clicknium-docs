@@ -6,7 +6,7 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-Wait for the UI element to disappear in given timeout interval in current open browser.
+Wait for the UI element to disappear in given time in currently opened browser.
 
 >**Remarks:**  
 It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear()`, it is different with `clicknium.wait_disappear()` [clicknium.wait_disappear](./doc/api/python/wait_disappear.md) when locating the ui element.
