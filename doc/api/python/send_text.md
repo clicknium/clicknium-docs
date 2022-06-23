@@ -4,11 +4,15 @@
         text: str
     ) -> None***  
 
-Send text to the current cursor's position.
+Send text to the cursor's current position.
+
+>**Remarks:**  
+This method is to send text to the system. If you need to send the text to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use [set_text](/doc/api/python/uielement/set_text.md) which is bound to a UI element.
+
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  
-        &emsp;&emsp; text string is to be input  
+        &emsp;&emsp; text string to be sent.
 
 **Returns:**  
     &emsp;None
@@ -16,7 +20,9 @@ Send text to the current cursor's position.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium
+from clicknium import clicknium
 
-    clicknium.send_text("clicknium")
+clicknium.find_element(locator.chrome.bing.search_sb_form_q).set_focus()
+
+clicknium.send_text("clicknium")
 ```

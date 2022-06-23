@@ -5,29 +5,29 @@
         timeout: int = 30
     ) -> List[UiElement]***  
 
-Find elements by the given locator, currently only supporting web automation.
+Return list of all matched Web elements by the given locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](../../automation/locator.md). 
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: var_dict = { "row": 1,  "column": 1}, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md).
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; timeout for locating all matched UI elements, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;list of [UiElement](./doc/api/python/uielement/uielement.md) object
+    &emsp;List of matched web elements with type [UiElement](./doc/api/python/uielement/uielement.md).
 
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
 
-    cc.edge.open("https://www.bing.com/")
-    ui(locator.new_store.sample.bing.search_sb_form_q).set_text('clicknium')
-    ui(locator.new_store.sample.bing.svg).click()
+cc.edge.open("https://www.bing.com/")
+ui(locator.store.sample.bing.search_sb_form_q).set_text('clicknium')
+ui(locator.store.sample.bing.svg).click()
 
-    result_elements = ui(locator.new_store.sample.bing.a_search_result)
-    for elem in result_elements:
-        elem.highlight(duration=1)
+result_elements = cc.find_elements(locator.store.sample.bing.a_search_result)
+for elem in result_elements:
+    elem.highlight(duration=1)
 ```
