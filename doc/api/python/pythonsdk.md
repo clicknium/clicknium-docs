@@ -1,10 +1,10 @@
 # Overview
 
-## Install Clicknium Python SDK
+## Install Clicknium python pacakge
 ### System Requirements​
 - Python 3.7 or above  
 
-Install Clicknium automation sdk through [pip](https://pypi.org/project/clicknium/)  
+Install Clicknium python package through [pip](https://pypi.org/project/clicknium/)  
 
 ```
 # python version is 3.8 or below
@@ -18,7 +18,7 @@ pip install clicknium
 ## API reference  <!-- {docsify-ignore} -->
 Clicknium python sdk provide ways to automate various applications, such as **Web** browser, **Windows Desktop** application, **Java** application, **Sap** windows Gui app, etc. 
 A sample code to drive web automation with clicknium is as follows.
-```
+```python
 from clicknium import clicknium as cc, locator, ui
 
 # open new browser window
@@ -34,7 +34,7 @@ chrome_tab.find_element(locator.chrome.bing.svg).click()
 # you can also use the following api directly, we will do attach browser automatically
 ui(locator.chrome.bing.search_sb_form_q).set_text("automation")
 
-$ for windows application
+# for windows application
 ui(locator.notepad.document_15).set_text("clicknium")
 
 ```
