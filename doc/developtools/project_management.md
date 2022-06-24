@@ -1,7 +1,7 @@
 # Create Project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Create Clicknium Project". Press "Enter", and select the folder where the project is stored according to the pop-up window. 
-![project create](../img/project_create.gif)
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Create Project". Press "Enter", and select the folder where the project is stored according to the pop-up window. 
+![project create](D:\Repos\ClickCorp\clicknium-docs\doc\img\create_project.gif)
 
 When the project is created, a pop-up window in the lower right corner shows the general restored project information and the bottom page shows details. After restoring, the current Python virtual enviroment can be seen when you open app.py.
 ![project create](../img/create_project_apppy_env.png)
@@ -35,14 +35,12 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and ent
 3. **logo.ico**：Generate the file with exe icon when packaging the project, and it can be replaced with the needed icon file.
 
 4. **.gitignore**：When using Git, you can add or remove files that you want to ignore.
-   
-   
 
 # Run/Debug Project
 
 ## Run the project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Run". When you press "Enter" to run the project, Clicknium extension will deploy the project running process based on app.yaml
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Run Project". When you press "Enter" to run the project, Clicknium extension will deploy the project running process based on app.yaml
 ![project run](../img/run_project.gif) 
 
 ## Debug the project
@@ -50,7 +48,7 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and ent
 ### Basics
 
 In Visual Studio Code, set a breakpoint on the right side of the code editing window at first,
-press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Debug". When you press "Enter" to run the project, Visual Studio Code will be debuging with the debug button shown at the top. 
+press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Debug Project". When you press "Enter" to run the project, Visual Studio Code will be debuging with the debug button shown at the top. 
 ![project debug](../img/debug_project_3.png)
 &emsp;Continue (F5) / Pause (F6)
 &emsp;Step over (F10)
