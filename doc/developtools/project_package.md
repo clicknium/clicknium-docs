@@ -1,6 +1,6 @@
-# Project Package
+# Package Project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Pack". Press "Enter", and select the path where the Exe file of the packed project is stored according to the pop-up window.
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Package Project". Press "Enter", and select the path where the Exe file of the packed project is stored according to the pop-up window.
 ![](D:\Repos\ClickCorp\clicknium-docs\doc\img\pack_project.gif)
 
 The detailed package log Output displays in the Output in Visual Studio Code.
