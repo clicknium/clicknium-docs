@@ -13,7 +13,7 @@ When the project is created, a pop-up window in the lower right corner shows the
 In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Run Project". The clicknium extension will deploy and run the project based on app.yaml.
 
 1. **app.py** an automation scripts file where the main function is the entry function for runing the project.
-   ![project appyy](../img/create_project_apppy.png)
+![project appyy](../img/create_project_apppy.png)
 
 2. **app.yaml** configuration files where you can configure the project, Python version, Python package, project entry file, cloud element repository, etc.
    ![project appyaml](../img/create_project_appyaml.png)
