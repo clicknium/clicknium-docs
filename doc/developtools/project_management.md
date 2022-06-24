@@ -1,7 +1,7 @@
 # Create Project
 
 In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Create Project". Press "Enter", and select the folder where the project is stored according to the pop-up window. 
-![project create](D:\Repos\ClickCorp\clicknium-docs\doc\img\create_project.gif)
+![project create](../img/create_project.gif)
 
 When the project is created, a pop-up window in the lower right corner shows the general restored project information and the bottom page shows details. After restoring, the current Python virtual enviroment can be seen when you open app.py.
 ![project create](../img/create_project_apppy_env.png)
