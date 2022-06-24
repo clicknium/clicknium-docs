@@ -6,13 +6,13 @@
         timeout: int = 30
     ) -> None***  
 
-Highlight the element with specified color.
+Highlight the target element.
 
 **Parameters:**  
     &emsp;**color**: str | Color  
-        &emsp;&emsp; the color of the highlighed rectangle, and the default value is Yellow.  
+        &emsp;&emsp; the color of the highlighed rectangle, the default value is Yellow.  
     &emsp;**duration**: int  
-        &emsp;&emsp; the duration for highlighted the element, the unit is second, and the default value is 3 seconds         
+        &emsp;&emsp; the duration for highlighting the element, the unit is second, and the default value is 3 seconds.
     &emsp;**timeout**: int  
         &emsp;&emsp;timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
@@ -22,10 +22,10 @@ Highlight the element with specified color.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
     
-    ui(locator.chrome.bing.search_sb_form_q).highlight()
+ui(locator.chrome.bing.search_sb_form_q).highlight()
 ```
 
-- The following item will be shown on the browser  
+The following item will be shown on the browser:
 ![highlight](../../../img/highlight.png)

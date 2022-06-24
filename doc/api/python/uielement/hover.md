@@ -1,7 +1,7 @@
 # hover
 ***def hover(self, timeout: int = 30) -> None***  
 
-Hover over the element, and the mouse will move upon the element for a while.
+Hover over the element, and the mouse will move upon the element and stay for a while.
 
 **Parameters:**    
     &emsp;**timeout**: int  
@@ -12,7 +12,7 @@ Hover over the element, and the mouse will move upon the element for a while.
 
 **Example:**
 
-- hover on the web element  
+- Hover over a web element  
   
 ![sample](../../../img/hover_sample1.png)  
 

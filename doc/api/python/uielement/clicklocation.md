@@ -1,17 +1,23 @@
 # ClickLocation
-**ClickLocation class which can be initialized for mouse action on target element: click, double_click, mouse_up or mouse_down.**
+**ClickLocation class is to define the position of mouse action on target element. It is being used in [click](./click.md), [double_click](./double_click.md), [mouse_up](./mouse_up.md) and [mouse_down](./mouse_down.md).**
 
 **Parameters:**  
     &emsp;**Location**: Location  
         &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'left-top', 'left-bottom', 'right-top' and 'right-bottom', and the default value is 'center'.  
     &emsp;**Xoffset**: int   
-        &emsp;&emsp; x offset sets the click position based on Location. When default value is 0, it means no offset.  
+        &emsp;&emsp; sets the x-direction offset relative to Location in pixel. Defautl is 0.
     &emsp;**Yoffset**: int  
-        &emsp;&emsp; y offset sets the click position based on Location. Default value is 0.  
-    &emsp;**Xrate**: int  
-        &emsp;&emsp; x rate percent of the click position is based on Location. When default value is 0, it means no offset. If xrate is 1, it means X of click postion moving to right. The distance is 1*element's width pixsels.  
-    &emsp;**Yrate**: int  
-        &emsp;&emsp; y rate percent sets the click position based on Location. When default value is 0, it means no offset. If xrate is 1, it means Y of click postion moving to right. The distance is element's height pixsels. 
+        &emsp;&emsp; sets the y-direction offset relative to Location in pixel. Default is 0.  
+    &emsp;**Xrate**: float  
+        &emsp;&emsp; sets the x-direction offset relative to Location in percentage of target element width. Default is 0.
+    &emsp;**Yrate**: float
+        &emsp;&emsp; sets the y-direction offset relative to Location in percentage of target element height. Default is 0.
+
+**Remarks**:
+> The position calculation can be illustrated as below: 
+>
+> ![sample1](../../../img/location-center-offset.png)
+> ![sample2](../../../img/location-lefttop-offset.png)
     
 **Definition:**
 ```python

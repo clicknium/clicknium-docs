@@ -7,12 +7,12 @@
         timeout: int = 30
     ) -> None***  
 
-Clear text of the element.
+Clear text of the target element.
 
 **Parameters:**  
      &emsp;**clear_method**: ClearMethod  
         &emsp;&emsp; The method to clear text for the target element  
-        &emsp;&emsp; `set-text`: clear the target element's text by setting its property.    
+        &emsp;&emsp; `set-text`: clear the target element's text by setting its property.
         &emsp;&emsp; `send-hotkey`: clear text by sending hotkey to the target element. "clear_hotkey" and "preaction" parameters also need to be specified accordingly.  
     &emsp;**clear_hotkey**: ClearHotKey  
         &emsp;&emsp; If clear_method is set to "send-hotkey", then specify hotkey with this parameter, default is `CAD`. 
@@ -35,24 +35,25 @@ For the file "Save As" dialog, use clear_text to clear the existing content in "
 
 
 ```python
-    from clicknium import clicknium as cc, locator, ui  
-    ui(locator.chrome.edit_1001).clear_text(clear_method="set-text")
+from clicknium import clicknium as cc, locator, ui  
+
+ui(locator.chrome.edit_1001).clear_text(clear_method="set-text")
 ```
 
 - Wechat message input box  
 ![sample1](../../../img/clear_text_sample2.png)  
-The UI element does not support "set-text" clear_method, then use the following way.  
+This type of UI element does not support "set-text" to clear text, then use the following way.  
 
 ```python
-    from clicknium import clicknium as cc, locator, ui  
-    ui(locator.wechat.edit1).clear_text(clear_method="send-hotkey", clear_hotkey="CAD", preaction="click")
+from clicknium import clicknium as cc, locator, ui  
+
+ui(locator.wechat.edit1).clear_text(clear_method="send-hotkey", clear_hotkey="CAD", preaction="click")
 
 ```
 
 - Web input
-
 ```python
-chrome_tab = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
-chrome_tab.find_element(locator.chrome.getbootstrap.text).set_text("hello")
-chrome_tab.find_element(locator.chrome.getbootstrap.text).clear_text(clear_method=ClearMethod.SetText)
+chrome_tab = cc.chrome.open("https://contoso.com/")
+chrome_tab.find_element(locator.chrome.contoso.text).set_text("hello")
+chrome_tab.find_element(locator.chrome.contoso.text).clear_text(clear_method=ClearMethod.SetText)
 ```
