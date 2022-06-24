@@ -4,7 +4,6 @@
 
 **LocatorRequestError is raised when the cloud locator cannot be acquired due to server request error.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

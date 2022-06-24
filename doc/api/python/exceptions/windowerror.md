@@ -4,7 +4,6 @@
 
 **WindowError is raised for common window exceptions.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

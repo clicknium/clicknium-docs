@@ -4,7 +4,6 @@
 
 **ProjectSettingNotFoundError is raised when project setting file 'app.yaml' is missing.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

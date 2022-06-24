@@ -16,7 +16,7 @@
 ### Examples
 
 - You may install java extension by the following way.
-```
+```python
   from clicknium import clicknium as cc
   cc.java.extension.install()
 ```

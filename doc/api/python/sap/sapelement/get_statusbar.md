@@ -1,4 +1,4 @@
-# get_statusbar
+# SapElement.get_statusbar
 
 ***def get_statusbar(
         self, 
@@ -12,7 +12,7 @@ Get the information of the SAP status bar.
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;SapStatusBarInfo class, the class definition as follows:  
+    &emsp;SapStatusBarInfo object, the class definition is as follows:  
 
 ```python
     class SapStatusBarInfo(object):
@@ -28,17 +28,17 @@ Get the information of the SAP status bar.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator
+from clicknium import clicknium as cc, locator
 
-    # get sap driver
-    sap_driver = cc.sap
+# get sap driver
+sap_driver = cc.sap
 
-    # login sap application
-    sap_driver.login("path", "connection", "client", "username", "password")
+# login sap application
+sap_driver.login("path", "connection", "client", "username", "password")
 
-    # find sap element
-    sap_ele = sap_driver.find_element(locator.sap.satus_bar_q)
+# find sap element
+sap_ele = sap_driver.find_element(locator.sap.satus_bar_q)
 
-    # get staus bar info
-    status_bar = sap_ele.get_statusbar()
+# get staus bar info
+status_bar = sap_ele.get_statusbar()
 ```

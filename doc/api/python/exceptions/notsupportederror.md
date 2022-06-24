@@ -4,7 +4,6 @@
 
 **NotSupportedError is raised when an invoked method is not supported, or when an attempt to read, seek, or write to a stream that does not support the invoked functionality.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

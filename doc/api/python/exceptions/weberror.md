@@ -4,7 +4,6 @@
 
 **WebError is raised for common web automation exceptions.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [browser_type](#browser_type)

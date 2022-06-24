@@ -4,7 +4,6 @@
 
 **LocatorUndefinedError is raised when the specified locator can not be found in locator store.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

@@ -4,7 +4,6 @@
 
 **ElementNotFoundError is raised when the target UI element can not be found by the given locator.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

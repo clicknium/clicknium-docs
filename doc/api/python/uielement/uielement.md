@@ -1,5 +1,5 @@
 # UiElement <!-- {docsify-ignore-all} -->
-**UiElement class provides common operations for web and window UI element.**  
+**UiElement class represents a web or window UI element with common automation operations.**  
 
 ## Properties
 

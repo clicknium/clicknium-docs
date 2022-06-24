@@ -4,7 +4,6 @@
 
 **All Clicknium exceptions inherit from this class.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

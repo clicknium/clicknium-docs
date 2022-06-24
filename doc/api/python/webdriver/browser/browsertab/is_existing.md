@@ -1,5 +1,5 @@
-# is_exist
-***def is_exist(
+# is_existing
+***def is_existing(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
@@ -9,9 +9,9 @@
  Check whether the UI element exists in currently open browser.
 
 >**Remarks:**  
-Use the following method, `clicknium.chrome.open("https://bing.com").is_exist()`, it is different with the method `clicknium.is_exist()` [clicknium.is_exist](./doc/api/python/is_exist.md) when locating the UI element.
->- `clicknium.is_exist()` is for  UiElement of both web and window, and does not specify a scope to locate the element.
->- `clicknium.chrome.open("https://bing.com").is_exist()` will locate element in the specified browser.
+Use the following method, `clicknium.chrome.open("https://bing.com").is_existing()`, it is different with the method `clicknium.is_existing()` [clicknium.is_existing](./doc/api/python/is_existing.md) when locating the UI element.
+>- `clicknium.is_existing()` is for  UiElement of both web and window, and does not specify a scope to locate the element.
+>- `clicknium.chrome.open("https://bing.com").is_existing()` will locate element in the specified browser.
 
 
 **Parameters:**  
@@ -33,9 +33,9 @@ Use the following method, `clicknium.chrome.open("https://bing.com").is_exist()`
     chrome_tab = cc.chrome.open("https://bing.com")
 
     # check element if exist
-    chrome_tab.is_exist(locator.chrome.bing.search_sb_form_q)
+    chrome_tab.is_existing(locator.chrome.bing.search_sb_form_q)
 
     # parametric locator
     variables = {"name":"test"}
-    chrome_tab.is_exist(locator.chrome.bing.search_sb_form_q, variables)
+    chrome_tab.is_existing(locator.chrome.bing.search_sb_form_q, variables)
 ```

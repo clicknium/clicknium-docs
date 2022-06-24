@@ -4,7 +4,6 @@
 
 **WebElementNotRespondingError is raised when the web page is not responding.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [browser_type](#browser_type)

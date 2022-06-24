@@ -4,7 +4,6 @@
 
 **OperationTimeoutError is raised when a certain operation is not completed within given time.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

@@ -1,11 +1,11 @@
-# clicknium.is_exist
-***def is_exist(
+# clicknium.is_existing
+***def is_existing(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         timeout: int = 30
     ) -> bool***  
 
-Check whether the UI element exists or not  
+Check whether the UI element exists or not.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
@@ -23,9 +23,9 @@ Check whether the UI element exists or not
 ```python
 from clicknium import clicknium as cc, locator
 
-cc.is_exist(locator.chrome.bing.search_sb_form_q)
+cc.is_existing(locator.chrome.bing.search_sb_form_q)
 
 #parametric locator
 variables = {"name":"test"}
-cc.is_exist(locator.chrome.bing.search_sb_form_q, variables)
+cc.is_existing(locator.chrome.bing.search_sb_form_q, variables)
 ```

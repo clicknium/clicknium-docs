@@ -2,9 +2,8 @@
 
 - extends: [NotSupportedError](./doc/api/python/exceptions/notsupportederror.md)
 
-**NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation. Eg: can not set text for an image UiElement.**
+**NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [automation_tech](#automationtech)

@@ -4,7 +4,6 @@
 
 **BrowserNotRunError is raised when the specified browser is not running.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [browser_type](#browser_type)

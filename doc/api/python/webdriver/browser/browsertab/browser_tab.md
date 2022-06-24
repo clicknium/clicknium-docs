@@ -12,7 +12,7 @@
 **operations related to [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) on current browser tab**
 - [find_element](./doc/api/python/webdriver/browser/browsertab/find_element.md): initialize UI element by the given locator in currently open browser, return [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object
 - [find_elements](./doc/api/python/webdriver/browser/browsertab/find_elements.md): find elements by the given locator, return list of [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object
-- [is_exist](./doc/api/python/webdriver/browser/browsertab/is_exist.md): check whether the UI element exists in currently open browser
+- [is_existing](./doc/api/python/webdriver/browser/browsertab/is_existing.md): check whether the UI element exists in currently open browser
 - [wait_appear](./doc/api/python/webdriver/browser/browsertab/wait_appear.md): wait for the element to appear in currently open browser in the give time, return [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object
 - [wait_disappear](./doc/api/python/webdriver/browser/browsertab/wait_disappear.md): wait for the UI element to disappear in given time in currently opened browser
 

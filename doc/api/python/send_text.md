@@ -12,7 +12,7 @@ This method is to send text to the system. If you need to send the text to a spe
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  
-        &emsp;&emsp; text string to be sent.
+        &emsp;&emsp; text string to be sent.  
 
 **Returns:**  
     &emsp;None

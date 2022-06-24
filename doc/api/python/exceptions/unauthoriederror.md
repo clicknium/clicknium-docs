@@ -4,7 +4,6 @@
 
 **UnAuthorizedError is raised when user does not sign in or the sign in state is expired.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 

@@ -4,7 +4,6 @@
 
 **InvalidOperationError is raised when a method call is invalid for the object's current state.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 
