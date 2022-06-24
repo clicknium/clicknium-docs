@@ -1,14 +1,14 @@
 # WebDriver <!-- {docsify-ignore-all} -->
 
-**WebDriver class provides methods to get browser object for web automation.**
+**WebDriver class provides methods to get browser object for web automation.**  
 
-- `clicknium.ie`: IE web driver
-- `clicknium.chrome`: Chrome web driver
-- `clicknium.edge`: Edge web driver
+- `clicknium.ie`: IE web driver  
+- `clicknium.chrome`: Chrome web driver  
+- `clicknium.edge`: Edge web driver  
 - `clicknium.firefox`: Firefox web driver  
 
 ## Properties
-- `browsers`: List[[Browser](./doc/api/python/webdriver/browser/browser.md)], return all open browsers by current browser type.
+- `browsers`: List[[Browser](./doc/api/python/webdriver/browser/browser.md)], return all open browsers by current browser type.  
 - `extension`: [WebExtension](./doc/api/python/webdriver/webextension/webextension.md), return the web extenion by current browser type.
 
 ## Methods
