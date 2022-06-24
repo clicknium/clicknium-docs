@@ -3,7 +3,7 @@
 In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Create Project", and then select a folder where the project is stored according to the pop-up window.
 ![project create](../img/create_project.gif)
 
-When the project is created, a pop-up window in the lower right corner shows the general restored project information and the bottom page shows details. After restoring, the current Python virtual enviroment can be seen when you open app.py.
+When the project is created, a pop-up window in the lower right corner shows the general project intialization information and the output panel shows details. After initialization, the current Python virtual enviroment can be seen when you open app.py.
 ![project create](../img/create_project_apppy_env.png)
 
 ## Project Structure
