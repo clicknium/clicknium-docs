@@ -14,14 +14,14 @@ Single click the target element.
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**click_location**: ClickLocation  
-        &emsp;&emsp; [ClickLocation](./doc/api/python/uielement/clicklocation.md) is set to define the click of the element position.  
+        &emsp;&emsp; [ClickLocation](./doc/api/python/uielement/clicklocation.md) is set to define the element position to click.  
     &emsp;**click_method**: ClickMethod  
-        &emsp;&emsp; click method is set to choose which method to use when clicking the element. Default vaule is default.  
-        &emsp;&emsp; `mouse-emulation`: perform the mouse emulator, hover the mouse over the target element and click.  
-        &emsp;&emsp; `control-invocation`: invoke operations on target elements, if it is a Web element, the action will be implemented by javascript. But actions may not be supported if it is a Window element.  
-        &emsp;&emsp; `default`: for Web element, use `control-invocation`; for Window element, use `mouse-emulation`  
+        &emsp;&emsp; Defines the method to click the UI element.
+        &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  
+        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if is is a window desktop element.
+        &emsp;&emsp; `default`: for Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
-        &emsp;&emsp; modifier key is set to click with the modifier key("alt", "ctrl", "shift", "win"). Default vaule is none.      
+        &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with click, and default is none.      
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
@@ -33,18 +33,18 @@ Single click the target element.
 - click left button
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
-    ui(locator.chrome.bing.svg).click(mouse_button = "left")
-    # same as
-    cc.find_element(locator.chrome.bing.svg).click(mouse_button = "left")
-    
+from clicknium import clicknium as cc, locator, ui
+ui(locator.chrome.bing.svg).click(mouse_button = "left")
+# same as
+cc.find_element(locator.chrome.bing.svg).click(mouse_button = "left")    
 ```
 
 - click with offset  
 ![sample1](../../../img/click_sample1.png)
 
 > Remarks
->- import ClickLocation module with `from clicknium.common.models.clicklocation import ClickLocation`
+>- import ClickLocation module with
+ `from clicknium.common.models.clicklocation import ClickLocation`
 
 By clicknium recorder, record '5' button as
 default if we invoke click on button '5', `ui(locator.applicationframe.button_num5butto).click()`, and it will click on the central position of button '5'.  
