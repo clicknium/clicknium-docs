@@ -1,4 +1,4 @@
-# wait_disappear
+# BrowserTab.wait_disappear
 ***def wait_disappear(
         self,
         locator: Union[_Locator, str],
@@ -6,23 +6,23 @@
         wait_timeout: int = 30
     ) -> bool***  
 
-Wait for the UI element to disappear in given time in currently opened browser.
+Wait for the specified UI element of the web page to disappear within given timeout.
 
 >**Remarks:**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear()`, it is different with `clicknium.wait_disappear()` [clicknium.wait_disappear](./doc/api/python/wait_disappear.md) when locating the ui element.
->- `clicknium.wait_disappear()` is for both web and window's uielement, and does not specified a scope to locate the element
->- `clicknium.chrome.open("https://bing.com").wait_disappear()` will locate element in the specified browser
+It should be used like `clicknium.chrome.open("https://bing.com").wait_disappear()`, it is different with [clicknium.wait_disappear](./doc/api/python/wait_disappear.md) when locating the ui element.
+>- `clicknium.wait_disappear()` is for both web and window's uielement, and does not specified a scope to locate the element.  
+>- `clicknium.chrome.open("https://bing.com").wait_disappear()` will locate element in its parent web page.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./doc/automation/locator.md).   
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [Parametric Locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md).  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait timeout for the operation, the unit is second, default value is 30 seconds 
+        &emsp;&emsp; wait timeout for the operation, the unit is second, default value is 30 seconds.  
 
 **Returns:**  
-    &emsp;bool, return True if the element is disappear in given time or return False
+    &emsp;bool, return True if the element disappears within given timeout otherwise return False.  
 
 **Example:**
 ***
@@ -36,6 +36,6 @@ chrome_tab.wait_disappear(locator.chrome.bing.search_sb_form_q)
 
 # parametric locator
 variables = {"name":"test"}
-chrome_tab.wait_disappear(locator.chrome.bing.search_sb_form_q, variables)
+chrome_tab.wait_disappear(locator.chrome.bing.search_sb_form_v, variables)
 
 ```

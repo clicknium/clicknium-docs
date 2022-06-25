@@ -1,8 +1,8 @@
-# refresh
+# BrowserTab.refresh
 
 ***def refresh(self) -> None -> None***  
 
-Refresh the page of the currently tab.
+Refresh current web page.
 
 **Returns:**  
     &emsp;None
@@ -10,12 +10,11 @@ Refresh the page of the currently tab.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    # open chrome browser
-    chrome_tab = cc.chrome.open("https://www.bing.com")
+# open chrome browser
+chrome_tab = cc.chrome.open("https://www.bing.com")
 
-    # refresh browser tab
-    chrome_tab.refresh()
-
+# refresh browser tab
+chrome_tab.refresh()
 ```

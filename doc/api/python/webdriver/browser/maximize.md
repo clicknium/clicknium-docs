@@ -1,4 +1,4 @@
-# maximize
+# browser.maximize
 
 ***def maximize(self) -> None***  
 
@@ -10,12 +10,11 @@ Maximize the browser window.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    # get browser with type chrome
-    browser = cc.chrome.browsers[0]
+# get browser with type chrome
+browser = cc.chrome.browsers[0]
 
-    # maximize the browser window
-    browser.maximize()
-
+# maximize the browser window
+browser.maximize()
 ```

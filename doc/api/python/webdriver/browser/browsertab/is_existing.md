@@ -1,4 +1,4 @@
-# is_existing
+# BrowserTab.is_existing
 ***def is_existing(
         self,
         locator: Union[_Locator, str],

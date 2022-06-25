@@ -6,23 +6,23 @@
         wait_timeout: int = 30
     ) -> WebElement***  
 
-Wait for the element to appear in currently open browser in the give time.
+Wait for the specified element of the web page to appear within given timeout.  
 
 >**Remarks:**  
 It should be used like `clicknium.chrome.open("https://bing.com").wait_appear()`, it is different with `clicknium.wait_appear()` [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the ui element.
->- `clicknium.wait_appear()` is for both the web and window's UiElement, and cannot locate the element in a specified scope.
->- `clicknium.chrome.open("https://bing.com").wait_appear()` will locate element in the specified browser
+>- `clicknium.wait_appear()` is for both the web and window's UiElement, and cannot locate the element in a specified scope.  
+>- `clicknium.chrome.open("https://bing.com").wait_appear()` will locate element in its parent web page.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the name of one locator in locator store, ex: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, locator name is search_sb_form_q  
+        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./doc/automation/locator.md).   
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, is set to initialize parameters in locator, ex: var_dict = { "row": 1,  "column": 1}, more about variable, please refer to [Parametric Locator](./doc/automation/parametric_locator.md)  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md).  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait timeout for the operation, the unit is second, default value is 30 seconds 
+        &emsp;&emsp; wait timeout for the operation, the unit is second, default value is 30 seconds.  
 
 **Returns:**  
-    &emsp;[WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object, or None if the element is not appear
+    &emsp;[WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object, or None if the element does not appear.  
 
 **Example:**
 ***
