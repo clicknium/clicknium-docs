@@ -1,73 +1,78 @@
-# Create Project
+# Project Management
+[Overview](#overview)
+[Create Project](#create-project)
+[Run/Debug Project](#rundebug-project)
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Create Clicknium Project". Press "Enter", and select the folder where the project is stored according to the pop-up window. 
-![project create](../img/project_create.gif)
+## Overview
+Clicknium project encapsulates python automation files to guarantee the automation scripts having same result in developing, debugging, execution and distribution. 
 
-When the project is created, a pop-up window in the lower right corner shows the general restored project information and the bottom page shows details. After restoring, the current Python virtual enviroment can be seen when you open app.py.
+## Create Project
+
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Create Project", and then select a folder where the project is stored according to the pop-up window.
+![project create](../img/create_project.gif)
+
+When the project is created, a pop-up window in the lower right corner shows the general project intialization information and the output panel shows details. After initialization, the current Python virtual enviroment can be seen when you open app.py.
 ![project create](../img/create_project_apppy_env.png)
 
-## Project Structure
+### Project Structure
 
 ![project structure](../img/create_project_1.png)
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Run". When you press "Enter" to run the project, Clicknium extension will deploy the project running process based on app.yaml.
 
-1. **app.py** an automation scripts file where the main function is the entry function for runing the project.
+1. **app.py**:a python file where the main function is the execution entry of the project.
    ![project appyy](../img/create_project_apppy.png)
 
-2. **app.yaml** configuration files where you can configure the project, Python version, Python package, project entry file, cloud element repository, etc.
+2. **app.yaml**:configuration file where you can configure python version, python packages, project entry file and locator store references, etc for the project.  
    ![project appyaml](../img/create_project_appyaml.png)
    
-   - startUp: The project entry file, if you want to change the project run entry file to main.py, fill out "main" to configure it.
+   - **startUp**: The project entry file, if you want to change the project run entry file to another file, fill the file name without suffix in this field.  
    
-   - log：The project log, currently supporting the local log where "Folder" indicates the path of the Log storage Folder. If this parameter is  blank or null, it will be automatically stored in the Log file starting with %LOCALAPPDATA%\Clicknium\Log\Folder Automation.
+   - **log**：The project log. Its property "folder" indicates the location of the log files to be saved. If its value is not specified, it will use default location %LOCALAPPDATA%\Clicknium\Log.
    
-   - requirements：running project dependency
-     &emsp;Python:Python version is 3.7.0 by default.In the creating a project, Clicknium extension automatically reads the current Default Interpreter Path Settings in Python Settings in Visual Studio Code. If this setting uses neither Python virtual environment path nor the Python embedded version path, Clicknium extension read this setting to change the Python version to the configuration. 
+   - **requirements**：running project dependency.  
+     &emsp;Python: Python version is 3.7.0 by default. In creating project, if Visual Studio Code already has at least one supported version Python installed, clicknium extension will choose current selected python interpreter to create the project, the python version in this configuration file will be updated accordingly. If Visual Studio Code does not have Python installed, clicknium extension will install Python 3.7.0 as described in configuration file by default.
      
-     ![project appyaml](../img/create_project_appyaml_python_config.png)
-     &emsp;packages：Python package dependency. In this configuration, you can add one or more Python packages requrired in projects in the format of package-version. If the version is blank or null, the latest version will be used automatically.
-     ![project appyamlpython](../img/create_project_appyaml_python.png)
-     If there is no need for  Python package dependency，it will be configured as [].
-     ![project appyamlpython](../img/create_project_appyaml_python_clear.png)
-     &emsp;locators: The cloud element repository dependency, configured in the same way as Python package dependency.
+     ![project appyaml](../img/create_project_appyaml_python_config.png)  
+     &emsp;Packages：Python package dependency. In this configuration, you can add one or more Python packages requrired by this project in the format of package-version. If the version is blank or null, the latest version will be used automatically.  
+     ![project appyamlpython](../img/create_project_appyaml_python.png)  
+     &emsp;If there is no required Python package dependency，it will be configured as [].  
+     ![project appyamlpython](../img/create_project_appyaml_python_clear.png)  
+     &emsp;locators: The cloud locator repository dependency, configured in the same way as Python package dependency.
 
-3. **logo.ico**：Generate the file with exe icon when packaging the project, and it can be replaced with the needed icon file.
+3. **logo.ico**：The icon of executable file after packaging the project. You may replace this file if you want customize the executable file icon.  
 
 4. **.gitignore**：When using Git, you can add or remove files that you want to ignore.
-   
-   
 
-# Run/Debug Project
+## Run/Debug Project
 
-## Run the project
+### Run the project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Run". When you press "Enter" to run the project, Clicknium extension will deploy the project running process based on app.yaml
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Run Project". The clicknium extension will deploy and run the project based on app.yaml.
 ![project run](../img/run_project.gif) 
 
-## Debug the project
+### Debug the project
 
-### Basics
+#### Basics
 
-In Visual Studio Code, set a breakpoint on the right side of the code editing window at first,
-press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Debug". When you press "Enter" to run the project, Visual Studio Code will be debuging with the debug button shown at the top. 
-![project debug](../img/debug_project_3.png)
-&emsp;Continue (F5) / Pause (F6)
-&emsp;Step over (F10)
-&emsp;Step in (F11)
-&emsp;Step out (Shift + F11)
-&emsp;Restart (Ctrl+Shift+F5)
-&emsp;Stop (Shift + F5)
+In Visual Studio Code, set a breakpoint to the code where you want to pause,
+press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Debug Project". The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
+![project debug](../img/debug_project_3.png)  
+&emsp;Continue (F5) / Pause (F6)  
+&emsp;Step over (F10)  
+&emsp;Step in (F11)  
+&emsp;Step out (Shift + F11)  
+&emsp;Restart (Ctrl+Shift+F5)  
+&emsp;Stop (Shift + F5)  
 ![project debug](../img/debug_project.gif)
 
-### Monitor Variables
+#### Monitor Variables
 
-In the upper left corner of Visual Studio Code, you can see the variables is debugging the running values.
+In the upper left corner of Visual Studio Code, you can see the variables is debugging the running values.  
 
 ![project debug](../img/debug_project_1.png)
 
-### Debug Console
+#### Debug Console
 
-In Visual Studio Code, open the debug console by "View -> Debug Console" 
+In Visual Studio Code, open the debug console by "View -> Debug Console"   
 
 ![project debug console](../img/debug_project_2.png)
