@@ -1,6 +1,6 @@
 # Package Project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show "Package Project". Press "Enter", and select the path to save the executable file.
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Package Project", then select the path to save the executable file.
 ![](../img/pack_project.gif)
 
 The detailed package log Output displays in the Output in Visual Studio Code.
