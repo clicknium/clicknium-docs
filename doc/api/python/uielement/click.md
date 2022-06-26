@@ -1,77 +1,73 @@
 # click <!-- {docsify-ignore-all} -->
 ***def click(
         self,
-        click_type: Literal["click", "up", "down"] = ClickType.Click,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
-        click_location: Literal["center", "lefttop", "leftbottom", "righttop","rightbottom"] = ClickLocation.Center,
-        click_method: Union[Literal["default", "mouseemulation", "controlinvocation"], ClickMethod] = ClickMethod.Default,
-        modifier_key: Literal["none", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
-        xoffset: int = 0,
-        yoffset: int = 0,
-        xrate: int = 0,
-        yrate: int = 0,
+        click_location: ClickLocation = ClickLocation(),
+        click_method: Union[Literal["default", "mouse-emulation", "control-invocation"], ClickMethod] = ClickMethod.Default,
+        modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         timeout: int = 30
     ) -> None***  
 
-Performing mouse action on target element: single click, mouse key up or mouse key down.  
+Single click the target element.
 
 **Parameters:**  
-    &emsp;**click_type**: ClickType   
-        'click': default value, single click the target element; 'up': mouse key up on the target element; 'down': mouse key down on the target element; 
     &emsp;**mouse_button**: MouseButton  
-        &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'. 
+        &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**click_location**: ClickLocation  
-        &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'lefttop', 'leftbottom', 'righttop' and 'rightbottom', and the default value is 'center'.
+        &emsp;&emsp; [ClickLocation](./doc/api/python/uielement/clicklocation.md) is set to define the element position to click. Default position is center of element. 
     &emsp;**click_method**: ClickMethod  
-        &emsp;&emsp; click method is set to choose which method to use when clicking the element. Default vaule is default. 
-        &emsp;&emsp; `mouseemulation`: perform mouse emulator, move the mouse to the target element and click  
-        &emsp;&emsp; `controlinvocation`: invoke the action on the target element, for web element, perform through javascript; for windows application element, it should support the action, or it will be failed. 
-        &emsp;&emsp; `default`: for web element, use `controlinvocation`; for desktop element, use `mouseemulation`  
+        &emsp;&emsp; Defines the method to click the UI element.
+        &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  
+        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if is is a window desktop element.
+        &emsp;&emsp; `default`: automatically choose method per element type. For Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
-        &emsp;&emsp; modifier key is set to click with the modifier key("alt", "ctrl", "shift","win"). Default vaule is none.    
-    &emsp;**xoffset**: int   
-        &emsp;&emsp; x offset sets the click position based on click_location. When default value is 0, it means no offset.  
-    &emsp;**yoffset**: int  
-        &emsp;&emsp; y offset sets the click position based on click_location. Default value is 0. 
-    &emsp;**xrate**: int  
-        &emsp;&emsp; x rate percent of the click position is based on click_location. When default value is 0, it means no offset. If xrate is 1, it means X of click postion move to right. The distance is 1*element's width pixsels.  
-    &emsp;**yrate**: int  
-        &emsp;&emsp; y rate percent sets the click position based on click_location. When default value is 0, it means no offset. If xrate is 1, it means Y of click postion move to right. The distance is element's height pixsels.   
+        &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with click, and default is none.      
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None
 
-**Example:**
+**Examples:**
 
-- click left button
+- Click left button
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
-    ui(locator.chrome.bing.svg).click(mouse_button = "left")
-    # same as
-    cc.find_element(locator.chrome.bing.svg).click(mouse_button = "left")
-    
+from clicknium import clicknium as cc, locator, ui
+ui(locator.chrome.bing.svg).click(mouse_button = "left")
+
+tab = cc.chrome.open("https://contoso.com")
+tab.find_element(locator.chrome.contoso.svg).click(mouse_button = "left")
 ```
 
-- click with offset  
+- Click with customized ClickLocation
+For button '5' as the target element in below application, we can click other buttons by setting its ClickLocation.
 ![sample1](../../../img/click_sample1.png)
 
-By clicknium recorder, record '5' button as
-default if we invoke click on button '5', `ui(locator.applicationframe.button_num5butto).click()`, and it will click on the central position of button '5'.  
-We can set the xrate to 1, it will move the point from default(button '5' central position) to right button '6' central position
-`ui(locator.applicationframe.button_num5butto).click(xrate=1)`
-We can set the yrate to 1, it will move the point from default(button '5' central position) to down button '2' central position
-`ui(locator.applicationframe.button_num5butto).click(yrate=1)`  
+> Remarks
+>- ClickLocation is defined in `clicknium.common.models.clicklocation`
 
-- click modifier_key  
+
+```python
+from clicknium import clicknium as cc, locator, ui
+from clicknium.common.models.clicklocation import ClickLocation
+
+# click center of button '5'
+ui(locator.applicationframe.button_num5butto).click()
+
+# click button '6' 
+# The click position is 100% of target element width away from the center of button '5' in x direction
+ui(locator.applicationframe.button_num5butto).click(click_location=ClickLocation(xrate=1))
+
+# click button '8'
+# The click position is -100% of target element height away from the center of button '5' in y direction
+ui(locator.applicationframe.button_num5butto).click(click_location=ClickLocation(yrate=-1))
+```
+
+- Click along with modifier_key  
 For windows file explorer as follows:  
 ![sample2-1](../../../img/click_sample21.png)  
-if we invoke click on control 'test3 folder' as  
-`ui(locator.explorer.edit_system_item).click()`
-the select item will be 'test3 folder', and 'test1 folder' will be deselected.  
+  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click()`, then selection changed from 'test1' to 'test3'
 ![sample2-2](../../../img/click_sample22.png)  
-If we want to add 'test3 folder' in selection list, click as follows:
-`ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`
+  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`, then both 'test1' and 'test3' are in selection.
 ![sample2-3](../../../img/click_sample23.png) 

@@ -1,10 +1,8 @@
 # Automation Extensions<!-- {docsify-ignore-all} -->
 
-**In the section, we will illustrate how to install extensions for browser and java.**
+**For web and java applications, extensions are necessary to be installed for better automation performance.**
 
 ## Browser Extensions
-
- You can automate the supporting browsers, Chrome, Microsoft Edge and Firefox by installing the extensions.
 
 [Install Chrome extension](./doc/developtools/extensions/chromeextension.md)  
 [Install Microsoft Edge extension](./doc/developtools/extensions/edgeextension.md)  
@@ -12,6 +10,5 @@
 
 
 ## Java Extension
-You can automate the supporting Java applications, Java 1.6 or higher by install extension.
 
 [Install Java extension](./doc/developtools/extensions/javaextension.md)  

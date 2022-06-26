@@ -17,15 +17,12 @@ Install java extension.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    # get java driver
-    java_driver = cc.java
+# install java extension with default java installation path "Program Files && Program Files (x86)"
+cc.java.extension.install()
 
-    # install java extension with default java install path "Program Files && Program Files (x86)"
-    java_driver.extension.install()
-
-    # install java extension with specified java install path
-    java_driver.extension.install(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
+# install java extension with customized java installation path
+cc.java.extension.install(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
 
 ```

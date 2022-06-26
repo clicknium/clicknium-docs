@@ -4,7 +4,6 @@
 
 **WebElementNotRespondingError is raised when the web page is not responding.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [browser_type](#browser_type)
@@ -19,7 +18,7 @@ Message of the exception.
 ### stacktrace
 - type: str
 
-Stack of the exception which got raised inside the exception.
+A string representing all the calls prior to the function that raised the exception.
 
 ### browser_type
 - type: str

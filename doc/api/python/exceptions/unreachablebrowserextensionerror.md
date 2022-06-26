@@ -2,9 +2,8 @@
 
 - extends: [WebError](./doc/api/python/exceptions/weberror.md)
 
-**UnreachableBrowserExtensionError is raised when the specified browser's extension not in ready state. Maybe the extension is not installed, not enabled or failed to run.**
+**UnreachableBrowserExtensionError is raised when the specified browser's extension is not in ready state. Please check if the extension is installed and enabled.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [browser_type](#browser_type)
@@ -19,7 +18,7 @@ Message of the exception.
 ### stacktrace
 - type: str
 
-Stack of the exception which got raised inside the exception.
+A string representing all the calls prior to the function that raised the exception.
 
 ### browser_type
 - type: str

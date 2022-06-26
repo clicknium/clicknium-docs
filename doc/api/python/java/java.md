@@ -1,17 +1,22 @@
-# Java
+# Java <!-- {docsify-ignore-all} -->
 
-**Java class provides methods to getting java extension object and java extension class provides install/uninstall java extension.**
+**Java class provides methods to operate java extension.**
 
-## extension <!-- {docsify-ignore} -->
+`clicknium.java`: The java driver instance.
 
-- You can get java extension by the following way.
-    - import
-  ```
-  from clicknium import clicknium as cc
-  ```
-  - cc.java.extension: java extension
+## Property
 
-## methods <!-- {docsify-ignore} -->
+`extension`: return the java extension.
+
+### Extension Methods 
 
 - [install](./doc/api/python/java/install.md): install java extension
 - [uninstall](./doc/api/python/java/uninstall.md): uninstall java extension
+
+### Examples
+
+- You may install java extension by the following way.
+```python
+  from clicknium import clicknium as cc
+  cc.java.extension.install()
+```

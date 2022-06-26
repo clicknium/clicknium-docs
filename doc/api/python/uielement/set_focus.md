@@ -1,7 +1,7 @@
 # set_focus
 ***def set_focus(self, timeout: int = 30) -> None***  
 
-Set focus for the target element
+Set the target element to focused state.
 
 **Parameters:**  
     &emsp;**timeout**: int  
@@ -13,7 +13,7 @@ Set focus for the target element
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
 
-    ui(locator.chrome.bing.search_sb_form_q).set_focus()
+ui(locator.chrome.bing.search_sb_form_q).set_focus()
 ```

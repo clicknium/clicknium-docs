@@ -2,21 +2,21 @@
 ***def set_text(
         self,
         text: str,
-        input_method: Union[Literal["default", "controlsetvalue", "keyboardsimulatewithclick", "keyboardsimulatewithsetfocus"], InputMethod]= InputMethod.ControlSetValue,
+        input_method: Union[Literal["default", "set-text", "sendkey-after-click", "sendkey-after-focus"], InputMethod]= InputMethod.SetText,
         timeout: int = 30
     ) -> None***  
 
-Set text for the target element
+Set text for the target element. This method can be used to input text to a system.
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  
-        &emsp;&emsp; text string, set to be input  
+        &emsp;&emsp; text to be input to target element. 
     &emsp;**input_method**: str | InputMethod  
-        &emsp;&emsp; the input method for the set text opeartion  
-        &emsp;&emsp; `controlsetvalue`: invoke the action on the target element, for web element, perform through javascript; for windows application element, it should support the action, or it will be failed  
-        &emsp;&emsp; `keyboardsimulatewithclick`: click(mouse emulator) the target element first and then input text through keyboard simulate   
-        &emsp;&emsp; `keyboardsimulatewithsetfocus`: set focus on the target element first and then input text through keyboard simulate  
-        &emsp;&emsp; `default`: for web element, use `controlinvocation`; for desktop element, use `keyboardsimulatewithclick`  
+        &emsp;&emsp; the method to perform the text input operation.
+        &emsp;&emsp; `set-text`: call system method to set text to the target element. Some window application elements may not be supported.
+        &emsp;&emsp; `sendkey-after-click`: simulate mouse click to activate the element, then sending keys by simulating keyboard.
+        &emsp;&emsp; `sendkey-after-focus`: set the target element to focused state, then sending keys by simulating keyboard.
+        &emsp;&emsp; `default`: using different method per target element type. `set-text` for web element and `sendkey-after-click` for desktop element. 
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
@@ -26,7 +26,7 @@ Set text for the target element
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
 
-    ui(locator.chrome.bing.search_sb_form_q).set_text("clicknium")
+ui(locator.chrome.bing.search_sb_form_q).set_text("clicknium")
 ```

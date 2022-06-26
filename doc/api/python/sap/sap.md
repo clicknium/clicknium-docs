@@ -1,10 +1,10 @@
-# Sap
+# SAP <!-- {docsify-ignore-all} -->
 
-**Sap class provides methods to operations of sap application, such as login, call transaction, select item and get status bar.**
+**SAP class provides methods to automate SAP application, such as login, find SAP UI element etc.**
 
-## methods <!-- {docsify-ignore} -->
+`clicknium.sap` : The SAP driver instance.
 
-- [login](./doc/api/python/sap/login.md): login in sap application
-- [select_item](./doc/api/python/sap/select_item.md): select sap item
-- [call_transaction](./doc/api/python/sap/call_transaction.md): call sap transaction
-- [get_statusbar](./doc/api/python/sap/get_statusbar.md): get sap status bar info.
+## methods 
+
+- [login](./doc/api/python/sap/login.md): login to the SAP application
+- [find_element](./doc/api/python/sap/find_element.md): return matched SAP UI element by the given locator.

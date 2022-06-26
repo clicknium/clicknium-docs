@@ -2,9 +2,8 @@
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**ExtensionOperationError is raised when the specified extension fails in operation "install", "update" or "uninstall".**
+**ExtensionOperationError is raised when an extension fails in operation "install", "update" or "uninstall".**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [extention_type](#extention_type)
@@ -19,7 +18,7 @@ Message of the exception.
 ### stacktrace
 - type: str
 
-Stack of the exception which got raised inside the exception.
+A string representing all the calls prior to the function that raised the exception.
 
 
 ### extention_type

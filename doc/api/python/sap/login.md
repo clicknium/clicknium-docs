@@ -1,4 +1,4 @@
-# login
+# clicknium.sap.login
 
 ***def login(
         self,
@@ -10,21 +10,21 @@
         timeout: int = 30
     ) -> None***  
 
-Login in sap application.
+Login to the SAP application.
 
 **Parameters:**  
     &emsp;**login_path[Required]**: str  
-        &emsp;&emsp; login path string,  login path in sap application
+        &emsp;&emsp; login path string,  login path in SAP application.
     &emsp;**connection[Required]**: str  
-        &emsp;&emsp; connection string, sap application connection  
+        &emsp;&emsp; connection string, SAP application connection.
     &emsp;**client[Required]**: str  
-        &emsp;&emsp; client string, sap application client  
+        &emsp;&emsp; client string, SAP application client.
     &emsp;**user[Required]**: str  
-        &emsp;&emsp; user string, sap application user  
+        &emsp;&emsp; user string, SAP application user.
     &emsp;**password[Required]**: str  
-        &emsp;&emsp; password string, sap application password  
+        &emsp;&emsp; password string, SAP application password.
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;None
@@ -34,10 +34,7 @@ Login in sap application.
 ```python
 from clicknium import clicknium as cc
 
-# get sap driver
-sap_driver = cc.sap
-
 # login sap application
-sap_driver.login("path", "connection", "client", "username", "password")
+cc.sap.login("path", "connection", "client", "username", "password")
 
 ```
