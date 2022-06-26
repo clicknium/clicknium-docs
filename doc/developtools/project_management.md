@@ -25,11 +25,11 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input o
    - requirements：running project dependency
      &emsp;Python:Python version is 3.7.0 by default.In the creating a project, Clicknium extension automatically reads the current Default Interpreter Path Settings in Python Settings in Visual Studio Code. If this setting uses neither Python virtual environment path nor the Python embedded version path, Clicknium extension read this setting to change the Python version to the configuration. 
      
-     ![project appyaml](../img/create_project_appyaml_python_config.png)
+     ![project appyaml](../img/create_project_appyaml_python_config.png)  
      &emsp;packages：Python package dependency. In this configuration, you can add one or more Python packages requrired in projects in the format of package-version. If the version is blank or null, the latest version will be used automatically.  
-     ![project appyamlpython](../img/create_project_appyaml_python.png)
+     ![project appyamlpython](../img/create_project_appyaml_python.png)  
      If there is no need for  Python package dependency，it will be configured as [].  
-     ![project appyamlpython](../img/create_project_appyaml_python_clear.png)
+     ![project appyamlpython](../img/create_project_appyaml_python_clear.png)  
      &emsp;locators: The cloud element repository dependency, configured in the same way as Python package dependency.
 
 3. **logo.ico**：Generate the file with exe icon when packaging the project, and it can be replaced with the needed icon file.
