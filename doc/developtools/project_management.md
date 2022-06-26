@@ -26,9 +26,9 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input o
      &emsp;Python:Python version is 3.7.0 by default.In the creating a project, Clicknium extension automatically reads the current Default Interpreter Path Settings in Python Settings in Visual Studio Code. If this setting uses neither Python virtual environment path nor the Python embedded version path, Clicknium extension read this setting to change the Python version to the configuration. 
      
      ![project appyaml](../img/create_project_appyaml_python_config.png)
-     &emsp;packages：Python package dependency. In this configuration, you can add one or more Python packages requrired in projects in the format of package-version. If the version is blank or null, the latest version will be used automatically.
+     &emsp;packages：Python package dependency. In this configuration, you can add one or more Python packages requrired in projects in the format of package-version. If the version is blank or null, the latest version will be used automatically.  
      ![project appyamlpython](../img/create_project_appyaml_python.png)
-     If there is no need for  Python package dependency，it will be configured as [].
+     If there is no need for  Python package dependency，it will be configured as [].  
      ![project appyamlpython](../img/create_project_appyaml_python_clear.png)
      &emsp;locators: The cloud element repository dependency, configured in the same way as Python package dependency.
 
@@ -40,7 +40,7 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input o
 
 ## Run the project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Run Project". When you press "Enter" to run the project, Clicknium extension will deploy the project running process based on app.yaml
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and enter "Clicknium" to select and show " Run Project". When you press "Enter" to run the project, Clicknium extension will deploy the project running process based on app.yaml  
 ![project run](../img/run_project.gif) 
 
 ## Debug the project
@@ -48,24 +48,24 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and ent
 ### Basics
 
 In Visual Studio Code, set a breakpoint to the code where you want to pause,
-press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Debug Project". The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.
+press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Debug Project". The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
 ![project debug](../img/debug_project_3.png)
 &emsp;Continue (F5) / Pause (F6)
 &emsp;Step over (F10)
 &emsp;Step in (F11)
 &emsp;Step out (Shift + F11)
 &emsp;Restart (Ctrl+Shift+F5)
-&emsp;Stop (Shift + F5)
+&emsp;Stop (Shift + F5)  
 ![project debug](../img/debug_project.gif)
 
 ### Monitor Variables
 
-In the upper left corner of Visual Studio Code, you can see the variables is debugging the running values.
+In the upper left corner of Visual Studio Code, you can see the variables is debugging the running values.  
 
 ![project debug](../img/debug_project_1.png)
 
 ### Debug Console
 
-In Visual Studio Code, open the debug console by "View -> Debug Console" 
+In Visual Studio Code, open the debug console by "View -> Debug Console"   
 
 ![project debug console](../img/debug_project_2.png)
