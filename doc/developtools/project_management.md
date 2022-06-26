@@ -15,7 +15,7 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input o
 1. **app.py** an automation scripts file where the main function is the entry function for runing the project.
 ![project appyy](../img/create_project_apppy.png)
 
-2. **app.yaml** configuration files where you can configure the project, Python version, Python package, project entry file, cloud element repository, etc.
+2. **app.yaml** configuration files where you can configure the project, Python version, Python package, project entry file, cloud element repository, etc.  
    ![project appyaml](../img/create_project_appyaml.png)
    
    - startUp: The project entry file, if you want to change the project run entry file to main.py, fill out "main" to configure it.
