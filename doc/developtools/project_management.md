@@ -22,7 +22,7 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input o
    
    - log：The project log, currently supporting the local log where "Folder" indicates the path of the Log storage Folder. If this parameter is  blank or null, it will be automatically stored in the Log file starting with %LOCALAPPDATA%\Clicknium\Log\Folder Automation.
    
-   - requirements：running project dependency
+   - requirements：running project dependency  
      &emsp;Python:Python version is 3.7.0 by default.In the creating a project, Clicknium extension automatically reads the current Default Interpreter Path Settings in Python Settings in Visual Studio Code. If this setting uses neither Python virtual environment path nor the Python embedded version path, Clicknium extension read this setting to change the Python version to the configuration. 
      
      ![project appyaml](../img/create_project_appyaml_python_config.png)  
