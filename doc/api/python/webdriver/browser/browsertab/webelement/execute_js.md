@@ -1,26 +1,24 @@
-# execute_js
+# WebElement.execute_js
 
 ***def execute_js(
         self,
         javascript_code: str, 
-        method_invoke: str = '', 
+        method: str = '', 
         timeout: int = 30
     ) -> str***  
 
-Execute javascript code snippet for the target element.
+Execute javascript code for the target element.  
 
 > **Remarks:**
->
->- For javascript code, use "_context$.currentElement." as the target element.
->- For method invoke, valid method_invoke string should like "run()", or when passing parameters should like "run("execute js", 20)".
+> In the javascript code to execute specified in parameter `javascript_code`, use "_context$.currentElement." for the target element.  
 
 **Parameters:**  
     &emsp;**javascript_code[Required]**: str    
-        &emsp;&emsp; javascript code snippet string, execute code to target element, use `_context$.currentElement` as the target element, ex: "function SetText(st){_context$.currentElement.value = st; console.log("execute js"); return \"success\"}"  
-    &emsp;**method_invoke**: str    
-        &emsp;&emsp; For method invoke string, it should be like "run()", or when passing parameters, it should be like "run("execute js", 20)", eg: for above javascript code, we can set to "SetText(\"execute\")"  
+        &emsp;&emsp; javascript code snippet to be executed upon target element.  
+    &emsp;**method**: str    
+        &emsp;&emsp; the method to invoke that should be defined in the javascript file. If any parameter need to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;str, execution result
@@ -28,11 +26,11 @@ Execute javascript code snippet for the target element.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    # open chrome browser
-    chrome_tab = cc.chrome.open("https://www.bing.com")
+# open chrome browser
+chrome_tab = cc.chrome.open("https://www.bing.com")
 
-    # execute js, set text for target element
-    result = chrome_tab.execute_js("locator.chrome.cn.search_sb_form_q", "function SetText(text){_context$.currentElement.value = text; console.log("exit 0"); return \"success\"}", "SetText(\"click\")")
+# execute js, set text for target element
+result = chrome_tab.find_element(locator.chrome.bing.search_sb_form_q).execute_js("function SetText(text){_context$.currentElement.value = text; console.log(\"exit 0\"); return \"success\"}", "SetText(\"click\")")
 ```

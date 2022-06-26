@@ -2,25 +2,21 @@
 
 - extends: [UiElement](./doc/api/python/uielement/uielement.md) 
 
-**WebElement class provides methods to WebElement operations and the methods which provided by UiElement class.**  
+**WebElement class inherits from UiElement, it represents the web UI element with web specific operations.**  
 
-## properties
+## Properties
 
-- `parent`   
-    parent element, return WebElement
+- `parent`: parent element, return WebElement.  
 
-- `children`  
-    children elements, return list of WebElement
+- `children`: child elements, return list of WebElement.  
 
-- `next_sibling`  
-    next sibling element
+- `next_sibling`: next sibling element, return WebElement.
 
-- `previous_sibling`  
-    previous sibling element
+- `previous_sibling`: previous sibling element, return WebElement.
 
-## methods
-- [set_property](./doc/api/python/webdriver/browser/browsertab/webelement/set_property.md): set UI element's property value
-- [execute_js](./doc/api/python/webdriver/browser/browsertab/webelement/execute_js.md): execute javascript code snippet for the target element
-- [execute_js_file](./doc/api/python/webdriver/browser/browsertab/webelement/execute_js_file.md): execute javascript file for the target element
+## Methods
+- [set_property](./doc/api/python/webdriver/browser/browsertab/webelement/set_property.md): set web element's property value.  
+- [execute_js](./doc/api/python/webdriver/browser/browsertab/webelement/execute_js.md): execute javascript code for the target element.  
+- [execute_js_file](./doc/api/python/webdriver/browser/browsertab/webelement/execute_js_file.md): execute javascript file for the target element.  
 
 
