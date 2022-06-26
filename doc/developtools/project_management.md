@@ -49,12 +49,12 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, and ent
 
 In Visual Studio Code, set a breakpoint to the code where you want to pause,
 press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Debug Project". The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
-![project debug](../img/debug_project_3.png)
-&emsp;Continue (F5) / Pause (F6)
-&emsp;Step over (F10)
-&emsp;Step in (F11)
-&emsp;Step out (Shift + F11)
-&emsp;Restart (Ctrl+Shift+F5)
+![project debug](../img/debug_project_3.png)  
+&emsp;Continue (F5) / Pause (F6)  
+&emsp;Step over (F10)  
+&emsp;Step in (F11)  
+&emsp;Step out (Shift + F11)  
+&emsp;Restart (Ctrl+Shift+F5)  
 &emsp;Stop (Shift + F5)  
 ![project debug](../img/debug_project.gif)
 
