@@ -24,7 +24,7 @@ You are required to sign up to ClickCorp after installation, or sign in with a G
 
 ## Extension Installation
 Clicknium extension provides different extensions for automation. For example, Edge Extension helps you execute automation on Microsoft Edge browser.
-You can select and install extensions before writing automation code. For more information, please ref to [Automation Extensions](./doc/developtools/extensions/extensions.md)
+You can select and install extensions before writing automation code. For more information, please ref to [Automation Extensions](/doc/developtools/extensions/extensions.md)
 
 ## Create Project
 Open the Command Palette: `Ctrl+Shift+P`
@@ -59,7 +59,7 @@ Set the locator as the parameter, for example, `cc.find_element(`, you can press
 If you want to choose one locator in the locator store, Clicknium code extension shows the locator store list and the locator list for you to choose.  
 ![intellisense](../img/intelliSense.png)
 
-Please go to [Code IntelliSense](/doc/developtools/code_intellisense.md) for more features.
+Please go to [Code IntelliSense](/doc/developtools/vscode/codeintelliSense.md) for more features.
 You can manage the dependencies of the porject in `app.yaml`, for more details, please refer to [Project Management](/doc/developtools/project_management.md)
 
 ## Run/Debug Project
