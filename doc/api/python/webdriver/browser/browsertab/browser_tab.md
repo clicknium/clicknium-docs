@@ -1,23 +1,23 @@
 # BrowserTab <!-- {docsify-ignore-all} -->
 
-**BrowserTab class provides methods to operate the browser tab and WebElement with current browser tab.**
+**BrowserTab class represents a web page to perform automation actions.**
 
-## properties
-- `title`: str, return title of the current browser tab.
-- `url`: str, return url of the current browser tab.
-- `is_active`: bool, whether the current tab is active or not.
-- `browser`: [Browser](./doc/api/python/webdriver/browser/browser.md), return the browser which current tab belongs to.
+## Properties
+- `title`: str, return title of the browser tab.
+- `url`: str, return url of the browser tab.
+- `is_active`: bool, indicating whether the browser tab is active or not.
+- `browser`: [Browser](./doc/api/python/webdriver/browser/browser.md), return the parent browser of the tab.
 
-## methods
-**operations related to [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) on current browser tab**
-- [find_element](./doc/api/python/webdriver/browser/browsertab/find_element.md): initialize UI element by the given locator in currently open browser, return [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object
-- [find_elements](./doc/api/python/webdriver/browser/browsertab/find_elements.md): find elements by the given locator, return list of [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object
-- [is_existing](./doc/api/python/webdriver/browser/browsertab/is_existing.md): check whether the UI element exists in currently open browser
-- [wait_appear](./doc/api/python/webdriver/browser/browsertab/wait_appear.md): wait for the element to appear in currently open browser in the give time, return [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object
-- [wait_disappear](./doc/api/python/webdriver/browser/browsertab/wait_disappear.md): wait for the UI element to disappear in given time in currently opened browser
+## Methods
+**Operations related to [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) of current browser tab**
+- [find_element](./doc/api/python/webdriver/browser/browsertab/find_element.md): return the first matched Web element by the given locator.  
+- [find_elements](./doc/api/python/webdriver/browser/browsertab/find_elements.md): return list of all matched Web elements by the given locator in current web page.  
+- [is_existing](./doc/api/python/webdriver/browser/browsertab/is_existing.md): check whether the specified element of the web page exists.  
+- [wait_appear](./doc/api/python/webdriver/browser/browsertab/wait_appear.md): wait for the specified element of the web page to appear within given timeout.  
+- [wait_disappear](./doc/api/python/webdriver/browser/browsertab/wait_disappear.md): wait for the specified element of the web page to disappear within given timeout.  
 
-**operations related to the current browser tab**
-- [close](./doc/api/python/webdriver/browser/browsertab/close.md): close the tab. If it is the only tab of current browser, the browser will be closed too 
-- [goto](./doc/api/python/webdriver/browser/browsertab/goto.md): redirect current tab to the given url
-- [refresh](./doc/api/python/webdriver/browser/browsertab/refresh.md): refresh the page of the current tab
-- [activate](./doc/api/python/webdriver/browser/browsertab/activate.md): activate the current tab
+**Operations related to the current browser tab**
+- [activate](./doc/api/python/webdriver/browser/browsertab/activate.md): activate the browser tab.  
+- [close](./doc/api/python/webdriver/browser/browsertab/close.md): close the browser tab. The browser will be closed too if no opened tab.  
+- [goto](./doc/api/python/webdriver/browser/browsertab/goto.md): redirect current tab to the specified url.
+- [refresh](./doc/api/python/webdriver/browser/browsertab/refresh.md): refresh current tab page.  

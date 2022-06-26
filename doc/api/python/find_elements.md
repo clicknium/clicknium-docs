@@ -5,7 +5,7 @@
         timeout: int = 30
     ) -> List[UiElement]***  
 
-Return list of all matched Web elements by the given locator.
+Return list of all matched UI elements by the given locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
@@ -16,7 +16,7 @@ Return list of all matched Web elements by the given locator.
         &emsp;&emsp; timeout for locating all matched UI elements, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;List of matched web elements with type [UiElement](./doc/api/python/uielement/uielement.md).
+    &emsp;List of matched elements with type [UiElement](./doc/api/python/uielement/uielement.md).
 
 **Example:**
 ***

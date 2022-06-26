@@ -1,4 +1,4 @@
-# wait_appear
+# BrowserTab.wait_appear
 ***def wait_appear(
         self,
         locator: Union[_Locator, str],
@@ -9,8 +9,8 @@
 Wait for the specified element of the web page to appear within given timeout.  
 
 >**Remarks:**  
-It should be used like `clicknium.chrome.open("https://bing.com").wait_appear()`, it is different with `clicknium.wait_appear()` [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the ui element.
->- `clicknium.wait_appear()` is for both the web and window's UiElement, and cannot locate the element in a specified scope.  
+`BrowserTab.wait_appear` is different with [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the UI element.
+>- `clicknium.wait_appear()` is for both the web and window UI element, and not limited to a specific scope.  
 >- `clicknium.chrome.open("https://bing.com").wait_appear()` will locate element in its parent web page.  
 
 **Parameters:**  

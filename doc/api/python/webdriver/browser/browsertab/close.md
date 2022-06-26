@@ -1,8 +1,8 @@
-# close
+# BrowserTab.close
 
 ***def close(self) -> None***  
 
-Close the tab.
+Close the browser tab. The browser will be closed too if no opened tab.  
 
 **Returns:**  
     &emsp;None
@@ -10,12 +10,11 @@ Close the tab.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    # open chrome browser
-    chrome_tab = cc.chrome.open("https://www.bing.com")
+# open chrome browser
+chrome_tab = cc.chrome.open("https://www.bing.com")
 
-    # close the tab
-    chrome_tab.close()
-
+# close the tab
+chrome_tab.close()
 ```
