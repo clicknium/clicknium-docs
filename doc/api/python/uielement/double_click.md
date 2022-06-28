@@ -18,7 +18,7 @@ Double click the target element.
     &emsp;**click_method**: ClickMethod  
         &emsp;&emsp; Defines the method to click the UI element.
         &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  
-        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if is is a window desktop element.
+        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if it is a window desktop element.
         &emsp;&emsp; `default`: automatically choose method per element type. For Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with click, and default is none.    

@@ -5,12 +5,12 @@
     &emsp;**Location**: Location  
         &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'left-top', 'left-bottom', 'right-top' and 'right-bottom', and the default value is 'center'.  
     &emsp;**Xoffset**: int   
-        &emsp;&emsp; sets the x-direction offset relative to Location in pixel. Defautl is 0.
+        &emsp;&emsp; sets the x-direction offset relative to Location in pixel. Defautl is 0.  
     &emsp;**Yoffset**: int  
         &emsp;&emsp; sets the y-direction offset relative to Location in pixel. Default is 0.  
     &emsp;**Xrate**: float  
-        &emsp;&emsp; sets the x-direction offset relative to Location in percentage of target element width. Default is 0.
-    &emsp;**Yrate**: float
+        &emsp;&emsp; sets the x-direction offset relative to Location in percentage of target element width. Default is 0.  
+    &emsp;**Yrate**: float  
         &emsp;&emsp; sets the y-direction offset relative to Location in percentage of target element height. Default is 0.
 
 **Remarks**:

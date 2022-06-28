@@ -2,7 +2,7 @@
 
 ***def get_active_tab(self) -> BrowserTab***  
 
-Get browser's current active tab.
+Get the current active tab of the browser.
 
 **Returns:**  
     &emsp;[BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.

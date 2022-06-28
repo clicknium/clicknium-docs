@@ -4,11 +4,11 @@
 Send hotkey to the cursor's current position.
 
 >**Remarks:**  
-This method is to send hotkey to the system. If you need to send the hotkey to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use another [send_hotkey](/doc/api/python/uielement/send_hotkey.md) which is bound to a UI element.
+It is a method that sends hotkey to the system. If you need to send the hotkey to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use another [send_hotkey](/doc/api/python/uielement/send_hotkey.md) which is bound to a UI element.
 
 **Parameters:**  
     &emsp;**hotkey[Required]**: str   
-        &emsp;&emsp; hotkey string represents the key or combined keys. For example, to represent the letter A, input string "A". To represent the letters A, B, and C, input paremeter "ABC". For special keys, please refer to [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).
+        &emsp;&emsp; hotkey string represents one key or combined keys. For example, to represent the letter A, input string "A". To represent the letters A, B, and C, input paremeter "ABC". For special keys, please refer to [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).
 
 **Returns:**  
     &emsp;None

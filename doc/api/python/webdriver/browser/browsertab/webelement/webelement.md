@@ -2,7 +2,7 @@
 
 - extends: [UiElement](./doc/api/python/uielement/uielement.md) 
 
-**WebElement class inherits from UiElement, it represents the web UI element with web specific operations.**  
+**WebElement class inherits from UiElement, representing the web UI element with web specific operations.**  
 
 ## Properties
 

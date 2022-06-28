@@ -14,11 +14,11 @@ Single click the target element.
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**click_location**: ClickLocation  
-        &emsp;&emsp; [ClickLocation](./doc/api/python/uielement/clicklocation.md) is set to define the element position to click. Default position is center of element. 
+        &emsp;&emsp; it is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [ClickLocation](./doc/api/python/uielement/clicklocation.md) object.   
     &emsp;**click_method**: ClickMethod  
-        &emsp;&emsp; Defines the method to click the UI element.
+        &emsp;&emsp; Defines the method to click the UI element.  
         &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  
-        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if is is a window desktop element.
+        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if it is a window desktop element.  
         &emsp;&emsp; `default`: automatically choose method per element type. For Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with click, and default is none.      

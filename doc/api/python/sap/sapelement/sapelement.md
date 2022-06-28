@@ -2,7 +2,7 @@
 
 - extends: [UiElement](./doc/api/python/uielement/uielement.md) 
 
-**SapElement inherits from UiElement, it represents an SAP element with SAP specific automation operations.**  
+**SapElement inherits from UiElement, representing an SAP element with SAP specific automation operations.**  
 
 ## Properties
 

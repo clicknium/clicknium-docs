@@ -6,7 +6,7 @@
         timeout: int = 30
     ) -> None***  
 
-Set text for the target element. This method can be used to input text to a system.
+Set text for the target element, it can be used to input text to a system.  
 
 **Parameters:**  
     &emsp;**text[Requried]**: str  
@@ -16,7 +16,7 @@ Set text for the target element. This method can be used to input text to a syst
         &emsp;&emsp; `set-text`: call system method to set text to the target element. Some window application elements may not be supported.
         &emsp;&emsp; `sendkey-after-click`: simulate mouse click to activate the element, then sending keys by simulating keyboard.
         &emsp;&emsp; `sendkey-after-focus`: set the target element to focused state, then sending keys by simulating keyboard.
-        &emsp;&emsp; `default`: using different method per target element type. `set-text` for web element and `sendkey-after-click` for desktop element. 
+        &emsp;&emsp; `default`: using different methods per target element type. `set-text` for web element and `sendkey-after-click` for desktop element. 
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 

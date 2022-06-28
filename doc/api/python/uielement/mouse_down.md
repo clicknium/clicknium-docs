@@ -18,7 +18,7 @@ Mouse down on the target element.
     &emsp;**click_method**: ClickMethod  
         &emsp;&emsp; Defines the method to perform pressing mouse button down.
         &emsp;&emsp; `mouse-emulation`: perform the action by simulating mouse.  
-        &emsp;&emsp; `control-invocation`: perform the action by invoking its UI method. It may not be supported if is is a window desktop element.
+        &emsp;&emsp; `control-invocation`: perform the action by invoking its UI method. It may not be supported if it is a window desktop element.
         &emsp;&emsp; `default`: automatically choose method per element type. For Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with the action, and default is none.        
