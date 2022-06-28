@@ -1,7 +1,7 @@
 # get_text
 ***def get_text(self, timeout: int = 30) -> str***  
 
-Get text of the element.
+Get text of the target element.
 
 **Parameters:**    
     &emsp;**timeout**: int  
@@ -10,30 +10,38 @@ Get text of the element.
 **Returns:**  
     &emsp;str
 
-**Example:**
+**Examples:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
     
-    text = ui(locator.chrome.bing.search_sb_form_q).get_text()
+text = ui(locator.chrome.bing.search_sb_form_q).get_text()
 ```
 
-- when you edit control on windows application, it will return value
+- For edit control of windows application, it returns value of the edit control.
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
     
-    # return value of the edit document
-    text = ui(locator.notepad.document).get_text()
+# return value of the edit document
+text = ui(locator.notepad.document).get_text()
 ```
 
-- When button, menuitem, etc on windows application,it will return name
+- For control like button, menuitem of windows application, it returns name of the control.
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
     
-    # return value of the edit document
-    text = ui(locator.notepad.menuitem_format).get_text()
+# return name of the menuitem
+text = ui(locator.notepad.menuitem_format).get_text()
 
-    #text is 'format'
+#text is 'format'
 ```
 
-- When element on web page, it will return innerText
+- For web element, it returns innerText.
+```python
+from clicknium import clicknium as cc, locator
+
+tab = cc.chrome.open("https://contoso.com")
+
+# return inner text of div
+text = tab.find_element(locator.chrome.form.divItem).get_text()
+```

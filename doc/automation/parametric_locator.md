@@ -39,7 +39,7 @@ Add parametes as following to loop over each item:
     driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
     while True:
         variables = {"index":index}
-        if driver.is_exist(locator.chrome.getbootstrap.li_anitem, variables):
+        if driver.is_existing(locator.chrome.getbootstrap.li_anitem, variables):
             text = driver.find_element(locator.chrome.getbootstrap.li_anitem, variables).get_text()
             print(text)
             index += 1

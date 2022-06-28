@@ -1,17 +1,14 @@
 # clicknium.send_hotkey
 ***def send_hotkey(hotkey: str) -> None***  
 
-Send hot key
+Send hotkey to the cursor's current position.
 
 >**Remarks:**  
-This method is global send hotkey.
-If you want to send hotkey on one UI element, there are two options:
->- You can invoke [send_hotkey](/doc/api/python/uielement/send_hotkey.md) on UI element
->- Before invoking this method, you can call [click](/doc/api/python/uielement/click.md) or [set_focus](/doc/api/python/uielement/set_focus.md) on the UI element.
+This method is to send hotkey to the system. If you need to send the hotkey to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use another [send_hotkey](/doc/api/python/uielement/send_hotkey.md) which is bound to a UI element.
 
 **Parameters:**  
     &emsp;**hotkey[Required]**: str   
-        &emsp;&emsp; hotkey string means one key or combined keys. Each key represents one or more characters. To specify a single keyboard character, use the character itself. For example, to represent the letter A, input string "A". To represent the letters A, B, and C, input paremeter "ABC". For special keys, please refer to [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks)
+        &emsp;&emsp; hotkey string represents the key or combined keys. For example, to represent the letter A, input string "A". To represent the letters A, B, and C, input paremeter "ABC". For special keys, please refer to [hotkeys](https://docs.microsoft.com/en-au/dotnet/api/system.windows.forms.sendkeys?view=windowsdesktop-6.0#remarks).
 
 **Returns:**  
     &emsp;None
@@ -19,13 +16,13 @@ If you want to send hotkey on one UI element, there are two options:
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    #send Ctrl+A
-    cc.send_hotkey('{CTRL}A')
-    #or
-    cc.send_hotkey('^A')
+#send Ctrl+A
+cc.send_hotkey('{CTRL}A')
+#or
+cc.send_hotkey('^A')
 
-    #send Shift+End
-    cc.send_hotkey('+{END}')
+#send Shift+End
+cc.send_hotkey('+{END}')
 ```

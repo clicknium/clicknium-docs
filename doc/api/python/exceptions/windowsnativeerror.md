@@ -2,9 +2,8 @@
 
 - extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
 
-**WindowsNativeError is raised when a method call with win32 native has any exception.**
+**WindowsNativeError is raised when an underneath win32 method fails.**
 
-## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [name](#name)
@@ -12,14 +11,13 @@
 
 ### message
 - type: str
-
 Message of the exception.
 
 
 ### stacktrace
 - type: str
 
-Stack of the exception which got raised inside the exception.
+A string representing all the calls prior to the function that raised the exception.
 
 ### name
 - type: str
