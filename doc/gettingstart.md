@@ -12,12 +12,12 @@
 - [Edit and Validate Locator](#edit-and-validate-locator)
 - [Documents Guideline](#documents-guideline)
 
-[ClickCorp](https://wwww.clickcorp.com) builds an open-source automation stack for developers to write software robot projects, and hosts cloud native approach products for software robot running and managment. Automation stack includes the following main parts: 
+[ClickCorp](https://www.clickcorp.com) builds a new generation automation framework **Clicknium** to support GUI automation for all types of applications. Automation development efficiency is highly improved with features of Clicknium, including developer tooling support and cloud native data management for colaboration.  
 
-[Clicknium Python SDK](./doc/api/python/pythonsdk.md): Clicknium python sdk provides methods to automate various applications, such as Web browser, Windows Desktop application, Java application, Sap windows Gui app, etc.  
-Currently we provide Python SDK. If other programming languages are required, please [contact us](https://www.clickcorp.com/community).
+[Clicknium Python Package](./doc/api/python/pythonsdk.md): Clicknium python package provides programming interfaces to automate various types of applications, such as Web browser, Windows Desktop application, Java application and Sap windows Gui app, etc.  
+(If other programming languages support are required, please [contact us](https://www.clickcorp.com/community).)  
 
-[Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md): This extension helps you capture and manage UI locators easily. Unlike selenium or playwright that you need to figure out the locator by XPath or CssSelector. Clicknium extension generates locator by just clicking the target UI element, with [Clicknium Python SDK](https://pypi.org/project/clicknium/), you can start automation for web and desktop right away. Besides generating locators automatically, it also provides locator intellisense in coding, centralized locator management in cloud, and project for distribution.
+[Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md): This extension helps you capture and manage UI locators easily. Unlike selenium or playwright that you need to figure out the locators by XPath or CssSelector. Clicknium extension generates locators by just clicking the target UI element, with [Clicknium Python Package](https://pypi.org/project/clicknium/), you can start automation for web and desktop right away. Besides generating locators automatically, Clicknium also provides locator IntelliSense in coding, centralized locator management in cloud, and project distribution.  
 
 # Installation​
 ## System Requirements​
@@ -25,8 +25,7 @@ Currently we provide Python SDK. If other programming languages are required, pl
 - Python 3.7 or above
 
 ## Install Clicknium Visual Studio Code extension
-Click the following link to install [Clicknium Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium).
-After installation, you are required to sign in ClickCorp.  
+Click the following link to install [Clicknium Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium). After installation, you are required to sign in ClickCorp.  
 ![login](https://clickcorp.github.io/clicknium-docs/doc/img/login1.png "login")  
 Click 'Allow' to sign in ClickCorp, or sign in with a Google or GitHub account.
 
@@ -105,9 +104,9 @@ After recording the locators, you can open and edit the locator
 ![clicknium Visual Studio code](https://clickcorp.github.io/clicknium-docs/doc/img/main.png) 
 
 # Documents Guideline
-For more about Clicknium Visual Studio Code, please refer to [here](/doc/developtools/vscode.md).  
-You may need to view [Clicknium python module doucments](/doc/api/python/pythonsdk.md) when writing code.  
+For more about Clicknium Visual Studio Code, please refer [here](/doc/developtools/vscode.md).  
+You may need to refer [Clicknium python package documents](/doc/api/python/pythonsdk.md) when writing code.  
 For more tools provided by Clicknium, please refer to:  
-[Clicknium Recorder](/doc/developtools/recorder.md).  
-Clicknium Browser Extension: [Chrome](/doc/developtools/extensions/chromeextension.md), [Edge](/doc/developtools/extensions/edgeextension.md), [Firefox](/doc/developtools/extensions/firefoxextension.md).  
-[Clicknium Java Extension](/doc/developtools/extensions/javaextension.md).  
+- [Clicknium Recorder](/doc/developtools/recorder.md).  
+- Clicknium Browser Extension: [Chrome](/doc/developtools/extensions/chromeextension.md), [Edge](/doc/developtools/extensions/edgeextension.md), [Firefox](/doc/developtools/extensions/firefoxextension.md).  
+- [Clicknium Java Extension](/doc/developtools/extensions/javaextension.md).  
