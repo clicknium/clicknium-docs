@@ -11,7 +11,7 @@ Clicknium locator schema is designed for extension in windows application locato
 
 ## Record image locator
 Open project in Visual Studio Code by pressing `Ctrl` + F10, or clicking the button `record` to invoke clicknium recorder.  
-![recorder button](../img/recorder.png "locator recorder button")  
+![recorder button](../../img/start_recorder_from_vscoderecorder.png "locator recorder button")  
 
 When you move the mouse, it will highlight the element. If you want to record the element, press `Ctrl` and click it. If you want to record the image, you can press `Shift` and select one area with the mouse, which will be stored as image in locator.  
 ![recorder helper](../img/recorder_help.png)   
