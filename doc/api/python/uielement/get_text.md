@@ -32,16 +32,13 @@ from clicknium import clicknium as cc, locator, ui
     
 # return name of the menuitem
 text = ui(locator.notepad.menuitem_format).get_text()
-
-#text is 'format'
+# text is 'format'
 ```
 
 - For web element, it returns innerText.
 ```python
 from clicknium import clicknium as cc, locator
-
 tab = cc.chrome.open("https://contoso.com")
-
 # return inner text of div
 text = tab.find_element(locator.chrome.form.divItem).get_text()
 ```

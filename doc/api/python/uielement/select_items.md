@@ -25,12 +25,9 @@ Select multiple options for the target element that can support multiple selecti
   
 ```python
 from clicknium import clicknium as cc, locator, ui
-
-chrome_tab = cc.chrome.open("https://contoso.com")
-chrome_tab.find_element(locator.chrome.page.multiselect).select_item({'One', 'Three'})
-
+chrome_tab = cc.chrome.open("https://contoso.com")  
+chrome_tab.find_element(locator.chrome.page.multiselect).select_item({'One', 'Three'})  
 # as showing below, 'One' and 'Three' are selected.
-
 ```
 
 ![sample](../../../img/select_items_sample2.png)  

@@ -9,7 +9,7 @@ Return the first matched SAP UI element by the given locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the visit path of locator for target SAP UI element.
+        &emsp;&emsp; locator string, the visit path of locator for target SAP UI element.  
     &emsp;**locator_variables**: dict  
         &emsp;&emsp; locator variables,  set to initialize parameters in locator.
 
