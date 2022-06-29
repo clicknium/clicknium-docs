@@ -11,7 +11,7 @@ Hover over the element, and the mouse will move upon the element and stay for a 
     &emsp;None
 
 **Example:**
-
+***
 - Hover over a web element  
   
 ![sample](../../../img/hover_sample1.png)  
@@ -20,5 +20,7 @@ Hover over the element, and the mouse will move upon the element and stay for a 
 from clicknium import clicknium as cc, locator, ui
     
 ui(locator.chrome.bing.li_dots_overflow).hover()
+# the menu is displayed after hovering over the button
 ```
+  
 ![sample](../../../img/hover_sample2.png) 

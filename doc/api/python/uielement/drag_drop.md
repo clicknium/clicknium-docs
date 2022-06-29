@@ -11,11 +11,11 @@ Hold down the mouse left button on the source element, then move to the target o
 
 **Parameters:**  
     &emsp;**xpoint**: int    
-        &emsp;&emsp; moved pixels in X-Axis.
+        &emsp;&emsp; moved pixels in X-Axis.  
     &emsp;**ypoint**: int   
-        &emsp;&emsp; moved pixels in Y-Axis.
+        &emsp;&emsp; moved pixels in Y-Axis.  
     &emsp;**speed**: int  
-        &emsp;&emsp; drag speed, the unit is ms/10px, and the default value is 50.
+        &emsp;&emsp; drag speed, the unit is ms/10px, and the default value is 50.  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
@@ -39,5 +39,5 @@ Scroll down 50 pixels like this: `ui(locator.notepad.thumb_scrollbar).drag_drop(
 ![sample1](../../../img/drap_drop_sample1_2.png)  
 
 - Move slider button from left to right  
-Scroll right 20 pixels like this: `ui(locator.uiautomationwpfd.thumb_thumb).drag_drop(20, 0)`
+Scroll right 20 pixels like this: `ui(locator.uiautomationwpfd.thumb_thumb).drag_drop(20, 0)`  
 ![sample2](../../../img/drap_drop_sample2_2.png)  

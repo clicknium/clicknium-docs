@@ -32,5 +32,8 @@ from clicknium import clicknium as cc
 chrome_tab = cc.chrome.open("https://www.bing.com")
 
 # execute js, set text for target element
-result = chrome_tab.find_element(locator.chrome.bing.search_sb_form_q).execute_js("function SetText(text){_context$.currentElement.value = text; console.log(\"exit 0\"); return \"success\"}", "SetText(\"click\")")
+webEle = chrome_tab.find_element(locator.chrome.bing.search_sb_form_q)
+js = "function SetText(text){_context$.currentElement.value = text; console.log(\"exit 0\"); return \"success\"}"
+
+result = webEle.execute_js(js, "SetText(\"click\")")
 ```

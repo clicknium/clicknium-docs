@@ -27,13 +27,13 @@ Return the first matched UI element by the given locator.
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
 
-    searchBox = cc.find_element(locator.chrome.bing.search_sb_form_q)
-    #or 
-    searchBox = ui(locator.chrome.bing.search_sb_form_q)
+searchBox = cc.find_element(locator.chrome.bing.search_sb_form_q)
+#or 
+searchBox = ui(locator.chrome.bing.search_sb_form_q)
 
-    #parametric locator
-    variables = {"name":"test"}
-    searchBox = ui(locator.chrome.bing.search_sb_form_q, variables)
+#parametric locator
+variables = {"name":"test"}
+searchBox = ui(locator.chrome.bing.search_sb_form_q, variables)
 ```
