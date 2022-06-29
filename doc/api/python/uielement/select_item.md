@@ -5,11 +5,11 @@
         timeout: int = 30
     ) -> None***  
 
-Select one option for the target.
+Select one option for the target element when it is a dropdown type control.
 
 **Parameters:**  
     &emsp;**item [Required]**: str   
-        &emsp;&emsp; option of the dropdown control, The control suppors selection, such as selecting element in web, or combobox in desktop appication. 
+        &emsp;&emsp; target option of the dropdown control.  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -18,21 +18,22 @@ Select one option for the target.
 
 **Example:**
 ***
-- select item on web input (type is select)
+- Select item on web (type is select)  
+![sampel1](../../../img/select-item-sample1.png)
+
 ```python
 from clicknium import clicknium as cc, locator, ui
 
-chrome_tab = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
-chrome_tab.find_element(locator.chrome.getbootstrap.select).select_item('One')
+chrome_tab = cc.chrome.open("https://contoso.com")
+chrome_tab.find_element(locator.chrome.page.select).select_item('One')
 
 ```
+-  Select item on window file "Saved As" dialog  
 
-![sample](../../../img/select_item_sample1.png)  
--  select item on windows file saved as dialog  
+![sample](../../../img/select_item_sample2.png)  
 ```python
 from clicknium import clicknium as cc, locator, ui
 
 ui(locator.notepad.combobox_filetype).select_item('All Files  (*.*)')
 
 ```
-![sample](../../../img/select_item_sample2.png)  

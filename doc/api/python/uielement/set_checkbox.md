@@ -5,13 +5,13 @@
         timeout: int = 30
     ) -> None***  
 
-Check operation on target element
+Set check state for a checkbox control.
 
 **Parameters:**  
     &emsp;**check_type**: str | CheckType   
-        &emsp;&emsp; set options for checking operation, "check", "uncheck" or "toggle"  
+        &emsp;&emsp; the check action types: "check", "uncheck" or "toggle".  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
+        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;None

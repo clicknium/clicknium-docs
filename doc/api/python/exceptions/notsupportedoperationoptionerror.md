@@ -2,7 +2,7 @@
 
 - extends: [NotSupportedOperationError](./doc/api/python/exceptions/notsupportedoperationerror.md)
 
-**NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element. Eg: can not clear text for desktop UiElement with clear method option set to `ControlClearValue`.**
+**NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.**
 
 ## Constructor<!-- {docsify-ignore} -->
 - [message](#message)
@@ -22,7 +22,7 @@ Message of the exception.
 ### stacktrace
 - type: str
 
-Stack of the exception which got raised inside the exception.
+A string representing all the calls prior to the function that raised the exception.
 
 ### automation_tech
 - type: str
@@ -42,4 +42,4 @@ Operation methods of the target element. Eg: "click", "check", "highlight".
 ### option
 - type: str
 
-Option for the operation. Eg: `ControlClearValue` is the option for "clear_text" operation's "clear_method".
+Option for the operation. Eg: `set-text` is the option for "clear_text" operation's "clear_method".

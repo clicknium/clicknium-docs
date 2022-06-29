@@ -11,11 +11,11 @@
 
 ## Install
 
-1. You can install the extension in [VSCode Clicknium Extension](./doc/developtools/vscode) or [Clicknium Python Sdk](./doc/api/python/java/java)
+1. You can install the extension in two ways:
 
-    - install the extension in [VSCode Clicknium Extension](./doc/developtools/vscode)  
+    - Install the extension in [VSCode Clicknium Extension](./doc/developtools/vscode)  
         ![java extension install](../../img/java_ext_install.png)
-    - install the extension in [Clicknium Python Sdk](./doc/api/python/java/java)
+    - Install the extension via [Clicknium Python command](./doc/api/python/java/java)
     ```python
     from clicknium import clicknium as cc
 

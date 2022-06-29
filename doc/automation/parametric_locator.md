@@ -16,11 +16,10 @@ or set partial value as parameter:
 
 - Use parametric locator in project  
 ```python
-    from clicknium import clicknium as cc, locator, ui
-
-    #will replace varaible 'name' in parametric locator during runtime
-    variables = {"name":"test"}
-    ui(locator.chrome.bing.search_sb_form_q, variables)
+from clicknium import clicknium as cc, locator, ui
+# replace varaible 'name' in parametric locator during runtime
+variables = {"name":"test"}
+ui(locator.chrome.bing.search_sb_form_q, variables)
 ```
 
 ## Examples
@@ -33,18 +32,18 @@ Add parametes as following to loop over each item:
 ![sample1](../img/parametric_locator_sample1_3.png)  
 
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
 
-    index = 1
-    driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
-    while True:
-        variables = {"index":index}
-        if driver.is_exist(locator.chrome.getbootstrap.li_anitem, variables):
-            text = driver.find_element(locator.chrome.getbootstrap.li_anitem, variables).get_text()
-            print(text)
-            index += 1
-        else:
-            break
+index = 1
+driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+while True:
+    variables = {"index":index}
+    if driver.is_existing(locator.chrome.getbootstrap.li_anitem, variables):
+        text = driver.find_element(locator.chrome.getbootstrap.li_anitem, variables).get_text()
+        print(text)
+        index += 1
+    else:
+        break
 ```
 
 ### Windows application Example  
@@ -55,12 +54,12 @@ Add parametes as following to loop over each menu item:
 ![sample1](../img/parametric_locator_sample2_3.png)  
 
 ```python
-    from clicknium import clicknium as cc, locator, ui
+from clicknium import clicknium as cc, locator, ui
 
-    titles = {'File', 'Edit', 'Format', 'View', 'Help'}
+titles = {'File', 'Edit', 'Format', 'View', 'Help'}
 
-    for title in titles:
-        variables = {"title":title}
-        text = ui(locator.chrome.getbootstrap.li_anitem, variables).get_text()
-        print(text)
+for title in titles:
+    variables = {"title":title}
+    text = ui(locator.chrome.getbootstrap.li_anitem, variables).get_text()
+    print(text)
 ```

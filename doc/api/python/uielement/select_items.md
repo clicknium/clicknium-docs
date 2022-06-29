@@ -6,13 +6,13 @@
         timeout: int = 30
     ) -> None***  
 
-Select multiple options for the target.  
+Select multiple options for the target element that can support multiple selections.
 
 **Parameters:**  
     &emsp;**items [Required]**: list  
-        &emsp;&emsp; options of the dropdown control, The control should support multiple selections.
+        &emsp;&emsp; Options to be selected.  
     &emsp;**clear_selected**: bool  
-        &emsp;&emsp; Whether deselect the selected options of target control or not, default is True.    
+        &emsp;&emsp; Whether to clear existing selections, default is True.    
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -21,15 +21,13 @@ Select multiple options for the target.
 
 **Example:**
 ***
-- select items on web
+- Select multiple items on web element
   
-![sample](../../../img/select_items_sample1.png)  
 ```python
 from clicknium import clicknium as cc, locator, ui
-
-chrome_tab = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
-chrome_tab.find_element(locator.chrome.getbootstrap.multiselect).select_item({'One', 'Three'})
-
+chrome_tab = cc.chrome.open("https://contoso.com")  
+chrome_tab.find_element(locator.chrome.page.multiselect).select_item({'One', 'Three'})  
+# as showing below, 'One' and 'Three' are selected.
 ```
 
 ![sample](../../../img/select_items_sample2.png)  

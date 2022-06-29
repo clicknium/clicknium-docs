@@ -1,7 +1,7 @@
 # hover
 ***def hover(self, timeout: int = 30) -> None***  
 
-Hover on the element, The mouse will move upon the element for a while.
+Hover over the element, and the mouse will move upon the element and stay for a while.
 
 **Parameters:**    
     &emsp;**timeout**: int  
@@ -11,8 +11,8 @@ Hover on the element, The mouse will move upon the element for a while.
     &emsp;None
 
 **Example:**
-
-- hover on the web element  
+***
+- Hover over a web element  
   
 ![sample](../../../img/hover_sample1.png)  
 
@@ -20,5 +20,7 @@ Hover on the element, The mouse will move upon the element for a while.
 from clicknium import clicknium as cc, locator, ui
     
 ui(locator.chrome.bing.li_dots_overflow).hover()
+# the menu is displayed after hovering over the button
 ```
+  
 ![sample](../../../img/hover_sample2.png) 

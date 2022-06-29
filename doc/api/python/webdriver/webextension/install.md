@@ -1,24 +1,25 @@
-# install
+# WebDriver.extension.install
 
 ***def install(self) -> None*** 
 
-Install web extension
+Install browser extension.
 
 >**Remarks:**  
->- Before installing extension, you should make sure you have already closed the browsers "Edge", "Firefox" and “Chrome”. 
+>- Before installing extension, make sure the related browsers are closed. 
 >- When extension is installed successfully, you should turn on the extension manually.  
+>- Refrenece: [Install extensions from vscode](./doc/developtools/extensions/extensions.md).
 
 **Example:**
 ***
 ```python
-    from clicknium import clicknium as cc
+from clicknium import clicknium as cc
 
-    # install chrome extension
-    cc.chrome.extension.install()
+# install chrome extension
+cc.chrome.extension.install()
 
-    # install edge extension
-    cc.edge.extension.install()
+# install edge extension
+cc.edge.extension.install()
 
-    # install firefox extension
-    cc.firefox.extension.install()
+# install firefox extension
+cc.firefox.extension.install()
 ```
