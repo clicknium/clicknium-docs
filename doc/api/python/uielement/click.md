@@ -2,8 +2,8 @@
 ***def click(
         self,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
-        click_location: ClickLocation = ClickLocation(),
-        click_method: Union[Literal["default", "mouse-emulation", "control-invocation"], ClickMethod] = ClickMethod.Default,
+        mouse_location: MouseLocation = MouseLocation(),
+        by: Union[Literal["default", "mouse-emulation", "control-invocation"], MouseActionBy] = MouseActionBy.Default,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         timeout: int = 30
     ) -> None***  
@@ -13,9 +13,9 @@ Single click the target element.
 **Parameters:**  
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
-    &emsp;**click_location**: ClickLocation  
-        &emsp;&emsp; it is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [ClickLocation](./doc/api/python/uielement/clicklocation.md) object.   
-    &emsp;**click_method**: ClickMethod  
+    &emsp;**mouse_location**: MouseLocation  
+        &emsp;&emsp; it is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [MouseLocation](./doc/api/python/uielement/MouseLocation.md) object.   
+    &emsp;**by**: MouseActionBy  
         &emsp;&emsp; Defines the method to click the UI element.  
         &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  
         &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if it is a window desktop element.  
@@ -40,28 +40,28 @@ tab = cc.chrome.open("https://contoso.com")
 tab.find_element(locator.chrome.contoso.svg).click(mouse_button = "left")
 ```
 
-- Click with customized ClickLocation
-For button '5' as the target element in below application, we can click other buttons by setting its ClickLocation.
+- Click with customized MouseLocation
+For button '5' as the target element in below application, we can click other buttons by setting its MouseLocation.
 ![sample1](../../../img/click_sample1.png)
 
 > Remarks
->- ClickLocation is defined in `clicknium.common.models.clicklocation`
+>- MouseLocation is defined in `clicknium.common.models.MouseLocation`
 
 
 ```python
 from clicknium import clicknium as cc, locator, ui
-from clicknium.common.models.clicklocation import ClickLocation
+from clicknium.common.models.MouseLocation import MouseLocation
 
 # click center of button '5'
 ui(locator.applicationframe.button_num5butto).click()
 
 # click button '6' 
 # The click position is 100% of target element width away from the center of button '5' in x direction
-ui(locator.applicationframe.button_num5butto).click(click_location=ClickLocation(xrate=1))
+ui(locator.applicationframe.button_num5butto).click(mouse_location=MouseLocation(xrate=1))
 
 # click button '8'
 # The click position is -100% of target element height away from the center of button '5' in y direction
-ui(locator.applicationframe.button_num5butto).click(click_location=ClickLocation(yrate=-1))
+ui(locator.applicationframe.button_num5butto).click(mouse_location=MouseLocation(yrate=-1))
 ```
 
 - Click along with modifier_key  

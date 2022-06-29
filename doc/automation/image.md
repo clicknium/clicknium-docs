@@ -54,7 +54,7 @@ if the selection area is outside the anchor element area, set to 'OutRegionHighe
 
 ## Use image locator in project
 Image locator can be used in the same way as other locators, for example  
-```
+```python
 from clicknium import clicknium as cc, locator, ui
 
 
@@ -68,13 +68,15 @@ ui(locator.notepad.menuitem).click()
 The following functions support image locator:
 - click
 - double_click
+- mouse_up
+- mouse_down
 - drag_drop
 - get_position
 - get_size
 - highlight
 - hover
 - send_hotkey
-- set_text: input_method should be `keyboardsimulatewithclick`
+- set_text (parameter `by` should be `sendkey-after-click`)
 
 ## Example
 If the application or the target UI element can not be located by other automation technologies when the area image is stable, users can try image locator.

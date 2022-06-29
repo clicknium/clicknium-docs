@@ -15,7 +15,7 @@
 [ClickCorp](https://www.clickcorp.com) builds a new generation automation framework **Clicknium** to support GUI automation for all types of applications. Automation development efficiency is highly improved with features of Clicknium, including developer tooling support and cloud native data management for colaboration.  
 
 [Clicknium Python Package](./doc/api/python/pythonsdk.md): Clicknium python package provides programming interfaces to automate various types of applications, such as Web browser, Windows Desktop application, Java application and Sap windows Gui app, etc.  
-(If other programming languages support are required, please [contact us](https://www.clickcorp.com/community).)  
+(If other programming languages support are required, please [contact us](https://www.clickcorp.com/contact).)  
 
 [Clicknium Visual Studio Code Extension](./doc/developtools/vscode.md): This extension helps you capture and manage UI locators easily. Unlike selenium or playwright that you need to figure out the locators by XPath or CssSelector. Clicknium extension generates locators by just clicking the target UI element, with [Clicknium Python Package](https://pypi.org/project/clicknium/), you can start automation for web and desktop right away. Besides generating locators automatically, Clicknium also provides locator IntelliSense in coding, centralized locator management in cloud, and project distribution.  
 
