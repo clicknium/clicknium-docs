@@ -1,7 +1,7 @@
 # Project Management
-[Overview](#overview)
-[Create Project](#create-project)
-[Run/Debug Project](#rundebug-project)
+[Overview](#overview)  
+[Create Project](#create-project)  
+[Run/Debug Project](#rundebug-project)  
 
 ## Overview
 Clicknium project encapsulates python automation files to guarantee the automation scripts having same result in developing, debugging, execution and distribution. 
@@ -11,7 +11,7 @@ Clicknium project encapsulates python automation files to guarantee the automati
 In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Create Project", and then select a folder where the project is stored according to the pop-up window.
 ![project create](../img/create_project.gif)
 
-When the project is created, a pop-up window in the lower right corner shows the general project intialization information and the output panel shows details. After initialization, the current Python virtual enviroment can be seen when you open app.py.
+When the project is created, a pop-up window in the lower right corner shows the general project intialization information and the output panel shows details. After initialization, the current Python virtual enviroment can be seen when you open app.py.  
 ![project create](../img/create_project_apppy_env.png)
 
 ### Project Structure
@@ -22,7 +22,7 @@ When the project is created, a pop-up window in the lower right corner shows the
 1. **app.py**:a python file where the main function is the execution entry of the project.
    ![project appyy](../img/create_project_apppy.png)
 
-2. **app.yaml**:configuration file where you can configure python version, python packages, project entry file and locator store references, etc for the project.  
+2. **clicknium.yaml**:configuration file where you can configure python version, python packages, project entry file and locator store references, etc for the project.  
    ![project appyaml](../img/create_project_appyaml.png)
    
    - **startUp**: The project entry file, if you want to change the project run entry file to another file, fill the file name without suffix in this field.  

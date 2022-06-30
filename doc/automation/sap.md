@@ -13,10 +13,10 @@ The  version 7.4 ,7.5 and 7.6 of SAP WinGUI are supported.
 
   
 The following functions specified for SAP are supported:
-- [login](/doc/api/python/sap/login.md)
-- [select_item](/doc/api/python/sap/select_item.md)
-- [call_transaction](/doc/api/python/sap/call_transaction.md)
-- [get_statusbar](/doc/api/python/sap/get_statusbar.md)  
+- [login](./doc/api/python/sap/login.md)
+- [select_item](./doc/api/python/sap/sapelement/select_item.md)
+- [call_transaction](./doc/api/python/sap/sapelement/call_transaction.md)
+- [get_statusbar](./doc/api/python/sap/sapelement/get_statusbar.md)  
 
 Other general functions are also supported for SAP WinGUI element, such as click, set_text, get_text etc.
 

@@ -4,10 +4,6 @@
 
 **All Clicknium exceptions inherit from this class.**
 
-- [message](#message)
-- [stacktrace](#stacktrace)
-
-
 ### message
 - type: str
 
