@@ -8,7 +8,7 @@
     - [Cloud Locator Management](./doc/developtools/vscode/locatormanagement.md)
     - [Clicknium Recorder](./doc/developtools/recorder/recorder.md)
       - [Quick Start](./doc/developtools/recorder/quickstart.md)
-      - [Record](./doc/developtools/recorder/record.md)      
+      - [Capture](./doc/developtools/recorder/capture.md)      
       - [Validate](./doc/developtools/recorder/validate.md)
       - [Recapture](./doc/developtools/recorder/recapture.md)
       - [Locator Management](./doc/developtools/recorder/locatormanagement.md)

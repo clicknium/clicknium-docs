@@ -1,7 +1,7 @@
 # Image Automation<!-- {docsify-ignore-all} -->
 
   - [Overview](#overview)
-  - [Record image locator](#record-image-locator)
+  - [Capture image locator](#capture-image-locator)
   - [Use image locator in project](#use-image-locator-in-project)
   - [Example](#example)
 
@@ -9,13 +9,13 @@
 Clicknium automation stask with many functions supports image automation.
 Clicknium locator schema is designed for extension in windows application locator, java application locator and image locator.
 
-## Record image locator
-Open a project in Visual Studio Code by pressing `Ctrl` + F10, or clicking the button `record` to invoke Clicknium recorder.  
+## Capture image locator
+Open a project in Visual Studio Code by pressing `Ctrl + F10`, or clicking the button `Capture` to invoke Clicknium recorder.  
 ![recorder button](../img/start_recorder_from_vscode.png "locator recorder button")  
 
 - Hover the mouse over the element to highlight it.  
-- Press `Ctrl` and click the element to record it.  
-- Press `Shift` and select one area with the mouse to record the image and it will be stored as image in locator.  
+- Press `Ctrl` and click the element to capture its locator.  
+- Press `Shift` and select one area with the mouse to capture the image and it will be stored as image in locator.  
 
 ![recorder helper](../img/recorder_help.png)   
 

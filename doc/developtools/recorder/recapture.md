@@ -4,7 +4,7 @@ Recapture can be used to recoder a new UI element with selected locator name.
 
 - [Start recapture](#start-recapture)
 - [Recapture window](#recapture-window)
-- [Start record](#start-record)
+- [Start capture](#start-capture)
 
 > **Remarks:**
 >- Recapture only support one locator.
@@ -24,9 +24,9 @@ You can recapture from both recorder and locator viewer tab in Visual Studio Cod
 - Start from Visual Studio Code   
 ![recapture window from VSC](../../img/recapture_window.png)
 
-## Start record
+## Start capture
 
 1. Select UI element  
 When mouse moving, it will highlight the UI element, and show its position on recorder panel.
-![recapture record](../../img/recapture_window_select_element.png)
-2. Press `Ctrl` + click
+![recapture capture](../../img/recapture_window_select_element.png)
+2. Press `Ctrl + click`

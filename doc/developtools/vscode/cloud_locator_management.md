@@ -9,8 +9,8 @@ For more information, please refer to [Connect To Cloud](/doc/developtools/vscod
 You can see the list of your cloud locator stores.
 
 ## Manage Cloud Locator Store
-- Record locators  
-Click 'Capture' button on the right side of one cloud locator store to invoke 'Clicknium Recorder', then you can record and manage the locators of the locator store.  
+- Capture locators  
+Click 'Capture' button on the right side of one cloud locator store to invoke 'Clicknium Recorder', then you can capture and manage the locators of the locator store.  
 
 ![Cloud locator 2](../../img/cloud_locator2.png)  
 For more information, please refer to [Clicknium Recorder](/doc/developtools/recorder.md)  
