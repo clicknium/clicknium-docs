@@ -52,8 +52,8 @@ The detail page of locator editor is organized with two parts, left and right.
     |?    | Substitute a character      |
 
 ## Recapture
-1. Click the "Recapture" button to open the recorder and record the locator again.
-2. Record the corresponding target UI element.
+1. Click the "Recapture" button to open the recorder and capture the locator again.
+2. Capture the corresponding target UI element.
 3. When recording succeeds, return to vscode and save the newly recorded element by pressing Ctrl+S.
 
 

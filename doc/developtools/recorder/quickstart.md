@@ -1,6 +1,6 @@
 # Quick Start<!-- {docsify-ignore-all} -->
 
-Follow this tutorial to start record a locator quicky.
+Follow this tutorial to start capture a locator quicky.
 
 - Find LOCATORS tab and click the button `Capture` as follows:  
 &emsp; ![start recorder from vscode](../../img/start_recorder_from_vscode.png)
@@ -10,12 +10,12 @@ Follow this tutorial to start record a locator quicky.
 
 - Select UI element  
 Hovering the mouse over the UI element to highlight it, and show its position on recorder panel.
-![sigle record](../../img/recorder_single.png)
+![sigle capture](../../img/recorder_single.png)
 
-- Press `Ctrl` + click
+- Press `Ctrl + click`
 
 - Click the button `Complete`  
-![record complete](../../img/recorder_complete.png)
+![capture complete](../../img/recorder_complete.png)
 
 
 

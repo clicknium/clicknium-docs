@@ -4,7 +4,7 @@
   - [Connect To Cloud](#connect-to-cloud)
   - [Extension Installation](#extension-installation)
   - [Create Project](#create-project)
-  - [Record UI Locators](#record-ui-locators)
+  - [Capture UI Locators](#capture-ui-locators)
   - [Edit and Validate Locator](#edit-and-validate-locator)
   - [Writing code](#writing-code)
   - [Run/Debug Project](#rundebug-project)
@@ -27,20 +27,20 @@ You can select and install extensions before writing automation code. For more i
 
 ## Create Project
 Open the Command Palette: `Ctrl+Shift+P`
-- Input or select: `Clicknium: Create Clicknium Project`
+- Input or select: `Clicknium: Create Project`
 - Select project path
   - You can create one empty folder and select it, and the new project will be created.
   - You can also select one existing folder which will be converted to Clicknium project, and there is no impact on existing source files.
 You can go to [Project Management](./doc/developtools/project_management.md) for more information.
 
-## Record UI Locators
+## Capture UI Locators
 In Visual Studio Code, press `CTRL+F10` to invoke Clicknium recorder to capture UI element locators.  
 ![clicknium recorder](../img/recorder_main.png)  
 The **Capture Technology** indicates which automation technology is currently used to capture UI elements. Default is ***Auto Detect***, which means Clicknium recorder will automatically detect the application type and choose the automation technology accordingly for locators capturing.
 You can go to [Clicknium Recorder](./doc/developtools/recorder/recorder.md) for more information.
 
 ## Edit and Validate Locator
-After recording the locators, you can open and edit the locator in the editor as below.  
+After capturing the locators, you can open and edit the locator in the editor as below.  
 ![clicknium vscode](../img/main.png) 
 
 You can go to [Locator Management](./doc/developtools/vscode/locatormanagement.md) for more information about locator management.  

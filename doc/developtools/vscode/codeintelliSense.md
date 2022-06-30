@@ -24,7 +24,7 @@ Use the locator under the Clicknium repository.  When the character "." after th
 ![locator hover](../../img/vscode-code-hover.png)
 - Open: Open the corresponding locator to edit
 - Validate: Validate the locator
-- Recapture: Start the recorder to record the locator again. If the recorded locator is different from the one in the editing window, it will be saved directly. 
+- Recapture: Start the recorder to capture the locator again. If the recorded locator is different from the one in the editing window, it will be saved directly. 
 
 
 ## Auto Fill
