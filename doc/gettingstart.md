@@ -1,6 +1,5 @@
 # Getting started<!-- {docsify-ignore-all} -->
 
-- [Getting started](#getting-started)
 - [Installation​](#installation)
   - [System Requirements​](#system-requirements)
   - [Install Clicknium Visual Studio Code extension](#install-clicknium-visual-studio-code-extension)

@@ -1,10 +1,9 @@
 # UiElement Property<!-- {docsify-ignore-all} -->
 
-- [UiElement Property](#uielement-property)
-  - [Overview](#overview)
-  - [Web Element Property](#web-element-property)
-  - [UIA Element Property](#uia-element-property)
-  - [Java Element Property](#java-element-property)
+- [Overview](#overview)
+- [Web Element Property](#web-element-property)
+- [UIA Element Property](#uia-element-property)
+- [Java Element Property](#java-element-property)
 
 ## Overview
 Different UI elements support different property lists based on automation technology. The following tables list the properties supported.

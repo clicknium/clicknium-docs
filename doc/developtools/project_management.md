@@ -1,4 +1,4 @@
-# Project Management
+# Project Management<!-- {docsify-ignore-all} -->
 [Overview](#overview)  
 [Create Project](#create-project)  
 [Run/Debug Project](#rundebug-project)  
