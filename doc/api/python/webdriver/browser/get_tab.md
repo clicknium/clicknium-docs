@@ -11,7 +11,7 @@ Get tab by specified title and/or url.
         &emsp;&emsp; url string, target web page's url, supporting wildcard. 
 
 **Returns:**  
-    &emsp;[BrowserTab](./doc/api/python/webdriver/browser/browser_tab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
+    &emsp;[BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***

@@ -243,7 +243,8 @@ main {
     left: 0;
     transition: transform .25s ease-out;
     width: 300px;
-    z-index: 20
+    z-index: 20;
+    position: fixed;
 }
 
     .sidebar > h1 {
@@ -325,7 +326,8 @@ main {
     transition: opacity .3s;
     width: 284px;
     z-index: 30;
-    cursor: pointer
+    cursor: pointer;
+    position: fixed;
 }
 
     .sidebar-toggle:hover .sidebar-toggle-button {

@@ -61,11 +61,10 @@ The detail page of locator editor is organized with two parts, left and right.
 Click "Validate" button.
 
 ### Validation succeed
-1. The recorder opens the window containing a locator and  marks the corresponding element.
+1. The recorder opens the window containing a locator and  marks the corresponding element.  
   ![validate success](../../img/vscode-validate-success-recorder.png)
 
-2. Within a few seconds, it automatically returns to the vscode window and marks as correct.
-  
+2. Within a few seconds, it automatically returns to the vscode window and marks as correct.  
   ![validate success](../../img/vscode-validate-success.png)
 
 ### Validation fail

@@ -16,7 +16,7 @@ Wait for the UI element to appear and return it within specified timeout.
         &emsp;&emsp; timeout for the waiting to appear, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, it is None if the element does not appear.
+    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object, or None if the element does not appear.  
 
 
 **Example:**

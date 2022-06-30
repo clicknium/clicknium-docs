@@ -5,7 +5,7 @@
         locator_variables: dict = {}
     ) -> SapElement***  
 
-Return the first matched SAP UI element by the given locator.
+Return the SAP UI element defined by the given locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   

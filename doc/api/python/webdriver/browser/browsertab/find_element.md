@@ -5,7 +5,7 @@
         locator_variables: dict = {}
     ) -> WebElement***  
 
-Return the first matched Web element by the given locator.
+Return the Web element defined by the given locator.
 
 >**Remarks:**  
 Use the following method,

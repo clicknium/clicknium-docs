@@ -25,6 +25,7 @@ pip install clicknium
 - [Window](./doc/api/python/window/window.md): the window specific automation APIs.  
 - [Sap](./doc/api/python/sap/sap.md): the SAP specific automation APIs.   
 - [Java](./doc/api/python/java/java.md): the java extension APIs.  
+- [Configuration](./doc/api/python/config/config.md): the configuration setting APIs.
 - [Exceptions](./doc/api/python/exceptions/exceptions.md): the errors defined in clicknium.  
 
 ## Example

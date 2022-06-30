@@ -7,7 +7,7 @@
 
 
 ## Code Complete
-Use the locator under the Clicknium repository.  When the character "." after the locator is entered, the Store referenced in the project is automatically displayed. When the character "." after Store is entered, folder and locator under  Store are displayed.
+Use the locator under the Clicknium repository.  When the character "." after the locator is entered, the Store referenced in the project is automatically displayed. When the character "." after Store is entered, folder and locator under  Store are displayed.  
 ![code complete](../../img/vscode-code-complete.png)
 
 ## Locator Error Hint

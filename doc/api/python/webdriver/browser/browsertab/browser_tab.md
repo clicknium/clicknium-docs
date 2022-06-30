@@ -10,7 +10,7 @@
 
 ## Methods
 **Operations related to [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) of current browser tab**
-- [find_element](./doc/api/python/webdriver/browser/browsertab/find_element.md): return the first matched Web element by the given locator.  
+- [find_element](./doc/api/python/webdriver/browser/browsertab/find_element.md): return the Web element defined by the given locator.  
 - [find_elements](./doc/api/python/webdriver/browser/browsertab/find_elements.md): return list of all matched Web elements by the given locator in current web page.  
 - [is_existing](./doc/api/python/webdriver/browser/browsertab/is_existing.md): check whether the specified element of the web page exists.  
 - [wait_appear](./doc/api/python/webdriver/browser/browsertab/wait_appear.md): wait for the specified element of the web page to appear within given timeout.  
