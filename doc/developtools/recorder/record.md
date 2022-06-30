@@ -10,21 +10,21 @@
 - [Record advanced option](#record-advanced-option)
 
 ## How to start recorder
-- start from Visual Studio Code LOCATORS tab  
+- Start from Visual Studio Code LOCATORS tab  
 ![start from vscode local locator](../../img/start_recorder_from_vscode.png)
-- strat from Visual Studio Code CLOUD LOCATORS tab  
+- Strat from Visual Studio Code CLOUD LOCATORS tab  
 ![start from vscode cloud locator](../../img/start_recorder_from_cloud.png)
-- start with pressing hotkey `Ctrl+F10`  
+- Start with pressing hotkey `Ctrl+F10`  
 
 ## Record methods
 
-We provide three recording methods: single record, continuous record and image record.
+Clicknium provides three recording methods: single record, continuous record and image record.
 
 > **Remarks:**
 >- The new recorded locator will be added into current selected store.
 
 ### Select record technology and advanced option
-For each record method we can select record technology and advanced option, please refer to [Record Technology](#record-technology) and [Record Advanced Option](#record-advanced-option).
+We can select the record technology and the advanced option with each record method. For more information, please refer to [Record Technology](#record-technology) and [Record Advanced Option](#record-advanced-option).
 
 ### Single record
 
@@ -32,21 +32,21 @@ For each record method we can select record technology and advanced option, plea
 When mouse moving, it will highlight the UI element, and show its position on recorder panel.
 ![sigle record](../../img/recorder_single.png)
 2. Press `Ctrl` + click
-3. Press button `Complete`  
+3. Click the button `Complete`  
 ![record complete](../../img/recorder_complete.png)
 
 ### Continuous record
 
-1. Operation multiple times "Select UI element and Press `Ctrl` + click" to add more locators
-2. Press button `Complete` on recorder panel
+1. Operate for multiple times by "Selecting UI element and Pressing `Ctrl` + click" to add more locators
+2. Click the button `Complete` on recorder panel
 
 ### Image record
 
-1. Select UI element  
-2. Press `Shift` and select one area with the mouse to paint a rectangle for the element
-3. Validate image locators are as follows:  
+1. Select a UI element  
+2. Press `Shift` and select one area for the element with the mouse
+3. Validate image locators as below:  
 ![image locator](../../img/record_image_locator.png)
-4. Press button `Complete` on recorder panel
+4. Click the button `Complete` on recorder panel
 
 ## Record technology
 
@@ -60,5 +60,5 @@ For window UI element, you can choose `UIA` or `IA` recorder technology.
 
 ## Record advanced option
 
-Default advanced option is `None`. When recording web UI element, you can also select `XPath`, which will generate a xpath string.  
+Default advanced option is `None`. When recording web UI element, you can also select XPath to generate a xpath string.    
 ![select advance option](../../img/record_choose_advance.png)

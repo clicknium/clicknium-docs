@@ -16,57 +16,57 @@
 
 ## Store Management
 
-For store operations, we support create, rename, add folder and remove the reference of current project.
+Clicknium supports the following store operations: create, rename, add folder and remove the reference of the current project.
 
 ### Create
-Create a new store with new name. Then select the store, the locators will be added to the selected store. 
-- press button `Create Store`
-- input store name
-- save by pressing `Enter` or `Tab`  
+Create a new store with a new name. Select the store, and the locators will be added to the selected store.  
+- Click the button `Create Store`
+- Input the store name
+- Save by pressing `Enter` or `Tab`  
 ![create store](../../img/recorder_store_create.png) 
 
 ### New Folder
-Create a new folder under selected store. Then select the folder, the locators will be to into the selected folder.
-- press button `New Folder`
-- input folder name
-- save by pressing `Enter` or `Tab`  
+Create a new folder under the selected store. Select the folder, the locators will be added into the selected folder.  
+- Click the button `New Folder`
+- Input a folder name
+- Save by pressing `Enter` or `Tab`  
 ![new folder](../../img/recorder_folder_new.png)
 
 ### Rename
-Rename the selected store with new name.  
-- press button `Rename` or press `F2`
-- input new store name
-- save by pressing `Enter` or `Tab`  
+Rename the selected store.  
+- Click the button `Rename` or press `F2`
+- Input a new store name
+- Save by pressing `Enter` or `Tab`  
 ![rename store](../../img/recorder_store_rename.png)
 
 ### Remove Reference
-Remove refrence of the selected store.
-- press button `Remove Reference`  
-- press button `Yes`  
+Remove the reference of the selected store.  
+- Click the button `Remove Reference`  
+- Click the button `Yes`  
 ![remove reference](../../img/recorder_remove_reference.png)
 
 ## Folder Management
 
-For folder operations, we support rename, new folder and delete.
+We support the three types of folder operations: rename, new folder and delete.
 
 ### New Folder
 Create a new folder under selected folder.
-- press button `New Folder`
-- input folder name
-- save by pressing `Enter` or `Tab`  
+- Click the button `New Folder`
+- Input folder name
+- Save by pressing `Enter` or `Tab`  
 ![new folder](../../img/recorder_folder_new_folder.png)
 
 ### Rename
 Rename the selected folder with new name.  
-- press button `Rename` or press `F2`
-- input new store name
-- save by pressing `Enter` or `Tab`  
+- Click the button `Rename` or press `F2`
+- Input new store name
+- Save by pressing `Enter` or `Tab`  
 ![rename folder](../../img/recorder_folder_rename.png)
 
 ### Delete
 Delete the selected folder.
-- press button `Delete`  
-- press button `Yes`   
+- Click the button `Delete`  
+- Click the button `Yes`   
 ![delete folder](../../img/recorder_folder_delete.png)
 
 ## Locator Management
@@ -78,13 +78,13 @@ Recapture a new locator with selected locator name. For more infomation, you can
 
 ### Rename
 Rename the selected locator with new name.  
-- press button `Rename` or press `F2`
-- input new store name
-- save by pressing `Enter` or `Tab`  
+- Click the button `Rename` or press `F2`
+- Input new store name
+- Save by pressing `Enter` or `Tab`  
 ![rename locator](../../img/recapture_locator_rename.png)
 
 ### Delete
 Delete the selected locator.
-- press button `Delete`  
-- press button `Yes`  
+- Click the button `Delete`  
+- Click the button `Yes`  
 ![delete locator](../../img/recorder_locator_delete.png)
