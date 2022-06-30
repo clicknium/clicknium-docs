@@ -5,7 +5,7 @@
         window_mode: Literal["auto", "topmost", "noaction"] = WindowMode.Auto
     ) -> UiElement***  
 
-Return the first matched UI element by the given locator.
+Return the UI element defined by the given locator.
 
 > **Remarks:**  
 >An alias method `ui()` is equivalent to `clicknium.find_element()`. 

@@ -10,21 +10,24 @@ Clicknium automation stask with many functions supports image automation.
 Clicknium locator schema is designed for extension in windows application locator, java application locator and image locator.
 
 ## Record image locator
-Open project in Visual Studio Code by pressing `Ctrl` + F10, or clicking the button `record` to invoke clicknium recorder.  
-![recorder button](../img/recorder.png "locator recorder button")  
+Open a project in Visual Studio Code by pressing `Ctrl` + F10, or clicking the button `record` to invoke Clicknium recorder.  
+![recorder button](../img/start_recorder_from_vscode.png "locator recorder button")  
 
-When you move the mouse, it will highlight the element. If you want to record the element, press `Ctrl` and click it. If you want to record the image, you can press `Shift` and select one area with the mouse, which will be stored as image in locator.  
+- Hover the mouse over the element to highlight it.  
+- Press `Ctrl` and click the element to record it.  
+- Press `Shift` and select one area with the mouse to record the image and it will be stored as image in locator.  
+
 ![recorder helper](../img/recorder_help.png)   
 
 For example  
-- choose the target element  
+- Choose the target element  
 
 ![recorder sample1](../img/image_locator_sample1_1.png)  
-- press `Shift` and drag to select an area  
+- Press `Shift` and drag to select an area  
 
 ![recorder sample1](../img/image_locator_sample1_2.png)  
 
-You will get the locator as follows: 
+You will get the locator as follows:   
 ![recorder sample1](../img/image_locator_sample1_3.png)  
 
 Image locator contains two parts.  
@@ -54,7 +57,7 @@ if the selection area is outside the anchor element area, set to 'OutRegionHighe
 
 ## Use image locator in project
 Image locator can be used in the same way as other locators, for example  
-```
+```python
 from clicknium import clicknium as cc, locator, ui
 
 
@@ -68,13 +71,15 @@ ui(locator.notepad.menuitem).click()
 The following functions support image locator:
 - click
 - double_click
+- mouse_up
+- mouse_down
 - drag_drop
 - get_position
 - get_size
 - highlight
 - hover
 - send_hotkey
-- set_text: input_method should be `keyboardsimulatewithclick`
+- set_text (parameter `by` should be `sendkey-after-click`)
 
 ## Example
 If the application or the target UI element can not be located by other automation technologies when the area image is stable, users can try image locator.

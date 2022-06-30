@@ -42,4 +42,4 @@ Operation methods of the target element. Eg: "click", "check", "highlight".
 ### option
 - type: str
 
-Option for the operation. Eg: `set-text` is the option for "clear_text" operation's "clear_method".
+Option for the operation. Eg: `set-text` is the option for "clear_text" operation's "by".

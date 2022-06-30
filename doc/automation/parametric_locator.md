@@ -50,7 +50,7 @@ while True:
 ![sample1](../img/parametric_locator_sample2.png)  
 Locate the menu item, the locator string is as following after recording:  
 ![sample1](../img/parametric_locator_sample2_2.png)  
-Add parametes as following to loop over each menu item:
+Add parametes as following to loop over each menu item:  
 ![sample1](../img/parametric_locator_sample2_3.png)  
 
 ```python
