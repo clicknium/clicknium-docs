@@ -44,7 +44,7 @@ After capturing the locators, you can open and edit the locator in the editor as
 ![clicknium vscode](../img/main.png) 
 
 You can go to [Locator Management](./doc/developtools/vscode/locatormanagement.md) for more information about locator management.  
-For more about the locator, please refer to [clicknium locator](./doc/automation/locator.md).  
+For more about the locator, please refer to [Clicknium Locator](./doc/automation/locator.md).  
 
 After editing the locator, you can press the button `Validate` to minimize Visual Studio Code and verify if the target element can be located by the locator. The locator validation result is displayed at the head of each locator layer.  
 ![validate error](../img/validate_err.png)
@@ -59,7 +59,7 @@ If you want to choose one locator in the locator store, Clicknium code extension
 ![intellisense](../img/intelliSense.png)
 
 Please go to [Code IntelliSense](./doc/developtools/vscode/codeintelliSense.md) for more features.
-You can manage the dependencies of the porject in `app.yaml`, for more details, please refer to [Project Management](./doc/developtools/project_management.md)
+You can manage the dependencies of the porject in `clicknium.yaml`, for more details, please refer to [Project Management](./doc/developtools/project_management.md).
 
 ## Run/Debug Project
 There are two ways to debug Clicknium Automation Project:

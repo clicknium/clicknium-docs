@@ -52,13 +52,13 @@ The detail page of locator editor is organized with two parts, left and right.
     |?    | Substitute a character      |
 
 ## Recapture
-1. Click the "Recapture" button to open the recorder and capture the locator again.
+1. Click the `Recapture` button to open the recorder and capture the locator again.
 2. Capture the corresponding target UI element.
-3. When recording succeeds, return to vscode and save the newly recorded element by pressing Ctrl+S.
+3. When recording succeeds, return to vscode and save the newly recorded element by pressing `Ctrl+S`.
 
 
 ## Validate
-Click "Validate" button.
+Click `Validate` button.
 
 ### Validation succeed
 1. The recorder opens the window containing a locator and  marks the corresponding element.  
@@ -88,7 +88,7 @@ Click "Validate" button.
   
   ![vscode-mach-multiple-locator](../../img/vscode-mach-multiple-locator.png)
 
-- If you want to update the switched Index in a locator, check "set single target" and click "OK". 
+- If you want to update the switched Index in a locator, check `Single target` and click `OK`. 
   
   ![vscode-set-single-target](../../img/vscode-set-single-target.png)
 

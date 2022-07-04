@@ -2,7 +2,7 @@
 
 - extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
 
-**ProjectSettingNotFoundError is raised when project setting file 'app.yaml' is missing.**
+**ProjectSettingNotFoundError is raised when project setting file 'clicknium.yaml' is missing.**
 
 - [message](#message)
 - [stacktrace](#stacktrace)

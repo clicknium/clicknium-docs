@@ -8,7 +8,7 @@ Clicknium project encapsulates python automation files to guarantee the automati
 
 ## Create Project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Create Project", and then select a folder where the project is stored according to the pop-up window.
+In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Create Project`, and then select a folder where the project is stored according to the pop-up window.
 ![project create](../img/create_project.gif)
 
 When the project is created, a pop-up window in the lower right corner shows the general project intialization information and the output panel shows details. After initialization, the current Python virtual enviroment can be seen when you open app.py.  
@@ -33,7 +33,7 @@ When the project is created, a pop-up window in the lower right corner shows the
      &emsp;Python: Python version is 3.7.0 by default. In creating project, if Visual Studio Code already has at least one supported version Python installed, clicknium extension will choose current selected python interpreter to create the project, the python version in this configuration file will be updated accordingly. If Visual Studio Code does not have Python installed, clicknium extension will install Python 3.7.0 as described in configuration file by default.
      
      ![project appyaml](../img/create_project_appyaml_python_config.png)  
-     &emsp;Packages：Python package dependency. In this configuration, you can add one or more Python packages requrired by this project in the format of package-version. If the version is blank or null, the latest version will be used automatically.  
+     &emsp;Packages：Python package dependency. In this configuration, you can add one or more Python packages required by this project in the format of package-version. If the version is blank or null, the latest version will be used automatically.  
      ![project appyamlpython](../img/create_project_appyaml_python.png)  
      &emsp;If there is no required Python package dependency，it will be configured as [].  
      ![project appyamlpython](../img/create_project_appyaml_python_clear.png)  
@@ -47,7 +47,7 @@ When the project is created, a pop-up window in the lower right corner shows the
 
 ### Run the project
 
-In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Run Project". The clicknium extension will deploy and run the project based on app.yaml.
+In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Run Project`. The clicknium extension will deploy and run the project based on clicknium.yaml.
 ![project run](../img/run_project.gif) 
 
 ### Debug the project
@@ -55,7 +55,7 @@ In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input o
 #### Basics
 
 In Visual Studio Code, set a breakpoint to the code where you want to pause,
-press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Debug Project". The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
+press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Debug Project`. The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
 ![project debug](../img/debug_project_3.png)  
 &emsp;Continue (F5) / Pause (F6)  
 &emsp;Step over (F10)  
