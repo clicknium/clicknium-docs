@@ -18,16 +18,16 @@ For more information, please refer to [Clicknium Recorder](/doc/developtools/rec
 Click to open one locator, and you can edit the attributes of the locator.
 For more about editing locator, please refer to [Edit locator](/doc/developtools/vscode/locatormanagement.md#edit-locator).
 - Rename the locator, the folder and the store  
-Right click on the target locator, folder or store, and choose 'Rename' button on the pop-up menu to input the new name.
+Right click on the target locator, folder or store, and choose `Rename` button on the pop-up menu to input the new name.
 - New folder  
-Right click on the target folder or store, and choose 'New Folder' button on the pop-up menu to name the folder.
+Right click on the target folder or store, and choose `New Folder` button on the pop-up menu to name the folder.
 - Move the locator/folder  
 You can drag the locator from existing folder/store to the target folder/store.
 - Delete locator, folder, locator store  
-Right click on the target locator, folder or store to choose 'Delete' button on the pop-up menu.
+Right click on the target locator, folder or store to choose `Delete` button on the pop-up menu.
 
 ## Reference cloud locator store to project
-Click 'Reference' button on the right side of one cloud locator store.  
+Click `Reference` button on the right side of one cloud locator store.  
 
 ![Cloud locator 3](../../img/cloud_locator3.png)  
 The locator will be referenced to the current project. 

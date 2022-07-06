@@ -23,7 +23,7 @@ Exception is raised whenever a certain operation is terminated abnormally. Besid
 | [NotSupportedOperationError](./doc/api/python/exceptions/notsupportedoperationerror.md) | NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation.|
 | [NotSupportedOperationOptionError](./doc/api/python/exceptions/notsupportedoperationoptionerror)   | NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.|
 | [OperationTimeoutError](./doc/api/python/exceptions/timeoutoperationerror.md) | OperationTimeoutError is raised when a certain operation is not completed within given time.|
-| [ProjectSettingNotFoundError](./doc/api/python/exceptions/projectsettingnotfounderror.md) | ProjectSettingNotFoundError is raised when project setting file 'app.yaml' is missing.|
+| [ProjectSettingNotFoundError](./doc/api/python/exceptions/projectsettingnotfounderror.md) | ProjectSettingNotFoundError is raised when project setting file 'clicknium.yaml' is missing.|
 | [ScreenOperationError](./doc/api/python/exceptions/screenoperationerror.md)   | ScreenOperationError is raised when screen operations of window desktop UI element fail.|
 | [UiaPatternNotFoundError](./doc/api/python/exceptions/uiapatternnotfounderror.md)   | UiaPatternNotFoundError is raised when a window UI element can not be found by UIA technology.|
 | [UnAuthorizedError](./doc/api/python/exceptions/unauthoriederror.md) | UnAuthorizedError is raised when user does not sign in or the sign in state is expired.|
