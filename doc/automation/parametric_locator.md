@@ -1,9 +1,4 @@
-# Parametric Locator<!-- {docsify-ignore-all} -->
-
-  - [Overview](#overview)
-  - [Examples](#examples)
-    - [Web Example](#web-example)
-    - [Windows application Example](#windows-application-example)
+# Parametric Locator
 
 ## Overview
  Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element..

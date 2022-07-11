@@ -1,6 +1,6 @@
 # NotSupportedOperationOptionError
 
-- extends: [NotSupportedOperationError](./doc/api/python/exceptions/notsupportedoperationerror.md)
+- extends: [NotSupportedOperationError](./notsupportedoperationerror.md)
 
 **NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.**
 

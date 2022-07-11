@@ -1,6 +1,6 @@
 # BrowserNotRunError
 
-- extends: [WebError](./doc/api/python/exceptions/weberror.md)
+- extends: [WebError](./weberror.md)
 
 **BrowserNotRunError is raised when the specified browser is not running.**
 

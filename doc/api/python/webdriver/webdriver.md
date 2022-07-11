@@ -1,4 +1,4 @@
-# WebDriver <!-- {docsify-ignore-all} -->
+# WebDriver 
 
 **WebDriver class provides methods to get browser object for web automation.**  
 
@@ -8,13 +8,13 @@
 - `clicknium.firefox`: Firefox web driver  
 
 ## Properties
-- `browsers`: List[[Browser](./doc/api/python/webdriver/browser/browser.md)], return all open browsers by current browser type.  
-- `extension`: [WebExtension](./doc/api/python/webdriver/webextension/webextension.md), return the web extenion by current browser type.
+- `browsers`: List[[Browser](./browser/browser.md)], return all open browsers by current browser type.  
+- `extension`: [WebExtension](./webextension/webextension.md), return the web extenion by current browser type.
 
 ## Methods
-- [open](./doc/api/python/webdriver/open.md): open browser with the specified url, return a [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object.
-- [attach](./doc/api/python/webdriver/attach.md): attach to an opened browser tab with the specified locator, return a [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object.
-- [attach_by_title_url](./doc/api/python/webdriver/attach_by_title_url.md): attach to an opened browser tab with the specified title and/or url, return a [BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object.
+- [open](./open.md): open browser with the specified url, return a [BrowserTab](./browser/browsertab/browser_tab.md) object.
+- [attach](./attach.md): attach to an opened browser tab with the specified locator, return a [BrowserTab](./browser/browsertab/browser_tab.md) object.
+- [attach_by_title_url](./attach_by_title_url.md): attach to an opened browser tab with the specified title and/or url, return a [BrowserTab](./browser/browsertab/browser_tab.md) object.
 
 ## Examples
 ```python

@@ -1,10 +1,7 @@
-# Connect To Cloud<!-- {docsify-ignore-all} -->
-
-  - [Sign In](#sign-in)
-  - [Sign Out](#sign-out)
+# Connect To Cloud
 
 ## Sign In
-1. For users who have not signed in, click the `Sign In` button in the Locators panel.  
+1. For users who have not signed in, click the Sign In button in the Locators panel.  
    ![vscode sign in](../../img/vscode-sign-in.png)
 2. Click "Allow" in the dialog box to navigate to ClickCorp official website and sign in .  
    ![confirm dialog](../../img/vscode-sign-in-dialog.png)

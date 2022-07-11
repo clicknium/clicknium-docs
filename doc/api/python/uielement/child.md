@@ -11,7 +11,7 @@ Get child element with index.
         &emsp;&emsp; index specified, get the nth child
 
 **Returns:**  
-    &emsp;[UiElement](./doc/api/python/uielement/uielement.md) object if it is found, or None if not
+    &emsp;[UiElement](./uielement.md) object if it is found, or None if not
 
 **Example:**
 

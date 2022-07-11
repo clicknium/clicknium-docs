@@ -1,6 +1,6 @@
 # ArgumentError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **ArgumentError is raised when at least one of the arguments provided to a method is not valid.**
 

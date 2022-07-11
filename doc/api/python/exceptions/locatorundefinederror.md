@@ -1,6 +1,6 @@
 # LocatorUndefinedError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **LocatorUndefinedError is raised when the specified locator can not be found in locator store.**
 

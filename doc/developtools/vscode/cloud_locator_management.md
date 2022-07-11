@@ -2,7 +2,7 @@
 ## Enter into 'Cloud Locators' panel
 Click the button 'Clicknium Explorer' in Visual Studio Code Activity Bar to show 'CLOUD LOCATORS' panel.  
 If you don't sign in yet, click button 'Sign in' to navigate to ClickCorp webpage to sign up or sign in.
-For more information, please refer to [Connect To Cloud](/doc/developtools/vscode/connecttoclound.md).  
+For more information, please refer to [Connect To Cloud](./connecttocloud.md).  
 
 ![Cloud locator 1](../../img/cloud_locator1.png)  
 
@@ -13,10 +13,10 @@ You can see the list of your cloud locator stores.
 Click 'Capture' button on the right side of one cloud locator store to invoke 'Clicknium Recorder', then you can capture and manage the locators of the locator store.  
 
 ![Cloud locator 2](../../img/cloud_locator2.png)  
-For more information, please refer to [Clicknium Recorder](/doc/developtools/recorder.md)  
+For more information, please refer to [Clicknium Recorder](./../recorder/recorder.md)  
 - Edit the existing locator  
 Click to open one locator, and you can edit the attributes of the locator.
-For more about editing locator, please refer to [Edit locator](/doc/developtools/vscode/locatormanagement.md#edit-locator).
+For more about editing locator, please refer to [Edit locator](./../../developtools/vscode/locatormanagement.md#edit-locator).
 - Rename the locator, the folder and the store  
 Right click on the target locator, folder or store, and choose `Rename` button on the pop-up menu to input the new name.
 - New folder  

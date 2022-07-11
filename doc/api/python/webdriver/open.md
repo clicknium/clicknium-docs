@@ -33,7 +33,7 @@ Open browser with specified url to get a browser tab.
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;[BrowserTab](./doc/api/python/webdriver/browser/browsertab/browser_tab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
+    &emsp;[BrowserTab](./browser/browsertab/browser_tab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***

@@ -1,18 +1,4 @@
-# Locator Management<!-- {docsify-ignore-all} -->
-
-- [Store Management](#store-management)
-    - [Create](#create)
-    - [New Folder](#new-folder)
-    - [Rename](#rename)
-    - [Remove Reference](#remove-reference)
-- [Folder Management](#folder-management)
-    - [New Folder](#new-folder-1)
-    - [Rename](#rename-1)
-    - [Delete](#delete-1)
-- [Locator Management](#locator-management)
-    - [Recapture](#recapture)
-    - [Rename](#rename-2)
-    - [Delete](#delete-1)
+# Locator Management
 
 ## Store Management
 
@@ -73,7 +59,7 @@ Delete the selected folder.
 For locator operations, we support rename, new folder and delete.
 
 ### Recapture
-Recapture a new locator with selected locator name. For more infomation, you can refer to [Recapture](./doc/developtools/recorder/recapture.md).  
+Recapture a new locator with selected locator name. For more infomation, you can refer to [Recapture](./recapture.md).  
 ![recapture locator](../../img/recorder_locator_recapture.png)
 
 ### Rename

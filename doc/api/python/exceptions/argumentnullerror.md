@@ -1,6 +1,6 @@
 # ArgumentNullError
 
-- extends: [ArgumentError](./doc/api/python/exceptions/argumenterror.md)
+- extends: [ArgumentError](./argumenterror.md)
 
 **ArgumentNullError is raised when a null reference is passed to a method that does not accept it as a valid argument.**
 

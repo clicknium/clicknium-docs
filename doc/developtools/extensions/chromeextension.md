@@ -1,4 +1,4 @@
-# Chrome Extension<!-- {docsify-ignore-all} -->
+# Chrome Extension
 
 **You can automate Chrome by installing the Chrome extension.**
 
@@ -11,9 +11,9 @@
 ## Install
 
 1. You can install the extension in two ways:  
-    - Install the Chrome extension in [VSCode Clicknium Extension](./doc/developtools/vscode)  
+    - Install the Chrome extension in [VSCode Clicknium Extension](./../vscode.md)  
         ![chrome extension install](../../img/chrome_ext_install.png)
-    - Install the Chrome extension via [Clicknium Python command](./doc/api/python/webdriver/webextension/webextension)
+    - Install the Chrome extension via [Clicknium Python command](./../../api/python/webdriver/webextension/webextension.md)
     ```python
     from clicknium import clicknium as cc
 

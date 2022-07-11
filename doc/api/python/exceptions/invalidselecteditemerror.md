@@ -1,6 +1,6 @@
 # InvalidSelectedItemError
 
-- extends: [InvalidOperationError](./doc/api/python/exceptions/invalidoperationerror.md)
+- extends: [InvalidOperationError](./invalidoperationerror.md)
 
 **InvalidSelectedItemError is raised when the item to be selected is invalid for the object's current state.**
 

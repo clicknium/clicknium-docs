@@ -1,6 +1,6 @@
 # WindowError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **WindowError is raised for common window exceptions.**
 

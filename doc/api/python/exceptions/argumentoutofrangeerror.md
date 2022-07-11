@@ -1,6 +1,6 @@
 # ArgumentOutOfRangeError
 
-- extends: [ArgumentError](./doc/api/python/exceptions/argumenterror.md)
+- extends: [ArgumentError](./argumenterror.md)
 
 **ArgumentOutOfRangeError is raised when the value of an argument is out of the allowable range of values as defined by the invoked method.**
 

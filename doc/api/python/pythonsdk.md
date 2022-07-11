@@ -1,4 +1,4 @@
-# Overview  <!-- {docsify-ignore-all} -->
+# Overview  
 
 [Clicknium python package](https://pypi.org/project/clicknium/) supports to automate various types of applications, such as **Web** browser, **Windows Desktop** application, **Java** application and **SAP** windows Gui app, etc.
 
@@ -19,14 +19,14 @@ pip install clicknium
 ```
 
 ## API reference   
-- [Global Functions](./doc/api/python/globalfunctions.md)：the root level APIs for UI element.  
-- [UiElement](./doc/api/python/uielement/uielement.md): the UI element operations.  
-- [WebDriver](./doc/api/python/webdriver/webdriver.md): the web automation related objects and APIs.  
-- [Window](./doc/api/python/window/window.md): the window specific automation APIs.  
-- [Sap](./doc/api/python/sap/sap.md): the SAP specific automation APIs.   
-- [Java](./doc/api/python/java/java.md): the java extension APIs.  
-- [Configuration](./doc/api/python/config/config.md): the configuration setting APIs.
-- [Exceptions](./doc/api/python/exceptions/exceptions.md): the errors defined in clicknium.  
+- [Global Functions](./globalfunctions.md)：the root level APIs for UI element.  
+- [UiElement](./uielement/uielement.md): the UI element operations.  
+- [WebDriver](./webdriver/webdriver.md): the web automation related objects and APIs.  
+- [Window](./window/window.md): the window specific automation APIs.  
+- [Sap](./sap/sap.md): the SAP specific automation APIs.   
+- [Java](./java/java.md): the java extension APIs.  
+- [Configuration](./config/config.md): the configuration setting APIs.
+- [Exceptions](./exceptions/exceptions.md): the errors defined in clicknium.  
 
 ## Example
 A sample code for web automation with clicknium is as follows.
