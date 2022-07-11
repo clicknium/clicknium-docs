@@ -12,7 +12,6 @@
 1. You can install the extension in two ways:
 
     - Install the extension in [VSCode Clicknium Extension](./../vscode.md)  
-    - Install the extension in [VSCode Clicknium Extension](/documents/developtools/vscode.md)  
         ![firefox extension install](../../img/firefox_ext_install.png)
     - Install the extenion via [Clicknium Python command](./../../api/python/webdriver/webextension/webextension.md)
     ```python
