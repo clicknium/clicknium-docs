@@ -6,6 +6,6 @@
 
 ## Methods <!-- {docsify-ignore} -->
 
-- [maximize](./doc/api/python/window/maximize.md): maximize the window specified by locator.  
-- [minimize](./doc/api/python/window/minimize.md): minimize the window specified by locator.  
-- [restore](./doc/api/python/window/restore.md): restore the window specified by locator.  
+- [maximize](./maximize.md): maximize the window specified by locator.  
+- [minimize](./minimize.md): minimize the window specified by locator.  
+- [restore](./restore.md): restore the window specified by locator.  

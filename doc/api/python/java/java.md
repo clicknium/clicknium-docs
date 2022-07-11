@@ -1,4 +1,4 @@
-# Java <!-- {docsify-ignore-all} -->
+# Java 
 
 **Java class provides methods to operate java extension.**
 
@@ -10,8 +10,8 @@
 
 ### Extension Methods 
 
-- [install](./doc/api/python/java/install.md): install java extension
-- [uninstall](./doc/api/python/java/uninstall.md): uninstall java extension
+- [install](./install.md): install java extension
+- [uninstall](./uninstall.md): uninstall java extension
 
 ### Examples
 

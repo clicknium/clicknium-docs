@@ -1,6 +1,6 @@
 # BrowserNotInstallError
 
-- extends: [WebError](./doc/api/python/exceptions/weberror.md)
+- extends: [WebError](./weberror.md)
 
 **BrowserNotInstallError is raised when the specified browser is not installed.**
 

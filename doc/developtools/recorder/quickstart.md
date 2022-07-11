@@ -1,4 +1,4 @@
-# Quick Start<!-- {docsify-ignore-all} -->
+# Quick Start
 
 Follow this tutorial to start capture a locator quicky.
 

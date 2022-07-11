@@ -1,6 +1,6 @@
 # NotSupportedOperationError
 
-- extends: [NotSupportedError](./doc/api/python/exceptions/notsupportederror.md)
+- extends: [NotSupportedError](./notsupportederror.md)
 
 **NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation.**
 

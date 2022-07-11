@@ -1,9 +1,4 @@
-# SAP WinGUI Automation<!-- {docsify-ignore-all} -->
-  - [Overview](#overview)
-  - [Enabling SAP WinGUI API scripting](#enabling-sap-wingui-api-scripting)
-    - [Server Side Configuration](#server-side-configuration)
-    - [Client Side Configuration](#client-side-configuration)
-    - [Enabling Modal Dialog Boxes](#enabling-modal-dialog-boxes)
+# SAP WinGUI Automation
 
 ## Overview
 SAP WinGUI is commonly used to access SAP functionality in SAP applications.
@@ -13,10 +8,10 @@ The  version 7.4 ,7.5 and 7.6 of SAP WinGUI are supported.
 
   
 The following functions specified for SAP are supported:
-- [login](./doc/api/python/sap/login.md)
-- [select_item](./doc/api/python/sap/sapelement/select_item.md)
-- [call_transaction](./doc/api/python/sap/sapelement/call_transaction.md)
-- [get_statusbar](./doc/api/python/sap/sapelement/get_statusbar.md)  
+- [login](./../api/python/sap/login.md)
+- [select_item](./../api/python/sap/sapelement/select_item.md)
+- [call_transaction](./../api/python/sap/sapelement/call_transaction.md)
+- [get_statusbar](./../api/python/sap/sapelement/get_statusbar.md)  
 
 Other general functions are also supported for SAP WinGUI element, such as click, set_text, get_text etc.
 

@@ -1,4 +1,4 @@
-# double_click<!-- {docsify-ignore-all} -->
+# double_click
 ***def double_click(
         self,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
@@ -14,7 +14,7 @@ Double click the target element.
      &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**mouse_location**: MouseLocation  
-        &emsp;&emsp; [MouseLocation](./doc/api/python/uielement/MouseLocation.md) is set to define the element position to click. Default position is center of element.  
+        &emsp;&emsp; [MouseLocation](./mouselocation.md) is set to define the element position to click. Default position is center of element.  
     &emsp;**by**: MouseActionBy  
         &emsp;&emsp; Defines the method to click the UI element.  
         &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  

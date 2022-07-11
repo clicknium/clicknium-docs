@@ -1,6 +1,6 @@
 # ElementNotFoundError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **ElementNotFoundError is raised when the target UI element can not be found by the given locator.**
 

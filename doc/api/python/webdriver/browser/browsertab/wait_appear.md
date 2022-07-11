@@ -9,20 +9,20 @@
 Wait for the specified element of the web page to appear within given timeout.  
 
 >**Remarks:**  
-`BrowserTab.wait_appear` is different with [clicknium.wait_appear](./doc/api/python/wait_appear.md) when locating the UI element.
+`BrowserTab.wait_appear` is different with [clicknium.wait_appear](./../../../wait_appear.md) when locating the UI element.
 >- `clicknium.wait_appear()` is for both the web and window UI element, and not limited to a specific scope.  
 >- `clicknium.chrome.open("https://bing.com").wait_appear()` will locate element in its parent web page.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./doc/automation/locator.md).   
+        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./../../../../../automation/locator.md).   
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md).  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./../../../../../automation/parametric_locator.md).  
     &emsp;**timeout**: int  
         &emsp;&emsp; wait timeout for the operation, the unit is second, default value is 30 seconds.  
 
 **Returns:**  
-    &emsp;[WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) object, or None if the element does not appear.  
+    &emsp;[WebElement](./webelement/webelement.md) object, or None if the element does not appear.  
 
 **Example:**
 ***

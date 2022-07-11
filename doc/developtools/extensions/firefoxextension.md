@@ -1,4 +1,4 @@
-# Firefox Extension<!-- {docsify-ignore-all} -->
+# Firefox Extension
 
 **You can automate Firefox by installing the Firefox extension.**
 
@@ -11,9 +11,10 @@
 
 1. You can install the extension in two ways:
 
-    - Install the extension in [VSCode Clicknium Extension](./doc/developtools/vscode)  
+    - Install the extension in [VSCode Clicknium Extension](./../vscode.md)  
+    - Install the extension in [VSCode Clicknium Extension](/documents/developtools/vscode.md)  
         ![firefox extension install](../../img/firefox_ext_install.png)
-    - Install the extenion via [Clicknium Python command](./doc/api/python/webdriver/webextension/webextension)
+    - Install the extenion via [Clicknium Python command](./../../api/python/webdriver/webextension/webextension.md)
     ```python
     from clicknium import clicknium as cc
 

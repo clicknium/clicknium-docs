@@ -1,10 +1,8 @@
-# Code IntelliSense<!-- {docsify-ignore-all} -->
-
-  - [Code Complete](#code-complete)
-  - [Locator Error Hint](#locator-error-hint)
-  - [Locator Hover](#locator-hover)
-  - [Auto Fill](#auto-fill)
-
+---
+title: Code IntelliSense
+sidebar_position: 2
+---
+# Code IntelliSense
 
 ## Code Complete
 Use the locator under the Clicknium repository.  When the character "." after the locator is entered, the Store referenced in the project is automatically displayed. When the character "." after Store is entered, folder and locator under  Store are displayed.  
@@ -28,6 +26,6 @@ Use the locator under the Clicknium repository.  When the character "." after th
 
 
 ## Auto Fill
-1. Press the shortcut key `CTRL+F10` or click `Capture` in the right menu to start the recorder.
+1. Press the shortcut key CTRL+F10 or click  `Capture` in the right menu to start the recorder.
 2. After recording, select a locator that is required to fill in the recorder.
 3. After clicking `OK`, the locator will be automatically filled into the code.

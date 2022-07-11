@@ -1,4 +1,4 @@
-# Recapture<!-- {docsify-ignore-all} -->
+# Recapture
 
 Recapture can be used to recoder a new UI element with selected locator name.
 

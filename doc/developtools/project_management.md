@@ -1,7 +1,4 @@
-# Project Management<!-- {docsify-ignore-all} -->
-[Overview](#overview)  
-[Create Project](#create-project)  
-[Run/Debug Project](#rundebug-project)  
+# Project Management
 
 ## Overview
 Clicknium project encapsulates python automation files to guarantee the automation scripts having same result in developing, debugging, execution and distribution. 
@@ -47,7 +44,7 @@ When the project is created, a pop-up window in the lower right corner shows the
 
 ### Run the project
 
-In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Run Project`. The clicknium extension will deploy and run the project based on clicknium.yaml.
+In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select "Clicknium: Run Project". The clicknium extension will deploy and run the project based on clicknium.yaml.
 ![project run](../img/run_project.gif) 
 
 ### Debug the project
@@ -55,7 +52,7 @@ In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input o
 #### Basics
 
 In Visual Studio Code, set a breakpoint to the code where you want to pause,
-press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Debug Project`. The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
+press `Ctrl+Shift+P` to show the Command Palette, input or select "Clicknium: Debug Project". The clicknium extension will start projec debugging with debug buttons shown at the top of Visual Studio Code.  
 ![project debug](../img/debug_project_3.png)  
 &emsp;Continue (F5) / Pause (F6)  
 &emsp;Step over (F10)  

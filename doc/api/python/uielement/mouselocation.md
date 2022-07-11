@@ -1,5 +1,5 @@
 # MouseLocation
-**MouseLocation class is to define the position of mouse action on target element. It is being used in [click](./doc/api/python/uielement/click.md), [double_click](./doc/api/python/uielement/double_click.md), [mouse_up](./doc/api/python/uielement/mouse_up.md) and [mouse_down](./doc/api/python/uielement/mouse_down.md).**
+**MouseLocation class is to define the position of mouse action on target element. It is being used in [click](./click.md), [double_click](./double_click.md), [mouse_up](./mouse_up.md) and [mouse_down](./mouse_down.md).**
 
 **Parameters:**  
     &emsp;**Location**: Location  

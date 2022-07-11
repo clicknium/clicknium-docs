@@ -1,6 +1,6 @@
 # ScreenOperationError
 
-- extends: [WindowsNativeError](./doc/api/python/exceptions/windowsnativeerror.md)
+- extends: [WindowsNativeError](./windowsnativeerror.md)
 
 **ScreenOperationError is raised when screen operations of window desktop UI element fail.**
 

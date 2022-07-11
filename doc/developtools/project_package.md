@@ -1,4 +1,4 @@
-# Project Package 
+# Project Package
 
 In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Package Project`, then select the path to save the executable file.
 ![](../img/pack_project.gif)

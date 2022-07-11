@@ -4,7 +4,7 @@
 Send hotkey to the cursor's current position.
 
 >**Remarks:**  
-It is a method that sends hotkey to the system. If you need to send the hotkey to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use another [send_hotkey](./doc/api/python/uielement/send_hotkey.md) which is bound to a UI element.
+It is a method that sends hotkey to the system. If you need to send the hotkey to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use another [send_hotkey](./send_hotkey.md) which is bound to a UI element.
 
 **Parameters:**  
     &emsp;**hotkey[Required]**: str   

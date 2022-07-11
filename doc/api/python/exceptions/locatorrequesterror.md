@@ -1,6 +1,6 @@
 # LocatorRequestError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **LocatorRequestError is raised when the cloud locator cannot be acquired due to server request error.**
 
