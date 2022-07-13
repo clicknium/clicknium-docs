@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+sidebar_label: wait_disappear
+---
 # BrowserTab.wait_disappear
 ***def wait_disappear(
         self,
@@ -9,7 +13,7 @@
 Wait for the specified element of the web page to disappear within given timeout.
 
 >**Remarks:**  
-`BrowserTab.wait_disappear` is different with [clicknium.wait_disappear](./../../../wait_disappear.md) when locating the UI element.
+`BrowserTab.wait_disappear` is different with [clicknium.wait_disappear](./../../../globalfunctions/wait_disappear.md) when locating the UI element.
 >- `clicknium.wait_disappear()` is for both web and window uielement, and not limited to a specific scope.  
 >- `clicknium.chrome.open("https://bing.com").wait_disappear()` will locate element in its parent web page.  
 

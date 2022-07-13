@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+sidebar_label: select_item
+---
 # SapElement.select_item
 
 ***def select_item(

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+sidebar_label: find_elements
+---
 # BrowserTab.find_elements
 ***def find_elements(
         self,
@@ -9,7 +13,7 @@
 Return list of all matched Web elements by the given locator in current web page.
 
 > **Remarks:**  
-`BrowserTab.find_elements` is different with the method [clicknium.find_elements](./../../../find_elements.md) when locating the UI elements.  
+`BrowserTab.find_elements` is different with the method [clicknium.find_elements](./../../../globalfunctions/find_elements.md) when locating the UI elements.  
 >- `clicknium.find_elements()` is for both web and window UI element, and is not  limited to a specific scope.  
 >- `clicknium.chrome.open("https://bing.com").find_elements()` will locate elements in its parent web page.  
 

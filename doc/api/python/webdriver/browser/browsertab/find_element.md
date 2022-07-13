@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+sidebar_label: find_element
+---
 # BrowserTab.find_element
 ***def find_element(
         self,
@@ -9,7 +13,7 @@ Return the Web element defined by the given locator.
 
 >**Remarks:**  
 Use the following method,
-`BrowserTab.find_element` is different with the method [clicknium.find_element](./../../../find_element.md) when locating the UI element.  
+`BrowserTab.find_element` is different with the method [clicknium.find_element](./../../../globalfunctions/find_element.md) when locating the UI element.  
 >- `clicknium.find_element()` is for both web and window UI element, and is not limited to a specific scope.  
 >- `clicknium.chrome.open("https://bing.com").find_element()` will locate the element in its parent web page.  
 

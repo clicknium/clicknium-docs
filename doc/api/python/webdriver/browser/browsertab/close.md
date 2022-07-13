@@ -1,3 +1,7 @@
+---
+sidebar_position: 10
+sidebar_label: close
+---
 # BrowserTab.close
 
 ***def close(self) -> None***  

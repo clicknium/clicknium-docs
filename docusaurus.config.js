@@ -7,7 +7,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ClickCorp',
-  tagline: 'Dinosaurs are cool',
   url: 'https://www.clickcorp.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -58,16 +57,16 @@ const config = {
       navbar: {
         title: 'Clicknium Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Clicknium Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: 'Docs',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'index',
+          //   position: 'left',
+          //   label: 'Docs',
+          // },
           {
             href: 'https://github.com/clickcorp/clicknium-docs',
             label: 'GitHub',

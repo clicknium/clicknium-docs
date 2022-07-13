@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+sidebar_label: attach
+---
 # WebDriver.attach
 
 ***def attach(
@@ -21,7 +25,7 @@ Attach to an opened browser tab with specified locator.
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;[BrowserTab](./browser/browsertab/browser_tab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
+    &emsp;[BrowserTab](./browser/browsertab/browsertab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***

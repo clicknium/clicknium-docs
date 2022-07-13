@@ -3,7 +3,7 @@
 Exception is raised whenever a certain operation is terminated abnormally. Besides python [Built-in Exceptions](https://docs.python.org/3/library/exceptions.html#built-in-exceptions), we also define clicknium exceptions which all inherit from [BaseError](./baseerror.md).
 
 
-## Clicknium Exceptions <!-- {docsify-ignore} -->
+## Clicknium Exceptions 
 
 | Exception      | Description |
 | -----------| ----------- |

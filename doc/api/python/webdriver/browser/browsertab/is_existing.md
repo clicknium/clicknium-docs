@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+sidebar_label: is_existing
+---
 # BrowserTab.is_existing
 ***def is_existing(
         self,
@@ -9,7 +13,7 @@
  Check whether the specified element of the web page exists.  
 
 >**Remarks:**  
-`BrowserTab.is_existing` is different with the method [clicknium.is_existing](./../../../../python/is_existing.md) when locating the UI element.
+`BrowserTab.is_existing` is different with the method [clicknium.is_existing](./../../../globalfunctions/is_existing.md) when locating the UI element.
 >- `clicknium.is_existing()` is for both web and window UI element, and not limited to a specific scope.
 >- `clicknium.chrome.open("https://bing.com").is_existing()` will locate element in its parent web page.
 

@@ -12,9 +12,9 @@
 - `extension`: [WebExtension](./webextension/webextension.md), return the web extenion by current browser type.
 
 ## Methods
-- [open](./open.md): open browser with the specified url, return a [BrowserTab](./browser/browsertab/browser_tab.md) object.
-- [attach](./attach.md): attach to an opened browser tab with the specified locator, return a [BrowserTab](./browser/browsertab/browser_tab.md) object.
-- [attach_by_title_url](./attach_by_title_url.md): attach to an opened browser tab with the specified title and/or url, return a [BrowserTab](./browser/browsertab/browser_tab.md) object.
+- [open](./open.md): open browser with the specified url, return a [BrowserTab](./browser/browsertab/browsertab.md) object.
+- [attach](./attach.md): attach to an opened browser tab with the specified locator, return a [BrowserTab](./browser/browsertab/browsertab.md) object.
+- [attach_by_title_url](./attach_by_title_url.md): attach to an opened browser tab with the specified title and/or url, return a [BrowserTab](./browser/browsertab/browsertab.md) object.
 
 ## Examples
 ```python

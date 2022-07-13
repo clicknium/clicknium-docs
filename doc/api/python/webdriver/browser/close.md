@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+sidebar_label: close
+---
 # browser.close
 
 ***def close(self, is_force = False) -> None***  

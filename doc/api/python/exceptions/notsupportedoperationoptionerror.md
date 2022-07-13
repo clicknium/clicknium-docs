@@ -4,7 +4,7 @@
 
 **NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.**
 
-## Constructor<!-- {docsify-ignore} -->
+## Constructor
 - [message](#message)
 - [stacktrace](#stacktrace)
 - [automation_tech](#automationtech)

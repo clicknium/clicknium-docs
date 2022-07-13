@@ -4,7 +4,7 @@
 
 `clicknium.config`: the config instance
 
-## Methods <!-- {docsify-ignore} -->
+## Methods 
 
 - [enable_telemetry](./enable_telemetry.md): enable 'usage data and errors' to be sent to ClickCorp online service.  
 - [disable_telemetry](./disable_telemetry.md): disable 'usage data and errors' to be sent to ClickCorp online service.
