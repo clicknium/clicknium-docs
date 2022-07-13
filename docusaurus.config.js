@@ -42,14 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //   'https://github.com/clickcorp/clicknium-docs/doc/',
         },
         theme: {
           customCss: [
@@ -75,7 +68,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/clickcorp/clicknium-docs',
             label: 'GitHub',
