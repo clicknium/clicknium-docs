@@ -1,6 +1,6 @@
 # ExtensionOperationError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **ExtensionOperationError is raised when an extension fails in operation "install", "update" or "uninstall".**
 

@@ -1,6 +1,6 @@
 # NotSupportedError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **NotSupportedError is raised when an invoked method is not supported, or when an attempt to read, seek, or write to a stream that does not support the invoked functionality.**
 

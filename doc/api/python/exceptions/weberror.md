@@ -1,6 +1,6 @@
 # WebError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **WebError is raised for common web automation exceptions.**
 

@@ -1,13 +1,4 @@
-# Capture<!-- {docsify-ignore-all} -->
-
-- [How to start recorder](#how-to-start-recorder)
-- [Capture methods](#capture-methods)
-    - [Select capture technology and advanced option](#select-capture-technology-and-advanced-option)
-    - [Single capture](#single-capture)
-    - [Continuous capture](#continuous-capture)
-    - [Image capture](#image-capture)
-- [Capture technology](#capture-technology)
-- [Capture advanced option](#capture-advanced-option)
+# Capture
 
 ## How to start recorder
 - Start from Visual Studio Code LOCATORS tab  

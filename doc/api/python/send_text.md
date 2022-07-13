@@ -7,7 +7,7 @@
 Send text to the cursor's current position.
 
 >**Remarks:**  
-This method is to send text to the system. If you need to send the text to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use [set_text](./doc/api/python/uielement/set_text.md) which is bound to a UI element.
+This method is to send text to the system. If you need to send the text to a specific UI element, you need to set the UI element to focused state before calling this method. Or you may use [set_text](./uielement/set_text.md) which is bound to a UI element.
 
 
 **Parameters:**  

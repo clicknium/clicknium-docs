@@ -14,7 +14,7 @@ Return the SAP UI element defined by the given locator.
         &emsp;&emsp; locator variables,  set to initialize parameters in locator.
 
 **Returns:**  
-    &emsp;[SapElement](./doc/api/python/sap/sapelement/sapelement.md) object.
+    &emsp;[SapElement](./sapelement/sapelement.md) object.
 
 **Example:**
 ***

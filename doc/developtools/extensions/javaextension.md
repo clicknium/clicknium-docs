@@ -1,4 +1,4 @@
-# Java Extension<!-- {docsify-ignore-all} -->
+# Java Extension
 
 **Java Extension is applicable to the automation of Java 1.6 or higher applications.**
 
@@ -13,9 +13,9 @@
 
 1. You can install the extension in two ways:
 
-    - Install the extension in [VSCode Clicknium Extension](./doc/developtools/vscode)  
+    - Install the extension in [VSCode Clicknium Extension](./../vscode.md)  
         ![java extension install](../../img/java_ext_install.png)
-    - Install the extension via [Clicknium Python command](./doc/api/python/java/java)
+    - Install the extension via [Clicknium Python command](./../../api/python/java/java.md)
     ```python
     from clicknium import clicknium as cc
 

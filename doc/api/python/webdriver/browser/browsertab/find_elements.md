@@ -9,20 +9,20 @@
 Return list of all matched Web elements by the given locator in current web page.
 
 > **Remarks:**  
-`BrowserTab.find_elements` is different with the method [clicknium.find_elements](./doc/api/python/find_elements.md) when locating the UI elements.  
+`BrowserTab.find_elements` is different with the method [clicknium.find_elements](./../../../find_elements.md) when locating the UI elements.  
 >- `clicknium.find_elements()` is for both web and window UI element, and is not  limited to a specific scope.  
 >- `clicknium.chrome.open("https://bing.com").find_elements()` will locate elements in its parent web page.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./doc/automation/locator.md).   
+        &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./../../../../../automation/locator.md).   
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md).  
+        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./../../../../../automation/parametric_locator.md).  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
-    &emsp;List of [WebElement](./doc/api/python/webdriver/browser/browsertab/webelement/webelement.md) objects.  
+    &emsp;List of [WebElement](./webelement/webelement.md) objects.  
 
 **Example:**
 ***

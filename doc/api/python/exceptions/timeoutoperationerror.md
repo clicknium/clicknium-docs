@@ -1,6 +1,6 @@
 # OperationTimeoutError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **OperationTimeoutError is raised when a certain operation is not completed within given time.**
 

@@ -1,10 +1,4 @@
-# Locator Management<!-- {docsify-ignore-all} -->
-
-  - [Edit Store](#edit-store)
-  - [Edit Folder](#edit-folder)
-  - [Edit Locator](#edit-locator)
-  - [Recapture](#recapture)
-  - [Validate](#validate)
+# Locator Management
 
 ## Edit Store
 
@@ -54,7 +48,7 @@ The detail page of locator editor is organized with two parts, left and right.
 ## Recapture
 1. Click the `Recapture` button to open the recorder and capture the locator again.
 2. Capture the corresponding target UI element.
-3. When recording succeeds, return to vscode and save the newly recorded element by pressing `Ctrl+S`.
+3. When recording succeeds, return to vscode and save the newly recorded element by pressing Ctrl+S.
 
 
 ## Validate

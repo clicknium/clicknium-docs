@@ -1,6 +1,6 @@
 # InvalidOperationError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **InvalidOperationError is raised when a method call is invalid for the object's current state.**
 

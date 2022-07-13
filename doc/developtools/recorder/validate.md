@@ -1,14 +1,6 @@
-# Validate<!-- {docsify-ignore-all} -->
+# Validate
 
 Validate the locator. 
-
-- [Start validate](#start-validate)
-- [Locator validation](#locator-validation)
-    - [Single locator](#single-locator)
-    - [Single locator with variables](#single-locator-with-variables)
-    - [Single locator with mutiple windows](#single-locator-with-mutiple-windows)
-    - [Mutiple similar locators](#mutiple-similar-locators)
-- [Validation result](#validation-result)
 
 ## Start validate
 You can start "validate" from the locator viewer tab in Visual Studio Code.  
@@ -21,7 +13,7 @@ Click the button `Validate`, and get the validation result referring to [Validat
 
 ### Single locator with variables
 
-1. Capture a locator, and modify the locator with variables, for more about variables, please refer to [Parametric Locator](./doc/automation/parametric_locator.md).
+1. Capture a locator, and modify the locator with variables, for more about variables, please refer to [Parametric Locator](./../../automation/parametric_locator.md).
 ![locator variables](../../img/locator_variables.png)
 2. Click the button Validate, and a pop-up window will show as below:    
 ![validate variable window](../../img/validate_variable_window.png)

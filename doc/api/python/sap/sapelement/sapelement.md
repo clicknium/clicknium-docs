@@ -1,6 +1,6 @@
-# SapElement <!-- {docsify-ignore-all} -->
+# SapElement 
 
-- extends: [UiElement](./doc/api/python/uielement/uielement.md) 
+- extends: [UiElement](../../uielement/uielement.md) 
 
 **SapElement inherits from UiElement, representing an SAP element with SAP specific automation operations.**  
 
@@ -16,9 +16,9 @@
 
 ## Methods 
 
-- [select_item](./doc/api/python/sap/sapelement/select_item.md): select the SAP item.
-- [call_transaction](./doc/api/python/sap/sapelement/call_transaction.md): call the SAP transaction.
-- [get_statusbar](./doc/api/python/sap/sapelement/get_statusbar.md): get information of the SAP status bar.
+- [select_item](./select_item.md): select the SAP item.
+- [call_transaction](./call_transaction.md): call the SAP transaction.
+- [get_statusbar](./get_statusbar.md): get information of the SAP status bar.
 
 
 

@@ -1,6 +1,6 @@
 # UiaPatternNotFoundError
 
-- extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
+- extends: [WindowError](./windowerror.md)
 
 **UiaPatternNotFoundError is raised when a window UI element can not be found by UIA technology.**
 

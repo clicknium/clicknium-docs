@@ -1,6 +1,6 @@
 # WebElementNotRespondingError
 
-- extends: [WebError](./doc/api/python/exceptions/weberror.md)
+- extends: [WebError](./weberror.md)
 
 **WebElementNotRespondingError is raised when the web page is not responding.**
 

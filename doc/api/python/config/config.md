@@ -6,5 +6,5 @@
 
 ## Methods <!-- {docsify-ignore} -->
 
-- [enable_telemetry](./doc/api/python/config/enable_telemetry.md): enable 'usage data and errors' to be sent to ClickCorp online service.  
-- [disable_telemetry](./doc/api/python/config/disable_telemetry.md): disable 'usage data and errors' to be sent to ClickCorp online service.
+- [enable_telemetry](./enable_telemetry.md): enable 'usage data and errors' to be sent to ClickCorp online service.  
+- [disable_telemetry](./disable_telemetry.md): disable 'usage data and errors' to be sent to ClickCorp online service.

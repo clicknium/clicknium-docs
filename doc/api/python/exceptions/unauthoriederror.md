@@ -1,6 +1,6 @@
 # UnAuthorizedError
 
-- extends: [BaseError](./doc/api/python/exceptions/baseerror.md)
+- extends: [BaseError](./baseerror.md)
 
 **UnAuthorizedError is raised when user does not sign in or the sign in state is expired.**
 

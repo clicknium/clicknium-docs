@@ -1,4 +1,4 @@
-# mouse_up <!-- {docsify-ignore-all} -->
+# mouse_up 
 
 ***def mouse_up(
         self,
@@ -15,7 +15,7 @@ Mouse button up on the target element.
      &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**mouse_location**: MouseLocation  
-        &emsp;&emsp; [MouseLocation](./doc/api/python/uielement/MouseLocation.md) is set to define the element position to release mouse button. Default position is center of element.  
+        &emsp;&emsp; [MouseLocation](./mouselocation.md) is set to define the element position to release mouse button. Default position is center of element.  
     &emsp;**by**: MouseActionBy  
         &emsp;&emsp; Defines the method to perform releasing mouse button.  
         &emsp;&emsp; `mouse-emulation`: perform the action by simulating mouse.  

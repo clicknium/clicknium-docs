@@ -1,6 +1,6 @@
 # WindowsNativeError
 
-- extends: [WindowError](./doc/api/python/exceptions/windowerror.md)
+- extends: [WindowError](./windowerror.md)
 
 **WindowsNativeError is raised when an underneath win32 method fails.**
 

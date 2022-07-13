@@ -1,6 +1,6 @@
 # UnreachableBrowserExtensionError
 
-- extends: [WebError](./doc/api/python/exceptions/weberror.md)
+- extends: [WebError](./weberror.md)
 
 **UnreachableBrowserExtensionError is raised when the specified browser's extension is not in ready state. Please check if the extension is installed and enabled.**
 
