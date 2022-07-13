@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+sidebar_label: set_property
+---
 # WebElement.set property
 
 ***def set_property(

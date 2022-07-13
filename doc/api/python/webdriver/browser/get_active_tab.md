@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+sidebar_label: get_active_tab
+---
 # browser.get_active_tab
 
 ***def get_active_tab(self) -> BrowserTab***  
@@ -5,7 +9,7 @@
 Get the current active tab of the browser.
 
 **Returns:**  
-    &emsp;[BrowserTab](./browsertab/browser_tab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
+    &emsp;[BrowserTab](./browsertab/browsertab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+sidebar_label: get_statusbar
+---
 # SapElement.get_statusbar
 
 ***def get_statusbar(

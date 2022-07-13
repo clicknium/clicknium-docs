@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+sidebar_label: refresh
+---
 # BrowserTab.refresh
 
 ***def refresh(self) -> None -> None***  

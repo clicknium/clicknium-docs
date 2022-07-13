@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+sidebar_label: SAP Automation
+---
 # SAP WinGUI Automation
 
 ## Overview

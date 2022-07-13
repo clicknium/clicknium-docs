@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+sidebar_label: update
+---
 # WebDriver.extension.update
 
 ***def update(self) -> None*** 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+sidebar_label: enable_telemetry
+---
 # enable_telemetry
 
 ***def enable_telemetry(self) -> None*** 

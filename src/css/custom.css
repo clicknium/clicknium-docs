@@ -34,3 +34,9 @@
 {
   color: #466afb;
 }
+
+
+[data-theme='dark'] .theme-doc-markdown a
+{
+  color: #25c2a0;
+}

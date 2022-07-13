@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+sidebar_label: attach_by_title_url
+---
 # WebDriver.attach_by_title_url
 
 ***def attach_by_title_url(
@@ -21,7 +25,7 @@ Attach to an open browser tab with a specified title and/or url.
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
-    &emsp;[BrowserTab](./browser/browsertab/browser_tab.md) object, you can execute following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
+    &emsp;[BrowserTab](./browser/browsertab/browsertab.md) object, you can execute following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***

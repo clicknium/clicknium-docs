@@ -4,7 +4,7 @@
 
 `clicknium.window`: the window driver instance
 
-## Methods <!-- {docsify-ignore} -->
+## Methods 
 
 - [maximize](./maximize.md): maximize the window specified by locator.  
 - [minimize](./minimize.md): minimize the window specified by locator.  

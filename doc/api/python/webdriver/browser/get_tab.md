@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+sidebar_label: get_tab
+---
 # browser.get_tab
 
 ***def get_tab(self, title = '', url = '') -> BrowserTab***  
@@ -11,7 +15,7 @@ Get tab by specified title and/or url.
         &emsp;&emsp; url string, target web page's url, supporting wildcard. 
 
 **Returns:**  
-    &emsp;[BrowserTab](./browsertab/browser_tab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
+    &emsp;[BrowserTab](./browsertab/browsertab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.
 
 **Example:**
 ***

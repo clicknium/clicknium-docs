@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+sidebar_label: activate
+---
 # BrowserTab.activate
 
 ***def activate(

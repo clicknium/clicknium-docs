@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+sidebar_label: maximize
+---
 # browser.maximize
 
 ***def maximize(self) -> None***  

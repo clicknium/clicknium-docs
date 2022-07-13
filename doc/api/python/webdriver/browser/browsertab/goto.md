@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+sidebar_label: goto
+---
 # BrowserTab.goto
 
 ***def goto(
