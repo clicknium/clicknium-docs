@@ -15,3 +15,4 @@ sidebar_label: Global Functions
 ## Global operations
 - [clicknium.send_hotkey](./send_hotkey.md): send hotkey to the cursor's current position.
 - [clicknium.send_text](./send_text.md): send text to  the cursor's current position.
+- [clicknium.get_screenshot](./get_screenshot.md): saves a screenshot of the current window to an image file.
