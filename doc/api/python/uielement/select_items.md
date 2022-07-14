@@ -12,7 +12,7 @@ Select multiple options for the target element that can support multiple selecti
     &emsp;**items [Required]**: list  
         &emsp;&emsp; Options to be selected.  
     &emsp;**clear_selected**: bool  
-        &emsp;&emsp; Whether to clear existing selections, default is True.    
+        &emsp;&emsp; whether to clear existing selections, default is True.    
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
 

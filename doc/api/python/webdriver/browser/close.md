@@ -1,10 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 sidebar_label: close
 ---
 # browser.close
 
-***def close(self, is_force = False) -> None***  
+***def close(self, is_force: bool = False) -> None***  
 
 Close the browser.
 
