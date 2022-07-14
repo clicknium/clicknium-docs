@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ClickCorp',
-  url: 'https://www.clickcorp.com',
-  baseUrl: '/',
+  title: 'Clicknium',
+  url: 'https://clickcorp.github.io',
+  baseUrl: '/clicknium-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -16,7 +16,8 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'clickcorp', // Usually your GitHub org/user name.
-  projectName: 'ClickCorp', // Usually your repo name.
+  projectName: 'clicknium-docs', // Usually your repo name.
+  deploymentBranch: 'master-deploy',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -33,7 +34,7 @@ const config = {
       ({
         docs: {
           path:"doc",
-          routeBasePath:"doc",
+          routeBasePath:"/",
           sidebarCollapsed:true,
           sidebarPath: require.resolve('./sidebars.js'),
           exclude: ['**/cases.md']

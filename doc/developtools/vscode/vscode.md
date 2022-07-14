@@ -4,7 +4,7 @@ sidebar_label: Clicknium VSCode Extension
 # Clicknium Visual Studio Code Extension
 
 ## Overview
-For python developers using Visual Studio Code, ClickCorp provides clicknium extension that include all automation features.  
+For python developers using Visual Studio Code, Clicknium provides clicknium extension that include all automation features.  
 You can create python automation project, capture/edit/validate and recapture UI element locators for browsers and various types of desktop applications, run/debug the automation project, package the project as standalone executable file, and provide centeral locator store management on the cloud.  
 Besides, Clicknium also improves writing code experience, such as providing Code IntelliSense, error hint, etc.
 
@@ -12,7 +12,7 @@ Besides, Clicknium also improves writing code experience, such as providing Code
 ***Remarks***: Clicknium extension has dependency on [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python), and the extension will be installed automatically. 
 
 ## Connect To Cloud
-You are required to sign up to ClickCorp after installation, or sign in with a Google or GitHub account. Please go to [Connect To Cloud](./connecttocloud.md) for more information.
+You are required to sign up to Clicknium after installation, or sign in with a Google or GitHub account. Please go to [Connect To Cloud](./connecttocloud.md) for more information.
 
 ## Extension Installation
 Clicknium extension provides different extensions for automation. For example, Edge Extension helps you execute automation on Microsoft Edge browser.
