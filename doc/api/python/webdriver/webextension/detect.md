@@ -27,10 +27,4 @@ from clicknium.common.enums import ExtensionStatus
 chrome_status = cc.chrome.extension.detect()
 if chrome_status == ExtensionStatus.NeedUpdate:
     cc.chrome.extension.update()
-
-# detect edge extension
-cc.edge.extension.detect()
-
-# detect firefox extension
-cc.firefox.extension.detect()
 ```
