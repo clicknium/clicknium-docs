@@ -3,6 +3,7 @@
 ### New features
 - New api: new_tab on browser class.
 - New api: clicknium.edge/chrome/firefox.extension.detect(), it can get browser extension installation state.
+- New api: clicknium.edge/chrome/firefox.extension.install_or_update(), it will install brower extension when extension is not installed or has a newer version.
 - New api: get_screenshot, global interface to capture the screenshot.
 - Updated api: set_text with new parameter `overwrite`, indicate whether overwrite the text or append the text on the target element.
 
