@@ -9,7 +9,7 @@ sidebar_label: install_or_update
 Install or update browser extension based on current detected extension status.
 
 **Returns:** bool  
-    &emsp;Return `True` means the extension has been installed or updated, `False` means the extension has already installed the lastest version.
+    &emsp;Return `True` means the extension is being installed or updated, `False` means the latest version extension has already been installed before calling this function.
 
 **Example:**
 ***

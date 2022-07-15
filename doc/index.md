@@ -4,7 +4,7 @@ sidebar_position: 1
 # Getting started
 
 ## Overview
-[ClickCorp](https://www.clickcorp.com) builds a new generation automation framework **Clicknium** to support GUI automation for all types of applications. Automation development efficiency is highly improved with features of Clicknium, including developer tooling support and cloud native data management for colaboration.  
+[ClickCorp](https://www.clickcorp.com) builds a new generation automation framework **Clicknium** to support GUI automation for all types of applications. Automation development efficiency is highly improved with features of Clicknium, including developer tooling support and cloud native data management for collaboration.  
 
 [Clicknium Python Package](./api/python/python.md): Clicknium python package provides programming interfaces to automate various types of applications, such as Web browser, Windows Desktop application, Java application and Sap windows Gui app, etc.  
 (*If other programming languages support are required, please [contact us](https://www.clickcorp.com/contact).*)  
