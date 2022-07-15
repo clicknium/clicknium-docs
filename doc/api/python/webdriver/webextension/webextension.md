@@ -6,3 +6,4 @@
 
 - [install](./install.md): install browser extension.  
 - [update](./update.md): update browser extension.  
+- [detect](./detect.md): detect browser extension installation status.
