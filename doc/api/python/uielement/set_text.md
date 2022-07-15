@@ -3,7 +3,7 @@
         self,
         text: str,
         by: Union[Literal["default", "set-text", "sendkey-after-click", "sendkey-after-focus"], InputTextBy]= InputTextBy.SetText,
-        append: bool = False,
+        overwrite: bool = True,
         timeout: int = 30
     ) -> None***  
 
@@ -18,8 +18,8 @@ Set text for the target element, it can be used to input text to a system.
         &emsp;&emsp; `sendkey-after-click`: simulate mouse click to activate the element, then send keys by simulating keyboard.  
         &emsp;&emsp; `sendkey-after-focus`: set the target element to focused state, then sending keys by simulating keyboard.  
         &emsp;&emsp; `default`: using different methods per target element type. `set-text` for web element and `sendkey-after-click` for desktop element.  
-    &emsp;**append**: bool  
-        &emsp;&emsp; whether to append text, default is False.   
+    &emsp;**overwrite**: bool  
+        &emsp;&emsp; whether overwrite or append the text on the target element, default is True.   
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 
@@ -31,5 +31,5 @@ Set text for the target element, it can be used to input text to a system.
 ```python
 from clicknium import clicknium as cc, locator, ui
 
-ui(locator.chrome.bing.search_sb_form_q).set_text("clicknium", append = True)
+ui(locator.chrome.bing.search_sb_form_q).set_text("clicknium", overwrite = False)
 ```
