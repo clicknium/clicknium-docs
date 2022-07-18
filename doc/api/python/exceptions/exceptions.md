@@ -21,7 +21,7 @@ Exception is raised whenever a certain operation is terminated abnormally. Besid
 | [LocatorUndefinedError](./locatorundefinederror.md) | LocatorUndefinedError is raised when the specified locator can not be found in locator store.|
 | [NotSupportedError](./notsupportederror.md) | NotSupportedError is raised when an invoked method is not supported, or when an attempt to read, seek, or write to a stream that does not support the invoked functionality.|
 | [NotSupportedOperationError](./notsupportedoperationerror.md) | NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation.|
-| [NotSupportedOperationOptionError](./notsupportedoperationoptionerror)   | NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.|
+| [NotSupportedOperationOptionError](./notsupportedoperationoptionerror.md)   | NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.|
 | [OperationTimeoutError](./timeoutoperationerror.md) | OperationTimeoutError is raised when a certain operation is not completed within given time.|
 | [ProjectSettingNotFoundError](./projectsettingnotfounderror.md) | ProjectSettingNotFoundError is raised when project setting file 'clicknium.yaml' is missing.|
 | [ScreenOperationError](./screenoperationerror.md)   | ScreenOperationError is raised when screen operations of window desktop UI element fail.|
