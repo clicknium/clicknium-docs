@@ -6,17 +6,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ClickCorp',
-  url: 'https://www.clickcorp.com',
-  baseUrl: '/',
+  title: 'Clicknium',
+  url: 'https://clicknium.github.io',
+  baseUrl: '/clicknium-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'clickcorp', // Usually your GitHub org/user name.
-  projectName: 'ClickCorp', // Usually your repo name.
+  organizationName: 'clicknium', // Usually your GitHub org/user name.
+  projectName: 'clicknium-docs', // Usually your repo name.
+  deploymentBranch: 'master-deploy',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -33,7 +34,7 @@ const config = {
       ({
         docs: {
           path:"doc",
-          routeBasePath:"doc",
+          routeBasePath:"/",
           sidebarCollapsed:true,
           sidebarPath: require.resolve('./sidebars.js'),
           exclude: ['**/cases.md']
@@ -41,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/clickcorp/clicknium-docs/doc/',
+          //   'https://github.com/clicknium/clicknium-docs/doc/',
         },
         theme: {
           customCss: [
@@ -68,7 +69,7 @@ const config = {
           //   label: 'Docs',
           // },
           {
-            href: 'https://github.com/clickcorp/clicknium-docs',
+            href: 'https://github.com/clicknium/clicknium-docs',
             label: 'GitHub',
             position: 'right',
           },

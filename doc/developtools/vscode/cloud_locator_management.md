@@ -5,7 +5,7 @@ sidebar_label: Cloud Locator Management
 # Cloud Locator Management
 ## Enter into 'Cloud Locators' panel
 Click the button 'Clicknium Explorer' in Visual Studio Code Activity Bar to show 'CLOUD LOCATORS' panel.  
-If you don't sign in yet, click button 'Sign in' to navigate to ClickCorp webpage to sign up or sign in.
+If you don't sign in yet, click button 'Sign in' to navigate to Clicknium webpage to sign up or sign in.
 For more information, please refer to [Connect To Cloud](./connecttocloud.md).  
 
 ![Cloud locator 1](../../img/cloud_locator1.png)  

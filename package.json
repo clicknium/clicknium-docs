@@ -1,6 +1,6 @@
 {
-  "name": "clickcorp",
-  "version": "0.0.1",
+  "name": "clicknium",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
