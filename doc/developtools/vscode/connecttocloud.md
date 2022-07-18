@@ -17,4 +17,4 @@ sidebar_position: 1
 
 ## Sign Out
 1. Click the user icon in the lower left corner.  
-2. Hover the mouse over the clicknium user and select `Sign Out` from the pop-up menu.  
+2. Hover the mouse over the Clicknium user and select `Sign Out` from the pop-up menu.  
