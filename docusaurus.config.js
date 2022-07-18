@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Clicknium',
-  url: 'https://clickcorp.github.io',
+  url: 'https://clicknium.github.io',
   baseUrl: '/clicknium-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -15,7 +15,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'clickcorp', // Usually your GitHub org/user name.
+  organizationName: 'clicknium', // Usually your GitHub org/user name.
   projectName: 'clicknium-docs', // Usually your repo name.
   deploymentBranch: 'master-deploy',
 
@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/clickcorp/clicknium-docs/doc/',
+          //   'https://github.com/clicknium/clicknium-docs/doc/',
         },
         theme: {
           customCss: [
@@ -69,7 +69,7 @@ const config = {
           //   label: 'Docs',
           // },
           {
-            href: 'https://github.com/clickcorp/clicknium-docs',
+            href: 'https://github.com/clicknium/clicknium-docs',
             label: 'GitHub',
             position: 'right',
           },

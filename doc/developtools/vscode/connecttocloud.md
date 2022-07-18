@@ -10,7 +10,7 @@ sidebar_position: 1
 2. Click "Allow" in the dialog box to navigate to Clicknium official website and sign in .  
    ![confirm dialog](../../img/vscode-sign-in-dialog.png)
 3. Sign in to Clicknium or sign up for a new Clicknium account.  
-   ![clicknium site](../../img/vscode-clickcorp-site.png)
+   ![clicknium site](../../img/vscode-clicknuim-site.png)
 4. After signin successfully, Visual Studio Code is allowed to open with an authenticated token.  
 5. When you open Visual Studio Code, select `Open` in the pop-up dialog box.  
    ![clicknium site](../../img/vscode-open-uri.png)
