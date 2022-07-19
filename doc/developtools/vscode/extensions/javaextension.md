@@ -18,7 +18,7 @@ sidebar_position: 4
 
     - Install the extension in [VSCode Clicknium Extension](./../vscode.md)  
         ![java extension install](../../../img/java_ext_install.png)
-    - Install the extension via [Clicknium Python command](./../../../api/python/java/java.md)
+    - Install the extension via [Clicknium Python command](./../../../references/python/java/java.md)
     ```python
     from clicknium import clicknium as cc
 
