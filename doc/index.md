@@ -18,7 +18,7 @@ sidebar_position: 1
 
 ### Install Clicknium Visual Studio Code extension
 Click the link to install [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search Clicknium in Visual Studio Code Extension marketplace). After installation, sign in for locator management. (*Google and Github account are supported.*)  
-![login](./img/login1.png "login")  
+![login](./img/signin1.png "login")  
 
 ### Install Clicknium python package
 Install [python(3.7 or above)](https://code.visualstudio.com/docs/languages/python) and then install clicknium package:  
