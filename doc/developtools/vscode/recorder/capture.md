@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Capture
+# Capture Single Element
 
 ## How to start recorder
 - Start from Visual Studio Code LOCATORS tab  
