@@ -68,7 +68,7 @@ Clear all the captured elements by clicking the button `Clear` on the right-top 
 这里加一个图片。
 ## Remove element
 Remove one element in the wizard window.  
-- Click the button `Remove`  
+- Remove the element by clicking the icon ❌ 
 ![remove similar element](../../../img/remove_similar_element.png)  
 
 ## Cancel capture
