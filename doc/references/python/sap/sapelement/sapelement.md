@@ -1,8 +1,10 @@
 # SapElement 
 
-- extends: [UiElement](../../uielement/uielement.md) 
 
 **SapElement inherits from UiElement, representing an SAP element with SAP specific automation operations.**  
+
+- extends: [UiElement](../../uielement/uielement.md) 
+
 
 ## Properties
 

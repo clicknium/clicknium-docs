@@ -6,7 +6,7 @@ sidebar_label: disable_telemetry
 
 ***def disable_telemetry(self) -> None*** 
 
-Disable 'usage data and errors' to be sent to Clicknium online service.
+Disable `usage data and errors` to be sent to Clicknium online service.
 
 **Parameters:**  
     &emsp;None
