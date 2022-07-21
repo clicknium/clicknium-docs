@@ -16,7 +16,7 @@ sidebar_position: 4
 
 1. You can install the extension in two ways:
 
-    - Install the extension in [VSCode Clicknium Extension](./../vscode/vscode.md)  
+    - Install the extension in [VSCode Clicknium Extension](./../../concepts/vscode/vscode.md)  
         ![java extension install](../../../doc/img/java_ext_install.png)
 
     - Install the extension via [Clicknium Python command](./../../references/python/java/java.md)
