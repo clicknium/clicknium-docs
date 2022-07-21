@@ -15,7 +15,7 @@ sidebar_label: Edge Extension
 1. You can install the extension in two ways:
     - Install the extension in [VSCode Clicknium Extension](./../vscode.md)  
         ![edge extension install](../../../img/edge_ext_install.png)
-    - Install the extension via [Clicknium Python command](./../../../api/python/webdriver/webextension/webextension.md)
+    - Install the extension via [Clicknium Python command](./../../../references/python/webdriver/webextension/webextension.md)
     ```python
     from clicknium import clicknium as cc
 

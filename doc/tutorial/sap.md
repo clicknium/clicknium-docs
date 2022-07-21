@@ -8,14 +8,14 @@ sidebar_label: SAP Automation
 SAP WinGUI is commonly used to access SAP functionality in SAP applications.
 Clicknium supports SAP WinGUI automation, and it requires the SAP WinGUI API scripting enabled.
 
-The  version 7.4 ,7.5 and 7.6 of SAP WinGUI are supported.
+The version 7.4, 7.5 and 7.6 of SAP WinGUI are supported.
 
   
 The following functions specified for SAP are supported:
-- [login](./../api/python/sap/login.md)
-- [select_item](./../api/python/sap/sapelement/select_item.md)
-- [call_transaction](./../api/python/sap/sapelement/call_transaction.md)
-- [get_statusbar](./../api/python/sap/sapelement/get_statusbar.md)  
+- [login](./../references/python/sap/login.md)
+- [select_item](./../references/python/sap/sapelement/select_item.md)
+- [call_transaction](./../references/python/sap/sapelement/call_transaction.md)
+- [get_statusbar](./../references/python/sap/sapelement/get_statusbar.md)  
 
 Other general functions are also supported for SAP WinGUI element, such as click, set_text, get_text etc.
 

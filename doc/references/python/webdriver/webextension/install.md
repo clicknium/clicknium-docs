@@ -11,7 +11,8 @@ Install browser extension.
 >**Remarks:**  
 >- Before installing extension, make sure the related browsers are closed. 
 >- When extension is installed successfully, you should turn on the extension manually.  
->- Refrenece: [Install extensions from vscode](./../../../../developtools/vscode//extensions/extensions.md).
+>- Refrenece: [Install extensions from vscode](./../../../../concepts/extensions/extensions.md).
+
 
 **Example:**
 ***

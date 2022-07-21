@@ -41,7 +41,7 @@ tab.find_element(locator.chrome.contoso.svg).click(mouse_button = "left")
 ```
 
 - Click with customized MouseLocation
-For button '5' as the target element in below application, we can click other buttons by setting its MouseLocation.
+For button '5' as the target element in below application, we can click other buttons by setting its MouseLocation.  
 ![sample1](../../../img/click_sample1.png)
 
 > Remarks

@@ -15,7 +15,7 @@ Set web element's property value.
 
 **Parameters:**  
     &emsp;**name[Required]**: str  
-        &emsp;&emsp; property name, different UI elements may support different properties. For general properties, please refer to [Property List](./../../../../../../automation/property.md).  
+        &emsp;&emsp; property name, different UI elements may support different properties. For general properties, please refer to [Property List](./../../../../../../tutorial/property.md).  
     &emsp;**value[Required]**: str  
         &emsp;&emsp; property value.    
     &emsp;**timeout**: int  

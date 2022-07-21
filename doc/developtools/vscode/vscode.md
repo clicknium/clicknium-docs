@@ -37,7 +37,7 @@ After capturing the locators, you can open and edit the locator in the editor as
 ![clicknium vscode](../../img/main.png) 
 
 You can go to [Locator Management](./locator_management.md) for more information about locator management.  
-For more about the locator, please refer to [Clicknium Locator](./../../automation/locator.md).  
+For more about the locator, please refer to [Clicknium Locator](./../../tutorial/locator.md).  
 
 After editing the locator, you can press the button `Validate` to minimize Visual Studio Code and verify if the target element can be located by the locator. The locator validation result is displayed at the head of each locator layer.  
 ![validate error](../../img/validate_err.png)

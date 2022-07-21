@@ -11,6 +11,9 @@ sidebar_position: 2
 ### Code Editor
 - Visual Studio Code
 
+### Clicknum Account 
+- Register your [Clicknium Account](https://www.clicknium.com/).
+
 ## Installation​
 
 ### Install Clicknium Python package
