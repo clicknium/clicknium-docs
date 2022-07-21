@@ -2,5 +2,11 @@
 sidebar_position: 3
 ---
 
-# Locator
-[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for all types of applications. It provides easy and smooth eeveloper experience with high-level API for automate GUI application and intelligent pluggins. It provide you a new way to build your automate world. It also supports for web scraping bots, browser automation, testing for web and desktop applications. 
+# Concepts
+Here you can find detailed documentation about each one of Clicknium’s core concepts and how to use them, as well as a high-level architectural overview.
+
+## Overview
+- Clicknium Project
+- [Locator](locator.md) 
+- Locator Store
+- Recorder

@@ -1,14 +1,14 @@
 # Change Log
 ## 0.1.2 (15 July 2022)
 ### New features
-- New api: new_tab on browser class.
-- New api: clicknium.edge/chrome/firefox.extension.detect(), it can get browser extension installation state.
-- New api: clicknium.edge/chrome/firefox.extension.install_or_update(), it will install brower extension when extension is not installed or has a newer version.
-- New api: get_screenshot, global interface to capture the screenshot.
-- Updated api: set_text with new parameter `overwrite`, indicate whether overwrite the text or append the text on the target element.
+- New API: new_tab on browser class.
+- New API: clicknium.edge/chrome/firefox.extension.detect(), it can get browser extension installation state.
+- New API: clicknium.edge/chrome/firefox.extension.install_or_update(), it will install brower extension when extension is not installed or has a newer version.
+- New API: get_screenshot, global interface to capture the screenshot.
+- Updated API: set_text with new parameter `overwrite`, indicate whether overwrite the text or append the text on the target element.
 
 ### Improvements
-- Fix yrate not working issue for api click, double_click.
+- Fix yrate not working issue for API click, double_click.
 - Improve browser extension installation experience.
 - The front active window will be chosed when there are multiple windows matched by given locator during automation run.
 - Fix UIA bug: validation failed on navigation pane of windows file explorer.
@@ -23,6 +23,6 @@ Initial release version.
 - Support automation based on image recognization.
 - Unified automation API for different applications, such as click, set_text, get_text, send_hotkey, select_item etc.
 - Special APIs for web automation: open browser, attach to already opened browser, get active tab, close browser, refresh tab, close tab etc.
-- Special api for application window: maximize, minimize, restore etc.
-- Special api for SAP windows GUI application: login, call_transaction, get_statusbar etc.
-- Api to install chrome/edge/firefox browser extension.
+- Special API for application window: maximize, minimize, restore etc.
+- Special API for SAP windows GUI application: login, call_transaction, get_statusbar etc.
+- API to install chrome/edge/firefox browser extension.
