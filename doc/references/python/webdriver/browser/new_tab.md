@@ -24,12 +24,12 @@ Open a new tab in current browser.
 ```python
 from clicknium import clicknium as cc
 
-_tab = cc.chrome.open("https://cn.bing.com/")
+_tab = cc.chrome.open("https://www.bing.com/")
 
 # get tab's browser
 _browser = _tab.browser
 
 # new tab
-_browser.new_tab("https://cn.bing.com/")
+_browser.new_tab("https://www.bing.com/")
 
 ```

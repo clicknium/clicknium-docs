@@ -1,8 +1,8 @@
 # Overview  
 
-[Clicknium python package](https://pypi.org/project/clicknium/) supports to automate various types of applications, such as **Web** browser, **Windows Desktop** application, **Java** application and **SAP** windows Gui app, etc.
+[Clicknium Python package](https://pypi.org/project/clicknium/) supports to automate various types of applications, such as **Web** browser, **Windows Desktop** application, **Java** application and **SAP** windows GUI App, etc.
 
-## Install Clicknium python pacakge
+## Install Clicknium Python pacakge
 
 ### System Requirements​
 - Python 3.7 or above
