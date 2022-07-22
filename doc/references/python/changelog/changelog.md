@@ -1,5 +1,5 @@
 # Change Log
-## 0.1.2 (15 July 2022)
+## 0.1.2 (19 July 2022)
 ### New features
 - New API: new_tab on browser class.
 - New API: clicknium.edge/chrome/firefox.extension.detect(), it can get browser extension installation state.
