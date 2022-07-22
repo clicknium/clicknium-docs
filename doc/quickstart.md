@@ -32,7 +32,7 @@ pip install clicknium
 Click the link to install [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search Clicknium in Visual Studio Code Extension marketplace).  
 Sign in your Clicknium account. 
 
-![login](./img/login1.png "login")  
+![login](./img/signin1.png "login")  
 
 
 
