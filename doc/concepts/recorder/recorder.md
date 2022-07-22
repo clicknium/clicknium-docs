@@ -1,6 +1,6 @@
 # Clicknium Recorder
 
-Clicknium Recorder provides operations for recording locators, recapturing locators, validating locators and locator management.
+Clicknium Recorder provides operations for recording, recapturing, validating and managing locators.
 
 - [Quick Start](./quickstart.md)
 - [Capture Single Element](./capture.md)

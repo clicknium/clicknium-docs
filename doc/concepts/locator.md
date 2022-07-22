@@ -1,4 +1,8 @@
-# Locator
+---
+sidebar_position: 1
+sidebar_label: Clicknium Locator
+---
+# Clicknuim Locator
 A locator is a way to identify elements on a web page or desktop app.   
 
 # Overview 
@@ -10,7 +14,7 @@ So, how do we get the values of these locators? And how to use the same in the a
 
 ## Get a locator 
 Clicknium provides Clicknium Recorder to get UI locators.  
-- Make sure that Clicknium Python package, VS code extention, Chrome extension installed. 
+- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/concepts/vscode/vscode.md), [Chrome extension](/concepts//extensions/chromeextension.md) installed. 
 - Open a Python file via VS code. 
 - Use Recorder to capture locators.  
 

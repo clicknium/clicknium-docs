@@ -9,10 +9,10 @@ You can create Python automation project, capture/edit/validate and recapture UI
 Besides, Clicknium also improves writing code experience, such as providing Code IntelliSense, error hint, etc.
 
 ***Installation​***: Install [Clicknium extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) through Visual Studio Code marketplace or search `clicknium` in Visual Studio Code Extension marketplace.  
-***Remarks***: Clicknium extension has dependency on [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python), and the extension will be installed automatically. 
+***Remarks***: Clicknium extension has dependency on [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python), and the extension will be installed automatically. 
 
-## Connect To Cloud
-You are required to sign up to Clicknium after installation, or sign in with a Google or GitHub account. Please go to [Connect To Cloud](./connecttocloud.md) for more information.
+## Connect to Cloud
+You are required to sign up to Clicknium after installation, or sign in with a Google or GitHub account. Please go to [Connect to Cloud](./connecttocloud.md) for more information.
 
 ## Extension Installation
 Clicknium extension provides different extensions for automation. For example, Edge Extension helps you execute automation on Microsoft Edge browser.

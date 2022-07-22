@@ -87,7 +87,7 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It 
 
 ## Capture first UI locator
 There are two ways to capture UI locators: 
-- By clicking `Capture` button in "LOCATORS" tab of "Explorer" side bar.  
+- By clicking `Capture` button in `LOCATORS` tab of `Explorer` side bar.  
 &emsp; ![start recorder from vscode](./img/start_recorder_from_vscode.png)  
 &emsp;
 - By pressing `Ctrl+F10`.  
@@ -103,7 +103,7 @@ Once you see the Clicknium Recorder as below showing at the right side of screen
 
 ## First line automation code
 After capturing UI locators, write Python script to automate the target UI element as below. 
-- For any locator you captured, you can reference it in code by starting `locator.`, the following node will be listed in syntax popup for you to select and autofill.
+- For any locator you captured, you can reference it in code by starting `locator.` , the following node will be listed in syntax popup for you to select and autofill.
 ```python
 from clicknium import clicknium as cc, locator, ui
 cc.find_element(locator.new_store.sample.targetele).click()
@@ -118,7 +118,7 @@ ui(locator.new_store.sample.targetele).click()
 
 ## About Clicknium Project
 With Clicknium project, you can develop an automation solution in an isolated Python virtual environment. The isolated environment guarantees the project behave indifferently in different developers' working environments. 
-Clicknium provides following commands about project, you may view more [here](./developtools/vscode/project_management.md).  
+Clicknium provides following commands about project, you may view more [here](./concepts/vscode/project_management.md).  
 - `Clicknium: Create Project` create a project.
 - `Clicknium: Debug Project` debug the project.
 - `Clicknium: Run Project` run the project.
@@ -126,7 +126,7 @@ Clicknium provides following commands about project, you may view more [here](./
 
 
 ## Document Guidelines
-For more about Clicknium Visual Studio Code, please refer [here](./developtools/vscode/vscode.md).  
+For more about Clicknium Visual Studio Code, please refer [here](./concepts/vscode/vscode.md).  
 You may need to refer [Clicknium Python package documents](./references/python/python.md) when writing code.  
 For more tools provided by Clicknium, please refer to:  
 - [Clicknium Recorder](./concepts/recorder/recorder.md).  
