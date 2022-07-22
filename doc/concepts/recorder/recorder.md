@@ -6,5 +6,4 @@ Clicknium Recorder provides operations for recording locators, recapturing locat
 - [Capture](./capture.md)
 - [Recapture](./recapture.md)
 - [Validate](./validate.md)
-- [Locator Management](./../locator_management.md)
-
+- [Locator Management](./../locator_management.md)  
