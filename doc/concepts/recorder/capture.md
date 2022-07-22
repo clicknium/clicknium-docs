@@ -12,10 +12,13 @@ sidebar_position: 2
 
 ## Capture methods
 
-Clicknium provides three recording methods: single capture, continuous capture and image capture.
+Clicknium provides three recording methods: 
+- single capture
+- continuous capture
+- mage capture.
 
 > **Remarks:**
->- The new recorded locator will be added into current selected store.
+>- The new recorded locator will be added into current selected locator store.
 
 ### Select capture technology and advanced option
 We can select the capture technology and the advanced option with each capture method. For more information, please refer to [Capture Technology](#capture-technology) and [Capture Advanced Option](#capture-advanced-option).
@@ -23,7 +26,7 @@ We can select the capture technology and the advanced option with each capture m
 ### Single capture
 
 1. Select UI element  
-When mouse moving, it will highlight the UI element, and show its position on recorder panel.
+Along the mouse moving, it will highlight the UI element and show its position on recorder panel.
 ![sigle capture](../../img/recorder_single.png)
 2. Press `Ctrl + click`
 3. Click the button `Complete`  

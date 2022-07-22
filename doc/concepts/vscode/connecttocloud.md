@@ -1,13 +1,13 @@
 ---
-title: Connect To Cloud
+title: Connect to Cloud
 sidebar_position: 1
 ---
-# Connect To Cloud
+# Connect to Cloud
 
 ## Sign In
-1. For users who have not signed in, click the Sign In button in the Locators panel.  
+1. For users who have not signed in, click the `Sign In` button in the Locators panel.  
    ![vscode sign in](../../img/vscode-sign-in.png)
-2. Click "Allow" in the dialog box to navigate to Clicknium official website and sign in .  
+2. Click `Allow` in the dialog box to navigate to Clicknium official website and sign in .  
    ![confirm dialog](../../img/vscode-sign-in-dialog.png)
 3. Sign in to Clicknium or sign up for a new Clicknium account.  
    ![clicknium site](../../img/vscode-clicknuim-site.png)

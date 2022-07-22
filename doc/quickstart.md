@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# Quick start
+# Quick Start
 
 ## Prerequirement
 ### System Requirements​
