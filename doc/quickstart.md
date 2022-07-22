@@ -12,7 +12,7 @@ sidebar_position: 2
 - Visual Studio Code
 
 ### Clicknum Account 
-- Register your [Clicknium Account](https://www.clicknium.com/).
+- Register [Clicknium Account](https://www.clicknium.com/).
 
 ## Installation​
 
@@ -99,7 +99,7 @@ Once you see the Clicknium Recorder as below showing at the right side of screen
 
 ![clicknium recorder](./img/recorder_main.png)
 
-- For more about Clicknium Recorder, refer [here](./developtools/vscode/recorder/recorder.md).  
+- For more about Clicknium Recorder, refer [here](./concepts/recorder/recorder.md).  
 
 ## First line automation code
 After capturing UI locators, write Python script to automate the target UI element as below. 
@@ -129,6 +129,6 @@ Clicknium provides following commands about project, you may view more [here](./
 For more about Clicknium Visual Studio Code, please refer [here](./developtools/vscode/vscode.md).  
 You may need to refer [Clicknium Python package documents](./references/python/python.md) when writing code.  
 For more tools provided by Clicknium, please refer to:  
-- [Clicknium Recorder](./developtools/vscode/recorder/recorder.md).  
-- Clicknium Browser Extension: [Chrome](./developtools/vscode/extensions/chromeextension.md), [Edge](./developtools/vscode/extensions/edgeextension.md), [Firefox](./developtools/vscode/extensions/firefoxextension.md).  
-- [Clicknium Java Extension](./developtools/vscode/extensions/javaextension.md).  
+- [Clicknium Recorder](./concepts/recorder/recorder.md).  
+- Clicknium Browser Extension: [Chrome](./concepts/extensions/chromeextension.md), [Edge](./concepts/extensions/edgeextension.md), [Firefox](./concepts/extensions/firefoxextension.md).  
+- [Clicknium Java Extension](./concepts/extensions/javaextension.md).  
