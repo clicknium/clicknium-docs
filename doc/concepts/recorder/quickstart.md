@@ -9,7 +9,7 @@ Follow this tutorial to start capture a locator quicky.
 &emsp; ![start recorder from vscode](../../img/start_recorder_from_vscode.png)
 
 - The Recorder window pops up as below:  
-![recorder window](../../img/recorder_main.png)
+&emsp;  ![recorder window](../../img/recorder_main.png)
 
 - Select UI element  
 Hovering the mouse over the UI element to highlight it, and show its position on recorder panel.
