@@ -16,7 +16,8 @@ sidebar_position: 3
 
     - Install the extension in [VSCode Clicknium Extension](./../../concepts/vscode/vscode.md)  
         ![firefox extension install](../../img/firefox_ext_install.png)
-    - Install the extenion via [Clicknium Python command](./../../references/python/webdriver/webextension/webextension.md)
+    - Install the extenion via [Clicknium Python command](./../../references/python/webdriver/webextension/webextension.md)  
+
     ```python
     from clicknium import clicknium as cc
 

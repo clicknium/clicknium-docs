@@ -4,8 +4,8 @@ sidebar_label: Clicknium VSCode Extension
 # Clicknium Visual Studio Code Extension
 
 ## Overview
-For python developers using Visual Studio Code, Clicknium provides clicknium extension that include all automation features.  
-You can create python automation project, capture/edit/validate and recapture UI element locators for browsers and various types of desktop applications, run/debug the automation project, package the project as standalone executable file, and provide centeral locator store management on the cloud.  
+For Python developers using Visual Studio Code, Clicknium provides clicknium extension that include all automation features.  
+You can create Python automation project, capture/edit/validate and recapture UI element locators for browsers and various types of desktop applications, run/debug the automation project, package the project as standalone executable file, and provide centeral locator store management on the cloud.  
 Besides, Clicknium also improves writing code experience, such as providing Code IntelliSense, error hint, etc.
 
 ***Installation​***: Install [Clicknium extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) through Visual Studio Code marketplace or search `clicknium` in Visual Studio Code Extension marketplace.  
@@ -56,9 +56,9 @@ You can manage the dependencies of the porject in `clicknium.yaml`, for more det
 
 ## Run/Debug Project
 There are two ways to debug Clicknium Automation Project:
-- Run/Debug using `F5` or `Ctrl+F5`, which is the same way as you debug other python scripts.
+- Run/Debug using `F5` or `Ctrl+F5`, which is the same way as you debug other Python scripts.
 - Open the Command Palette: `Ctrl+Shift+P`, input or select: `Clicknium: Run` to run project or `Clicknium: Debug` to debug project.  
-It will configure the running/debugging environment. For example, check the python version in clicknium.yaml, restore dependent package list, etc.   
+It will configure the running/debugging environment. For example, check the Python version in clicknium.yaml, restore dependent package list, etc.   
 For more details, please refer to [Project Management](./project_management.md).
 
 ## Package Project
