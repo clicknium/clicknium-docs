@@ -19,10 +19,10 @@ When the project is created, a pop-up window in the lower right corner shows the
 ![project structure](../../img/create_project_1.png)
 
 
-1. **app.py**:a python file where the main function is the execution entry of the project.
+1. **app.py**: a Python file where the main function is the execution entry of the project.
    ![project appyy](../../img/create_project_apppy.png)
 
-2. **clicknium.yaml**:configuration file where you can configure python version, python packages, project entry file and locator store references, etc for the project.  
+2. **clicknium.yaml**: configuration file where you can configure Python version, Python packages, project entry file and locator store references, etc for the project.  
    ![project appyaml](../../img/create_project_appyaml.png)
    
    - **startUp**: The project entry file, if you want to change the project run entry file to another file, fill the file name without suffix in this field.  
@@ -30,7 +30,7 @@ When the project is created, a pop-up window in the lower right corner shows the
    - **log**：The project log. Its property "folder" indicates the location of the log files to be saved. If its value is not specified, it will use default location %LOCALAPPDATA%\Clicknium\Log.
    
    - **requirements**：running project dependency.  
-     &emsp;Python: Python version is 3.7.0 by default. In creating project, if Visual Studio Code already has at least one supported version Python installed, clicknium extension will choose current selected python interpreter to create the project, the python version in this configuration file will be updated accordingly. If Visual Studio Code does not have Python installed, clicknium extension will install Python 3.7.0 as described in configuration file by default.
+     &emsp;Python: Python version is 3.7.0 by default. In creating project, if Visual Studio Code already has at least one supported version Python installed, clicknium extension will choose current selected Python interpreter to create the project, the Python version in this configuration file will be updated accordingly. If Visual Studio Code does not have Python installed, clicknium extension will install Python 3.7.0 as described in configuration file by default.
      
      ![project appyaml](../../img/create_project_appyaml_python_config.png)  
      &emsp;Packages：Python package dependency. In this configuration, you can add one or more Python packages required by this project in the format of package-version. If the version is blank or null, the latest version will be used automatically.  

@@ -3,6 +3,6 @@ Here you can find detailed documentation about each one of Clicknium’s core co
 
 ## Overview
 - [Locator](./locator.md) 
-- Locator Store
-- Recorder
+- [Locator Store](./locatorstore.md)
+- [Recorder](./recorder/recorder.md)
 - Clicknium Project
