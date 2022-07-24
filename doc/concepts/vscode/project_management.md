@@ -4,7 +4,7 @@ sidebar_position: 3
 # Project Management
 
 ## Overview
-Clicknium project encapsulates python automation files to guarantee the automation scripts having same result in developing, debugging, execution and distribution. 
+Clicknium project encapsulates Python automation files to guarantee the automation scripts having same result in developing, debugging, execution and distribution. 
 
 ## Create Project
 

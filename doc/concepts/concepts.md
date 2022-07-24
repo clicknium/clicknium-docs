@@ -5,4 +5,5 @@ Here you can find detailed documentation about each one of Clicknium’s core co
 - [Locator](./locator.md) 
 - [Locator Store](./locatorstore.md)
 - [Recorder](./recorder/recorder.md)
-- Clicknium Project
+- [Clicknium Project](./clickniumproject.md)
+- [Clicknium Automation Extensions](./extensions/extensions.md)
