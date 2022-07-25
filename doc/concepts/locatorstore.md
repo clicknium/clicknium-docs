@@ -57,15 +57,15 @@ Local locator store can be find at VS Code Explorer under `LOCATOR` tab. The edi
 
   ![edit store](../img/vscode-project-store-menu.png)
 
-## Manage Cloud Locator Store
-# Enter into 'Cloud Locators' panel
+# Manage Cloud Locator Store
+## Enter into 'Cloud Locators' panel
 Click 'Clicknium Explorer' button in Visual Studio Code Activity Bar to show 'CLOUD LOCATORS' panel.  
 If you don't sign in yet, click 'Sign in' button to navigate to Clicknium webpage to sign up or sign in.
 For more information, please refer to [Connect to Cloud](./vscode/connecttocloud.md).  
 You can see the cloud locator store lists.  
 ![Cloud locator 1](../img/cloud_locator1.png)
 
-### Capture locators  
+## Capture locators  
 Click 'Capture' button on the right side of one cloud locator store to invoke 'Clicknium Recorder', then you can capture and manage the locators in the locator store.  
 
 ![Cloud locator 2](../img/cloud_locator2.png)  
