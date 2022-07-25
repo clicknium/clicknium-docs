@@ -2,7 +2,7 @@
 
 - extends: [WebError](./weberror.md)
 
-**UnreachableBrowserExtensionError is raised when the specified browser's extension is not in ready state. Please check if the extension is installed and enabled.**
+**UnreachableBrowserExtensionError is raised when the specified browser's extension is not in ready state. Please make sure that the extension is installed and enabled.**
 
 - [message](#message)
 - [stacktrace](#stacktrace)

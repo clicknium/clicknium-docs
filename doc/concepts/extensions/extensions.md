@@ -1,6 +1,6 @@
 # Automation Extensions
 
-**For web browser and Java applications, extensions are necessary to be installed for better automation performance.**
+**For web browser and Java applications, it's necessary to install extensions for better automation performance.**
 
 ## Browser Extensions
 

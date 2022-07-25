@@ -21,9 +21,9 @@ Return the UI element defined by the given locator.
         &emsp;&emsp; More about variables, please refer to [Parametric Locator](./../../../tutorial/parametric_locator.md).  
     &emsp;**window_mode**: WindowMode  
         &emsp;&emsp; It defines whether to set the UI element's parent window to topmost before an action is invoked.  
-        &emsp;&emsp;`auto`：default value, which means setting the window to topmost if it is not, and doing nothing if it is already topmost.  
-        &emsp;&emsp;`topmost`：always set the window to topmost  
-        &emsp;&emsp;`noaction`： doing nothing for topmost mode 
+        &emsp;&emsp;`auto`: default value, set the window to topmost by default.
+        &emsp;&emsp;`topmost`: always set the window to topmost  
+        &emsp;&emsp;`noaction`: doing nothing for topmost mode 
 
 **Returns:**  
     &emsp;The first matched UI element with type [UiElement](./../../python/uielement/uielement.md).

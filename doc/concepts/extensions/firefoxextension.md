@@ -26,7 +26,7 @@ sidebar_position: 3
     ```
 
 2. Enable extension in Firefox 
-    Open firefox browser and in the open page, find the `Clicknium Recorder` extension, and add it.  
+    Open Firefox browser and step into the Extension page. Find the `Clicknium Recorder` extension and add it.  
     &emsp;&emsp;![firefox clickniuim extension page](../../img/firefox_extension_enable_on.png)
 
 3. You can refer to console output for more installation details.
