@@ -30,7 +30,7 @@ You can go to [Project Management](./project_management.md) for more information
 In Visual Studio Code, press `CTRL+F10` to invoke Clicknium recorder to capture UI element locators.  
 ![clicknium recorder](../../img/recorder_main.png)  
 The **Capture Technology** indicates which automation technology is currently used to capture UI elements. Default is ***Auto Detect***, which means Clicknium recorder will automatically detect the application type and choose the automation technology accordingly for locators capturing.
-You can go to [Clicknium Recorder](./recorder/recorder.md) for more information.
+You can go to [Clicknium Recorder](./../recorder/recorder.md) for more information.
 
 ## Edit and Validate Locator
 After capturing the locators, you can open and edit the locator in the editor as below.  
