@@ -53,10 +53,10 @@ Click `Save` to save the locator, the locator for matching similar elements will
 ![save similar locator](../../img/save_similar_locator.png)  
 
 ## Highlight elements
-Highlight all matched elements for several seconds to determine if the generated locator is correct.  
-- Click the matched elements count button  
-![highlight similar elements1](../../img/highlight_similar_elements1.png)
-![highlight similar elements2](../../img/highlight_similar_elements2.png)
+ Highlight all matched elements for several seconds to determine if the generated locator is correct.  
+![highlight similar elements1](../../img/highlight_similar_elements1.png)  
+Click the matched elements count button   
+![highlight similar elements2](../../img/highlight_similar_elements2.png)  
 
 ## Clear elements
 Clear all the elements captured in the wizard window by clicking the right-top `Clear` button. It is normally used if the matched elements are not expected and you want to startover. Once clicking the button, the elements are removed and the `Clear` and `Save` buttons are disabled when there is no data.  
