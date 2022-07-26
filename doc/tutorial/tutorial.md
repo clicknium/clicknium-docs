@@ -14,7 +14,7 @@ Please follow [Quick Start](./../quickstart.md) to finish the installation.
 
 
 
-# Clicknkum Architecture Overview 
+# Clicknium Architecture Overview 
 Clicknium is a platform that lets you build your automation code. [Clicknium Python Module](./../quickstart.md#install-clicknium-python-package) will help to init ***Local Locator Store*** and ***Virtual Python Environment***. ***The VS Code Extension*** provides the Recorder to capture locaters and store it into Cloud/Local locater store. It also supports ***Code InteliSense*** to give a seamlessly coding experience. ***The Clicknium Cloud*** gives a chance to save and manage locators in the cloud and share locaters cross projects/machines.  
 ![Clicknium Arc](./../img/Clicknium_arc.png)
 
