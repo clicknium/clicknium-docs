@@ -1,23 +1,25 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
-# Locator
+# Advanced Locator 
 
 ## Overview 
-You can open and edit the locator.  
-![clicknium vscode](../img/main.png) 
-- locator store, the file to store locator data. The locators of the same application are stored in one locator store by default. Users can manage the locator store in Visual Studio Code or Clicnium Recorder.
-- locator, UI element locator, the string(XML fragment) that used to find the elements including application information and all necessary parent nodes of the UI element, and attributes of each element.
-- Screenshot, While recording the elements, store the screenshot together with the locator
-- Attributes, Users can select/deselect or edit the value of each attribute.
+This section is about more detail and advanced usage for Clicknium Locators.
   
-## Locator
-UI element locator is a string, XML fragment in the following formats,
+## Locator Settings
+ Locators have the rich feature to meet different UI automation needs. 
+ - Locator, UI element locator, the string(XML fragment) that used to find the elements including application information and all necessary parent nodes of the UI element, and attributes of each element.
+- Locator store, the file to store locator data. The locators of the same application are stored in one locator store by default. Users can manage the locator store in Visual Studio Code or Clicnium Recorder.
+- Screenshot, while recording the elements, store the screenshot together with the locator
+- Attributes, users can select/deselect or edit the value of each attribute.  
+---
+You can open and edit the locator.
+![clicknium vscode](../img/main.png)  
+UI element locator is a string, XML fragment in the following formats, with all information to locate the element.  
 ```
 <Application .../><Uia .../>/<Uia .../>  
 <Application .../><Tab .../>/<Web .../>  
 ```
-with all information to locate the element.
 First node `Application` contains attributes of the target application
 <Application processName="notepad" filePath="notepad.exe" version="1.3" />  
 

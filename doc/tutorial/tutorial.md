@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 
 # Tutorial
-This tutorial walks you through some of the fundamental Clicknium concepts, tools, and their usage while writing your first automation code.
+This tutorial walks you through some of the fundamental Clicknium concepts, tools, and their usage while writing your [first automation code](./firstautomation.md).
 
 # Installation
 A Clicknium installation generally consists of the following components:
@@ -11,8 +11,6 @@ A Clicknium installation generally consists of the following components:
 - [Clicknium VS Code Extension](./../quickstart.md#setup-clicknium-visual-studio-code-extension): Set up the development tool for coding automation script.
 - [Clicknium Automation Extension](./../concepts/extensions/extensions.md): To get better performance, Clicknium provides some extension targeted to different environments and senarios. Developers can select the needed extension to install.  
 Please follow [Quick Start](./../quickstart.md) to finish the installation.
-
-
 
 # Clicknium Architecture Overview 
 Clicknium is a platform where you can build your automation code. [Clicknium Python Module](./../quickstart.md#install-clicknium-python-package) will help to initialize ***Local Locator Store*** and ***Virtual Python Environment***. ***The VS Code Extension*** provides the Recorder to capture locators and store them into Cloud/Local Locator Store. It also supports ***Code InteliSense*** to give a seamlessly coding experience. ***The Clicknium Cloud*** gives a chance to save and manage locators in the cloud and share locaters cross projects/machines.  

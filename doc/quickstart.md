@@ -82,45 +82,8 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It 
 - Open a notepad
 - Input text to notepad
 
-## Capture first UI locator
-There are two ways to capture UI locators: 
-- By clicking `Capture` button in `LOCATORS` tab of `Explorer` side bar.  
-&emsp; ![start recorder from vscode](./img/start_recorder_from_vscode.png)  
-&emsp;
-- By pressing `Ctrl+F10`.  
-  
-Once you see the Clicknium Recorder as below showing at the right side of screen, the Visual Studio Code will be minimized automatically.
-- Hover mouse over the target UI element, the element will be highlighted with a rectangle.
-- Press `Ctrl+Click` to capture locator for the target element, the locator will be added to the locator store listing in the tree area of Clicknium Recorder.  
-- Click `Complete` button to return to Visual Studio Code. 
-
-![clicknium recorder](./img/recorder_main.png)
-
-- For more about Clicknium Recorder, refer [here](./concepts/recorder/recorder.md).  
-
-## First line automation code
-After capturing UI locators, write Python script to automate the target UI element as below. 
-- For any locator you captured, you can reference it in code by starting `locator.` , the following node will be listed in syntax popup for you to select and autofill.
-```python
-from clicknium import clicknium as cc, locator, ui
-cc.find_element(locator.new_store.sample.targetele).click()
-ui(locator.new_store.sample.targetele).click()
-```
-- For more about automation API, refer [Clicknium Python package documents](./references/python/python.md).   
-
-## Run/Debug automation code
-- Open related Python file, run this script by `Ctrl+F5`.
-- Open related Python file, debug this script by `F5`.
-
-## About Clicknium Project
-With Clicknium project, you can develop an automation solution in an isolated Python virtual environment. The isolated environment guarantees the project behave indifferently in different developers' working environments. 
-Clicknium provides following commands about project, you may view more [here](./concepts/vscode/project_management.md).  
-- `Clicknium: Create Project` create a project.
-- `Clicknium: Debug Project` debug the project.
-- `Clicknium: Run Project` run the project.
-- `Clicknium: Package Project` package the project to a standalone executable file.
-
-
+## Next . 
+Learn [how to start an automation project from zero](./tutorial/firstautomation.md).
 ## Document Guidelines
 For more about Clicknium Visual Studio Code, please refer [here](./concepts/vscode/vscode.md).  
 You may need to refer [Clicknium Python package documents](./references/python/python.md) when writing code.  

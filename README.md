@@ -22,7 +22,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/clicknium?style=flat-square)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://clicknium.slack.com/join/shared_invite/zt-1cfxsstw7-s0CeJdhyg5wQ1h7_KKc6QQ#/shared-invite/email)
 
-# clicknium-docs
+# Clicknium-docs
 
 [Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for all types of applications. It provides easy and smooth developer experience with high-level API for automating GUI application and intelligent plug-ins. It provides you a new way to build your automation world. It also supports for web scraping bots, browser automation, testing for web and desktop applications.
 
@@ -35,13 +35,13 @@
 ### Code Editor
 - Visual Studio Code
 
-## Getting started
+## Getting Started
 
 Get a sample script showing automation of web page and notepad.
 
 ## Installation​
 
-### Install Clicknium Python package
+### Install Clicknium Python Package
 ```
 # Python version is 3.8 or below
 pip install clicknium
@@ -57,7 +57,7 @@ install [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=
 ![login](./doc/img/signin1.png "login")  
 
 
-### Install and enable browser extension
+### Install and Enable Browser Extension
 - Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar.  
 - Show `AUTOMATION EXTENSIONS` view in Visual Studio Code Side Bar.  
 - Choose the Edge browser and click the `Install` button.  
@@ -66,7 +66,7 @@ install [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=
 ![enable edge extension](./doc/img/edge_extension_enable_on.png)  
 
 
-### Setup sample project
+### Setup Sample Project
 - In Visual Studio Code, open the Command Palette: `Ctrl+Shift+P`
 - Input: `Clicknium: Sample`
 - Choose a path to locate sample project
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### Run the sample
+### Run the Sample
 In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It will do: 
 - Open a search engine page
 - Input a keyword and click search button
