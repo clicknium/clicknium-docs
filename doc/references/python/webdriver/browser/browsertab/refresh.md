@@ -6,7 +6,7 @@ sidebar_label: refresh
 
 ***def refresh(self) -> None -> None***  
 
-Refresh current web page.
+Refresh the current web page.
 
 **Returns:**  
     &emsp;None

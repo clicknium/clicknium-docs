@@ -1,9 +1,9 @@
 # MouseLocation
-**MouseLocation class is to define the position of mouse action on target element. It is being used in [click](./click.md), [double_click](./double_click.md), [mouse_up](./mouse_up.md) and [mouse_down](./mouse_down.md).**
+**MouseLocation class is to define the position of mouse action on target element, being used in [click](./click.md), [double_click](./double_click.md), [mouse_up](./mouse_up.md) and [mouse_down](./mouse_down.md).**
 
 **Parameters:**  
     &emsp;**Location**: Location  
-        &emsp;&emsp; The relative position to the target element to perform the mouse action. The available values are 'center', 'left-top', 'left-bottom', 'right-top' and 'right-bottom', and the default value is 'center'.  
+        &emsp;&emsp; The relative position of the target element to perform the mouse action. The available values are 'center', 'left-top', 'left-bottom', 'right-top' and 'right-bottom', and the default value is 'center'.  
     &emsp;**Xoffset**: int   
         &emsp;&emsp; sets the x-direction offset relative to Location in pixel. Defautl is 0.  
     &emsp;**Yoffset**: int  

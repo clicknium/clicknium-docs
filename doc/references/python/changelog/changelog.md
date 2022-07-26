@@ -10,7 +10,7 @@
 ### Improvements
 - Fix yrate not working issue for API click, double_click.
 - Improve browser extension installation experience.
-- The front active window will be chosed when there are multiple windows matched by given locator during automation run.
+- The front active window will be selected when there are multiple windows matched by given locator during automation run.
 - Fix UIA bug: validation failed on navigation pane of windows file explorer.
 - Improve locator for web automation: trim the space for the value of attribute sinfo, name etc.
 - Fix web automation bug: modifier_key was not working on web element.

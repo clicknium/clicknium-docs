@@ -16,7 +16,7 @@ Attach to an opened browser tab with specified locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  
-        &emsp;&emsp; locator string, the visit path of locator for a UI element which is of the target browser tab. For more details, please refer to [Locator](./../../../tutorial/locator.md).   
+        &emsp;&emsp; locator string, the visit path of locator for a UI element in the target browser tab. For more details, please refer to [Locator](./../../../tutorial/locator.md).   
     &emsp;**locator_variables**: dict  
         &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./../../../tutorial/parametric_locator.md).  
     &emsp;**is_maximize**: bool  

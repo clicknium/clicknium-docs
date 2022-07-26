@@ -2,7 +2,7 @@
 
 - extends: [BaseError](./baseerror.md)
 
-**UnAuthorizedError is raised when user does not sign in or the sign in state is expired.**
+**UnAuthorizedError is raised when the user has not signed in or the sign-in state is expired.**
 
 - [message](#message)
 - [stacktrace](#stacktrace)
