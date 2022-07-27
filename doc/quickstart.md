@@ -49,7 +49,7 @@ Get a sample script showing automation of web page and notepad.
 
 ### Setup sample project
 - In Visual Studio Code, open the Command Palette: `Ctrl+Shift+P`
-- Input or select: `Clicknium: Sample`
+- Input: `Clicknium: Sample`
 - Choose a path to locate sample project
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.

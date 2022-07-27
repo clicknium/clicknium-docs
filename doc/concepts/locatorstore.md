@@ -42,12 +42,12 @@ You can manage Clicknium Locator Store in Clicknium Recorder, Your projects and 
  
 Supported Store Operation:
 - Create new store
-- Rename store name: please notice it might break existing code. The store name is one part of identity of locaters. The referenced code needs to be updated accordingly.
-- Folder: create/update/delete a new folder under the a store to group locaters.   
+- Rename store name: please notice it might break existing code. The store name is one part of identity of locator. The referenced code needs to be updated accordingly.
+- Folder: create/update/delete a new folder under the a store to group locator.   
 - Remove Reference：remove the referenced store in the project.  
-- Convert to Cloud/Local locater store: locator store can be convert to local or cloud seamlessly.
+- Convert to Cloud/Local locator store: locator store can be convert to local or cloud seamlessly.
 
-You can create multiple stores. Folders can be create under a store to manage locaters better. 
+You can create multiple stores. Folders can be create under a store to manage locator better. 
 
   ![edit store](../img/vscode-project-store-menu.png)
 

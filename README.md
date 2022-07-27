@@ -102,5 +102,8 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It 
 - Open a notepad
 - Input text to notepad
 
+## Next . 
+Learn [how to start an automation project from zero](./doc/tutorial/firstautomation.md).
+
 ## Contact
 Welcome to create a [Github Issue](https://github.com/clicknium/clicknium-docs/issues) or join [Clicknium Slack](https://clicknium.slack.com/) if you have any question. 
