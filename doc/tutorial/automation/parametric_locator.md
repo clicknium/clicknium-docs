@@ -1,14 +1,14 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
+sidebar_label: Parametric Locator 
+
 ---
 # Parametric Locator
 
 ## Overview
  Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element..
-- dynamic value: {{varaible}}, the variable in locator
-  
-formats as the following:  
-`<Web ancestorId="{{id}}" tag="A" />`
+- dynamic value: {{varaible}}, the variable in locator formats as the following:  
+`<Web ancestorId="{{id}}" tag="A" />`  
 or set partial value as parameter:  
 `<Web ancestorId="video-{{id}}" tag="A" />`
 
@@ -23,11 +23,11 @@ ui(locator.chrome.bing.search_sb_form_q, variables)
 ## Examples
 How to use the parametric locator for web page and windows applciation? Here are two examples.
 ### Web Example  
-![sample1](../img/parametric_locator_sample1.png)  
+![sample1](./../../img/parametric_locator_sample1.png)  
 Locate the item in list, , the locator string is as  following after recording:  
-![sample1](../img/parametric_locator_sample1_2.png)  
+![sample1](./../../img/parametric_locator_sample1_2.png)  
 Add parametes as following to loop over each item:   
-![sample1](../img/parametric_locator_sample1_3.png)  
+![sample1](./../../img/parametric_locator_sample1_3.png)  
 
 ```python
 from clicknium import clicknium as cc, locator, ui
@@ -45,11 +45,11 @@ while True:
 ```
 
 ### Windows application Example  
-![sample1](../img/parametric_locator_sample2.png)  
+![sample1](./../../img/parametric_locator_sample2.png)  
 Locate the menu item, the locator string is as following after recording:  
-![sample1](../img/parametric_locator_sample2_2.png)  
+![sample1](./../../img/parametric_locator_sample2_2.png)  
 Add parametes as following to loop over each menu item:  
-![sample1](../img/parametric_locator_sample2_3.png)  
+![sample1](./../../img/parametric_locator_sample2_3.png)  
 
 ```python
 from clicknium import clicknium as cc, locator, ui
