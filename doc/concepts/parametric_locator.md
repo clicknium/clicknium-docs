@@ -23,11 +23,11 @@ ui(locator.chrome.bing.search_sb_form_q, variables)
 ## Examples
 How to use the parametric locator for web page and windows applciation? Here are two examples.
 ### Web Example  
-![sample1](./../../img/parametric_locator_sample1.png)  
+![sample1](./../img/parametric_locator_sample1.png)  
 Locate the item in list, , the locator string is as  following after recording:  
-![sample1](./../../img/parametric_locator_sample1_2.png)  
+![sample1](./../img/parametric_locator_sample1_2.png)  
 Add parametes as following to loop over each item:   
-![sample1](./../../img/parametric_locator_sample1_3.png)  
+![sample1](./../img/parametric_locator_sample1_3.png)  
 
 ```python
 from clicknium import clicknium as cc, locator, ui
@@ -45,11 +45,11 @@ while True:
 ```
 
 ### Windows application Example  
-![sample1](./../../img/parametric_locator_sample2.png)  
+![sample1](./../img/parametric_locator_sample2.png)  
 Locate the menu item, the locator string is as following after recording:  
-![sample1](./../../img/parametric_locator_sample2_2.png)  
+![sample1](./../img/parametric_locator_sample2_2.png)  
 Add parametes as following to loop over each menu item:  
-![sample1](./../../img/parametric_locator_sample2_3.png)  
+![sample1](./../img/parametric_locator_sample2_3.png)  
 
 ```python
 from clicknium import clicknium as cc, locator, ui

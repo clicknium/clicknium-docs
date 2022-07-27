@@ -83,7 +83,7 @@ We use one java swing sample application to show locator samples
 ```
 
 # Java element properties
-By [find_element](./../../references/python/globalfunctions/find_element.md) on one Java locator, you can get one Java element, you can get properties of the element by [get_property](./../../references/python/uielement/get_property.md), Clicknium Java support the following properties:
+By [find_element](./../references/python/globalfunctions/find_element.md) on one Java locator, you can get one Java element, you can get properties of the element by [get_property](./../references/python/uielement/get_property.md), Clicknium Java support the following properties:
 
 | Name      | Description |
 | ----------- | ----------- |

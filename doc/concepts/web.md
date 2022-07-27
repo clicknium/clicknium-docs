@@ -71,7 +71,7 @@ You can get [locator](locator.md) concept first, for web automation, the attribu
 ```
 
 # Web element properties
-By [find_element](../../references/python/globalfunctions/find_element.md) on one web locator, you can get one web element, you can get properties of the element by [get_property](../../references/python/uielement/get_property.md), Clicknium web element support the following properties:
+By [find_element](../references/python/globalfunctions/find_element.md) on one web locator, you can get one web element, you can get properties of the element by [get_property](../references/python/uielement/get_property.md), Clicknium web element support the following properties:
 
 | Name      | Description |
 | ----------- | ----------- |

@@ -17,5 +17,5 @@ Clicknium is a platform where you can build your automation code. [Clicknium Pyt
 ![Clicknium Arc](./../img/Clicknium_arc.png)
 
 # Clicknium Workflow
-[Clicknium Recorder](./../concepts/recorder/recorder.md) can help you to capture UI element that you want to automate. After a successful capture, the recorder will generate a [Clicknium Locator](./../concepts/locator.md) target to the UI element and the locator will be send and store in [Clicknium Locator Store](./../concepts/locatorstore.md). You can create a [Clicknium Project](./../concepts/clickniumproject.md) to wirte your Python code. In the code, you can refer the locators stored in the Locator Store and operate via automation API provided by Clicknium Python Module.   
+[Clicknium Recorder](./../tutorial/recorder/recorder.md) can help you to capture UI element that you want to automate. After a successful capture, the recorder will generate a [Clicknium Locator](./../tutorial/locator.md) target to the UI element and the locator will be send and store in [Clicknium Locator Store](./../tutorial/locatorstore.md). You can create a [Clicknium Project](./../tutorial/clickniumproject.md) to wirte your Python code. In the code, you can refer the locators stored in the Locator Store and operate via automation API provided by Clicknium Python Module.   
 ![automation flow](./../img/Clicknium%20tool.png)

@@ -74,7 +74,7 @@ You can get [locator](./locator.md) concept first, for IA automation, the attrib
 ```
 
 # IA element properties
-By [find_element](../../references/python/globalfunctions/find_element.md) on one IA locator, you can get one IA element, you can get properties of the element by [get_property](../../references/python/uielement/get_property.md), Clicknium IA support the following properties:
+By [find_element](../references/python/globalfunctions/find_element.md) on one IA locator, you can get one IA element, you can get properties of the element by [get_property](../references/python/uielement/get_property.md), Clicknium IA support the following properties:
 
 
 | Name      | Description |

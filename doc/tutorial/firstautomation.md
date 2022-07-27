@@ -24,7 +24,7 @@ if __name__ == "__main__":
 In the next step, we need to use [Locators](./../concepts/locator.md) to identity the UI element that we want to operate. [Clicknium Recorder](./../concepts/recorder/recorder.md) will help to catpure locators. 
 
 - Click `Capture` button in `LOCATORS` tab of `Explorer` side bar or pressing `Ctrl+F10 for shortcut in VS Code.    
-- [Clicknium Recorder](./../concepts/recorder/recorder.md) will pop up. Choose Chrome for capture technology.
+- [Clicknium Recorder](./../concepts/recorder/recorder.md) will pop up.  
 - Hover mouse over the Google Search bar, it will be highlighted with a rectangle.
 - Press `Ctrl+Click` to capture locator for the target element, the locator will be added to the [Locator Store](./../concepts/locatorstore.md) listing in the tree area of Clicknium Recorder.  
 - Capture `search` botton with the same approach. 
