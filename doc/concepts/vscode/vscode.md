@@ -23,7 +23,7 @@ Open the Command Palette: `Ctrl+Shift+P`
 - Select project path
   - You can create one empty folder and select it, and the new project will be created.
   - You can also select one existing folder which will be converted to Clicknium project, and there is no impact on existing source files.
-You can go to [Project Management](./project_management.md) for more information.
+You can go to [Project Management](./../../concepts/clickniumproject.md) for more information.
 
 ## Capture UI Locators
 In Visual Studio Code, press `CTRL+F10` to invoke Clicknium recorder to capture UI element locators.  
@@ -35,8 +35,8 @@ You can go to [Clicknium Recorder](./../recorder/recorder.md) for more informati
 After capturing the locators, you can open and edit the locator in the editor as below.  
 ![clicknium vscode](../../img/main.png) 
 
-You can go to [Locator Management](./locator_management.md) for more information about locator management.  
-For more about the locator, please refer to [Clicknium Locator](./../../tutorial/locator.md).  
+You can go to [Locator Store](./../../concepts/locatorstore.md) for more information about locator management.  
+For more about the locator, please refer to [Clicknium Locator](./../../concepts/locator.md).  
 
 After editing the locator, you can press the button `Validate` to minimize Visual Studio Code and verify if the target element can be located by the locator. The locator validation result is displayed at the head of each locator layer.  
 ![validate error](../../img/validate_err.png)
@@ -49,18 +49,15 @@ For the locator parameter in `cc.find_element(`, you can press `Ctrl+F10` to inv
 - IntelliSense  
 If you want to choose one locator in the locator store, Clicknium code extension shows the locator store list and the locator list for you to choose.  
 ![intellisense](../../img/intelliSense.png)
-
 Please go to [Code IntelliSense](./codeintelliSense.md) for more features.
-You can manage the dependencies of the porject in `clicknium.yaml`, for more details, please refer to [Project Management](./project_management.md).
 
 ## Run/Debug Project
 There are two ways to debug Clicknium Automation Project:
 - Run/Debug using `F5` or `Ctrl+F5`, which is the same way as you debug other Python scripts.
 - Open the Command Palette: `Ctrl+Shift+P`, input or select: `Clicknium: Run` to run project or `Clicknium: Debug` to debug project.  
 It will configure the running/debugging environment. For example, check the Python version in clicknium.yaml, restore dependent package list, etc.   
-For more details, please refer to [Project Management](./project_management.md).
 
 ## Package Project
 When a project is developed, you can distribute the package to the non-developer end users. Clicknium provides features to package the project as one executable file, so the end user can run automation tasks by double clicking it.  
 Open the Command Palette: `Ctrl+Shift+P`, Input or select: `Clicknium: Package` to package project.  
-For more details, please refer to [Project Package](./project_package.md).
+For more details, please refer to [Project Package](./project_management.md#project-package).
