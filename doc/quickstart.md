@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Quick Start
 
-## Prerequirement
+## Prerequisites
 ### System Requirements​
 - Windows 7 SP1 or above, Windows 10 or 11 is recommended
 - Python 3.7 or above.
@@ -17,12 +17,13 @@ sidebar_position: 2
 ## Installation​
 
 ### Install Clicknium Python package
-Use pip to install Clicknium package:  
 
 ```
 # Python version is 3.8 or below
 pip install clicknium
-
+```
+  
+```
 # Python version is 3.9 or above
 pip install --pre pythonnet
 pip install clicknium
@@ -82,7 +83,7 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It 
 - Open a notepad
 - Input text to notepad
 
-## Next . 
+## Next
 Learn [how to start an automation project from zero](./tutorial/firstautomation.md).
 ## Document Guidelines
 For more about Clicknium Visual Studio Code, please refer [here](./concepts/vscode/vscode.md).  
