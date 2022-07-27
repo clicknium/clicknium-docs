@@ -11,7 +11,7 @@ sidebar_label: set_property
         timeout: int = 30
     ) -> None***  
 
-Set web element's property value.  
+Set the property value of the web element.  
 
 **Parameters:**  
     &emsp;**name[Required]**: str  

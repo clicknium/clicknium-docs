@@ -16,7 +16,7 @@ Create a new store with a new name. Select the store, and the locators will be a
 ![create store](../../img/recorder_store_create.png) 
 
 ### New Folder
-Create a new folder under the selected store. Select the folder, the locators will be added into the selected folder.  
+Create a new folder under the selected store. Select the folder, and the locators will be added into the selected folder. 
 - Click the button `New Folder`
 - Input a folder name
 - Save by pressing `Enter` or `Tab`  
@@ -60,16 +60,17 @@ Delete the selected folder.
 ![delete folder](../../img/recorder_folder_delete.png)
 
 ## Locator Management
-For locator operations, we support rename, new folder and delete.
+Three locator operations that we support: rename, new folder and delete.
+
 
 ### Recapture
-Recapture a new locator with selected locator name. For more infomation, you can refer to [Recapture](./recapture.md).  
+Recapture a new element with selected locator. For more infomation, you can refer to [Recapture](./recapture.md).  
 ![recapture locator](../../img/recorder_locator_recapture.png)
 
 ### Rename
-Rename the selected locator with new name.  
+Rename the selected locator.  
 - Click the button `Rename` or press `F2`
-- Input new store name
+- Input a new store name
 - Save by pressing `Enter` or `Tab`  
 ![rename locator](../../img/recapture_locator_rename.png)
 

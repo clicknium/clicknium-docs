@@ -6,10 +6,12 @@ sidebar_label: detect
 
 ***def detect(self) -> ExtensionStatus*** 
 
-Detect browser extension installation status.
+Detect the installation status of the browser extension.
+
+.
 
 **Returns:**  
-    &emsp;ExtensionStatus object, import the module with `from clicknium.common.enums import ExtensionStatus`, and the class definition as following: 
+    &emsp;ExtensionStatus object, import the module with `from clicknium.common.enums import ExtensionStatus`, and the class definition is as follows: 
 ```python
 class ExtensionStatus:
     NotInstalled = "NotInstalled"

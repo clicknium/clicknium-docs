@@ -11,16 +11,16 @@ sidebar_label: execute_js
         timeout: int = 30
     ) -> str***  
 
-Execute javascript code for the target element.  
+Execute Javascript code for the target element.  
 
 > **Remarks:**
-> In the javascript code to execute specified in parameter `javascript_code`, use "_context$.currentElement." for the target element.  
+> In the Javascript code, execute specified in parameter `javascript_code`, by using "_context$.currentElement." for the target element.  
 
 **Parameters:**  
     &emsp;**javascript_code[Required]**: str    
-        &emsp;&emsp; javascript code snippet to be executed upon target element.  
+        &emsp;&emsp; Javascript code snippet to be executed upon target element.  
     &emsp;**method**: str    
-        &emsp;&emsp; the method to be invoked should be defined in the javascript code. If any parameter need to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
+        &emsp;&emsp; the method to be invoked should be defined in the Javascript code. If any parameter needs to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
 

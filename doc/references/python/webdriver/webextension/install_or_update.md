@@ -6,10 +6,10 @@ sidebar_label: install_or_update
 
 ***def install_or_update(self) -> bool*** 
 
-Install or update browser extension based on current detected extension status.
+Install or update browser extension based on the current status of the detected extension..
 
 **Returns:** bool  
-    &emsp;Return `True` means the extension is being installed or updated, `False` means the latest version extension has already been installed before calling this function.
+    &emsp;Return `True` means the extension is installed or updated. `False` means the latest version extension has already been installed before calling this function.
 
 **Example:**
 ***

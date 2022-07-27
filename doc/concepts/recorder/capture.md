@@ -7,16 +7,16 @@ sidebar_label: Capture UI Element
 ## How to start recorder
 - Start from Visual Studio Code LOCATORS tab  
 ![start from vscode local locator](../../img/start_recorder_from_vscode.png)
-- Strat from Visual Studio Code CLOUD LOCATORS tab  
+- Start capture in Visual Studio Code CLOUD LOCATORS tab  
 ![start from vscode cloud locator](../../img/start_recorder_from_cloud.png)
-- Start with pressing hotkey `Ctrl+F10`  
+- Start by pressing hotkey `Ctrl+F10`  
 
 ## Capture methods
 
 Clicknium provides three recording methods: 
 - single capture
 - continuous capture
-- mage capture.
+- image capture.
 
 > **Remarks:**
 >- The new recorded locator will be added into current selected locator store.
@@ -41,7 +41,7 @@ Along the mouse moving, it will highlight the UI element and show its position o
 ### Image capture
 
 1. Select a UI element  
-2. Press `Shift` and select one area for the element with the mouse
+2. Press `Shift` and select an area of the element with the mouse
 3. Validate image locators as below:  
 ![image locator](../../img/record_image_locator.png)
 4. Click the button `Complete` on recorder panel
@@ -58,5 +58,5 @@ For window UI element, you can choose `UIA` or `IA` capture technology.
 
 ## Capture advanced option
 
-Default advanced option is `None`. When recording web UI element, you can also select XPath to generate a XPath string.    
+Default advanced option is `None`. When recording web UI element, you can also select XPath to generate an XPath string.    
 ![select advance option](../../img/record_choose_advance.png)

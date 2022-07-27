@@ -16,8 +16,8 @@
 
 ## Methods
 - [child](./child.md)：get child element by given index.
-- [set_property](./set_property.md): set web element's property value.  
-- [execute_js](./execute_js.md): execute javascript code for the target element.  
-- [execute_js_file](./execute_js_file.md): execute javascript file for the target element.  
+- [set_property](./set_property.md): set the property value of the web element.  
+- [execute_js](./execute_js.md): execute Javascript code for the target element.  
+- [execute_js_file](./execute_js_file.md): execute Javascript file for the target element.  
 
 

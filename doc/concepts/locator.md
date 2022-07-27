@@ -6,30 +6,27 @@ sidebar_label: Clicknium Locator
 A locator is a way to identify elements on a web page or desktop app.   
 
 # Overview 
-Identification of the correct GUI element on a web page is pre-requisite for creating any successful automation script. It is where locators come into the picture. Locators are one of the essential components of Clicknium infrastructure, which help Clicknium scripts in uniquely identifying the UI elements(such as text box, button, etc.). 
-The way to get a locator for a specific UI element is the key experience for automation framwork. Before Clicknium, you have to learn some web essential knowledge, such as XPath. Clicknium provides Clicknum Recorder to help you get a locator by just clicking the elements. 
+Identification of the correct GUI element on a web page is pre-requisite for creating any successful automation script, where locators come into the picture. Locators are one of the essential components of Clicknium infrastructure, which help Clicknium scripts in uniquely identifying the UI elements(such as text box, button, etc.). 
+The way to get a locator for a specific UI element is the key experience of automation framework. Before using Clicknium, you have to learn some web essential knowledge, such as XPath. Clicknium provides Clicknum Recorder to help you get a locator by just clicking the elements.  
 
 # How to use
-So, how do we get the values of these locators? And how to use the same in the automation framework? 
+So, how do we get the values of these locators? And how to use the same locator in the automation framework?
 
 ## Get a locator 
 Clicknium provides Clicknium Recorder to get UI locators.  
-- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/concepts/vscode/vscode.md), [Chrome extension](/concepts//extensions/chromeextension.md) installed. 
-- Open a Python file via VS code. 
-- Use Recorder to capture locators(`Ctrl + Click`).  
+- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/concepts/vscode/vscode.md), [Chrome extension](/concepts//extensions/chromeextension.md) is installed. 
+- Open a Python file in VS code. 
+- Capture locators with Clicknium Recorder(`Ctrl + Click`).  
 
 ![show locator](./../img/showlocator.gif)  
 
 ## Use locator in Python Code
-Clicknium provides intellgent auto-complete experience. You can find the exsiting locators captured by Clicknium Recorder in VS Code. Use the `locator` class under the Clicknium package. You can reference Locator by `Locator.{localorStoreName}.{folderName}.{LocatorName}`  Operate locators via Python code, run and waiting for a miracle to happen. 
+Clicknium provides intellgent auto-complete experience. You can find the exsiting locators captured by Clicknium Recorder in VS Code. Select the locator class under the Clicknium package and reference Locator by `Locator.{localorStoreName}.{folderName}.{LocatorName}`  Operate locators via Python code, run and waiting for a miracle. 
 
 ![use locator](./../img/uselocator.gif)
 
-# Locator Type
 
-
-
-## Locator Supported Operation
+## Operations Supported by the Locators
 
   ![edit locator](../img/vscode-project-locator-menu.png)
 
@@ -43,9 +40,9 @@ Clicknium provides intellgent auto-complete experience. You can find the exsitin
 ## Locator Editor
   ![edit locator](../img/vscode-edit-locator.png)
 
-The detail page of locator editor is organized with two parts, left and right.
-- Left part: displays locator tiers as XML based view  
-- Right part：displays the attribute details for the selected XML node on the left part.  
+The detailed page of locator editor is organized with two parts.
+- Left part: display locator tiers as XML based view  
+- Right display the attribute details for the selected XML node on the left part.  
 
 - Checkbox ①: Select the locator tier. The unchecked tier will be ignored when locating the UI element.  
 - Checkbox ②：Select the properties for the selected locator tier. This unselected properties will be ignored when locating the UI element.  
@@ -83,14 +80,14 @@ Click `Validate` button.
   ![validate failed](../img/vscode-validate-process.png)
 
 ### Multiple windows exist in validation
-- If multiple opened windows contain the locator at the same time, the recorder will provide a pop-up dialog to select window.
+- If multiple opened windows contain the locator at the same time, a dialog will pop up for you to select the window.
 
   ![vscode-multiple-window](../img/vscode-multiple-window.png)
 
-- After selecting the one among the matched windows, the corresponding window will be validated in a few seconds and return to vscode.
+- After the matched window is selected, the corresponding window will be validated in a few seconds and return to vscode.
 
 ### Multiple elements are located in validation
-- If multiple locators are matched in the window, the recorder will provide a window for selecting the locator index. 
+- If multiple locators are matched in the window, a window will pop up for you to select the locator index.  
 - If you switch the Index, the corresponding locator is highlighted.
   
   ![vscode-mach-multiple-locator](../img/vscode-mach-multiple-locator.png)
@@ -104,11 +101,9 @@ Click `Validate` button.
   ![vscode-set-single-target-success](../img/vscode-set-single-target-success.png)
 
 
-
-
 ## Locator Error Hint
 ### Error Type
-- ui or find_element function argument must be locator. If it is store or folder, an error message will be displayed.
+- The UI or find_element function argument must be a locator. If it is a store or a folder, an error message will be displayed.
 ![type error](../../doc/img/vscode-type-error.png)
 ### Locator Does Not Exsit
 - If the entered locator does not exist in the referenced store, an error message is displayed.

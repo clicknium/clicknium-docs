@@ -4,7 +4,7 @@ sidebar_label: Quick Start
 ---
 # Quick Start
 
-Follow this tutorial to start capture a locator quicky.
+Follow this tutorial to start capturing a locator quicky.
 
 - Find `LOCATORS` tab and click the button `Capture` as follows:  
 &emsp; ![start recorder from vscode](../../img/start_recorder_from_vscode.png)

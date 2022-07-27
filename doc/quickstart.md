@@ -29,7 +29,7 @@ pip install --pre pythonnet
 pip install clicknium
 ```
 
-### Setup Clicknium Visual Studio Code Extension
+### Set up Clicknium Visual Studio Code Extension
 Click the link to install [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search Clicknium in Visual Studio Code Extension marketplace).  
 Sign in your Clicknium account. 
 
@@ -77,7 +77,7 @@ if __name__ == "__main__":
 ```
 
 ### Run the sample
-In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It will do: 
+In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script with following steps: 
 - Open a search engine page
 - Input a keyword and click search button
 - Open a notepad
@@ -86,7 +86,7 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It 
 ## Next
 Learn [how to start an automation project from zero](./tutorial/firstautomation.md).
 ## Document Guidelines
-For more about Clicknium Visual Studio Code, please refer [here](./concepts/vscode/vscode.md).  
+For more about Clicknium Visual Studio Code, please refer to [here](./concepts/vscode/vscode.md).  
 You may need to refer [Clicknium Python package documents](./references/python/python.md) when writing code.  
 For more tools provided by Clicknium, please refer to:  
 - [Clicknium Recorder](./concepts/recorder/recorder.md).  

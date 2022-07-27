@@ -30,7 +30,7 @@ When the project is created, a pop-up window in the lower right corner shows the
    - **log**：The project log. Its property "folder" indicates the location of the log files to be saved. If its value is not specified, it will use default location %LOCALAPPDATA%\Clicknium\Log.
    
    - **requirements**：running project dependency.  
-     &emsp;Python: Python version is 3.7.0 by default. In creating project, if Visual Studio Code already has at least one supported version Python installed, clicknium extension will choose current selected Python interpreter to create the project, the Python version in this configuration file will be updated accordingly. If Visual Studio Code does not have Python installed, clicknium extension will install Python 3.7.0 as described in configuration file by default.
+     &emsp;Python: Python version is 3.7.0 by default. When creating a project, if Visual Studio Code already has at least one supported version Python installed, Clicknium extension will choose the currently selected Python interpreter to create the project, and the Python version in this configuration file will be updated accordingly. If Python is not installed in Visual Studio Code , Clicknium extension will install Python 3.7.0 as described in configuration file by default.
      
      ![project appyaml](../../img/create_project_appyaml_python_config.png)  
      &emsp;Packages：Python package dependency. In this configuration, you can add one or more Python packages required by this project in the format of package-version. If the version is blank or null, the latest version will be used automatically.  
