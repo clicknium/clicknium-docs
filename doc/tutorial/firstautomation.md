@@ -27,7 +27,7 @@ In the next step, we need to use [Locators](./../concepts/locator.md) to identit
 - [Clicknium Recorder](./../concepts/recorder/recorder.md) will pop up. Choose Chrome for capture technology.
 - Hover mouse over the Google Search bar, it will be highlighted with a rectangle.
 - Press `Ctrl+Click` to capture locator for the target element, the locator will be added to the [Locator Store](./../concepts/locatorstore.md) listing in the tree area of Clicknium Recorder.  
-- Capture `search` botton with the same approach. 
+- Capture `search` button with the same approach. 
 - Click `Complete` button.   
 ![show locator](./../img/showlocator.gif)  
 

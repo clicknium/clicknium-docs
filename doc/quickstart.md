@@ -11,7 +11,7 @@ sidebar_position: 2
 ### Code Editor
 - Visual Studio Code
 
-### Clicknum Account 
+### Clicknium Account 
 - Register [Clicknium Account](https://www.clicknium.com/).
 
 ## Installation​
@@ -48,7 +48,7 @@ Get a sample script showing automation of web page and notepad.
 ![enable edge extension](./img/edge_extension_enable_on.png)  
 
 
-### Setup sample project
+### Get a sample
 - In Visual Studio Code, open the Command Palette: `Ctrl+Shift+P`
 - Input: `Clicknium: Sample`
 - Choose a path to locate sample project
