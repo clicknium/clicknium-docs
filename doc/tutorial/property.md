@@ -14,7 +14,7 @@ Different UI elements support different property lists based on automation techn
 | readystate      |the loading state of the document, return 1 if Document.readyState equals "complete" or return 0|
 | ID     |the unique ID for an HTML element|
 | URL      |URL of current page|
-| htmlwindowname      |`window.name` in javascript|
+| htmlwindowname      |`window.name` in Javascript|
 | title      |the title of an element|
 | cookie      |the cookies value, format is cookiename=value, multiple cookies split by ;|
 | innertext      |the inner text of an element|

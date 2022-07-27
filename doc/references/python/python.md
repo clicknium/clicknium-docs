@@ -24,7 +24,7 @@ pip install clicknium
 - [WebDriver](./webdriver/webdriver.md): the web automation related objects and APIs.  
 - [Window](./window/window.md): the window specific automation APIs.  
 - [Sap](./sap/sap.md): the SAP specific automation APIs.   
-- [Java](./java/java.md): the java extension APIs.  
+- [Java](./java/java.md): the Java extension APIs.  
 - [Configuration](./config/config.md): the configuration setting APIs.
 - [Exceptions](./exceptions/exceptions.md): the errors defined in clicknium.  
 

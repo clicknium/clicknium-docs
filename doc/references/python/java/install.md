@@ -2,14 +2,14 @@
 
 ***def install(self, java_install_path: str = '') -> None*** 
 
-Install java extension.
+Install Java extension.
 
 >**Remarks:**  
->- Make sure you have installed java or jre.
+>- Make sure you have installed Java or JRE.
 
 **Parameters:**  
     &emsp;**java_install_path**: str  
-        &emsp;&emsp; The java installation path, like "C:\\Program Files\\Java\\jdk-17.0.2\\bin". The system will try to find it under "Program Files && Program Files (x86)" if this parameter is not specified.
+        &emsp;&emsp; The Java installation path, like "C:\\Program Files\\Java\\jdk-17.0.2\\bin". The system will try to find it under "Program Files && Program Files (x86)" if this parameter is not specified.
 
 **Returns:**  
     &emsp;None

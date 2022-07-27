@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Overview
 Clicknium automation stask with many functions supports image automation.
-Clicknium locator schema is designed for extension in windows application locator, java application locator and image locator.
+Clicknium locator schema is designed for extension in windows application locator, Java application locator and image locator.
 
 ## Capture image locator
 Open a project in Visual Studio Code by pressing `Ctrl + F10`, or clicking the button `Capture` to invoke Clicknium recorder.  

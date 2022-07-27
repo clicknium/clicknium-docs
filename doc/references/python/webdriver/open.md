@@ -17,7 +17,7 @@ sidebar_label: open
 Open browser with specified url to get a browser tab.
 
 >**Remarks:**  
->- When you open and run the python script with "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)" in Visual Studio Code , the opened browser may be closed when exiting the debugging or running state.
+>- When you open and run the Python script with "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)" in Visual Studio Code , the opened browser may be closed when exiting the debugging or running state.
 
 **Parameters:**  
     &emsp;**url[Required]**: str   

@@ -48,10 +48,10 @@ Along the mouse moving, it will highlight the UI element and show its position o
 
 ## Capture technology
 
-The supporting capture technologies are as follows `UIA`, `IA`, `Java`, `IE`, `Chrome`, `Firefox`, `Edge` and `Sap`.  
+The supporting capture technologies are as follows `UIA`, `IA`, `Java`, `IE`, `Chrome`, `Firefox`, `Edge` and `SAP`.  
 The default technology is `Auto Detect`, which means the recorder will automatically select the technology.  
 For web UI element, you can choose `IE`, `Chrome`, `Firefox` or `Edge` capture technology according to your browser type.  
-For SAP application, you can choose `Sap` capture technology.  
+For SAP application, you can choose `SAP` capture technology.  
 For Java application, you can choose `Java` capture technology.  
 For window UI element, you can choose `UIA` or `IA` capture technology.  
 ![select technology](../../img/record_choose_tech.png) 
