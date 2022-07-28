@@ -86,9 +86,9 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script with
 ## Next
 Learn [how to start an automation project from zero](./tutorial/firstautomation.md).
 ## Document Guidelines
-For more about Clicknium Visual Studio Code, please refer to [here](./concepts/vscode/vscode.md).  
+For more about Clicknium Visual Studio Code, please refer to [here](./tutorial/vscode/vscode.md).  
 You may need to refer [Clicknium Python package documents](./references/python/python.md) when writing code.  
 For more tools provided by Clicknium, please refer to:  
-- [Clicknium Recorder](./concepts/recorder/recorder.md).  
-- Clicknium Browser Extension: [Chrome](./concepts/extensions/chromeextension.md), [Edge](./concepts/extensions/edgeextension.md), [Firefox](./concepts/extensions/firefoxextension.md).  
-- [Clicknium Java Extension](./concepts/extensions/javaextension.md).  
+- [Clicknium Recorder](./tutorial/recorder/recorder.md).  
+- Clicknium Browser Extension: [Chrome](./tutorial/extensions/chromeextension.md), [Edge](./tutorial/extensions/edgeextension.md), [Firefox](./tutorial/extensions/firefoxextension.md).  
+- [Clicknium Java Extension](./tutorial/extensions/javaextension.md).  

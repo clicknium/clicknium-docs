@@ -7,7 +7,7 @@ sidebar_label: Java Automation
 
 Clicknium Java automation is based on Java Access Bridge, supply recording function, generate locator and all operations on one element.   
 During recording, if you choose Java application, for example some ERP Java client, Clicknium will use Java automation to record the element.
-You need install [Java extension](./../../concepts/extensions/javaextension.md) first.
+You need install [Java extension](./../../doc/tutorial/extensions/javaextension.md) first.
 Currently, the Java extension is compatible with Java 1.6 or above.
 
 # Locator attributes

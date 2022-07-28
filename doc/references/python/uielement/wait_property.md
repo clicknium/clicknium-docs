@@ -10,8 +10,8 @@ Wait for the target element's property to be expected value within specified tim
 
 **Parameters:**  
     &emsp;**name[Required]**: str  
-        &emsp;&emsp; property name, different UI elements may support different properties. For general properties, please refer to [Property List](./../../../tutorial/property.md).  
-        &emsp;&emsp; property name, different UI elements may support different properties. For general properties, please refer to [Property List](./../../../tutorial/property.md).  
+        &emsp;&emsp; property name, different UI elements may support different properties.For specific properties, please refer to [Automation Concept](./../../../concepts/concepts.md).  
+  
 
     &emsp;**value[Required]**: str  
         &emsp;&emsp; expected property value.  

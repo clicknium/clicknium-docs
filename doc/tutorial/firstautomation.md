@@ -9,7 +9,7 @@ In this tutorial, we will work through a simple Clicknium automation script from
 Please follow [Quick Start](./../quickstart.md#installation​) first to install Clicknium and related extensions. 
 
 ## Create a Python file
-Following code will open a Chrome browser and get into Google website. (*Make sure [Clicknium Chrome Extension](./../concepts/extensions/chromeextension.md) is ready.*) 
+Following code will open a Chrome browser and get into Google website. (*Make sure [Clicknium Chrome Extension](./../tutorial/extensions/chromeextension.md) is ready.*) 
 ```python
 from clicknium import clicknium as cc, locator
 
@@ -21,12 +21,12 @@ if __name__ == "__main__":
 ```
 
 ## Capture first UI locator
-In the next step, we need to use [Locators](./../concepts/locator.md) to identity the UI element that we want to operate. [Clicknium Recorder](./../concepts/recorder/recorder.md) will help to catpure locators. 
+In the next step, we need to use [Locators](./../tutorial/locator.md) to identity the UI element that we want to operate. [Clicknium Recorder](./../tutorial/recorder/recorder.md) will help to catpure locators. 
 
 - Click `Capture` button in `LOCATORS` tab of `Explorer` side bar or pressing `Ctrl+F10 for shortcut in VS Code.    
-- [Clicknium Recorder](./../concepts/recorder/recorder.md) will pop up.  
+- [Clicknium Recorder](./../tutorial/recorder/recorder.md) will pop up.  
 - Hover mouse over the Google Search bar, it will be highlighted with a rectangle.
-- Press `Ctrl+Click` to capture locator for the target element, the locator will be added to the [Locator Store](./../concepts/locatorstore.md) listing in the tree area of Clicknium Recorder.  
+- Press `Ctrl+Click` to capture locator for the target element, the locator will be added to the [Locator Store](./../tutorial/locatorstore.md) listing in the tree area of Clicknium Recorder.  
 - Capture `search` button with the same approach. 
 - Click `Complete` button.   
 ![show locator](./../img/showlocator.gif)  

@@ -14,7 +14,7 @@ sidebar_position: 1
 ## Install
 
 1. You can install the extension in two ways:  
-    - Install the Chrome extension in [VSCode Clicknium Extension](./../../concepts/vscode/vscode.md)  
+    - Install the Chrome extension in [VSCode Clicknium Extension](./../../tutorial/vscode/vscode.md)  
         ![chrome extension install](../../img/chrome_ext_install.png)
     - Install the Chrome extension via [Clicknium Python command](./../../references/python/webdriver/webextension/webextension.md)
 

@@ -23,7 +23,7 @@ Open the Command Palette: `Ctrl+Shift+P`
 - Select project path
   - You can create one empty folder and select it, and the new project will be created.
   - You can also select one existing folder which will be converted to Clicknium project, and there is no impact on existing source files.
-You can go to [Project Management](./../../concepts/clickniumproject.md) for more information.
+You can go to [Project Management](./../../tutorial/clickniumproject.md) for more information.
 
 ## Capture UI Locators
 In Visual Studio Code, press `CTRL+F10` to invoke Clicknium recorder to capture UI element locators.  
@@ -35,8 +35,8 @@ You can go to [Clicknium Recorder](./../recorder/recorder.md) for more informati
 After capturing the locators, you can open and edit the locator in the editor as below.  
 ![clicknium vscode](../../img/main.png) 
 
-You can go to [Locator Store](./../../concepts/locatorstore.md) for more information about locator management.  
-For more about the locator, please refer to [Clicknium Locator](./../../concepts/locator.md).  
+You can go to [Locator Store](./../../tutorial/locatorstore.md) for more information about locator management.  
+For more about the locator, please refer to [Clicknium Locator](./../../tutorial/locator.md).  
 
 After editing the locator, you can press the button `Validate` to minimize Visual Studio Code and verify if the target element can be located by the locator. The locator validation result is displayed at the head of each locator layer.  
 ![validate error](../../img/validate_err.png)
@@ -48,7 +48,7 @@ For the locator parameter in `cc.find_element(`, you can press `Ctrl+F10` to inv
 
 - IntelliSense  
 If you want to choose one locator in the locator store, Clicknium code extension shows the locator store list and the locator list for you to choose.  
-![intellisense](../../img/intelliSense.png)
+![intellisense](../../img/intelliSense.png)  
 Please go to [Code IntelliSense](./codeintelliSense.md) for more features.
 
 ## Run/Debug Project

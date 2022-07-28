@@ -9,7 +9,7 @@ Get property value of the target element.
 
 **Parameters:**   
     &emsp;**name [Required]**: str  
-        &emsp;&emsp; property name, different UI elements may support different properties. For general properties, please refer to [Property List](./../../../tutorial/property.md).  
+        &emsp;&emsp; property name, different UI elements may support different properties. For specific properties, please refer to [Automation Concept](./../../../concepts/concepts.md).  
     &emsp;**timeout**: int  
         &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
 

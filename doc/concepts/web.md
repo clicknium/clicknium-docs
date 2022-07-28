@@ -6,7 +6,7 @@ sidebar_label: Web Automation
 ## Overview
 
 Clicknium web automation support the following popular web browsers: Chrome, Microsoft Edge, IE, Firefox.
-You need install extension for [Chrome](../../concepts/vscode/extensions/chromeextension.md), [Edge](.../../concepts/vscode/extensions/edgeextension.md) or [Firefox](../../concepts/vscode/extensions/firefoxextension.md) before recording.  
+You need install extension for [Chrome](./../tutorial/extensions/chromeextension.md), [Edge](./../tutorial/extensions/edgeextension.md) or [Firefox](./../tutorial/extensions/firefoxextension.md) before recording.  
 During recording, if you choose the web browser page, clicknium will use specified web automation to record the element.
 
 # Locator attributes

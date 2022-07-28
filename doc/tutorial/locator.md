@@ -14,7 +14,7 @@ So, how do we get the values of these locators? And how to use the same locator 
 
 ## Get a locator 
 Clicknium provides Clicknium Recorder to get UI locators.  
-- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/concepts/vscode/vscode.md), [Chrome extension](/concepts//extensions/chromeextension.md) is installed. 
+- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/tutorial/vscode/vscode.md), [Chrome extension](/tutorial/extensions/chromeextension.md) is installed. 
 - Open a Python file in VS code. 
 - Capture locators with Clicknium Recorder(`Ctrl + Click`).  
 
@@ -124,4 +124,4 @@ Click `Validate` button.
 3. After clicking `OK`, the locator will be automatically filled into the code.
 
 # Advanced Locator
-Please check [advanced locator](./../tutorial/automation/locator.md)
+Please check [advanced locator](./../concepts/locator.md)
