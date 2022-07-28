@@ -40,7 +40,7 @@ As Clicknium supports different automation technologies, shown as diffrent tags 
 
 
 ## Examples
-### wildword locator
+### Wildword locator
 Open Edge browser, press `F12` to show developer tool sidebar, you can see the button 'Toggle device emulation'.
 ![sample1](./../img/locator_sample1_1.png)  
 If you capture the locator of button 'Toggle device emulation', you can see the following locators.

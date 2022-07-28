@@ -10,7 +10,7 @@ During recording, if you choose Java application, for example some ERP Java clie
 You need install [Java extension](./../../doc/tutorial/extensions/javaextension.md) first.
 Currently, the Java extension is compatible with Java 1.6 or above.
 
-# Locator attributes
+## Locator attributes
 You can get [locator](./locator.md#advanced-locator) concept first, for Java automation, the attributes defined are as the following:
 
 | Name      | equals | contains |startWith |endWith |
@@ -21,7 +21,7 @@ You can get [locator](./locator.md#advanced-locator) concept first, for Java aut
 | AccessKey |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 | Index |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 
-# Locator samples
+## Locator samples
 We use one java swing sample application to show locator samples
 -  awt component
 ```xml
@@ -82,7 +82,7 @@ We use one java swing sample application to show locator samples
 <Java className="text" isDirectChild="True" />
 ```
 
-# Java element properties
+## Java element properties
 By [find_element](./../references/python/globalfunctions/find_element.md) on one Java locator, you can get one Java element, you can get properties of the element by [get_property](./../references/python/uielement/get_property.md), Clicknium Java support the following properties:
 
 | Name      | Description |

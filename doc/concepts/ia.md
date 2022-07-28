@@ -8,7 +8,7 @@ sidebar_label: IA Automation
 Clicknium IA automation is based on Microsoft Active Accessibility(MSAA), supply recording function, generate locator and all operations on one element.  
 As MSAA is now considered a legacy API, so we treat IA as supplement of UIA, on some electron&CEF applications or some legacy application, IA can be better. If you want to use IA during recording, you need manually choose IA technology first.
 
-# Locator attributes
+## Locator attributes
 You can get [locator](./locator.md) concept first, for IA automation, the attributes defined are as the following:
 
 | Name      | equals | contains |startWith |endWith |
@@ -25,7 +25,7 @@ You can get [locator](./locator.md) concept first, for IA automation, the attrib
 | Tag |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 | Index |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 
-# Locator samples
+## Locator samples
 
 - github desktop 'open in visual studio code' button
 ```xml
@@ -73,7 +73,7 @@ You can get [locator](./locator.md) concept first, for IA automation, the attrib
 <IA className="Chrome_WidgetWin_1" defaultAction="click" name="History" role="tabItem" />
 ```
 
-# IA element properties
+## IA element properties
 By [find_element](../references/python/globalfunctions/find_element.md) on one IA locator, you can get one IA element, you can get properties of the element by [get_property](../references/python/uielement/get_property.md), Clicknium IA support the following properties:
 
 

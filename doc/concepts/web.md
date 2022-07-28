@@ -9,7 +9,7 @@ Clicknium web automation support the following popular web browsers: Chrome, Mic
 You need install extension for [Chrome](./../tutorial/extensions/chromeextension.md), [Edge](./../tutorial/extensions/edgeextension.md) or [Firefox](./../tutorial/extensions/firefoxextension.md) before recording.  
 During recording, if you choose the web browser page, clicknium will use specified web automation to record the element.
 
-# Locator attributes
+## Locator attributes
 You can get [locator](locator.md) concept first, for web automation, the attributes defined are as the following:
 
 ## Tab
@@ -43,7 +43,7 @@ You can get [locator](locator.md) concept first, for web automation, the attribu
 | IsLeaf |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 | Index |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 
-# Locator samples
+## Locator samples
 
 -  azure devops 'A' element
 ```xml
@@ -70,7 +70,7 @@ You can get [locator](locator.md) concept first, for web automation, the attribu
 <Web ancestorId="b_results" cssSelector="body>div>main>ol>li h2>a" tag="A" />
 ```
 
-# Web element properties
+## Web element properties
 By [find_element](../references/python/globalfunctions/find_element.md) on one web locator, you can get one web element, you can get properties of the element by [get_property](../references/python/uielement/get_property.md), Clicknium web element support the following properties:
 
 | Name      | Description |
