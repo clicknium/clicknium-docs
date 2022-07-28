@@ -2,7 +2,7 @@
 sidebar_position: 1
 sidebar_label: Clicknium Locator
 ---
-# Clicknuim Locator
+# Clicknium Locator
 A locator is a way to identify elements on a web page or desktop app.   
 
 ## Overview 
@@ -104,15 +104,15 @@ Click `Validate` button.
 ## Locator Error Hint
 ### Error Type
 - The UI or find_element function argument must be a locator. If it is a store or a folder, an error message will be displayed.
-![type error](../../doc/img/vscode-type-error.png)
+![type error](../img/vscode-type-error.png)
 ### Locator Does Not Exsit
 - If the entered locator does not exist in the referenced store, an error message is displayed.
-![not exist](../../doc/img/vscode-locator-not-exist.png)
+![not exist](../img/vscode-locator-not-exist.png)
 - Select `Quick Fix` to start the recorder. After recording elements, a locator that does not exist will be named to generate a locator.
   
 ## Locator Hover
 - If you hover the mouse to the locator in the code, the locator content is displayed for easy identification.
-![locator hover](../../doc/img/vscode-code-hover.png)
+![locator hover](../img/vscode-code-hover.png)
 - `Open`: Open the corresponding locator to edit
 - `Validate`: Validate the locator
 - `Recapture`: Start the recorder to capture the locator again. If the recorded locator is different from the one in the editing window, it will be saved directly. 
