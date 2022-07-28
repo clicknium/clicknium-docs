@@ -1,5 +1,7 @@
 # Automation Extensions
 
+## Overview
+This section is about Clicknium extensions. 
 **For web browser and Java applications, it's necessary to install extensions for better automation performance.**
 
 ## Browser Extensions

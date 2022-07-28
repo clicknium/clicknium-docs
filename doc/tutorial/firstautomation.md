@@ -3,6 +3,8 @@ sidebar_position: 1
 sidebar_label: First Automation Project          
 ---
 # First Automation Project 
+
+## Overview
 In this tutorial, we will work through a simple Clicknium automation script from zero to help you get familliar with Clicknium. This script will open a Chrome browser and google 'Clicknium'.
 
 ## Installation

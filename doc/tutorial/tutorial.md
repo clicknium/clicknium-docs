@@ -3,6 +3,7 @@ sidebar_position: 3
 ---
 
 # Tutorial
+## Overview
 This tutorial walks you through some of the fundamental Clicknium concepts, tools, and their usage while writing your [first automation code](./firstautomation.md).
 
 # Installation

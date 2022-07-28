@@ -1,5 +1,6 @@
 # Automation Concepts
 
+## Overview
 In this section, we will illustrate the technology information about Clicknium automation, including how to leverage Clicknium automation technology to make RPA/automation project robust and easily edited, writed and maintained.  
 Clicknium automation integrate mulitple automation technologies in backgroup, Clicknium Recorder default use `Auto Detect` mode, it means Clicknium will automatically detect the application type, and choose appropriate background technology.  
 Clicknium defined unified [locator](./locator.md) schema to identify UI element, a locator stores the attributes of a UI element and its parents, for example, button on Windows application, input on web page or combobox on Java application can be stored as one locator.
