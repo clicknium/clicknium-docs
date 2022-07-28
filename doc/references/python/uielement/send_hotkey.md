@@ -26,9 +26,8 @@ Send hotkey to target element.
 ```python
 from clicknium import clicknium as cc, locator, ui
 
-#send Ctrl+A  
-ui(locator.chrome.bing.search_sb_form_q).send_hotkey('{CTRL}A')  
-ui(locator.chrome.bing.search_sb_form_q).send_hotkey('^A')
+#send Ctrl+a   
+ui(locator.chrome.bing.search_sb_form_q).send_hotkey('^a')
 
 #send Shift+End
 ui(locator.chrome.bing.search_sb_form_q).send_hotkey('+{END}')
