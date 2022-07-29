@@ -7,11 +7,17 @@ sidebar_position: 1
 
 ## Clicknium In Action
 - Follow [Quick Start](./quickstart.md) to set up Clicknium and run the sample code.
-- Start [first Clicknium automation project](./tutorial/firstautomation.md) from zero. 
+- Start [First Clicknium Automation Project](./tutorial/firstautomation.md) from zero. 
 - Dive in [Tutorial](./tutorial/tutorial.md) to walk through the fundamental of Clicknium concepts, tools, and their usage.
+    - [Clicknium VS Code Extension](./tutorial/vscode/vscode.md)
+    - [Clicknium Locator](./tutorial/locator.md)
+    - [Clicknium Locator Store](./tutorial/locatorstore.md)
+    - [Clicknium Recorder](./tutorial/recorder/recorder.md)
+    - [Clicknium Project](./tutorial/clickniumproject.md)
+    - [Clicknium Automation Extensions](./tutorial/extensions/extensions.md)
 
 ## Automation Concepts
-- The key technology about [Clicknium automation](./concepts/concepts.md).
+- The key technology about [Clicknium Automation](./concepts/concepts.md).
 
 ## Clicknium API Reference
 - [Clicknium Python API](./references/python/python.md)
