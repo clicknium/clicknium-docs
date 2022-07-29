@@ -1,4 +1,14 @@
 # Change Log
+## 0.1.3 (1 August 2022)
+### New features
+- New api: clicknium.edge/chrome/firefox.extension.is_installed(), check whether extension is installed.
+- Updated api: add `with` function for browsertab class.
+
+### Improvements
+- Improve browser extension installation experience.
+- Fix web automation bug: validation failed for web element with `tabIndex` property.
+- Fix bug: can not get actual element's rectangle, when window's DPI changed.
+
 ## 0.1.2 (19 July 2022)
 ### New features
 - New API: new_tab on browser class.
