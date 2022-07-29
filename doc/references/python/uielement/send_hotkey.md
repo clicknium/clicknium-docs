@@ -31,4 +31,7 @@ ui(locator.chrome.bing.search_sb_form_q).send_hotkey('^a')
 
 #send Shift+End
 ui(locator.chrome.bing.search_sb_form_q).send_hotkey('+{END}')
+
+#send Win+e, first press 'win', then press 'E' and release, and finally release 'win'
+cc.send_hotkey('{WIN DOWN}e{WIN UP}')
 ```
