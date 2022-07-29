@@ -21,11 +21,12 @@ It is a method that sends hotkey to the system. If you need to send the hotkey t
 ```python
 from clicknium import clicknium as cc
 
-#send Ctrl+A
-cc.send_hotkey('{CTRL}A')
-#or
-cc.send_hotkey('^A')
+#send Ctrl+a
+cc.send_hotkey('^a')
 
 #send Shift+End
 cc.send_hotkey('+{END}')
+
+#send Win+e, first press 'Win', then press 'E' and release, and finally release 'Win'
+cc.send_hotkey('{WIN DOWN}e{WIN UP}')
 ```
