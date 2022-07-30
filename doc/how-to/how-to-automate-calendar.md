@@ -5,7 +5,11 @@ sidebar_label: Set Values for Calendar
 # How to Set Values for Calendar
 ##  Introduction
 It is a common requirement to set date values at website. But there are a lot of component libraries with different frameworks. So let's take a look at how Clicknium implements date-related operations in a variety of web UI frameworks.  
-- Notes: More about the installation and the tutorial of Clicknium Automation, please refer to [here](https://www.clicknium.com/documents).
+:::tip Notes
+
+More about the installation and the tutorial of Clicknium Automation, please refer to [here](https://www.clicknium.com/documents).
+
+:::
 
 ## The Types of Calendar UI Control
 
@@ -14,10 +18,10 @@ The UI repository based on jQuery. For more information, please refer to [here](
 
 ### Ant Design
 The UI repository based on React. For more information, please refer to [here](https://ant.design/components/date-picker/).  
-- Notes: The Web Recorder in Clicknium requires a browser plugin in addition to IE browser. More about the installation, please refer to [Clicknium browser plugin](https://www.clicknium.com/documents/tutorial/extensions/) 
+- Notes: The Web Recorder in Clicknium rrequires a browser extension except IE browser. More about the installation, please refer to [Clicknium browser plugin](https://www.clicknium.com/documents/tutorial/extensions/) 
 
 
-## How To Automate Calendar In Clicknium For Automation Testing?
+## Automate calendar with Clicknium
 
 ### JqueryUI Calendar
 1. With the Clicknium recorder, the component elements operated in recording the page.   
