@@ -8,6 +8,7 @@
 - Improve browser extension installation experience.
 - Fix web automation bug: validation failed for web element with `tabIndex` property.
 - Fix bug: can not get actual element's rectangle, when window's DPI changed.
+- Fix bug: new_tab was not working when url does not start with `https://`,`http://` or `file://`
 
 ## 0.1.2 (19 July 2022)
 ### New features
