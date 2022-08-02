@@ -31,6 +31,8 @@ You can get [locator](locator.md) concept first, for web automation, the attribu
 | AncestorId |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
 | AncestorName |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
 | CssSelector |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
+| Class |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
+| AncestorClass |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
 | XPath |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
 | SInfo |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
 | TabIndex |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
@@ -104,6 +106,7 @@ By [find_element](../references/python/globalfunctions/find_element.md) on one w
 | sinfo      |a clicknium custom property, the text displayed|
 | sinfoshort      |at most 512 char of sinfo|
 | css_selector      |css selector|
+| class      |value of the HTML class attribute|
 | selecteditem      |the text of selected option|
 | selecteditems      |the text of all options|
 | isleaf      |a clicknium custom property, whether the node is leaf in DOM|
