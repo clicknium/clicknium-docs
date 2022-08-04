@@ -18,7 +18,7 @@ The UI repository based on jQuery. For more information, please refer to [here](
 
 ### Ant Design
 The UI repository based on React. For more information, please refer to [here](https://ant.design/components/date-picker/).  
-- Notes: The Web Recorder in Clicknium rrequires a browser extension except IE browser. More about the installation, please refer to [Clicknium browser plugin](https://www.clicknium.com/documents/tutorial/extensions/) 
+- Notes: The Web Recorder in Clicknium requires a browser extension except IE browser. More about the installation, please refer to [Clicknium browser plugin](https://www.clicknium.com/documents/tutorial/extensions/) 
 
 
 ## Automate calendar with Clicknium
