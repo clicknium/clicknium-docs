@@ -11,35 +11,25 @@ sidebar_position: 2
 ### Code Editor
 - Visual Studio Code
 
-### Clicknium Account 
-- Register [Clicknium Account](https://www.clicknium.com/).
-
 ## Installation​
-
-### Install Clicknium Python package
-
-```
-# Python version is 3.8 or below
-pip install clicknium
-```
-  
-```
-# Python version is 3.9 or above
-pip install --pre pythonnet
-pip install clicknium
-```
-
 ### Set up Clicknium Visual Studio Code Extension
-Click the link to install [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search Clicknium in Visual Studio Code Extension marketplace).  
-Sign in your Clicknium account. 
+1. Click the link to install the [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search `Clicknium` in Visual Studio Code Extension marketplace).  
+![VSCExtensions](./img/vscextension.PNG)  
+2. Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar
+3. Follow the Welcome page:
+    - Check the Python environment.
+    - Install Clicknium Python module, as well as `pip install clicknium`
+    - Select and install the browsers extensions. Enable the extension after the installation. 
+    - Sign in to start for free.  
+    
+    ![welcomepage](./img/vscwelcome.PNG)
 
-![login](./img/signin1.png "login")  
-
+_Reopen Wilcome Page: open the Command Palette:Ctrl+Shift+P, input `Clicknium:Welcome`_
 ## Automation Sample
 
 Get a sample script showing automation of web page and notepad.
 
-### Install and enable browser extension
+### Install and enable browser extension if you not 
 - Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar.  
 - Show `AUTOMATION EXTENSIONS` view in Visual Studio Code Side Bar.  
 - Choose the Edge browser and click the `Install` button.  
@@ -49,8 +39,7 @@ Get a sample script showing automation of web page and notepad.
 
 
 ### Get a sample
-- In Visual Studio Code, open the Command Palette: `Ctrl+Shift+P`
-- Input: `Clicknium: Sample`
+- CLick `Clicknium: Sample` in Welcome Page. Or Input: `Clicknium: Sample` In Visual Studio Code Command Palette(`Ctrl+Shift+P`) 
 - Choose a path to locate sample project
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.
