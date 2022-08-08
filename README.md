@@ -25,7 +25,7 @@
 
 # Clicknium-docs
 
-[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for various kinds of applications. It offers a simple and streamlined developer experience with high-level APIs for automating GUI applications and intelligent plug-ins. It gives you a fresh approach to creating your automation universe. Additionally, it allows browser automation, web and desktop application testing, and site scraping bots.
+[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for various types of applications. It offers a simple and streamlined developer experience with high-level APIs for automating GUI applications and intelligent plug-ins. It gives you a fresh approach to creating your automation universe. Browser automation, web and desktop application testing, and site scraping bots are also supported.
 ## Requirements
 |                     | Main version                 | 
 |---------------------|------------------------------|
@@ -40,11 +40,11 @@
 Get a sample script showing automation of web page and notepad.
 
 ## Installation​
-### Set up Clicknium Visual Studio Code Extension
+### Set Up Clicknium Visual Studio Code Extension
 1. Install the [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search `Clicknium` in Visual Studio Code Extension marketplace).  
 ![VSCExtensions](./doc/img/vscextension.PNG)  
 2. Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar
-3. Follow the Welcome page:
+3. Follow the welcome page:
     - Check the Python environment.
     - Install Clicknium Python module, as well as `pip install clicknium`
     - Select and install the browser extensions, at least including Edge. Enable the extension after the installation. 
@@ -54,14 +54,14 @@ Get a sample script showing automation of web page and notepad.
 
 _To Reopen Wilcome Page: open the Command Palette: Ctrl+Shift+P, input `Clicknium:Welcome`_
 
-_To Wnable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
+_To Enable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
 
 ![enable edge extension](./doc/img/edge_extension_enable_on.png)  
 
 
 ### Setup Sample Project
-- CLick `Clicknium: Sample` in Welcome Page. Or Input: `Clicknium: Sample` In Visual Studio Code Command Palette(`Ctrl+Shift+P`) 
-- Choose a path to locate sample project
+- CLick `Clicknium: Sample` in Welcome Page. Or invoke the Command Palette by pressing Ctrl+Shift+P and input `Clicknium: Sample`.
+- Choose a path to locate sample project.
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.
 

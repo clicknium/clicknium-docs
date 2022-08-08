@@ -15,11 +15,11 @@ sidebar_position: 2
 - Visual Studio Code
 
 ## Installation​
-### Set up Clicknium Visual Studio Code Extension
+### Set Up Clicknium Visual Studio Code Extension
 1. Install the [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search `Clicknium` in Visual Studio Code Extension marketplace).  
 ![VSCExtensions](./img/vscextension.PNG)  
 2. Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar
-3. Follow the Welcome page:
+3. Follow the welcome page:
     - Check the Python environment.
     - Install Clicknium Python module, as well as `pip install clicknium`
     - Select and install the browser extensions. Enable the extension after the installation. 
@@ -28,7 +28,7 @@ sidebar_position: 2
     ![welcomepage](./img/vscwelcome.PNG)
 
 _To Reopen Wilcome Page: open the Command Palette: Ctrl+Shift+P, input `Clicknium:Welcome`_  
-_To Wnable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
+_To Enable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
 ![enable edge extension](./img/edge_extension_enable_on.png)  
 
 ## Automation Sample
@@ -36,8 +36,8 @@ _To Wnable Edge Extension: Open Edge browser, type `edge://extensions/` into add
 Get a sample script showing automation of web page and notepad.
 
 ### Setup Sample Project
-- CLick `Clicknium: Sample` in Welcome Page. Or Input: `Clicknium: Sample` In Visual Studio Code Command Palette(`Ctrl+Shift+P`) 
-- Choose a path to locate sample project
+- CLick `Clicknium: Sample` in Welcome Page. Or invoke the Command Palette by pressing Ctrl+Shift+P and input `Clicknium: Sample`.
+- Choose a path to locate sample project.
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.
 
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### Run the sample
+### Run The Sample
 In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script with following steps: 
 - Open a search engine page
 - Input a keyword and click search button
