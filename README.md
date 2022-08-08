@@ -25,7 +25,7 @@
 
 # Clicknium-docs
 
-[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for all types of applications. It offers a simple and streamlined developer experience with high-level APIs for automating GUI applications and intelligent plug-ins. It gives you a fresh approach to creating your automation universe. Additionally, it allows browser automation, web and desktop application testing, and site scraping bots.
+[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for various kinds of applications. It offers a simple and streamlined developer experience with high-level APIs for automating GUI applications and intelligent plug-ins. It gives you a fresh approach to creating your automation universe. Additionally, it allows browser automation, web and desktop application testing, and site scraping bots.
 ## Requirements
 |                     | Main version                 | 
 |---------------------|------------------------------|
