@@ -27,7 +27,7 @@ sidebar_position: 2
     
     ![welcomepage](./img/vscwelcome.PNG)
 
-_To Reopen Wilcome Page: open the Command Palette: Ctrl+Shift+P, input `Clicknium:Welcome`_  
+_To Reopen Welcome Page: open the Command Palette: Ctrl+Shift+P, input `Clicknium:Welcome`_  
 _To Enable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
 ![enable edge extension](./img/edge_extension_enable_on.png)  
 
@@ -36,7 +36,7 @@ _To Enable Edge Extension: Open Edge browser, type `edge://extensions/` into add
 Get a sample script showing automation of web page and notepad.
 
 ### Setup Sample Project
-- CLick `Clicknium: Sample` in Welcome Page. Or invoke the Command Palette by pressing Ctrl+Shift+P and input `Clicknium: Sample`.
+- Click `Clicknium: Sample` in Welcome Page. Or invoke the Command Palette by pressing Ctrl+Shift+P and input `Clicknium: Sample`.
 - Choose a path to locate sample project.
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.
