@@ -5,53 +5,39 @@ sidebar_position: 2
 
 ## Prerequisites
 ### System Requirements​
-- Windows 7 SP1 or above, Windows 10 or 11 is recommended
-- Python 3.7 or above.
+|                     | Main version                 | 
+|---------------------|------------------------------|
+| Python              | 3.7, 3.8, 3.9, 3.10          | 
+| OS                  | Windows 7 SP1 or above       |
+
 
 ### Code Editor
 - Visual Studio Code
 
-### Clicknium Account 
-- Register [Clicknium Account](https://www.clicknium.com/).
-
 ## Installation​
+### Set Up Clicknium Visual Studio Code Extension
+1. Install the [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search `Clicknium` in Visual Studio Code Extension marketplace).  
+![VSCExtensions](./img/vscextension.PNG)  
+2. Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar
+3. Follow the welcome page:
+    - Check the Python environment.
+    - Install Clicknium Python module, as well as `pip install clicknium`
+    - Select and install the browser extensions. Enable the extension after the installation. 
+    - Sign in to start for free.  
+    
+    ![welcomepage](./img/vscwelcome.PNG)
 
-### Install Clicknium Python package
-
-```
-# Python version is 3.8 or below
-pip install clicknium
-```
-  
-```
-# Python version is 3.9 or above
-pip install --pre pythonnet
-pip install clicknium
-```
-
-### Set up Clicknium Visual Studio Code Extension
-Click the link to install [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search Clicknium in Visual Studio Code Extension marketplace).  
-Sign in your Clicknium account. 
-
-![login](./img/signin1.png "login")  
+_To Reopen Welcome Page: open the Command Palette: Ctrl+Shift+P, input `Clicknium:Welcome`_  
+_To Enable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
+![enable edge extension](./img/edge_extension_enable_on.png)  
 
 ## Automation Sample
 
 Get a sample script showing automation of web page and notepad.
 
-### Install and enable browser extension
-- Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar.  
-- Show `AUTOMATION EXTENSIONS` view in Visual Studio Code Side Bar.  
-- Choose the Edge browser and click the `Install` button.  
-- Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below.  
-
-![enable edge extension](./img/edge_extension_enable_on.png)  
-
-
-### Get a sample
-- In Visual Studio Code, open the Command Palette: `Ctrl+Shift+P`
-- Input: `Clicknium: Sample`
-- Choose a path to locate sample project
+### Setup Sample Project
+- Click `Clicknium: Sample` in Welcome Page. Or invoke the Command Palette by pressing Ctrl+Shift+P and input `Clicknium: Sample`.
+- Choose a path to locate sample project.
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.
 
@@ -76,7 +62,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### Run the sample
+### Run The Sample
 In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script with following steps: 
 - Open a search engine page
 - Input a keyword and click search button

@@ -20,12 +20,12 @@
 [![PyPI version](https://badge.fury.io/py/Clicknium.svg)](https://badge.fury.io/py/Clicknium)
 [![GitHub issues](https://img.shields.io/github/issues/clicknium/clicknium-docs)](https://github.com/clicknium/clicknium-docs/issues)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/clicknium?style=flat-square)
+[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fclicknium)](https://twitter.com/clicknium)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://clicknium.slack.com/join/shared_invite/zt-1cfxsstw7-s0CeJdhyg5wQ1h7_KKc6QQ#/shared-invite/email)
 
 # Clicknium-docs
 
-[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for all types of applications. It provides easy and smooth developer experience with high-level API for automating GUI application and intelligent plug-ins. It provides you a new way to build your automation world. It also supports for web scraping bots, browser automation, testing for web and desktop applications.
-
+[Clicknium](https://www.clicknium.com) is a new generation GUI automation framework for various types of applications. It offers a simple and streamlined developer experience with high-level APIs for automating GUI applications and intelligent plug-ins. It gives you a fresh approach to creating your automation universe. Browser automation, web and desktop application testing, and site scraping bots are also supported.
 ## Requirements
 |                     | Main version                 | 
 |---------------------|------------------------------|
@@ -40,36 +40,28 @@
 Get a sample script showing automation of web page and notepad.
 
 ## Installation​
+### Set Up Clicknium Visual Studio Code Extension
+1. Install the [Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) (or search `Clicknium` in Visual Studio Code Extension marketplace).  
+![VSCExtensions](./doc/img/vscextension.PNG)  
+2. Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar
+3. Follow the welcome page:
+    - Check the Python environment.
+    - Install Clicknium Python module, as well as `pip install clicknium`
+    - Select and install the browser extensions, at least including Edge. Enable the extension after the installation. 
+    - Sign in to start for free.  
+    
+    ![welcomepage](./doc/img/vscwelcome.PNG)
 
-### Install Clicknium Python Package
-```
-# Python version is 3.8 or below
-pip install clicknium
+_To Reopen Welcome Page: open the Command Palette: Ctrl+Shift+P, input `Clicknium:Welcome`_
 
-# Python version is 3.9 or above
-pip install --pre pythonnet
-pip install clicknium
-```
-
-### Setup Clicknium VS Code Extension
-install [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) and sign in your Clicknium account. 
-
-![login](./doc/img/signin1.png "login")  
-
-
-### Install and Enable Browser Extension
-- Click `CLICKNIUM EXPLORER` in Visual Studio Code Activity Bar.  
-- Show `AUTOMATION EXTENSIONS` view in Visual Studio Code Side Bar.  
-- Choose the Edge browser and click the `Install` button.  
-- Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below.  
+_To Enable Edge Extension: Open Edge browser, type `edge://extensions/` into address bar and enable `Clicknium Recorder` extension as below:_
 
 ![enable edge extension](./doc/img/edge_extension_enable_on.png)  
 
 
 ### Setup Sample Project
-- In Visual Studio Code, open the Command Palette: `Ctrl+Shift+P`
-- Input: `Clicknium: Sample`
-- Choose a path to locate sample project
+- Click `Clicknium: Sample` in Welcome Page. Or invoke the Command Palette by pressing Ctrl+Shift+P and input `Clicknium: Sample`.
+- Choose a path to locate sample project.
 
 The sample.py contains two automation samples, one is Edge web automation, and the other is notepad automation.
 
@@ -102,7 +94,7 @@ In Visual Studio Code, open sample.py and press `Ctrl+F5` to run the script. It 
 - Open a notepad
 - Input text to notepad
 
-## Next . 
+## Next 
 Learn [how to start an automation project from zero](./doc/tutorial/firstautomation.md).
 
 ## Contact
