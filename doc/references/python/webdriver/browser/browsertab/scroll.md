@@ -10,7 +10,7 @@ sidebar_label: scroll
         delta_y: int = 0
     ) -> None***  
 
-Scroll current browser tab, if it has scroll bar.
+Scroll the current browser tab with the scroll bar.
 
 **Parameters:**  
     &emsp;**delta_x**: int   

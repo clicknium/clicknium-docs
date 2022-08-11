@@ -19,6 +19,6 @@
 - [set_property](./set_property.md): set the property value of the web element.  
 - [execute_js](./execute_js.md): execute Javascript code for the target element.  
 - [execute_js_file](./execute_js_file.md): execute Javascript file for the target element.  
-- [scroll](./scroll.md)：scroll target element, if the element has scroll bar.
+- [scroll](./scroll.md)：scroll the target element with the scroll bar.
 
 

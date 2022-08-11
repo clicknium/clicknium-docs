@@ -11,7 +11,7 @@ sidebar_label: scroll
         timeout: int = 30
     ) -> None***  
 
-Scroll target element, if the element has scroll bar.
+Scroll the target element with the scroll bar.
 
 **Parameters:**  
     &emsp;**delta_x**: int   
