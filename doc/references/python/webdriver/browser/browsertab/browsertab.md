@@ -21,3 +21,4 @@
 - [close](./close.md): close the browser tab. The browser will be closed too if no opened tab.  
 - [goto](./goto.md): redirect current tab to the specified url.
 - [refresh](./refresh.md): refresh current tab page.  
+- [scroll](./scroll.md)：scroll the current browser tab with the scroll bar.

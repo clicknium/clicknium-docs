@@ -4,7 +4,7 @@ sidebar_label: refresh
 ---
 # BrowserTab.refresh
 
-***def refresh(self) -> None -> None***  
+***def refresh(self) -> None***  
 
 Refresh the current web page.
 
