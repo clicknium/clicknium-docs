@@ -1,4 +1,15 @@
 # Change Log
+## 0.1.4 (12 August 2022)
+### New features
+- New api: scroll, scroll the current browser tab or the current web element with the scroll bar.
+- Updated locator: support 'regex' match method.
+
+### Improvements
+- Improve browser tab attach error when the browser extension is not ready.
+- Improve recording similar elements experience
+- Fix bug: set_text can not working when the text is number.
+- Fix bug: can not automate browsers, when the browser running instances with different user profiles.
+
 ## 0.1.3 (1 August 2022)
 ### New features
 - New api: clicknium.edge/chrome/firefox.extension.is_installed(), check whether extension is installed.
