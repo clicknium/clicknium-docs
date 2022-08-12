@@ -1,18 +1,25 @@
 # Change Log
 ## 0.1.4 (12 August 2022)
 ### New features
-- New api: scroll, scroll the current browser tab or the current web element with the scroll bar.
-- Updated locator: support 'regex' match method.
+- New api: BrowserTab.scroll(delta_x, delta_y), scroll the current browser tab with the scroll bar.
+- New api: WebElement.scroll(delta_x, delta_y), scroll the current web element with the scroll bar.
+- Support regular expression operator in the locator.
+- Support automation for explorer appbar control on windows 11.
+- Update the requirements of clicknium python module. With the python version greater than 3.9(include 3.9), pythonnet module will be installed by default.
 
 ### Improvements
-- Improve browser tab attach error when the browser extension is not ready.
-- Improve recording similar elements experience
-- Fix bug: set_text can not working when the text is number.
-- Fix bug: can not automate browsers, when the browser running instances with different user profiles.
+- Improve the attach error for the browser tab when the browser extension is not ready.
+- Improve the experience of recording the similar elements.
+- Improve the performance of Clicknium Recorder.
+- Improve UI button style for Clicknium Recorder.
+- Fix bug: record 'svg' element failed with error "Unexpected character encountered while parsing value: 'responseData.htmlAttributes.class'".
+- Fix bug: `find_elements` must wait until the web page has been loaded.
+- Fix bug: `set_text` can not work when the text is a number.
+- Fix bug: remind users if there are a number of Chrome windows with various user profiles, recording fails.
 
 ## 0.1.3 (1 August 2022)
 ### New features
-- New api: clicknium.edge/chrome/firefox.extension.is_installed(), check whether extension is installed.
+- New api: clicknium.edge/chrome/firefox.extension.is_installed(), check whether the extension is installed.
 - Updated api: add `with` function for browsertab class.
 - Updated locator: support 'class' and 'ancestorclass' attribute in locator of web automation.
 
