@@ -1,4 +1,9 @@
-# uninstall
+---
+sidebar_position: 1
+sidebar_label: uninstall
+---
+
+# clicknium.java.uninstall
 
 ***def uninstall(self, java_install_path: str = '') -> None*** 
 

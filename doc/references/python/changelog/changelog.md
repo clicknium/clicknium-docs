@@ -1,4 +1,19 @@
 # Change Log
+## 0.1.5 (26 August 2022)
+### New features
+- New api: Support mouse emulation events, clicknium.mouse.click/double_click/up/down/move/scroll/positon.
+- Support turning on browser extensions for chrome and edge automatically. 
+- Support validation elements with specified index.
+- Support attribute `name` for UIA locator.
+
+### Improvements
+- Optimize the default names for locators.
+- Refactor JAVA automation, optimize automation on JAVA applications.
+- Fix bug: clicknium module can not run on Windows 7.
+- Fix bug: automating browsers may get errors when opening browsers concurrently.
+- Fix bug: locating elements may get errors with the default value for attribute `index`.
+- Fix bug: recording elements may get errors when other browsers' extensions running.
+
 ## 0.1.4 (12 August 2022)
 ### New features
 - New api: BrowserTab.scroll(delta_x, delta_y), scroll the current browser tab with the scroll bar.
