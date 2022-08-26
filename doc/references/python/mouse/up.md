@@ -12,7 +12,7 @@ sidebar_label: up
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left
     ) -> None***  
 
-Move the mouse cursor to the X and Y integer coordinates, and release the mouse button back up.
+Place the mouse at the desired location, and release the mouse button back up.
 
 **Parameters:**  
     &emsp;**x[Required]**: int  
