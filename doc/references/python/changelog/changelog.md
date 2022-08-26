@@ -2,7 +2,7 @@
 ## 0.1.5 (26 August 2022)
 ### New features
 - New api: support mouse emulation events, clicknium.mouse.click/double_click/up/down/move/scroll/positon.
-- Support turning on browser extensions for chrome and edge automatically. 
+- Support turning on browser extensions for Chrome and Edge automatically. 
 - Support validation elements with specified index.
 - Support attribute `name` for UIA locator.
 
