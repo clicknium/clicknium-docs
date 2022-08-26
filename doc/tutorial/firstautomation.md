@@ -8,7 +8,7 @@ sidebar_label: First Automation Project
 In this tutorial, we will work through a simple Clicknium automation script from zero to help you get familliar with Clicknium. This script will open a Chrome browser and google 'Clicknium'.
 
 ## Installation
-Please follow [Quick Start](./../quickstart.md#installation​) first to install Clicknium and related extensions. 
+Please follow [Quick Start](./../index.md#installation​) first to install Clicknium and related extensions. 
 
 ## Create a Python file
 Following code will open a Chrome browser and get into Google website. (*Make sure [Clicknium Chrome Extension](./../tutorial/extensions/chromeextension.md) is ready.*) 
