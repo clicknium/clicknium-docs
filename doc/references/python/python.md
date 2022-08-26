@@ -10,11 +10,6 @@
 
 ### Install
 ```
-# python version is 3.8 or below
-pip install clicknium
-
-# python version is 3.9 or above
-pip install --pre pythonnet
 pip install clicknium
 ```
 
