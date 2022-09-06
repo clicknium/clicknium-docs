@@ -47,9 +47,9 @@ Supported Capture Technoloy:
 - [SAP](../concepts/sap.md)
 - [Image](../concepts/image.md)(Computer Version) 
 
-For web browser, XPath is supported. You can change `Advance Option` to `XPath`.
-For Desktop application, making a decision is simple. If you want to automat a Java or SAP application, select the corresponding technology. Otherwise, `Auto Detect` would use UIA as default for Windows desktop applications. Try IA if UIA doesn't work in your case. If there is no unique attribute and hard to identity the UI element, try image automation.
-If you need to caputre multipal UI elements in one locator, use [capture similar elements](./recorder/capture_similar_elements.md).
+For web browser, XPath is supported. You can change `Advance Option` to `XPath`.  
+For Desktop application, making a decision is simple. If you want to automat a Java or SAP application, select the corresponding technology. Otherwise, `Auto Detect` would use UIA as default for Windows desktop applications. Try IA if UIA doesn't work in your case. If there is no unique attribute and hard to identity the UI element by tuning attribute, try image automation.  
+If you need to caputre multiple UI elements in one locator, use [capture similar elements](./recorder/capture_similar_elements.md).
 
 ## Use Locator in Python Code
 Clicknium provides intellgent auto-complete experience. You can find the exsiting locators captured by Clicknium Recorder in VS Code. Select the locator class under the Clicknium package and reference Locator by `Locator.{localorStoreName}.{folderName}.{LocatorName}`  Operate locators via Python code, run and waiting for a miracle. 
