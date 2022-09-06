@@ -13,7 +13,7 @@ Activate the browser tab.
 
 **Parameters:**  
     &emsp;**is_topmost**: bool    
-        &emsp;&emsp; it defines whether to set the browser window to topmost.  
+        &emsp;&emsp; It defines whether to set the browser window topmost.  
 
 **Returns:**  
     &emsp;None

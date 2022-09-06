@@ -6,7 +6,7 @@ sidebar_label: Image Automation
 
 ## Overview
 Clicknium automation stask with many functions supports image automation.
-Clicknium locator schema is designed for extension in windows application locator, java application locator and image locator.
+Clicknium locator schema is designed for extension in Windows application locator, java application locator and image locator.
 
 ## Capture image locator
 Open a project in Visual Studio Code by pressing `Ctrl + F10`, or clicking the button `Capture` to invoke Clicknium recorder.  
@@ -36,7 +36,7 @@ The second part is image, supporting the following attributes:
 | Name      | Description | equals | contains |startWith |endWith |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | accuracy | The minimum similarity between the target image and the one in image locator. It is useful when the image to be found is slightly different from the one in the locator. Measurement unit is from 0 to 1 with default value 0.75. |<font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
-| dpi |  we recommend the DPI settings of windows OS in the process of running is the same as the ones when recording|<font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
+| dpi |  we recommend the DPI settings of Windows OS in the process of running is the same as the ones when recording|<font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 | method | enum values define the algorithm of image matching. The value is autoset when recording | <font color="Green"><B>Yes</B></font> |<font color="Red"><B>No</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 | filePath | the selection area of image recording, used in the process of image matching |<font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 | matchIndex | which will be selected when more than one area is found during image matching, default is 0, it means the first matching area |<font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
@@ -45,7 +45,7 @@ The second part is image, supporting the following attributes:
 | timeout |Specify the maximum time interval in image matching, default is 5000 milliseconds  |<font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 
 the definition of methods:
-- HighestAccuracy: compare the images found in whole windows screen
+- HighestAccuracy: compare the images found in whole Windows screen
 - InRegionHighestAccuracy: compare the images found in anchor element area
 - OutRegionHighestAccuracy: comapre the images found out of the anchor element area
 
@@ -60,7 +60,7 @@ Image locator can be used in the same way as other locators, for example
 from clicknium import clicknium as cc, locator, ui
 
 
-#open new browser window
+#open new browser Window
 driver = cc.chrome.open("https://www.bing.com")
 driver.find_element(locator.chrome.img1).click
 

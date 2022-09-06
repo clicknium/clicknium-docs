@@ -6,7 +6,7 @@ sidebar_label: UIA Automation
 ## Overview
 
 Clicknium UIA automation is based on Microsoft UI Automation, supply recording function, generate locator and all operations on one element.  
-During recording, if you choose the windows application, such as notepad, calculator, some ERP client applications, clicknium will use UIA automation to record the element.
+During recording, if you choose the Windows application, such as notepad, calculator, some ERP client applications, clicknium will use UIA automation to record the element.
 
 ## Locator attributes
 You can get [locator](locator.md) concept first, for UIA automation, the attributes defined are as the following:
@@ -53,8 +53,8 @@ You can get [locator](locator.md) concept first, for UIA automation, the attribu
 ```
 
 ## UIA element properties
-By [find_element](../references/python/globalfunctions/find_element.md) on one UIA locator, you can get one UIA element, you can get properties of the element.   by [get_property](../references/python/uielement/get_property.md), Clicknium UIA support the following properties:
-
+By [find_element](../references/python/globalfunctions/find_element.md) on one UIA locator, you can get one UIA element, and properties of the element by [get_property](../references/python/uielement/get_property.md).  
+Clicknium UIA support the following properties:
 | Name      | Description |
 | ----------- | ----------- |
 | Name      |  the name of the user interface      |
