@@ -23,8 +23,8 @@ Exception is raised whenever a certain operation is terminated abnormally. Besid
 | [NotSupportedOperationError](./notsupportedoperationerror.md) | NotSupportedOperationError is raised when the method is invoked by a UI element which does not support the type of operation.|
 | [NotSupportedOperationOptionError](./notsupportedoperationoptionerror.md)   | NotSupportedOperationOptionError is raised when the specified option value is not supported by the target UI element.|
 | [OperationTimeoutError](./timeoutoperationerror.md) | OperationTimeoutError is raised when a certain operation is not completed within given time.|
-| [ProjectSettingNotFoundError](./projectsettingnotfounderror.md) | ProjectSettingNotFoundError is raised when project setting file 'clicknium.yaml' is missing.|
-| [ScreenOperationError](./screenoperationerror.md)   | ScreenOperationError is raised when screen operations of window desktop UI element fail.|
+| [ProjectSettingNotFoundError](./projectsettingnotfounderror.md) | ProjectSettingNotFoundError is raised when project setting file `clicknium.yaml` is missing.|
+| [ScreenOperationError](./screenoperationerror.md)   | ScreenOperationError is raised when screen operations of Windows desktop UI element fail.|
 | [UiaPatternNotFoundError](./uiapatternnotfounderror.md)   | UiaPatternNotFoundError is raised when a window UI element can not be found by UIA technology.|
 | [UnAuthorizedError](./unauthoriederror.md) | UnAuthorizedError is raised when user does not sign in or the sign in state is expired.|
 | [UnreachableBrowserExtensionError](./unreachablebrowserextensionerror.md) | UnreachableBrowserExtensionError is raised when the specified browser's extension is not in ready state. Please check if the extension is installed and enabled.|

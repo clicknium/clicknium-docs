@@ -1,14 +1,14 @@
 # Change Log
 ## 0.1.5 (26 August 2022)
 ### New features
-- New api: support mouse emulation events, clicknium.mouse.click/double_click/up/down/move/scroll/position.
+- New API: support mouse emulation events, clicknium.mouse.click/double_click/up/down/move/scroll/position.
 - Support validation elements with specified index.
 
 ### Improvements
 - Improve the experience of installing browser extensions.
 - Optimize the default names for locators.
 - Refine Java automation and Java application automation.
-- Fix bug: clicknium module can not run on Windows 7.
+- Fix bug: Clicknium module can not run on Windows 7.
 - Fix bug: automating browsers may get errors when opening browsers concurrently.
 - Fix bug: locating elements may get errors with the default value for attribute `index`.
 - Fix bug: recording elements may get errors when other browsers' extensions running.
@@ -16,10 +16,10 @@
 
 ## 0.1.4 (12 August 2022)
 ### New features
-- New api: BrowserTab.scroll(delta_x, delta_y), scroll the current browser tab with the scroll bar.
-- New api: WebElement.scroll(delta_x, delta_y), scroll the current web element with the scroll bar.
+- New API: BrowserTab.scroll(delta_x, delta_y), scroll the current browser tab with the scroll bar.
+- New API: WebElement.scroll(delta_x, delta_y), scroll the current web element with the scroll bar.
 - Support regular expression operator in the locator.
-- Support automation for explorer appbar control on windows 11.
+- Support automation for explorer appbar control on Windows 11.
 - Update the requirements of clicknium python module. With the python version greater than 3.9(include 3.9), pythonnet module will be installed by default.
 
 ### Improvements
@@ -34,8 +34,8 @@
 
 ## 0.1.3 (1 August 2022)
 ### New features
-- New api: clicknium.edge/chrome/firefox.extension.is_installed(), check whether the extension is installed.
-- Updated api: add `with` function for browsertab class.
+- New API: clicknium.edge/chrome/firefox.extension.is_installed(), check whether the extension is installed.
+- Updated API: add `with` function for browsertab class.
 - Updated locator: support 'class' and 'ancestorclass' attribute in locator of web automation.
 
 ### Improvements
@@ -58,7 +58,7 @@
 - Fix yrate not working issue for API click, double_click.
 - Improve browser extension installation experience.
 - The front active window will be selected when there are multiple windows matched by given locator during automation run.
-- Fix UIA bug: validation failed on navigation pane of windows file explorer.
+- Fix UIA bug: validation failed on navigation pane of Windows File Explorer.
 - Improve locator for web automation: trim the space for the value of attribute sinfo, name etc.
 - Fix web automation bug: modifier_key was not working on web element.
 - Improve recording element experience on SAP to ensure the generated locator is SAP specific.
@@ -71,5 +71,5 @@ Initial release version.
 - Unified automation API for different applications, such as click, set_text, get_text, send_hotkey, select_item etc.
 - Special APIs for web automation: open browser, attach to already opened browser, get active tab, close browser, refresh tab, close tab etc.
 - Special API for application window: maximize, minimize, restore etc.
-- Special API for SAP windows GUI application: login, call_transaction, get_statusbar etc.
-- API to install chrome/edge/firefox browser extension.
+- Special API for SAP Windows GUI application: login, call_transaction, get_statusbar etc.
+- API to install Chrome/Edge/Firefox browser extension.

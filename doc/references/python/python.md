@@ -18,7 +18,7 @@ pip install clicknium
 - [UiElement](./uielement/uielement.md): the UI element operations.  
 - [WebDriver](./webdriver/webdriver.md): the web automation related objects and APIs.  
 - [Window](./window/window.md): the window specific automation APIs.  
-- [Sap](./sap/sap.md): the SAP specific automation APIs.   
+- [SAP](./sap/sap.md): the SAP specific automation APIs.   
 - [Java](./java/java.md): the Java extension APIs.  
 - [Configuration](./config/config.md): the configuration setting APIs.
 - [Exceptions](./exceptions/exceptions.md): the errors defined in clicknium.  
@@ -42,7 +42,7 @@ chrome_tab.find_element(locator.chrome.bing.svg).click()
 # you can also use the following api directly, clicknium will automatically attach to the browser
 ui(locator.chrome.bing.search_sb_form_q).set_text("clicknium")
 
-# for windows application
+# for Windows application
 ui(locator.notepad.document_15).set_text("clicknium")
 
 ```

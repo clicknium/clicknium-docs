@@ -9,9 +9,9 @@ Set check state for a checkbox control.
 
 **Parameters:**  
     &emsp;**check_type**: str | CheckType   
-        &emsp;&emsp; the check action types: "check", "uncheck" or "toggle".  
+        &emsp;&emsp; The check action types: "check", "uncheck" or "toggle".  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;None

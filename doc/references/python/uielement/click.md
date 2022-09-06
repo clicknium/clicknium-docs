@@ -14,16 +14,16 @@ Single click the target element.
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**mouse_location**: MouseLocation  
-        &emsp;&emsp; it is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [MouseLocation](./mouselocation.md) object.   
+        &emsp;&emsp; It is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [MouseLocation](./mouselocation.md) object.   
     &emsp;**by**: MouseActionBy  
         &emsp;&emsp; Defines the method to click the UI element.  
         &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  
-        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if it is a window desktop element.  
+        &emsp;&emsp; `control-invocation`: click the target UI element by invoking its UI method. It may not be supported if it is a Windows desktop element.  
         &emsp;&emsp; `default`: automatically choose method per element type. For Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with click, and default is none.      
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None
@@ -65,9 +65,9 @@ ui(locator.applicationframe.button_num5butto).click(mouse_location=MouseLocation
 ```
 
 - Click along with modifier_key  
-For windows file explorer as follows:  
+For Windows File Explorer as follows:  
 ![sample2-1](../../../img/click_sample21.png)  
-  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click()`, then selection changed from 'test1' to 'test3'
+  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click()`, then selection changed from 'test1' to 'test3'  
 ![sample2-2](../../../img/click_sample22.png)  
-  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`, then both 'test1' and 'test3' are in selection.
+  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`, then both 'test1' and 'test3' are in selection.  
 ![sample2-3](../../../img/click_sample23.png) 

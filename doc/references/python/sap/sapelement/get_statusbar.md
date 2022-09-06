@@ -13,7 +13,7 @@ Get the information of the SAP status bar.
 
 **Parameters:**  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;SapStatusBarInfo object, the class definition is as follows:  

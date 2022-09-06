@@ -14,9 +14,9 @@ Call the SAP transaction.
 
 **Parameters:**  
     &emsp;**transaction_code[Required]**: str  
-        &emsp;&emsp; transaction code string.  
+        &emsp;&emsp; Transaction code string.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

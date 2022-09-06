@@ -10,11 +10,11 @@ Open a new tab in the current browser.
 
 **Parameters:**  
     &emsp;**url[Required]**: str   
-        &emsp;&emsp; url string, the target site url, eg.: <https://www.bing.com>.  
+        &emsp;&emsp; Url string, the target site url, eg.: <https://www.bing.com>.  
     &emsp;**is_wait_complete**: bool  
         &emsp;&emsp; is_wait_complete, whether to wait for the tab to complete loading, the default value is True.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;[BrowserTab](./browsertab/browsertab.md) object, you can execute following operations in the browser tab: find_element, find_elements, close, refresh and so on.

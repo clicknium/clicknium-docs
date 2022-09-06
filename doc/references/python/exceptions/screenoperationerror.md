@@ -2,7 +2,7 @@
 
 - extends: [WindowsNativeError](./windowsnativeerror.md)
 
-**ScreenOperationError is raised when screen operations of window desktop UI element fail.**
+**ScreenOperationError is raised when screen operations of Windows desktop UI element fail.**
 
 - [message](#message)
 - [stacktrace](#stacktrace)

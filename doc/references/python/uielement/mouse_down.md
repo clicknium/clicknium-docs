@@ -18,12 +18,12 @@ Mouse key down on the target element.
     &emsp;**by**: MouseActionBy  
         &emsp;&emsp; Defines the method to perform pressing mouse button down.  
         &emsp;&emsp; `mouse-emulation`: perform the action by simulating mouse.  
-        &emsp;&emsp; `control-invocation`: perform the action by invoking its UI method. It may not be supported if it is a window desktop element.  
+        &emsp;&emsp; `control-invocation`: perform the action by invoking its UI method. It may not be supported if it is a Windows desktop element.  
         &emsp;&emsp; `default`: automatically choose method per element type. For Web element, use `control-invocation`; for Window element, use `mouse-emulation`.  
     &emsp;**modifier_key**: ModifierKey  
         &emsp;&emsp; The modifier key("alt", "ctrl", "shift", "win") to be pressed along with the action, and default is none.        
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

@@ -14,7 +14,7 @@ Select multiple options for the target element that can support multiple selecti
     &emsp;**clear_selected**: bool  
         &emsp;&emsp; whether to clear existing selections, default is True.    
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
     &emsp;None

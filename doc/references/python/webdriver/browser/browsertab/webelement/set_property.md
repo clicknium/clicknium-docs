@@ -15,11 +15,11 @@ Set the property value of the web element.
 
 **Parameters:**  
     &emsp;**name[Required]**: str  
-        &emsp;&emsp; property name, different UI elements may support different properties. Please refer to [Automation Concepts](./../../../../../../concepts/concepts.md) to check the properties according to the UI element types.  
+        &emsp;&emsp; Property name, different UI elements may support different properties. Please refer to [Automation Concepts](./../../../../../../concepts/concepts.md) to check the properties according to the UI element types.  
     &emsp;**value[Required]**: str  
-        &emsp;&emsp; property value.    
+        &emsp;&emsp; Property value.    
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

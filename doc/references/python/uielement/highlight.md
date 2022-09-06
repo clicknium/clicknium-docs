@@ -10,11 +10,11 @@ Highlight the target element.
 
 **Parameters:**  
     &emsp;**color**: str | Color  
-        &emsp;&emsp; the color of the highlighed rectangle, the default value is Yellow.  
+        &emsp;&emsp; The color of the highlighed rectangle, the default value is Yellow.  
     &emsp;**duration**: int  
-        &emsp;&emsp; the duration for highlighting the element, the unit is second, and the default value is 3 seconds.  
+        &emsp;&emsp; The duration for highlighting the element, the unit is second, and the default value is 3 seconds.  
     &emsp;**timeout**: int  
-        &emsp;&emsp;timeout for the operation, the unit is second, and the default value is 30 seconds.  
+        &emsp;&emsp;Timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;None
