@@ -14,7 +14,7 @@ Wait for the target element's property to be expected value within specified tim
   
 
     &emsp;**value[Required]**: str  
-        &emsp;&emsp; expected property value.  
+        &emsp;&emsp; Expected property value.  
     &emsp;**timeout**: int  
         &emsp;&emsp; Wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
