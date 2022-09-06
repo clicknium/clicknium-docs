@@ -16,7 +16,7 @@ Wait for the target element's property to be expected value within specified tim
     &emsp;**value[Required]**: str  
         &emsp;&emsp; expected property value.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; wait Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;bool, return True if the UI element exists and its property value is expected, otherwise return False.

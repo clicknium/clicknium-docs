@@ -5,7 +5,7 @@ Set the target element to focused state.
 
 **Parameters:**  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
     &emsp;None

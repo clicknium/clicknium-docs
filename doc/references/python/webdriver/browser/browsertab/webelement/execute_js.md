@@ -20,12 +20,12 @@ Execute Javascript code for the target element.
     &emsp;**javascript_code[Required]**: str    
         &emsp;&emsp; Javascript code snippet to be executed upon target element.  
     &emsp;**method**: str    
-        &emsp;&emsp; the method to be invoked should be defined in the Javascript code. If any parameter needs to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
+        &emsp;&emsp; The method to be invoked should be defined in the Javascript code. If any parameter needs to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
-    &emsp;str, execution result
+    &emsp;Str, execution result
 
 **Example:**
 ***

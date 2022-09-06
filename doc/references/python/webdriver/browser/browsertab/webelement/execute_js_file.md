@@ -20,12 +20,12 @@ Execute Javascript file for the target element.
     &emsp;**javascript_file[Required]**: str    
         &emsp;&emsp; Javascript file path, eg.: "c:\\test\test.js".  
     &emsp;**method**: str    
-        &emsp;&emsp; the method to be invoked should be defined in the Javascript file. If any parameter needs to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
+        &emsp;&emsp; The method to be invoked should be defined in the Javascript file. If any parameter needs to passed to the method, it can be included in this parameter value, for eg.: SetText(\"test\").  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;str, execution result
+    &emsp;Str, execution result
 
 **Example:**
 ***

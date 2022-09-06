@@ -13,9 +13,9 @@ Redirect current tab to the specified url.
 
 **Parameters:**  
     &emsp;**url[Required]**: str   
-        &emsp;&emsp; web site url, eg: <https://www.bing.com>.  
+        &emsp;&emsp; Web site url, eg: <https://www.bing.com>.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

@@ -15,11 +15,11 @@ Scroll the target element with the scroll bar.
 
 **Parameters:**  
     &emsp;**delta_x**: int   
-        &emsp;&emsp; pixels to scroll horizontally.  
+        &emsp;&emsp; Pixels to scroll horizontally.  
     &emsp;**delta_y**: int   
-        &emsp;&emsp; pixels to scroll vertically.  
+        &emsp;&emsp; Pixels to scroll vertically.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;None

@@ -9,9 +9,9 @@ Select one option for the target element when it is a dropdown type control.
 
 **Parameters:**  
     &emsp;**item [Required]**: str   
-        &emsp;&emsp; target option of the dropdown control.  
+        &emsp;&emsp; Target option of the dropdown control.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.   
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
     &emsp;None

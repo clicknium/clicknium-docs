@@ -14,7 +14,7 @@ Single click the target element.
     &emsp;**mouse_button**: MouseButton  
         &emsp;&emsp; The available values are: 'left', 'right' and 'center', default is 'left'.  
     &emsp;**mouse_location**: MouseLocation  
-        &emsp;&emsp; it is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [MouseLocation](./mouselocation.md) object.   
+        &emsp;&emsp; It is set to define the position where the element to be clicked. Default position is center of element. Customize position by defining a [MouseLocation](./mouselocation.md) object.   
     &emsp;**by**: MouseActionBy  
         &emsp;&emsp; Defines the method to click the UI element.  
         &emsp;&emsp; `mouse-emulation`: click the target UI element by simulating mouse.  

@@ -5,7 +5,7 @@ Get the size(height and width) of the target element.
 
 **Parameters:**   
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
     &emsp;ElementSize object, the class definition as following: 

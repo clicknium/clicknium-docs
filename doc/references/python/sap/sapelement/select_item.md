@@ -14,9 +14,9 @@ Select the SAP item.
 
 **Parameters:**  
     &emsp;**item[Required]**: str  
-        &emsp;&emsp; item string, the item to be selected.  
+        &emsp;&emsp; Item string, the item to be selected.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;None

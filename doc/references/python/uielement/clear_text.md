@@ -22,7 +22,7 @@ Clear text of the target element.
     &emsp;**preaction**: PreAction  
         &emsp;&emsp; If by is set to "send-hotkey", specify this parameter for the action to be taken before sending hotkey to clear text.   
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds.  
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.  
 
 **Returns:**  
     &emsp;None

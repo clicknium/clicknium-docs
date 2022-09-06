@@ -21,7 +21,7 @@ Open browser with specified url to get a browser tab.
 
 **Parameters:**  
     &emsp;**url[Required]**: str   
-        &emsp;&emsp; url string, the target site url, eg.: <https://www.bing.com>.     
+        &emsp;&emsp; Url string, the target site url, eg.: <https://www.bing.com>.     
     &emsp;**is_maximize**: bool  
         &emsp;&emsp; is_maximize, whether to maximize the browser window, the default value is True.  
     &emsp;**is_wait_complete**: bool  
@@ -32,9 +32,9 @@ Open browser with specified url to get a browser tab.
         &emsp;&emsp; `default`：use default folder of the user data.  
         &emsp;&emsp; `custom`：use the folder specified by parameter 'userdata_folder_path'.  
     &emsp;**userdata_folder_path**: str  
-        &emsp;&emsp; user data's folder path.  
+        &emsp;&emsp; User data's folder path.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;[BrowserTab](./browser/browsertab/browsertab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.

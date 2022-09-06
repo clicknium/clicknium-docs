@@ -16,13 +16,13 @@ Attach to an opened browser tab with specified locator.
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator  
-        &emsp;&emsp; locator string, the visit path of locator for a UI element in the target browser tab. For more details, please refer to [Locator](./../../../concepts/locator.md).   
+        &emsp;&emsp; Locator string, the visit path of locator for a UI element in the target browser tab. For more details, please refer to [Locator](./../../../concepts/locator.md).   
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./../../../concepts/parametric_locator.md).  
+        &emsp;&emsp; Locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./../../../concepts/parametric_locator.md).  
     &emsp;**is_maximize**: bool  
         &emsp;&emsp; is_maximize is set to define whether to maximize the browser window when attaching, and the default value is True.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;[BrowserTab](./browser/browsertab/browsertab.md) object, you can execute the following operations in the browser tab such as: find_element, find_elements, close, refresh and so on.
