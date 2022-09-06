@@ -18,10 +18,10 @@ Return the UI element defined by the given locator.
         &emsp;&emsp; locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./../../../concepts/locator.md).   
     &emsp;**locator_variables**: dict  
         &emsp;&emsp; locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`.  
-        &emsp;&emsp; More about variables, please refer to [Parametric Locator](./../../../concepts/parametric_locator.md).  
+        &emsp;&emsp; More about variables, please refer to [Parametric Locator](./../../../concepts/locator.md#parametric-locator).  
     &emsp;**window_mode**: WindowMode  
         &emsp;&emsp; It defines whether to set the UI element's parent window to topmost before an action is invoked.  
-        &emsp;&emsp;`auto`: default value, set the window to topmost by default.
+        &emsp;&emsp;`auto`: default value, set the window to topmost by default.  
         &emsp;&emsp;`topmost`: always set the window to topmost  
         &emsp;&emsp;`noaction`: doing nothing for topmost mode 
 
