@@ -21,7 +21,7 @@ ui(locator.chrome.bing.search_sb_form_q, variables)
 ```
 
 ## Examples
-How to use the parametric locator for web page and windows applciation? Here are two examples.
+How to use the parametric locator for web page and Windows applciation? Here are two examples.
 ### Web Example  
 ![sample1](./../img/parametric_locator_sample1.png)  
 Locate the item in list, , the locator string is as  following after recording:  
