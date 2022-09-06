@@ -60,7 +60,7 @@ Image locator can be used in the same way as other locators, for example
 from clicknium import clicknium as cc, locator, ui
 
 
-#open new browser Window
+#open new browser window
 driver = cc.chrome.open("https://www.bing.com")
 driver.find_element(locator.chrome.img1).click
 
