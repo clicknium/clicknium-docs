@@ -1,11 +1,11 @@
 # Change Log
 ## 0.1.6 (7 September 2022)
 ### Improvements
-- Fix bug: installing Java extension failed when JAVA is not installed on C drive.
+- Enhance the Java extension installation process and examine the JAVA _HOME directory.
 - Fix bug: set_text may get errors with method `set-text` for desktop applications.
 - Fix bug: web elements can not be located without attribute `tag`.
-- Fix bug: execute_js_file can not work when the file content has Chinese characters.
-- Fix bug: mouse.scroll can not work when `times` is set to less than 0.
+- Fix bug: when a javascript file's content contains characters other than English, execute_js_file cannot function.
+- Fix bug: when `times` is set to a negative number, mouse.scroll will not function.
 
 ## 0.1.5 (26 August 2022)
 ### New features
