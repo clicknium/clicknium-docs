@@ -24,6 +24,6 @@ from clicknium import clicknium as cc
 
 # get the position of the mouse cursor
 x,y = cc.mouse.position()
-print("X integer coordinate is " + x)
-print("Y integer coordinate is " + y)
+print("X integer coordinate is ", x)
+print("Y integer coordinate is ", y)
 ```
