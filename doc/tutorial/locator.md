@@ -7,26 +7,9 @@ A locator is a way to identify elements on a web page or desktop app.
 
 ## Overview 
 Identification of the correct GUI element on a web page is pre-requisite for creating any successful automation script, where locators come into the picture. Locators are one of the essential components of Clicknium infrastructure, which help Clicknium scripts in uniquely identifying the UI elements(such as text box, button, etc.). 
-The way to get a locator for a specific UI element is the key experience of automation framework. Before using Clicknium, you have to learn some web essential knowledge, such as XPath. Clicknium provides [Clicknium Recorder](./recorder/recorder.md) to help you get a locator by just clicking the elements. 
+The way to get a locator for a specific UI element is the key experience of automation framework. Before using Clicknium, you have to learn some web essential knowledge, such as XPath, CSS selector. Clicknium provides [Clicknium Recorder](./recorder/recorder.md) to help you get a locator by just clicking the elements. 
 
-## How to use
-So, how do we get the values of these locators? And how to use the same locator in the automation framework?
-
-## Get a locator 
-Clicknium provides Clicknium Recorder to get UI locators.  
-- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/tutorial/vscode/vscode.md), [Chrome extension](/tutorial/extensions/chromeextension.md) is installed. 
-- Open a Python file in VS code. 
-- Capture locators with Clicknium Recorder(`Ctrl + Click`).  
-
-![show locator](./../img/showlocator.gif)  
-
-## Use locator in Python Code
-Clicknium provides intellgent auto-complete experience. You can find the exsiting locators captured by Clicknium Recorder in VS Code. Select the locator class under the Clicknium package and reference Locator by `Locator.{localorStoreName}.{folderName}.{LocatorName}`  Operate locators via Python code, run and waiting for a miracle. 
-
-![use locator](./../img/uselocator.gif)
-
-
-## Operations Supported by the Locators
+## Operations Supported by Locators
 
   ![edit locator](../img/vscode-project-locator-menu.png)
 
@@ -36,6 +19,43 @@ Clicknium provides intellgent auto-complete experience. You can find the exsitin
 4. Copy Path: put the path of the locator in clipboard, so users can paste it directly in the Python code.
 5. Rename: rename the locator
 6. Delete: delete the locator
+7. Actions: take quick actions such as: click, set_text, get_text in locator details window. 
+8. Recapture: recapture locator in ocator details window.
+
+## How to use
+So, how do we get the values of these locators? And how to use locators in the automation framework?
+
+## Get a locator 
+Clicknium provides Clicknium Recorder to get UI locators.  
+- Make sure that [Clicknium Python package](./../references/python/python.md), [VS code extention](/tutorial/vscode/vscode.md), [Chrome extension](/tutorial/extensions/chromeextension.md) is installed. 
+- Open a Python file in VS code. 
+- Capture locators with [Clicknium Recorder](./recorder/recorder.md)(`Ctrl + Click`).  
+
+![show locator](./../img/showlocator.gif)  
+
+## How to Choose Locator Type
+Most scenarios can be satisfied with the default setting(Auto mode). The capture technology and advanced options can be changed to meet your needs.
+Supported Capture Technoloy:
+- Auto Detect: auto detect and choose a capture technoloy.  
+- Web Browser
+  - Chrome
+  - Edge
+  - Firefox
+- [UIA](../concepts/uia.md)
+- [IA](../concepts/ia.md)
+- [Java](../concepts/java.md)
+- [SAP](../concepts/sap.md)
+- [Image](../concepts/image.md)(Computer Version) 
+
+For web browser, XPath is supported. You can change `Advance Option` to `XPath`.  
+For Desktop application, making a decision is simple. If you want to automat a Java or SAP application, select the corresponding technology. Otherwise, `Auto Detect` would use UIA as default for Windows desktop applications. Try IA if UIA doesn't work in your case. If there is no unique attribute and hard to identity the UI element by tuning attribute, try image automation.  
+If you need to caputre multiple UI elements in one locator, use [capture similar elements](./recorder/capture_similar_elements.md).
+
+## Use Locator in Python Code
+Clicknium provides intellgent auto-complete experience. You can find the exsiting locators captured by Clicknium Recorder in VS Code. Select the locator class under the Clicknium package and reference Locator by `Locator.{localorStoreName}.{folderName}.{LocatorName}`  Operate locators via Python code, run and waiting for a miracle. 
+
+![use locator](./../img/uselocator.gif)
+
 
 ## Locator Editor
   ![edit locator](../img/vscode-edit-locator.png)
@@ -47,13 +67,20 @@ The detailed page of locator editor is organized with two parts.
 - Checkbox ①: Select the locator tier. The unchecked tier will be ignored when locating the UI element.  
 - Checkbox ②：Select the properties for the selected locator tier. This unselected properties will be ignored when locating the UI element.  
 - Dropdown ③: There are 4 matching operators, "equals", "contains", "startWith" and "endWith".  
-  
 - Input item ④：The values of the property  
-    Notes：When the matching rule is "equals", the value supports wildcard characters.
-    |Wildcard characters| Functions                 |
+    Notes：When the matching rule is "equals", the value supports wildcard characters.  
+
+    |Wildcard characters| Functions |
     |-------|----------|
     |*    | Substitute one or more characters |
-    |?    | Substitute a character      |
+    |?    | Substitute a character |
+
+## Make locator generalized and stable
+- Uncheck the atrributes without generalization that don't affect identity UI elements. 
+- Use patamters, refer to [Parametric Locator](../concepts/locator.md#parametric-locator)
+- Use wildcard, refer to [Wildcard locator](../concepts/locator.md#wildcard-locator)
+- Use regex, some attrubutes support regex, refer to different capture technoloy. 
+
 
 ## Recapture
 1. Click the `Recapture` button to open the recorder and capture the locator again.
@@ -123,5 +150,5 @@ Click `Validate` button.
 2. After recording, select a locator that is required to fill in the recorder.
 3. After clicking `OK`, the locator will be automatically filled into the code.
 
-# Advanced Locator
-Please check [advanced locator](./../concepts/locator.md)
+## Advanced Locator
+Please check [Locator Concept](./../concepts/locator.md)

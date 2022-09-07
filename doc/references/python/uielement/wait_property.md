@@ -10,13 +10,13 @@ Wait for the target element's property to be expected value within specified tim
 
 **Parameters:**  
     &emsp;**name[Required]**: str  
-        &emsp;&emsp; property name, different UI elements may support different properties.For specific properties, please refer to [Automation Concept](./../../../concepts/concepts.md).  
+        &emsp;&emsp; Property name, different UI elements may support different properties.For specific properties, please refer to [Automation Concept](./../../../concepts/concepts.md).  
   
 
     &emsp;**value[Required]**: str  
-        &emsp;&emsp; expected property value.  
+        &emsp;&emsp; Expected property value.  
     &emsp;**timeout**: int  
-        &emsp;&emsp; wait Timeout for the operation, the unit is second, and the default value is 30 seconds. 
+        &emsp;&emsp; Wait timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
 **Returns:**  
     &emsp;bool, return True if the UI element exists and its property value is expected, otherwise return False.

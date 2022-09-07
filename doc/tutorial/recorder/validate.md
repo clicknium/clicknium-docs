@@ -17,7 +17,7 @@ Click the button `Validate`, and get the validation result referring to [Validat
 
 ### Single locator with variables
 
-1. Capture a locator, and modify the locator with variables, for more about variables, please refer to [Parametric Locator](./../../concepts/parametric_locator.md).  
+1. Capture a locator, and modify the locator with variables, for more about variables, please refer to [Parametric Locator](./../../concepts/locator.md#parametric-locator).  
 ![locator variables](../../img/locator_variables.png)
 2. Click the button Validate, and a pop-up window will show as below:   
 ![validate variable window](../../img/validate_variable_window.png)
@@ -31,8 +31,8 @@ Click the button `Validate`, and get the validation result referring to [Validat
 3. Get validation result referring to [Validation result](#validation-result)
 
 ### Mutiple similar locators
-1. Capture a locator, and modify the locator with wildword as follows:
-![locator wildword](../../img/locator_wildword.png)
+1. Capture a locator, and modify the locator with wildcard as follows:
+![locator wildcard](../../img/locator_wildcard.png)
 2. Select the index of the element, then click the button `OK`  
 ![validate muti locators](../../img/validate_muti_locators.png)
 3. Get validation result referring to [Validation result](#validation-result)

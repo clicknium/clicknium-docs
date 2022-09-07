@@ -8,8 +8,9 @@ sidebar_position: 1
 |                     | Main version                 | 
 |---------------------|------------------------------|
 | Python              | 3.7, 3.8, 3.9, 3.10          | 
-| OS                  | Windows 7 SP1 or above       |
+| OS                  | Windows 11, 10 recommended; Windows 7 SP1* or above|
 
+>Note*: Windows 10 is the minimum supported Windows OS for DPI awareness.  
 
 ### Code Editor
 - Visual Studio Code
