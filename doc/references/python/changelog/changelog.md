@@ -1,4 +1,12 @@
 # Change Log
+## 0.1.6 (7 September 2022)
+### Improvements
+- Fix bug: installing Java extension failed when JAVA is not installed on C drive.
+- Fix bug: set_text may get errors with method `set-text` for desktop applications.
+- Fix bug: web elements can not be located without attribute `tag`.
+- Fix bug: execute_js_file can not work when the file content has Chinese characters.
+- Fix bug: mouse.scroll can not work when `times` is set to less than 0.
+
 ## 0.1.5 (26 August 2022)
 ### New features
 - New API: support mouse emulation events, clicknium.mouse.click/double_click/up/down/move/scroll/position.
