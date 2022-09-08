@@ -1,4 +1,8 @@
 # Change Log
+## 0.1.7 (8 September 2022)
+### Improvements
+- Hotfix: in the event that Chrome is running in multiple windows, there is a chance that the recorder won't function properly.
+
 ## 0.1.6 (7 September 2022)
 ### Improvements
 - Enhance the Java extension installation process and examine the JAVA _HOME directory.
