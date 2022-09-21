@@ -1,0 +1,34 @@
+---
+sidebar_position: 16
+sidebar_label: wait_disappear_by_css_selector
+---
+# BrowserTab.wait_disappear_by_css_selector
+***def wait_disappear_by_css_selector(
+        self,
+        locator: str,
+        wait_timeout: int = 30
+    ) -> bool***  
+
+In current opened browser, wait for the element disappear by the given css selector locator.
+
+**Parameters:**  
+    &emsp;**locator[Required]**: str     
+        &emsp;&emsp; the css selector locator of the element to find. 
+    &emsp;**wait_timeout**: int  
+        &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
+
+**Returns:**  
+    &emsp;bool, return True if the element disappears within given timeout otherwise return False.  
+
+**Example:**
+***
+```python
+from clicknium import clicknium as cc, locator
+
+chrome_tab = cc.chrome.open("https://bing.com")
+
+#  wait element disappear by css selector
+result = chrome_tab.wait_disappear_by_css_selector("#sb_form_q", wait_timeout=5)
+print(result)
+
+```

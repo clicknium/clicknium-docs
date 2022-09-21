@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 8
 sidebar_label: is_existing
 ---
 # BrowserTab.is_existing
