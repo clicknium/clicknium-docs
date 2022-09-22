@@ -21,7 +21,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/clicknium/clicknium-docs)](https://github.com/clicknium/clicknium-docs/issues)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/clicknium?style=flat-square)
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fclicknium)](https://twitter.com/clicknium)
-[![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://clicknium.slack.com/join/shared_invite/zt-1cfxsstw7-s0CeJdhyg5wQ1h7_KKc6QQ#/shared-invite/email)
+[![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://join.slack.com/t/clicknium/shared_invite/zt-1gi6v3d85-8sBgen83vD6EhL48UEhxwQ)
 
 # Clicknium-docs
 
