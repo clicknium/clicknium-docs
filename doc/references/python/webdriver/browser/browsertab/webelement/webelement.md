@@ -19,6 +19,11 @@
 - [set_property](./set_property.md): set the property value of the web element.  
 - [execute_js](./execute_js.md): execute Javascript code for the target element.  
 - [execute_js_file](./execute_js_file.md): execute Javascript file for the target element.  
-- [scroll](./scroll.md)：scroll the target element with the scroll bar.
+- [find_element](./find_element.md)：find element by the given locator.
+- [find_element_by_xpath](./find_element_by_xpath.md)：find element by the given xpath.  
+- [find_element_by_css_selector](./find_element_by_css_selector.md)：find element by the given css selector.
+- [find_elements](./find_elements.md)：find elements by the given locator.
+- [find_elements_by_xpath](./find_elements_by_xpath.md)：find elements by the given xpath.
+- [find_elements_by_css_selector](./find_elements_by_css_selector.md)：find elements by the given css selector.
 
 

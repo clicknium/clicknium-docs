@@ -5,15 +5,15 @@ sidebar_label: is_existing_by_xpath
 # BrowserTab.is_existing_by_xpath
 ***def is_existing_by_xpath(
         self,
-        locator: str,
+        xpath: str,
         timeout: int = 30
     ) -> bool***  
 
-In current opened browser, check whether the ui element exist or not by the given xpath locator.
+In current opened browser, check whether the ui element exist or not by the given xpath.
 
 **Parameters:**  
-    &emsp;**locator[Required]**: str     
-        &emsp;&emsp; the xpath locator of the element to find. 
+    &emsp;**xpath[Required]**: str     
+        &emsp;&emsp; the xpath of the element to find.  
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -23,7 +23,7 @@ In current opened browser, check whether the ui element exist or not by the give
 **Example:**
 ***
 ```python
-from clicknium import clicknium as cc, locator
+from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com/images")
 

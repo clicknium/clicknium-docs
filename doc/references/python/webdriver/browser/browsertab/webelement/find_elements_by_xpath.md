@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 sidebar_label: find_elements_by_xpath
 ---
-# BrowserTab.find_elements_by_xpath
+# WebElement.find_elements_by_xpath
 ***def find_elements_by_xpath(
         self,
         xpath: str,
@@ -28,7 +28,10 @@ from clicknium import clicknium as cc
 chrome_tab = cc.chrome.open("https://bing.com/images")
 
 # find elements by xpath
-webelements = chrome_tab.find_elements_by_xpath("//*[@id=\"ilp_t\"]/div[1]/div/*")
+element = chrome_tab.find_element_by_xpath("//*[@id=\"ilp_t\"]")
+
+# find sub elements by xpath
+webelements = element.find_elements_by_xpath(".//*[@id=\"ilp_t\"]/div[1]/div/*")
 print("count: " + str(len(webelements)))
 for i in range(3):
     webelements[i].highlight()

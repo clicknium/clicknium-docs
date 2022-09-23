@@ -5,15 +5,15 @@ sidebar_label: wait_disappear_by_css_selector
 # BrowserTab.wait_disappear_by_css_selector
 ***def wait_disappear_by_css_selector(
         self,
-        locator: str,
+        css_selector: str,
         wait_timeout: int = 30
     ) -> bool***  
 
-In current opened browser, wait for the element disappear by the given css selector locator.
+In current opened browser, wait for the element disappear by the given css selector.
 
 **Parameters:**  
-    &emsp;**locator[Required]**: str     
-        &emsp;&emsp; the css selector locator of the element to find. 
+    &emsp;**css_selector[Required]**: str     
+        &emsp;&emsp; the css selector of the element to find.  
     &emsp;**wait_timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -23,7 +23,7 @@ In current opened browser, wait for the element disappear by the given css selec
 **Example:**
 ***
 ```python
-from clicknium import clicknium as cc, locator
+from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 

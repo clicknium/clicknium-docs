@@ -5,14 +5,14 @@ sidebar_label: find_element_by_xpath
 # BrowserTab.find_element_by_xpath
 ***def find_element_by_xpath(
         self,
-        locator: str
+        xpath: str
     ) -> WebElement***  
 
-In current opened browser, find element by the given xpath locator.  
+In current opened browser, find element by the given xpath.  
 
 **Parameters:**  
-    &emsp;**locator[Required]**: str     
-        &emsp;&emsp; the xpath locator of the element to find.   
+    &emsp;**xpath[Required]**: str     
+        &emsp;&emsp; the xpath of the element to find.   
 
 **Returns:**  
     &emsp;[WebElement](./webelement/webelement.md) object.
@@ -20,7 +20,7 @@ In current opened browser, find element by the given xpath locator.
 **Example:**
 ***
 ```python
-from clicknium import clicknium as cc, locator
+from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 
