@@ -17,8 +17,8 @@
 - [find_elements_by_xpath](./find_elements_by_xpath.md): find elements by the given XPath.
 - [find_elements_by_css_selector](./find_elements_by_css_selector.md): find elements by the given CSS selector.
 - [is_existing](./is_existing.md): check whether the specified element of the web page exists.  
-- [is_existing_by_xpath](./is_existing_by_xpath.md): check whether the ui element exist or not by the given XPath.
-- [is_existing_by_css_selector](./is_existing_by_css_selector.md): check whether the ui element exist or not by the given CSS selector.
+- [is_existing_by_xpath](./is_existing_by_xpath.md): check whether the UI element exist or not by the given XPath.
+- [is_existing_by_css_selector](./is_existing_by_css_selector.md): check whether the UI element exist or not by the given CSS selector.
 - [wait_appear](./wait_appear.md): wait for the specified element of the web page to appear within given timeout.  
 - [wait_appear_by_xpath](./wait_appear_by_xpath.md): wait for the element appear by the given XPath.
 - [wait_appear_by_css_selector](./wait_appear_by_css_selector.md): wait for the element appear by the given CSS selector.

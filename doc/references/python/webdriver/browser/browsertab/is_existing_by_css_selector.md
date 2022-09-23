@@ -9,7 +9,7 @@ sidebar_label: is_existing_by_css_selector
         timeout: int = 30
     ) -> bool***  
 
-In current opened browser, check whether the ui element exist or not by the given CSS selector.
+In current opened browser, check whether the UI element exist or not by the given CSS selector.
 
 **Parameters:**  
     &emsp;**css_selector[Required]**: str     
