@@ -8,11 +8,11 @@ sidebar_label: find_element_by_xpath
         xpath: str
     ) -> WebElement***  
 
-In current opened browser, find element by the given xpath.  
+In current opened browser, find element by the given XPath.  
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; the xpath of the element to find.   
+        &emsp;&emsp; the XPath of the element to find.   
 
 **Returns:**  
     &emsp;[WebElement](./webelement/webelement.md) object.
@@ -24,7 +24,7 @@ from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 
-# find element by xpath
+# find element by XPath
 webelement = chrome_tab.find_element_by_xpath("//*[@id=\"sb_form_q\"]")
 webelement.highlight()
 

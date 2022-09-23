@@ -9,11 +9,11 @@ sidebar_label: wait_appear_by_xpath
         wait_timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, wait for the element appear by the given xpath.
+In current opened browser, wait for the element appear by the given XPath.
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; the xpath of the element to find.  
+        &emsp;&emsp; the XPath of the element to find.  
     &emsp;**wait_timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -27,7 +27,7 @@ from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 
-#  wait element appear by xpath
+#  wait element appear by XPath
 webelement = chrome_tab.wait_appear_by_xpath("//*[@id=\"sb_form_q\"]")
 if webelement:
     webelement.highlight()

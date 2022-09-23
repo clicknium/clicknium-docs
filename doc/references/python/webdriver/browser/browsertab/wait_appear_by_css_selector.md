@@ -9,11 +9,11 @@ sidebar_label: wait_appear_by_css_selector
         wait_timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, wait for the element appear by the given css selector.
+In current opened browser, wait for the element appear by the given CSS selector.
 
 **Parameters:**  
     &emsp;**css_selector[Required]**: str     
-        &emsp;&emsp; the css selector of the element to find.  
+        &emsp;&emsp; the CSS selector of the element to find.  
     &emsp;**wait_timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -27,7 +27,7 @@ from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 
-#  wait element appear by css selector
+#  wait element appear by CSS selector
 webelement = chrome_tab.wait_appear_by_css_selector("#sb_form_q")
 if webelement:
     webelement.highlight()

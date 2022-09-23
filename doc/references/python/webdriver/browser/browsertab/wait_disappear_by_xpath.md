@@ -9,11 +9,11 @@ sidebar_label: wait_disappear_by_xpath
         wait_timeout: int = 30
     ) -> bool***  
 
-In current opened browser, wait for the element disappear by the given xpath.
+In current opened browser, wait for the element disappear by the given XPath.
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     
-        &emsp;&emsp; the xpath of the element to find.  
+        &emsp;&emsp; the XPath of the element to find.  
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
@@ -27,7 +27,7 @@ from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 
-# wait element disappear by xpath
+# wait element disappear by XPath
 result = chrome_tab.wait_disappear_by_xpath("//*[@id=\"sb_form_q\"]", wait_timeout=5)
 print(result)
 

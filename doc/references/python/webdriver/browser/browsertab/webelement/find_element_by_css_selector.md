@@ -9,11 +9,11 @@ sidebar_label: find_element_by_css_selector
         timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, find element by the given css selector.
+In current opened browser, find element by the given CSS selector.
 
 **Parameters:**  
     &emsp;**css_selector[Required]**: str     
-        &emsp;&emsp; the css selector of the element to find.   
+        &emsp;&emsp; the CSS selector of the element to find.   
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
@@ -27,10 +27,10 @@ from clicknium import clicknium as cc
 
 chrome_tab = cc.chrome.open("https://bing.com")
 
-# find elements by css selector
+# find elements by CSS selector
 element = chrome_tab.find_element_by_css_selector("#sb_form")
 
-# find sub elements by css selector
+# find sub elements by CSS selector
 webelement = element.find_element_by_css_selector("svg")
 webelement.highlight()
 
