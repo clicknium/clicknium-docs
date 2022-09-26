@@ -9,11 +9,11 @@ sidebar_label: find_element_by_css_selector
         timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, find element by the given CSS selector.
+In the active browser, find element by the given CSS selector.
 
 **Parameters:**  
     &emsp;**css_selector[Required]**: str     
-        &emsp;&emsp; the CSS selector of the element to find.   
+        &emsp;&emsp; The CSS selector to find the element.   
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 

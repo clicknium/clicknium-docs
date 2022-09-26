@@ -9,7 +9,7 @@ sidebar_label: wait_disappear_by_xpath
         wait_timeout: int = 30
     ) -> bool***  
 
-In current opened browser, wait for the element disappear by the given XPath.
+In the active browser, wait for the element to disappear by the given XPath.
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     

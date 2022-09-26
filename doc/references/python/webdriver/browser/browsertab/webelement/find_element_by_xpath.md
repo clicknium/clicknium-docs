@@ -9,7 +9,7 @@ sidebar_label: find_element_by_xpath
         timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, find element by the given XPath.  
+In the active browser, find element by the given XPath.  
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     

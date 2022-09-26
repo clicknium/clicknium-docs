@@ -9,7 +9,7 @@ sidebar_label: wait_appear_by_xpath
         wait_timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, wait for the element appear by the given XPath.
+In the active browser, wait for the element to appear by the given XPath.
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     

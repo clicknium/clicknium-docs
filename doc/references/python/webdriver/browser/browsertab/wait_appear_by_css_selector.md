@@ -9,11 +9,11 @@ sidebar_label: wait_appear_by_css_selector
         wait_timeout: int = 30
     ) -> WebElement***  
 
-In current opened browser, wait for the element appear by the given CSS selector.
+In the active browser, wait for the element to appear by the given CSS selector.
 
 **Parameters:**  
     &emsp;**css_selector[Required]**: str     
-        &emsp;&emsp; the CSS selector of the element to find.  
+        &emsp;&emsp; The CSS selector to find the element.  
     &emsp;**wait_timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 

@@ -9,7 +9,7 @@ sidebar_label: is_existing_by_xpath
         timeout: int = 30
     ) -> bool***  
 
-In current opened browser, check whether the UI element exist or not by the given XPath.
+In the active browser, check whether the UI element exist or not by the given XPath.
 
 **Parameters:**  
     &emsp;**xpath[Required]**: str     
