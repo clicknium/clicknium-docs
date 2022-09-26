@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 sidebar_label: find_elements
 ---
-# BrowserTab.find_elements
+# WebElement.find_elements
 ***def find_elements(
         self,
         locator: Union[_Locator, str],
@@ -11,11 +11,6 @@ sidebar_label: find_elements
     ) -> List[WebElement]***  
 
 Return list of all matched Web elements by the given locator in current web page.
-
-> **Remarks:**  
-`BrowserTab.find_elements` is different with the method [clicknium.find_elements](./../../../globalfunctions/find_elements.md) when locating the UI elements.  
->- `clicknium.find_elements()` is for both web and window UI element, and is not  limited to a specific scope.  
->- `clicknium.chrome.open("https://bing.com").find_elements()` will locate elements in its parent web page.  
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
@@ -36,7 +31,8 @@ from clicknium import clicknium as cc, locator, ui
 tab = cc.edge.open("https://www.bing.com/")
 tab.find_element(locator.new_store.sample.bing.search_sb_form_q).set_text('clicknium')
 tab.find_element(locator.new_store.sample.bing.svg).click()
-result_elements = tab.find_elements(locator.new_store.sample.bing.a_search_result)
+web_element = tab.find_elements(locator.new_store.sample.bing.a_search_list)
+result_elements = web_element.find_elements(locator.new_store.sample.bing.a_search_result)
 for elem in result_elements:
     elem.highlight(duration=1)
 tab.close()

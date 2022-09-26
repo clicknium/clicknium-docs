@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 9
 sidebar_label: set_property
 ---
 # WebElement.set property
