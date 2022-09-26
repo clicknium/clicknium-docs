@@ -1,6 +1,6 @@
 # WebElement
 
-- extends: [UiElement](./../../../../../python/uielement/uielement.md) 
+- Extends: [UiElement](./../../../../../python/uielement/uielement.md) 
 
 **WebElement class inherits from UiElement, representing the web UI element with web specific operations.**  
 

@@ -18,7 +18,7 @@ In the active browser, find element by the given CSS selector.
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
-    &emsp;[WebElement](./webelement/webelement.md) object.
+    &emsp;[WebElement](./webelement.md) object.
 
 **Example:**
 ***
