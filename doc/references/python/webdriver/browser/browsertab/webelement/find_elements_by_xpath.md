@@ -18,7 +18,7 @@ In the active browser, find elements by the given XPath.
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.   
 
 **Returns:**  
-    &emsp;List of [WebElement](./webelement/webelement.md) objects.
+    &emsp;List of [WebElement](./webelement.md) objects.
 
 **Example:**
 ***

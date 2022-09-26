@@ -14,14 +14,14 @@ Return list of all matched Web elements by the given locator in current web page
 
 **Parameters:**  
     &emsp;**locator[Required]**: str | _Locator   
-        &emsp;&emsp; Locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](./../../../../../concepts/locator.md).   
+        &emsp;&emsp; Locator string, the visit path of locator for target UI element, eg: 'locator.chrome.bing.search_sb_form_q', locator store is chrome, and locator name is search_sb_form_q. For more details, please refer to [Locator](../../../../../../concepts/locator.md).   
     &emsp;**locator_variables**: dict  
-        &emsp;&emsp; Locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](./../../../../../concepts/locator.md#parametric-locator).  
+        &emsp;&emsp; Locator variables, set to initialize parameters in locator, eg: `{ "row": 1,  "column": 1}`, more about variables, please refer to [Parametric Locator](../../../../../../concepts/locator.md#parametric-locator).  
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds.
 
 **Returns:**  
-    &emsp;List of [WebElement](./webelement/webelement.md) objects.  
+    &emsp;List of [WebElement](./webelement.md) objects.  
 
 **Example:**
 ***
