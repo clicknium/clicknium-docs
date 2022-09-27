@@ -22,6 +22,8 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/clicknium?style=flat-square)
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fclicknium)](https://twitter.com/clicknium)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://join.slack.com/t/clicknium/shared_invite/zt-1gi6v3d85-8sBgen83vD6EhL48UEhxwQ)
+[![Discord](https://dcbadge.vercel.app/api/server/s7Pcev8Ad4?style=flat-square)](https://discord.gg/s7Pcev8Ad4)
+
 
 # Clicknium-docs
 

@@ -1,4 +1,20 @@
 # Change Log
+## 0.1.8 (23 September 2022)
+### New features
+- New API: support locating by XPath, BrowserTab.find_element_by_xpath/find_elements_by_xpath/is_existing_by_xpath/wait_appear_by_xpath/wait_disappear_by_xpath.
+- New API: support locating by CSS selector, BrowserTab.find_element_by_css_selector/find_elements_by_css_selector/is_existing_by_css_selector/wait_appear_by_css_selector/wait_disappear_by_css_selector.
+- New API: support finding a single element or elements based on current element, WebElement.find_element/find_element_by_xpath/find_element_by_css_selector/find_elements/find_elements_by_xpath/find_elements_by_css_selector.
+- Updated Web locator: get all Web element's attributes.
+- Support custom attibutes for Web locator.
+- Support automation for custom chromium browsers, such as "brave", "vivaldi" and so on, clicknium.chromium("brave").
+- Support installation for custom chromium browser extension, clicknium.chromium("brave").extenion.install().
+
+### Improvements
+- Improve the experience of recording WeChat desktop client.
+- Improve the experience of recording the similar elements, rather than scrolling to the first element.
+- Optimize exception error, when `save_to_image` with invalid file path.
+- Optimize locating elements: `get_property` would not scroll to the element.
+
 ## 0.1.7 (8 September 2022)
 ### Improvements
 - Hotfix: in the event that Chrome is running in multiple windows, there is a chance that the recorder won't function properly.
@@ -8,7 +24,7 @@
 - Enhance the Java extension installation process and examine the JAVA _HOME directory.
 - Fix bug: set_text may get errors with method `set-text` for desktop applications.
 - Fix bug: web elements can not be located without attribute `tag`.
-- Fix bug: when a javascript file's content contains characters other than English, execute_js_file cannot function.
+- Fix bug: when a Javascript file's content contains characters other than English, execute_js_file cannot function.
 - Fix bug: when `times` is set to a negative number, mouse.scroll will not function.
 
 ## 0.1.5 (26 August 2022)

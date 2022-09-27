@@ -5,7 +5,8 @@
 - `clicknium.ie`: IE web driver  
 - `clicknium.chrome`: Chrome web driver  
 - `clicknium.edge`: Edge web driver  
-- `clicknium.firefox`: Firefox web driver  
+- `clicknium.firefox`: Firefox web driver 
+- `clicknium.chromium()`: Chromium based web driver, such as "brave", "vivaldi" and so on 
 
 ## Properties
 - `browsers`: List[[Browser](./browser/browser.md)], return all open browsers by current browser type.  

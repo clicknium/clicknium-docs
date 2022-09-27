@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 18
 sidebar_label: goto
 ---
 # BrowserTab.goto
