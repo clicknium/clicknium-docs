@@ -16,13 +16,13 @@ If you encountered the subsequent issue when recording:
 
 ![multiple user profile error](img/faq_multiple_profile_error.png)
 
-This is due to the possibility that you have started several Chrome browser windows using several user profiles. Every Chrome browser window's user profile is visible in the top-right corner.
+This is due to the possibility that you have started several Chrome browser windows using different user profiles. Every Chrome browser window's user profile is visible in the top-right corner.
 
 ![multiple user profile](img/faq_mulitple_profile2.png)
 
 You can fix this issue by first stopping Clicknium Recorder, closing all open browser tabs, opening the browser solely in a single user profile, and then starting a new recording.
 
-## This element is not similar to previous elements, please capture again
+## This element is not similar to previous elements. Please capture it again
 If you encountered the subsequent issue when recording similar elements, 
 
 ![similar element error](img/faq_similar_elelemt_error.png)
@@ -33,8 +33,8 @@ The new recorded locator being different from the old one should be the primary 
 
 For more information, please refer to [Capture similar elements](tutorial/recorder/capture_similar_elements.md)
 
-## Browser extension for Chrome is not turned on, do you want to turn on it now?
-If you encountered the subsequent issue when recording element on one browser page,
+## Browser extension for Chrome is not turned on, do you want to turn it on now?
+If you encountered the subsequent issue when recording elements on one browser page,
 
 ![install extension](img/faq_install_extension_error.png)
 

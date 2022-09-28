@@ -11,14 +11,14 @@ sidebar_label: Recapture & Compare
 
 ## Overview
 
-Recapture & Compare allows you to recode the same UI element, create a new location, and present the user with a comparable view.
+Recapture & Compare allows you to record the same UI element, create a new location, and present the user with a comparable view.
 The user may easily distinguish the dynamic attributes by comparing the new locator to the prior one. The chosen list should not include these dynamic attributes.
 
-Many websites today include dynamic pages, which means that when a user opens the same page, different material is shown. Locating the element will be challenging in this scenario. The element's locator was successfully located the previous time, and it might be failed located the next time. . Use the "Recapture and Compare" feature to rapidly decide which properties on the locator should be used in this situation.
+Many websites today include dynamic pages, which means that when a user opens the same page, different material is shown. Locating the element will be challenging in this scenario. The element's locator was successfully found the last time, and it might fail next time. Use the "Recapture and Compare" feature to rapidly decide which properties on the locator should be used in this situation.
 
-The example below demonstrates how to make advantage of this functionality.
+The example below demonstrates how to take advantage of this functionality.
 
-Case background: From the YouTube main page, the user wants to download the first video cover image.
+Case background: The user wants to download the first video cover image from the YouTube main page.
 
 ![youtube home page](../../img/rc_sample_youtube.png)
 
@@ -40,7 +40,7 @@ You will get the following view:
 
 As you can see from the comparative mode, the values of the attributes "src" and "sInfo" have changed, so we should disregard them and choose different attributes.
 
-You can uncheck "src" and check "cssSelector" in this situation, then save locator.
+You can uncheck "src" and check "cssSelector" in this situation, then save the locator.
 
 ![recapture and compare](../../img/rc_locator3.png)
 

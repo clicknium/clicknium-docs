@@ -18,7 +18,7 @@ More about the installation and the tutorial of Clicknium Automation, please ref
 
 :::
 ## Samples
-The example below demonstrates how to make advantage of this functionality.
+The example below demonstrates how to take advantage of this functionality.
 
 ### Sample 1: Azure devops new work item page
 
@@ -30,7 +30,7 @@ We want to locate the 'Discussion' input area.
 
 ![azure new work item discussion aread](../img/webcustom_locator1.png)
 
-The "ancestorId" of the produced locator is dynamic in this scenario; if you create a work item again, the "ancestorId" may change.
+In this scenario, the "ancestorId" of the produced locator is dynamic; if you create a work item again, the "ancestorId" may change.
 Given that Clicknium returns the values for all of the web element's attributes, choosing "aria-label" and excluding "ancestorId" will make the locator more dependable for this sample.
 
 ![azure new work item discussion aread](../img/webcustom_locator2.png)
