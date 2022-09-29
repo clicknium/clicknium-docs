@@ -1,4 +1,13 @@
 # Change Log
+## 0.1.9 (28 September 2022)
+### New features
+- Support for setting up a shortcut key for image and UI locator capture..
+
+### Improvements
+- Improve the IA recording experience.
+- Improve the Java recording experience.
+- Optimised recording error messages are shown when the Edge browser uses multiple windows under different user profiles.
+
 ## 0.1.8 (23 September 2022)
 ### New features
 - New API: support locating by XPath, BrowserTab.find_element_by_xpath/find_elements_by_xpath/is_existing_by_xpath/wait_appear_by_xpath/wait_disappear_by_xpath.
