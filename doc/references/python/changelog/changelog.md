@@ -1,12 +1,12 @@
 # Change Log
 ## 0.1.9 (28 September 2022)
 ### New features
-- Support for customizing the UI locator capture and image locator capture control keys.
+- Support for setting up a shortcut key for image and UI locator capture..
 
 ### Improvements
 - Improve the IA recording experience.
 - Improve the Java recording experience.
-- Optimize exception error, when Edge browser is running with serveral user profiles during capturing.
+- Optimised recording error messages are shown when the Edge browser uses multiple windows under different user profiles.
 
 ## 0.1.8 (23 September 2022)
 ### New features
