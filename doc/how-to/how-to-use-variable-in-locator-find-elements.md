@@ -21,7 +21,7 @@ This is a real user scenario, which needs to grab user list information from a c
 
 ![slack contact list](img/slack_contact_list.png)
 
-After record one contact item's locator, user modify the locator with index variable.
+After recording one contact item's locator, user modify the locator with index variable.
 
 ![slack contact locator](img/slack_locator.png)
 
