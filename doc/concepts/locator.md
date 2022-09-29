@@ -81,7 +81,7 @@ The following cases can be considered as wildcard locator:
 - value of the attribute is dynamic
 
 ## Parametric Locator
- Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element..
+ Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element.
 - dynamic value: {{varaible}}, the variable in locator formats as the following:  
 `<Web ancestorId="{{id}}" tag="A" />`  
 or set partial value as parameter:  
