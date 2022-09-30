@@ -11,7 +11,7 @@ sidebar_label: Settings
 
 ## Overview
 
-Support for setting up a shortcut key for image and UI locator capture. 
+The shortcut key for image and UI locator capturing can be customized through this configuration.
 
 ## Setting Steps
 
@@ -31,6 +31,7 @@ Support for setting up a shortcut key for image and UI locator capture.
 &emsp;  ![recorder window](../../img/recorder_settings_button.png)
 
 - Select your own shortcut key.  
+***Remarks***:The modifier key/keys can't be same for image and UI locator capturing actions. For e.g., if you choose Ctrl+Click to add UI locator, you can't select Ctrl+Drag Selection for image locator capturing.      
 &emsp;  ![recorder window](../../img/recorder_settings_selection.png)
 
 - Click the `Save` button to save your settings.  
