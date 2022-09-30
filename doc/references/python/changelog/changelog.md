@@ -1,5 +1,5 @@
 # Change Log
-## 0.1.9 (28 September 2022)
+## 0.1.9 (29 September 2022)
 ### New features
 - Support for setting up a shortcut key for image and UI locator capture.
 
