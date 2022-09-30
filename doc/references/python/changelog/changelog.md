@@ -1,7 +1,7 @@
 # Change Log
 ## 0.1.9 (28 September 2022)
 ### New features
-- Support for setting up a shortcut key for image and UI locator capture..
+- Support for setting up a shortcut key for image and UI locator capture.
 
 ### Improvements
 - Improve the IA recording experience.
