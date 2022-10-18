@@ -6,10 +6,11 @@ sidebar_label: Install Browser Extension
 # How to Install Browser Extension
 
 ## Introduction
-Since the support of manifest V2 ends in Jun, 2023 for all Chromium-based browsers. We upgrade Chrome and Edge browser extensions from manifest V2 to V3.
+Since the support of manifest V2 ends in Jun, 2023 for all Chromium-based browsers. We upgrade Chrome and Edge browser extensions from manifest V2 to V3.  
+Please refer to [here](https://www.clicknium.com/documents/tutorial/extensions/#browser-extensions) for details of the extension.
 
 ## Scenario
-WIf you install Clicknium extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/clicknium-recorder/ifnedcgcleipmmolmnhoeemmjnljjgna), and get the error "Unable to communicate with Clicknium native message host." from the popup window. There are two ways to install Clicknium native message host instead.
+If you install Clicknium extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/clicknium-recorder/ifnedcgcleipmmolmnhoeemmjnljjgna), and get the error "Unable to communicate with Clicknium native message host." from the popup window. There are two ways to install Clicknium native message host instead.
 
 ![popup window](./img/unable_to_connect_message_host.png)
 
