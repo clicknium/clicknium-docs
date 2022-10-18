@@ -1,12 +1,12 @@
 # Change Log
 ## 0.1.10 (21 October 2022)
 ### New features
-- Upgrade to manifest V3 for chrome and edge extension.
-- Support installing chrome and edge extension online.
-- Support additional arguments to pass, when opening browser with method `open`.
+- Upgrade to Manifest V3 for Chrome and Edge extension.
+- Support for installing Chrome and Edge extension from online web store.
+- Support to pass additional arguments, when open the browser with method `open`.
 
 ### Improvements
-- Improve the web recording experience, optimize the error messages when the browser extension is not ready. 
+- Enhanced online recording experience and the notifications when a browser extension is not ready. 
 
 ## 0.1.9 (29 September 2022)
 ### New features
