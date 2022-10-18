@@ -7,6 +7,7 @@ sidebar_label: Install Browser Extension
 
 ## Introduction
 Since the support of manifest V2 ends in Jun, 2023 for all Chromium-based browsers. We upgrade Chrome and Edge browser extensions from manifest V2 to V3.  
+
 Please refer to [here](https://www.clicknium.com/documents/tutorial/extensions/#browser-extensions) for details of the extension.
 
 ## Scenario
