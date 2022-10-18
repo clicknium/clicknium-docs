@@ -10,7 +10,7 @@ A locator(a.k.a. selector) is a way to identify elements on a web page or deskto
 ## Locator Settings
  Locators have the rich feature to meet different UI automation needs. 
  - Locator: UI element locator, the string(XML fragment) that used to find the elements including application information and all necessary parent nodes of the UI element, and attributes of each element.
-- Locator store: the file to store locator data. The locators of the same application are stored in one locator store by default. Users can manage the locator store in Visual Studio Code or Clicnium Recorder.
+- Locator store: the file to store locator data. The locators of the same application are stored in one locator store by default. Users can manage the locator store in Visual Studio Code or Clicknium Recorder.
 - Screenshot: while recording the elements, store the screenshot together with the locator
 - Attributes: users can select/deselect or edit the value of each attribute.  
 ---
