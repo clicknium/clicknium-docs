@@ -1,4 +1,14 @@
 # Change Log
+## 0.1.10 (19 October 2022)
+### New features
+- Upgrade to Manifest V3 for Chrome and Edge extension.
+- Support for installing Chrome and Edge extension from online web store.
+- Support to pass additional arguments, when open the browser with method `open`.
+
+### Improvements
+- Enhanced online recording experience and the notifications when a browser extension is not ready. 
+- Fix bug: `wait_disappear` not working, when the element exists and then disappears.
+
 ## 0.1.9 (29 September 2022)
 ### New features
 - Support for setting up a shortcut key for image and UI locator capture.

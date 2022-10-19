@@ -9,7 +9,8 @@ This section is about Clicknium extensions.
 [Install Chrome extension](./chromeextension.md)  
 [Install Microsoft Edge extension](./edgeextension.md)  
 [Install Firefox extension](./firefoxextension.md)  
-
+[Install Brave extension](./braveextension.md)  
+[Install Vivaldi extension](./vivaldi.md)
 
 ## Java Extension
 
