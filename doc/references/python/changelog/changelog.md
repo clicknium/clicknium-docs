@@ -7,6 +7,7 @@
 
 ### Improvements
 - Enhanced online recording experience and the notifications when a browser extension is not ready. 
+- Fix bug: `wait_disappear` not working, when the element exists and then disappears.
 
 ## 0.1.9 (29 September 2022)
 ### New features
