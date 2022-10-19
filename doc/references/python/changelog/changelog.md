@@ -1,5 +1,5 @@
 # Change Log
-## 0.1.10 (21 October 2022)
+## 0.1.10 (19 October 2022)
 ### New features
 - Upgrade to Manifest V3 for Chrome and Edge extension.
 - Support for installing Chrome and Edge extension from online web store.
