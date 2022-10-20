@@ -19,8 +19,8 @@ If you install Clicknium extension from [Chrome Web Store](https://chrome.google
 ## Two ways to install browser extension
 
 ### Version Requirement
-[Clicknium Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) >= 0.1.9  
-[Clicknium Python Module](https://pypi.org/project/clicknium/) >= 0.1.10
+[Clicknium Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=ClickCorp.clicknium) ≥ 0.1.9  
+[Clicknium Python Module](https://pypi.org/project/clicknium/) ≥ 0.1.10
 
 ### Install from Clicknium Python Command
 ```Python
