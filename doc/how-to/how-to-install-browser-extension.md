@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 sidebar_label: Install Browser Extension
+slug: install-browser-extension
 ---
 
 # How to Install Browser Extension
