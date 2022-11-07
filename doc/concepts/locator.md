@@ -81,36 +81,38 @@ The following cases can be considered as wildcard locator:
 - value of the attribute is dynamic
 
 ## Parametric Locator
- Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element.
-- dynamic value: {{varaible}}, the variable in locator formats as the following:  
+ Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element.  
+
+1. Declare a parameter with [Mustache style](https://github.com/mustache/mustache.github.com) in locator attributes: {{varaible}}. The parameters in locator formats as the following:  
 `<Web ancestorId="{{id}}" tag="A" />`  
 or set partial value as parameter:  
 `<Web ancestorId="video-{{id}}" tag="A" />`
 
-- Use parametric locator in project  
+2. Use parametric locator in the project  
 ```python
 from clicknium import clicknium as cc, locator, ui
-# replace varaible 'name' in parametric locator during runtime
-variables = {"name":"test"}
+# replace varaible 'id' in parametric locator during runtime
+variables = {"id":"test"}
 ui(locator.chrome.bing.search_sb_form_q, variables)
 ```
 
 ### Examples
 How to use the parametric locator for web page and Windows applciation? Here are two examples.
 #### Web Example  
+Sample website: https://getbootstrap.com/docs/5.1/components/list-group/
 ![sample1](./../img/parametric_locator_sample1.png)  
-Locate the item in list, , the locator string is as  following after recording:  
+Recorder the first item in list. The following is the locator attributes after recording:  
 ![sample1](./../img/parametric_locator_sample1_2.png)  
-Add parametes as following to loop over each item:   
+Add a parameter in [Mustache style](https://github.com/mustache/mustache.github.com) as following to loop over each item:   
 ![sample1](./../img/parametric_locator_sample1_3.png)  
 
 ```python
 from clicknium import clicknium as cc, locator, ui
 
 index = 1
-driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/forms/input-group/")
+driver = cc.chrome.open("https://getbootstrap.com/docs/5.1/components/list-group/")
 while True:
-    variables = {"index":index}
+    variables = {"indexValue":index}
     if driver.is_existing(locator.chrome.getbootstrap.li_anitem, variables):
         text = driver.find_element(locator.chrome.getbootstrap.li_anitem, variables).get_text()
         print(text)
@@ -123,13 +125,13 @@ while True:
 ![sample1](./../img/parametric_locator_sample2.png)  
 Locate the menu item, the locator string is as following after recording:  
 ![sample1](./../img/parametric_locator_sample2_2.png)  
-Add parametes as following to loop over each menu item:  
+Add parameters in the locator attributes as following and loop over each menu item in the code :  
 ![sample1](./../img/parametric_locator_sample2_3.png)  
 
 ```python
 from clicknium import clicknium as cc, locator, ui
 
-titles = {'File', 'Edit', 'Format', 'View', 'Help'}
+titles = {'File', 'Edit', 'Format', 'View', 'Help'} 
 
 for title in titles:
     variables = {"title":title}
