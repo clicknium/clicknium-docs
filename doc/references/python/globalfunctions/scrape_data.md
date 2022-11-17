@@ -39,7 +39,7 @@ sidebar_position: 9
         &emsp;&emsp; Timeout for the operation to find the 'locator' UI element, the unit is second, and default value is 30 seconds. 
 
 **Returns:**  
-    &emsp;The json object of extracted data
+    &emsp;The Json object of extracted data
 
 **Example:**
 ***
