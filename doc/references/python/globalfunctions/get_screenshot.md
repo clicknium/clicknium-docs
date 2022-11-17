@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 ---
 # clicknium.get_screenshot
 ***def get_screenshot(image_file: str) -> None***  

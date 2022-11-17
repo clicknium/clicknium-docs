@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 ---
 # clicknium.send_hotkey
 ***def send_hotkey(hotkey: str) -> None***  
