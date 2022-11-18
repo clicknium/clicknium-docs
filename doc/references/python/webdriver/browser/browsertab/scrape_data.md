@@ -1,7 +1,8 @@
 ---
-sidebar_position: 9
+sidebar_position: 17
+sidebar_label: scrape_data
 ---
-# clicknium.scrape_data  
+# BrowserTab.scrape_data  
 
 ***def scrape_data(
         locator: Union[_Locator, str],
@@ -15,7 +16,7 @@ sidebar_position: 9
     ) -> object***  
 
 
- Scrape data from applications. It supports using a locator which targets the next page button as an automatic page turner.
+ Scrape data from applications. It supports using a locator which targets the next page button as an automatic page turner.   
 
 **Parameters:**  
     &emsp;**locator[Required]**: Union[_Locator, str]   
