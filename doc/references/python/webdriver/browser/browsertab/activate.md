@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 19
 sidebar_label: activate
 ---
 # BrowserTab.activate

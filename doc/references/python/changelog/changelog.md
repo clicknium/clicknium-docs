@@ -1,4 +1,15 @@
 # Change Log
+## 0.1.11 (18 November 2022)
+### New features
+- Add [scrape_data API](../globalfunctions/scrape_data.md) to get structure data.
+- Add [screenshot_to_image](../webdriver/browser/browsertab/screenshot_to_image.md) API for `BrowserTab` to take a scrolling Screenshot for browsers tab for chromium-based browsers.
+- Add [screenshot_to_image](../webdriver/browser/browsertab/webelement/screenshot_to_image.md) API for `WebElement` to take a scrolling Screenshot for WebElement for chromium-based browsers.
+
+### Improvements
+- Fix bug: Recording issue for web element. 
+- Fix bug: Fix tab.goto issue and add `is_wait_complete` parameter.
+- Change to browser native screenshot function for chromium-based browsers.
+
 ## 0.1.10 (19 October 2022)
 ### New features
 - Upgrade to Manifest V3 for Chrome and Edge extension.
@@ -25,7 +36,7 @@
 - New API: support finding a single element or elements based on current element, WebElement.find_element/find_element_by_xpath/find_element_by_css_selector/find_elements/find_elements_by_xpath/find_elements_by_css_selector.
 - Updated Web locator: get all Web element's attributes.
 - Support custom attibutes for Web locator.
-- Support automation for custom chromium browsers, such as "brave", "vivaldi" and so on, clicknium.chromium("brave").
+- Support automation for custom chromium browsers, such as "Brave", "Vivaldi" and so on, clicknium.chromium("brave").
 - Support installation for custom chromium browser extension, clicknium.chromium("brave").extenion.install().
 
 ### Improvements
