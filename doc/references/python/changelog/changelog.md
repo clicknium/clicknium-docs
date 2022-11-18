@@ -1,9 +1,9 @@
 # Change Log
 ## 0.1.11 (18 November 2022)
 ### New features
-- Add scrape_data API to get structure data.
-- Add screenshot_to_image API for `_browser_tab` to take a scrolling Screenshot for browsers tab and UI element screen for chromium-based browsers.
-- Support executing inline Javascript.
+- Add [scrape_data API](../globalfunctions/scrape_data.md) to get structure data.
+- Add [screenshot_to_image](../webdriver/browser/browsertab/screenshot_to_image.md) API for `BrowserTab` to take a scrolling Screenshot for browsers tab for chromium-based browsers.
+- Add [screenshot_to_image](../webdriver/browser/browsertab/webelement/screenshot_to_image.md) API for `WebElement` to take a scrolling Screenshot for WebElement for chromium-based browsers.
 
 ### Improvements
 - Fix bug: Recording issue for web element. 
