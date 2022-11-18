@@ -48,7 +48,8 @@ sidebar_label: scrape_data
 from clicknium import clicknium as cc
 import pandas as pd
 
-rowdata = cc.scrape_data(locator.sample)
+tab = cc.chrome.open("https://www.w3schools.com/css/css_table.asp")
+rowdata = tab.scrape_data(locator.sample)
 df = pd.json_normalize(rowdata)
 print(df)
 
