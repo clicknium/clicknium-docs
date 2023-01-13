@@ -11,7 +11,7 @@ Uninstall Java extension.
 
 **Parameters:**  
     &emsp;**java_install_path**: str  
-        &emsp;&emsp; The Java installation path, like "C:\\Program Files\\Java\\jdk-17.0.2\\bin". The system will try to find it under "Program Files && Program Files (x86)" if this parameter is not specified.
+        &emsp;&emsp; The Java installation path, like "C:\\Program Files\\Java\\jdk-17.0.2". The system will try to find it under "Program Files && Program Files (x86)" if this parameter is not specified.
 
 **Returns:**  
     &emsp;None
@@ -25,6 +25,6 @@ from clicknium import clicknium as cc
 cc.java.extension.uninstall()
 
 # uninstall Java extension with specified java installation path
-cc.java.extension.uninstall(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2\\bin")
+cc.java.extension.uninstall(java_install_path = "C:\\Program Files\\Java\\jdk-17.0.2")
 
 ```

@@ -40,7 +40,7 @@
 
 ## Getting Started
 
-Get a sample script showing automation of web page and notepad.
+Get a sample script showing the automation of the web page and notepad.
 
 ## Installation​
 ### Set Up Clicknium Visual Studio Code Extension

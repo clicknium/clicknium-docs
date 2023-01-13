@@ -1,4 +1,10 @@
 # Change Log
+## 0.1.12 (13 January 2023)
+### New features  
+- Add CDP API support for Chrome and Edge.   
+### Improvements
+- Fix Java automation extension installation issue. 
+
 ## 0.1.11 (18 November 2022)
 ### New features
 - Add [scrape_data API](../globalfunctions/scrape_data.md) to get structure data.
