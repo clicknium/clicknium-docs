@@ -4,7 +4,8 @@ sidebar_label: open
 ---
 # WebDriver.open
 
-***def open(
+```python
+def open(
         self,
         url: str,
         is_maximize: bool = True,
@@ -12,12 +13,15 @@ sidebar_label: open
         userdata_folder_mode: Literal["automatic", "default", "custom"] = WebUserDataMode.Automatic,
         userdata_folder_path: str = "",
         timeout: int = 30
-    ) -> BrowserTab***  
+    ) -> BrowserTab 
+```
 
-Open browser with specified url to get a browser tab.
+Open browser with specified url to get a browser tab. Browser automation extensions should be installed and enable. CDP is supported for Chrome and Edge browser, ` chromecdp` and `edgecdp` can run without browser automation extension.    
 
 >**Remarks:**  
 >- When you open and run the Python script with "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)" in Visual Studio Code , the opened browser may be closed when exiting the debugging or running state.
+>- CDP doesn't support attach existing browsers.   
+
 
 **Parameters:**  
     &emsp;**url[Required]**: str   
@@ -44,15 +48,19 @@ Open browser with specified url to get a browser tab.
 ```python
 from clicknium import clicknium as cc
 
-# open ie browser
+# open IE browser
 ie_tab = cc.ie.open("https://www.bing.com")
 
-# open chrome browser
+# open Chrome browser
 chrome_tab = cc.chrome.open("https://www.bing.com")
+# open Chrome browser with CDP
+chrome_tab = cc.chromecdp.open("https://www.bing.com")
 
-# open edge browser
+# open Edge browser
 edge_tab = cc.edge.open("https://www.bing.com", is_wait_complete = True)
+# open Edge browser with CDP
+edge_tab = cc.edgecdp.open("https://www.bing.com", is_wait_complete = True)
 
-# open firefox browser
+# open Firefox browser
 firefox_tab = cc.firefox.open("https://www.bing.com", timeout = 10)
 ```
