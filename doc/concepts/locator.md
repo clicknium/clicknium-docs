@@ -34,8 +34,8 @@ The last node contains the attibutes of the target UI element.
 The nodes between `Application` and the last node are the parent or ancestor of the target element.
 
 The attributes in locator are used to identify the target element. The operator of attribute value is `equals` by default, and we support the following operators:
-`equals`, `contains`, `startWith`, `endWith`.  
-The attributes only supporting wildcard search, for example `name='test?_node*`. '?' match 1 character, '*' match 0 or more characters can use `contains`, `startWith`, `endWith`.  
+`equals`, `contains`, `startWith`, `endWith`, `regex`.  
+The attributes wildcard only supports `equals` operator, for example `name='test?_node*`. '?' match 1 character, '*' match 0 or more characters. For complex string match, `regex` is the best choice.  
 As Clicknium supports different automation technologies, shown as diffrent tags and attributes collection in locator schema, you can see the attributes defined in each automation technology page: [UIA](./uia.md), [IA](./ia.md), [web](./web.md), [Java](./java.md).  
 
 
