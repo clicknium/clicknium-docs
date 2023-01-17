@@ -25,6 +25,8 @@ The UI repository based on React. For more information, please refer to [here](h
 ### HTML Select tag
 With the Clicknium recorder, you can capture an UI element easily. Clicknium provides an excellent recording experience. For more information, please refer to [Clicknium Recorder](https://www.clicknium.com/documents/tutorial/recorder/).  
  
+ Sample site: https://www.w3docs.com/learn-html/html-select-tag.html
+
 1. The following is the content that should be captured by the recorder.  
 ![record](./../img/how-to-select-html-record.png)  
    
@@ -40,6 +42,7 @@ With the Clicknium recorder, you can capture an UI element easily. Clicknium pro
    ```
 
 ### Ant Design
+Sample site: https://ant.design/components/select/
 1. Capture below elements by Clicknium Recorder.  
    ![record](./../img/how-to-select-ant-record.png) 
 2. Change the locator attributes of the option. Uncheck className of ancestorClass.   
