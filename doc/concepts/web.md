@@ -47,25 +47,25 @@ You can get [locator](locator.md) concept first, for web automation, the attribu
 
 ## Locator samples
 
--  azure devops 'A' element
+- Azure devops 'A' element
 ```xml
 <Application processName="chrome" filePath="chrome.exe" version="1.3" />
 <Tab className="Chrome_WidgetWin_1" role="window" title="sprint query - Boards" />
 <Web ancestorId="row_vss_4_4" tag="A" />
 ```
-- bing search input
+- Bing search input
 ```xml
 <Application processName="msedge" filePath="msedge.exe" version="1.3" />
 <Tab className="Chrome_WidgetWin_1" role="window" url="https://*bing.com/" />
 <Web id="sb_form_q" name="q" tag="INPUT" />
 ```
-- bing search icon
+- Bing search icon
 ```xml
 <Application processName="msedge" filePath="msedge.exe" version="1.3" />
 <Tab className="Chrome_WidgetWin_1" role="window" url="https://*bing.com/" />
 <Web ancestorId="search_icon" tag="svg" />
 ```
-- bing search result item
+- Bing search result item
 ```xml
 <Application processName="msedge" filePath="msedge.exe" version="1.3" />
 <Tab className="Chrome_WidgetWin_1" role="window" url="https://*bing.com/search?*" />

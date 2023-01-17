@@ -54,23 +54,24 @@ You can get [locator](locator.md) concept first, for UIA automation, the attribu
 
 ## UIA element properties
 By [find_element](../references/python/globalfunctions/find_element.md) on one UIA locator, you can get one UIA element, and properties of the element by [get_property](../references/python/uielement/get_property.md).  
-Clicknium UIA support the following properties:
+Clicknium UIA support the following properties:  
+
 | Name      | Description |
 | ----------- | ----------- |
-| Name      |  the name of the user interface      |
-| IsEnabled  | whether the element is enabled in the user interface|
-| AccessKey   |  a string containing the access key character for the element|
-| AutomationId |a string containing the UI Automation identifier (ID) for the element|
-| BoundingRectangle   | the coordinates of the rectangle that completely encloses the element|
-| ProcessId   | the process identifier (ID) of the element|
-| ItemType   | the description of the item type |
-| IsPassword   |  whether the UI Automation element contains protected content|
-| IsOffscreen   |  whether the UI Automation element is visible on the screen(true when the control is not visible; otherwise false)|
-| AcceleratorKey   | a string containing the accelerator key combinations for the element|
-| HelpText   |the help text of the element|
-| IsKeyboardFocusable   |whether the UI Automation element can accept keyboard focus|
-| IsContentElement   | whether the element is a content element|
-| IsControlElement   | whether the element is viewed as a control|
-| HasKeyboardFocus   | whether the element has keyboard focus|
-| FrameworkId   | the name of the UI framework, such as "Win32", "WinForm", or "DirectUI". The default value is an empty string.|
-| ControlType | the ControlType of the element.|
+| Name      |  The name of the user interface. |
+| IsEnabled  | Whether the element is enabled in the user interface. |
+| AccessKey   | A string containing the access key character for the element. |
+| AutomationId | A string containing the UI Automation identifier (ID) for the element. |
+| BoundingRectangle   | The coordinates of the rectangle that completely encloses the element. |
+| ProcessId   | The process identifier (ID) of the element. |
+| ItemType   | The description of the item type. |
+| IsPassword   |  Whether the UI Automation element contains protected content. |
+| IsOffscreen   |  Whether the UI Automation element is visible on the screen(true when the control is not visible; otherwise false). |
+| AcceleratorKey   | A string containing the accelerator key combinations for the element. |
+| HelpText   | The help text of the element. |
+| IsKeyboardFocusable   | Whether the UI Automation element can accept keyboard focus. |
+| IsContentElement   | Whether the element is a content element. |
+| IsControlElement   | Whether the element is viewed as a control. |
+| HasKeyboardFocus   | Whether the element has keyboard focus. |
+| FrameworkId   | The name of the UI framework, such as "Win32", "WinForm", or "DirectUI". The default value is an empty string. |
+| ControlType | The ControlType of the element. |
