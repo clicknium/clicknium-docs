@@ -2,9 +2,9 @@
 sidebar_position: 3
 sidebar_label: Using custom attributes to locate web element
 ---
-# How to use custom attributes to locate web element
+# How to use custom attributes to locate web elements
 ##  Introduction
-From [Locator](../concepts/locator.md) and [Web Automation](../concepts/web.md), you know which attributes Clicknium used to locate web element, such as "tag", "id", "name" and so forth.  
+From [Locator](../concepts/locator.md) and [Web Automation](../concepts/web.md), you know which attributes Clicknium used to locate web elements, such as "tag," "id," "name" and so forth.  
 A web element may occasionally include additional attributes, some of which are significant and can be used to identify the web element.
 
 ## Version Requirement
@@ -14,23 +14,23 @@ A web element may occasionally include additional attributes, some of which are 
 
 :::tip Notes
 
-More about the installation and the tutorial of Clicknium Automation, please refer to [here](https://www.clicknium.com/documents).
+For more about the installation and the tutorial of Clicknium Automation, please refer to [here](https://www.clicknium.com/documents).
 
 :::
 ## Samples
 The example below demonstrates how to take advantage of this functionality.
 
-### Sample 1: Azure devops new work item page
+### Sample 1: Azure DevOps new work item page
 
 We want to locate the 'Discussion' input area.
 
 ![azure new work item discussion aread](../img/webcustom_discussion_area.png)
 
-- It is simple to generate the locator like the one below using Clicknium Recorder:
+- It is simple to generate the locator like the one below using Clicknium Recorder:
 
 ![azure new work item discussion aread](../img/webcustom_locator1.png)
 
-In this scenario, the "ancestorId" of the produced locator is dynamic; if you create a work item again, the "ancestorId" may change.
+In this scenario, the "ancestorId" of the produced locator is dynamic; if you create a work item again, the "ancestorId" will be change.
 Given that Clicknium returns the values for all of the web element's attributes, choosing "aria-label" and excluding "ancestorId" will make the locator more dependable for this sample.
 
 ![azure new work item discussion aread](../img/webcustom_locator2.png)
