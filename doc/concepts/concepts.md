@@ -15,10 +15,10 @@ The following technologies are freqeuntly used:
 
 ## Articles
 - [Locator](./locator.md)
-- [UIA automation](./uia.md)
 - [Web automation](./web.md)
-- [Java automation](./java.md)
-- [SAP Automation](./sap.md)
+- [UIA automation](./uia.md)
 - [IA Automation](./ia.md)
 - [Image Automation](./image.md)
+- [Java automation](./java.md)
+- [SAP Automation](./sap.md)
 

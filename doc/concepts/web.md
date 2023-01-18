@@ -1,18 +1,19 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 sidebar_label: Web Automation 
 ---
 # Web Automation 
 ## Overview
 
-Clicknium web automation support the following popular web browsers: Chrome, Microsoft Edge, IE, Firefox.
-You need install extension for [Chrome](./../tutorial/extensions/chromeextension.md), [Edge](./../tutorial/extensions/edgeextension.md) or [Firefox](./../tutorial/extensions/firefoxextension.md) before recording.  
-During recording, if you choose the web browser page, clicknium will use specified web automation to record the element.
+Clicknium web automation supports the following popular web browsers: Chrome, Microsoft Edge, IE, Firefox, Brave, Vivaldi.
+You need install extension for [Chrome](./../tutorial/extensions/chromeextension.md), [Edge](./../tutorial/extensions/edgeextension.md), [Firefox](./../tutorial/extensions/firefoxextension.md), [Brave](./../tutorial/extensions/braveextension.md) or [Vivaldi](./../tutorial/extensions/vivaldi.md) before recording.  
+During recording, When you record a web browser pages, Clicknium will auto detect and choose appropriate web automation to record the element. For Chrome and Edge, Clicknium supports CDP, so that you can use CDP API to run the Python project without browser extension. Browser extension is still required for recording. 
 
 ## Locator attributes
-You can get [locator](locator.md) concept first, for web automation, the attributes defined are as the following:
+You can learn [locator](locator.md) concept first. For web automation, the attributes are defined below:
 
 ## Tab
+
 | Name      | equals | contains |startWith |endWith | regex
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | Name |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|
@@ -23,6 +24,7 @@ You can get [locator](locator.md) concept first, for web automation, the attribu
 | Index |  <font color="Green"><B>Yes</B></font>   |<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|<font color="Red"><B>No</B></font>|
 
 ## Web
+
 | Name      | equals | contains |startWith |endWith | regex
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
 | Name |  <font color="Green"><B>Yes</B></font>   |<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|<font color="Green"><B>Yes</B></font>|

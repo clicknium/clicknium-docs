@@ -1,15 +1,15 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 sidebar_label: IA Automation 
 ---
 # IA Automation
 ## Overview
 
-Clicknium IA automation is based on Microsoft Active Accessibility(MSAA), supply recording function, generate locator and all operations on one element.  
-As MSAA is now considered a legacy API, so we treat IA as supplement of UIA, on some electron&CEF applications or some legacy application, IA can be better. If you want to use IA during recording, you need manually choose IA technology first.
+Clicknium IA automation is based on Microsoft Active Accessibility(MSAA) to support the recording function, locators, and all operations on elements.  
+As MSAA is now considered a legacy API, we treat IA as a supplement of UIA, on some Electron&CEF applications or legacy applications, IA can be better. Please manually choose IA technology if you want to use IA during recording.
 
 ## Locator attributes
-You can get [locator](./locator.md) concept first, for IA automation, the attributes defined are as the following:
+ Learn [locator](./locator.md) concept first. For IA automation, the definition of the attributes is listed in the following:
 
 | Name      | equals | contains |startWith |endWith |regex |
 | ----------- | ----------- |----------- |----------- |----------- |----------- |
@@ -73,7 +73,7 @@ You can get [locator](./locator.md) concept first, for IA automation, the attrib
 ```
 
 ## IA element properties
-By [find_element](../references/python/globalfunctions/find_element.md) on one IA locator, you can get one IA element, you can get properties of the element by [get_property](../references/python/uielement/get_property.md), Clicknium IA support the following properties:
+By [find_element](../references/python/globalfunctions/find_element.md) on one IA locator, you can get one IA element, and you can get properties of the element by [get_property](../references/python/uielement/get_property.md), Clicknium IA supports the following properties:
 
 
 | Name      | Description |
