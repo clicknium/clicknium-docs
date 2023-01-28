@@ -9,7 +9,7 @@ Clicknium automation scripts are only for Python programmers. Sometimes, it need
 ## Create Project
 
 In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input `Clicknium: Create Project,` and then select a folder to store the project in the pop-up window. The command will also create a virtual Python environment for the project. 
-![project create](../../doc/img/create_project.gif)
+![project create](../img/create_project.gif)
 
 When the project is created, a pop-up window in the lower right corner shows the general project initialization information, and the output panel shows details. After initialization, the current Python virtual environment can be seen when you open app.py.  
 ![](./img/virtualEnv.png)
@@ -19,19 +19,19 @@ Compared to the ordinary Python project, there are a few more files:
 - logo.ico: Executable file's Icon.
 - clicknium.yaml: Configuration file.
 
-`app.py` is the default Python code file. You can rename or edit it.`logo. ico' is the default Icon for the exe file. It can be replaced for customize. 
+`app.py` is the default Python code file. You can rename or edit it.`logo. ico` is the default Icon for the exe file. It can be replaced for customize. 
 `clicknium.yaml` includes some settings about the target exe file. 
 
 
 ## Run the project
 
 In Visual Studio Code, press "Ctrl+Shift+P" to show the Command Palette, input or select `Clicknium: Run Project`. The Clicknium extension will deploy and run the project based on clicknium.yaml.  
-![project run](../../doc/img/run_project.gif) 
+![project run](../img/run_project.gif) 
 
 ## Debug the project
 
 In Visual Studio Code, set a breakpoint to the code, press `Ctrl+Shift+P` to show the Command Palette, and input `Clicknium: Debug Project`.  
-![project debug](../../doc/img/debug_project_3.png)  
+![project debug](../img/debug_project_3.png)  
 
 Useful Shortcut:
 
@@ -72,7 +72,7 @@ requirements:
 
 **Build the executable file**:  
 In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input or select `Clicknium: Package Project`. There are two modes for the .exe file. If it's a simple command-line script, choose `console.` If the Python Project included any GUI, choose `gui`. Next, select the path to save the executable file.
-![](../../doc/img/pack_project.gif)
+![](../img/pack_project.gif)
 
 The detailed package log Output displays in the Output in Visual Studio Code.
 
