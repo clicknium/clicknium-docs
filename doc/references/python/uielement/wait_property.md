@@ -1,10 +1,12 @@
 # wait_property
-***def wait_property(
+```python
+def wait_property(
         self,
         name: str, 
         value: str, 
         wait_timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
 Wait for the target element's property to be expected value within specified timeout. 
 

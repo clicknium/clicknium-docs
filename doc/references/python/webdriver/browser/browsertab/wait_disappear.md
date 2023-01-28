@@ -3,12 +3,14 @@ sidebar_position: 14
 sidebar_label: wait_disappear
 ---
 # BrowserTab.wait_disappear
-***def wait_disappear(
+```python
+def wait_disappear(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         wait_timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
 Wait for the specified element of the web page to disappear within given timeout.
 

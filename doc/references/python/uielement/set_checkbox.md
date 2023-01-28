@@ -1,9 +1,11 @@
 # set_checkbox
-***def set_checkbox(
+```python
+def set_checkbox(
         self,
         check_type: Literal["check", "uncheck", "toggle"] = CheckType.Check,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Set check state for a checkbox control.
 

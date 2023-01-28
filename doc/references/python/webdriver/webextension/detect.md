@@ -4,7 +4,9 @@ sidebar_label: detect
 ---
 # WebDriver.extension.detect
 
-***def detect(self) -> ExtensionStatus*** 
+```python
+def detect(self) -> ExtensionStatus
+``` 
 
 Detect the installation status of the browser extension.
 

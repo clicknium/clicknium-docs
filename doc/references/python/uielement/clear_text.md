@@ -1,11 +1,13 @@
 # clear_text
-***def clear_text(
+```python
+def clear_text(
         self,
         by: Union[Literal["set-text", "send-hotkey"], ClearTextBy],
         clear_hotkey: Union[Literal["CAD", "ESHD", "HSED"], ClearHotKey] = ClearHotKey.CtrlA_Delete,
         preaction: Literal["setfocus", "click"] = PreAction.SetFocus,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Clear text of the target element.
 

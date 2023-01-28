@@ -1,5 +1,7 @@
 # get_size
-***def get_size(self, timeout: int = 30) -> ElementSize***  
+```python
+def get_size(self, timeout: int = 30) -> ElementSize
+```
 
 Get the size(height and width) of the target element.
 

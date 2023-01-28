@@ -1,13 +1,15 @@
 # mouse_up 
 
-***def mouse_up(
+```python
+def mouse_up(
         self,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
         mouse_location: MouseLocation = MouseLocation(),
         by: Union[Literal["default", "mouse-emulation", "control-invocation"], MouseActionBy] = MouseActionBy.Default,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+``` 
 
 Mouse button up on the target element.
 

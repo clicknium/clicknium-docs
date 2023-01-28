@@ -3,11 +3,13 @@ sidebar_position: 12
 sidebar_label: wait_appear_by_xpath
 ---
 # BrowserTab.wait_appear_by_xpath
-***def wait_appear_by_xpath(
+```python
+def wait_appear_by_xpath(
         self,
         xpath: str,
         wait_timeout: int = 30
-    ) -> WebElement***  
+    ) -> WebElement
+```  
 
 In the active browser, wait for the element to appear by the given XPath.
 

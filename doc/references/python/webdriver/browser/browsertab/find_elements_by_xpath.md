@@ -3,11 +3,13 @@ sidebar_position: 6
 sidebar_label: find_elements_by_xpath
 ---
 # BrowserTab.find_elements_by_xpath
-***def find_elements_by_xpath(
+```python
+def find_elements_by_xpath(
         self,
         xpath: str,
         timeout: int = 30
-    ) -> List[WebElement]***  
+    ) -> List[WebElement]
+```  
 
 In the active browser, find elements by the given XPath.
 

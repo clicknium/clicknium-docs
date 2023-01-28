@@ -5,7 +5,9 @@ sidebar_label: uninstall
 
 # clicknium.java.uninstall
 
-***def uninstall(self, java_install_path: str = '') -> None*** 
+```python 
+def uninstall(self, java_install_path: str = '') -> None
+```
 
 Uninstall Java extension.
 

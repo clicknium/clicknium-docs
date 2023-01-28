@@ -3,11 +3,13 @@ sidebar_position: 16
 sidebar_label: wait_disappear_by_css_selector
 ---
 # BrowserTab.wait_disappear_by_css_selector
-***def wait_disappear_by_css_selector(
+```python
+def wait_disappear_by_css_selector(
         self,
         css_selector: str,
         wait_timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
 In the active browser, wait for the element to disappear by the given CSS selector.
 

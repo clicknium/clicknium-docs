@@ -2,10 +2,12 @@
 sidebar_position: 7
 ---
 # clicknium.send_text
-***def send_text(
+```python
+def send_text(
         self,
         text: str
-    ) -> None***  
+    ) -> None
+```
 
 Send text to the cursor's current position.
 

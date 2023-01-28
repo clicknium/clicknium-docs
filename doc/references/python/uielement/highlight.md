@@ -1,10 +1,12 @@
 # highlight
-***def highlight(
+```python
+def highlight(
         self,
         color: Union[str, Color] = Color.Yellow,
         duration: int = 3,        
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Highlight the target element.
 

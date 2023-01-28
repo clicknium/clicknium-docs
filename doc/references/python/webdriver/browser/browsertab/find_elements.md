@@ -3,12 +3,14 @@ sidebar_position: 5
 sidebar_label: find_elements
 ---
 # BrowserTab.find_elements
-***def find_elements(
+```python
+def find_elements(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         timeout: int = 30
-    ) -> List[WebElement]***  
+    ) -> List[WebElement]
+```  
 
 Return list of all matched Web elements by the given locator in current web page.
 

@@ -1,12 +1,14 @@
 # click 
-***def click(
+```python
+def click(
         self,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
         mouse_location: MouseLocation = MouseLocation(),
         by: Union[Literal["default", "mouse-emulation", "control-invocation"], MouseActionBy] = MouseActionBy.Default,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Single click the target element.
 
@@ -67,7 +69,7 @@ ui(locator.applicationframe.button_num5butto).click(mouse_location=MouseLocation
 - Click along with modifier_key  
 For Windows File Explorer as follows:  
 ![sample2-1](../../../img/click_sample21.png)  
-  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click()`, then selection changed from 'test1' to 'test3'  
+Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click()`, then selection changed from 'test1' to 'test3'  
 ![sample2-2](../../../img/click_sample22.png)  
-  - Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`, then both 'test1' and 'test3' are in selection.  
+Click on folder 'test3' as `ui(locator.explorer.edit_system_item).click(modifier_key=ModifierKey.Ctrl)`, then both 'test1' and 'test3' are in selection.  
 ![sample2-3](../../../img/click_sample23.png) 

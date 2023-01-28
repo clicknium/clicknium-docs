@@ -1,10 +1,12 @@
 # select_items
-***def select_items(
+```python
+def select_items(
         self,
         items: list,
         clear_selected: bool = True,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Select multiple options for the target element that can support multiple selections.
 

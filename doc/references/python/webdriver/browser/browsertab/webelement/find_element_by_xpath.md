@@ -3,11 +3,13 @@ sidebar_position: 4
 sidebar_label: find_element_by_xpath
 ---
 # WebElement.find_element_by_xpath
-***def find_element_by_xpath(
+```python
+def find_element_by_xpath(
         self,
         xpath: str,
         timeout: int = 30
-    ) -> WebElement***  
+    ) -> WebElement
+```  
 
 In the active browser, find element by the given XPath.  
 

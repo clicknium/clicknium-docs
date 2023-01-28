@@ -5,11 +5,13 @@ sidebar_label: move
 
 # clicknium.mouse.move
 
-***def move(
+```python
+def move(
         self,
         x: int, 
         y: int
-    ) -> None***  
+    ) -> None
+```  
 
 Move the mouse cursor to the X and Y integer coordinates.
 

@@ -4,13 +4,15 @@ sidebar_label: attach_by_title_url
 ---
 # WebDriver.attach_by_title_url
 
-***def attach_by_title_url(
+```python
+def attach_by_title_url(
         self,
         title: str = '',
         url: str = '',
         is_maximize: bool = True,
         timeout = 30
-    ) -> BrowserTab***  
+    ) -> BrowserTab
+```  
 
 Attach to an open browser tab with a specified title and/or url.
 

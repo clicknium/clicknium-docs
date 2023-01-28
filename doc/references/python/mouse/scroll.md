@@ -5,11 +5,13 @@ sidebar_label: scroll
 
 # clicknium.mouse.scroll
 
-***def scroll(
+```python
+def scroll(
         self,
         times = 1,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey
-    ) -> None***  
+    ) -> None
+```  
 
 Do the mouse scroll wheel.
 

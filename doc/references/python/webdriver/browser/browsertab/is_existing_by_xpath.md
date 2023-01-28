@@ -3,11 +3,13 @@ sidebar_position: 9
 sidebar_label: is_existing_by_xpath
 ---
 # BrowserTab.is_existing_by_xpath
-***def is_existing_by_xpath(
+```python
+def is_existing_by_xpath(
         self,
         xpath: str,
         timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
 In the active browser, check whether the UI element exist or not by the given XPath.
 

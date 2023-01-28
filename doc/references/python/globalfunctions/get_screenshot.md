@@ -2,7 +2,9 @@
 sidebar_position: 8
 ---
 # clicknium.get_screenshot
-***def get_screenshot(image_file: str) -> None***  
+```python
+def get_screenshot(image_file: str) -> None
+```
 
 Saves a screenshot of the current window to an image file.
 

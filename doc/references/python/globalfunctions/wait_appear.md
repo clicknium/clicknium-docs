@@ -2,11 +2,13 @@
 sidebar_position: 4
 ---
 # clicknium.wait_appear
-***def wait_appear(
+```python
+def wait_appear(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         wait_timeout: int = 30
-    ) -> UiElement***  
+    ) -> UiElement
+```
 
 Wait for the UI element to appear and return it within specified timeout.
 

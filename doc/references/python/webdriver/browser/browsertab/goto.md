@@ -4,12 +4,14 @@ sidebar_label: goto
 ---
 # BrowserTab.goto
 
-***def goto(
+```python
+def goto(
         self,
         url: str,
         is_wait_complete: bool = True,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Redirect current tab to the specified url.
 

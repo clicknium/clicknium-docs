@@ -4,10 +4,12 @@ sidebar_label: get_statusbar
 ---
 # SapElement.get_statusbar
 
-***def get_statusbar(
+```python
+def get_statusbar(
         self, 
         timeout: int = 30
-    ) -> SapStatusBarInfo***  
+    ) -> SapStatusBarInfo
+```  
 
 Get the information of the SAP status bar.
 

@@ -1,11 +1,13 @@
 # maximize
 
-***def maximize(
+```python
+def maximize(
         self, 
         locator: Union[_Locator, str],
         locator_variables: dict = {}, 
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Maximize the window specified by locator.   
 ***Notes***: The locator should be recorded using [UIA](../../../concepts/uia.md) technology, role is window, for example:  

@@ -3,11 +3,13 @@ sidebar_position: 5
 sidebar_label: find_element_by_css_selector
 ---
 # WebElement.find_element_by_css_selector
-***def find_element_by_css_selector(
+```python
+def find_element_by_css_selector(
         self,
         css_selector: str,
         timeout: int = 30
-    ) -> WebElement***  
+    ) -> WebElement
+``` 
 
 In the active browser, find element by the given CSS selector.
 

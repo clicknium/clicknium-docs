@@ -4,12 +4,14 @@ sidebar_label: set_property
 ---
 # WebElement.set property
 
-***def set_property(
+```python
+def set_property(
         self,
         name: str,
         value: str,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Set the property value of the web element.  
 

@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 # clicknium.find_element
-***def find_element(
+```python
+def find_element(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         window_mode: Literal["auto", "topmost", "noaction"] = WindowMode.Auto
-    ) -> UiElement***  
+    ) -> UiElement 
+```
 
 Return the UI element defined by the given locator.
 

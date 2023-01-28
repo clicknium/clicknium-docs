@@ -3,12 +3,14 @@ sidebar_position: 8
 sidebar_label: is_existing
 ---
 # BrowserTab.is_existing
-***def is_existing(
+```python
+def is_existing(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
  Check whether the specified element of the web page exists.  
 

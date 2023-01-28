@@ -34,8 +34,8 @@ The last node contains the attibutes of the target UI element.
 The nodes between `Application` and the last node are the parent or ancestor of the target element.
 
 The attributes in locator are used to identify the target element. The operator of attribute value is `equals` by default, and we support the following operators:
-`equals`, `contains`, `startWith`, `endWith`.  
-The attributes only supporting wildcard search, for example `name='test?_node*`. '?' match 1 character, '*' match 0 or more characters can use `contains`, `startWith`, `endWith`.  
+`equals`, `contains`, `startWith`, `endWith`, `regex`.  
+The attributes wildcard only supports `equals` operator, for example `name='test?_node*`. '?' match 1 character, '*' match 0 or more characters. For complex string match, `regex` is the best choice.  
 As Clicknium supports different automation technologies, shown as diffrent tags and attributes collection in locator schema, you can see the attributes defined in each automation technology page: [UIA](./uia.md), [IA](./ia.md), [web](./web.md), [Java](./java.md).  
 
 
@@ -81,9 +81,9 @@ The following cases can be considered as wildcard locator:
 - value of the attribute is dynamic
 
 ## Parametric Locator
- Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the varaibles or data. This allows the locator to match series of elements, instead of single target element.  
+ Parameters in locator string can be used as value or partial value of the attribute in parametric locator. Users can use the parametric locator in the automation project to replace the ones with the variable or data. This allows the locator to match series of elements, instead of single target element.  
 
-1. Declare a parameter with [Mustache style](https://github.com/mustache/mustache.github.com) in locator attributes: {{varaible}}. The parameters in locator formats as the following:  
+1. Declare a parameter with [Mustache style](https://github.com/mustache/mustache.github.com) in locator attributes: {{variable}}. The parameters in locator formats as the following:  
 `<Web ancestorId="{{id}}" tag="A" />`  
 or set partial value as parameter:  
 `<Web ancestorId="video-{{id}}" tag="A" />`
@@ -91,7 +91,7 @@ or set partial value as parameter:
 2. Use parametric locator in the project  
 ```python
 from clicknium import clicknium as cc, locator, ui
-# replace varaible 'id' in parametric locator during runtime
+# replace variable 'id' in parametric locator during runtime
 variables = {"id":"test"}
 ui(locator.chrome.bing.search_sb_form_q, variables)
 ```

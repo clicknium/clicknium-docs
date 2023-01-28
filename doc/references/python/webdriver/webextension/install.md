@@ -4,7 +4,9 @@ sidebar_label: install
 ---
 # WebDriver.extension.install
 
-***def install(self) -> None*** 
+```python
+def install(self) -> None
+```
 
 Install browser extension.
 

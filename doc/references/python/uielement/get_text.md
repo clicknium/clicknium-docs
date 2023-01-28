@@ -1,5 +1,7 @@
 # get_text
-***def get_text(self, timeout: int = 30) -> str***  
+```python
+def get_text(self, timeout: int = 30) -> str
+```
 
 Get text of the target element.
 

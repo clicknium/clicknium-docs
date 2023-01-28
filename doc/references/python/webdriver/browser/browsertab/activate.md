@@ -4,10 +4,12 @@ sidebar_label: activate
 ---
 # BrowserTab.activate
 
-***def activate(
+```python
+def activate(
         self,
         is_topmost: bool = True
-    ) -> None***  
+    ) -> None
+```  
 
 Activate the browser tab.  
 
