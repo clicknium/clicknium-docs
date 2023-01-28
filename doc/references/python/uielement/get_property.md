@@ -1,9 +1,11 @@
 # get_property
-***def get_property(
+```python
+def get_property(
         self,
         name: str,
         timeout: int = 30
-    ) -> str***  
+    ) -> str
+``` 
 
 Get property value of the target element.  
 

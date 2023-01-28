@@ -1,5 +1,7 @@
 # set_focus
-***def set_focus(self, timeout: int = 30) -> None***  
+```python
+def set_focus(self, timeout: int = 30) -> None
+```  
 
 Set the target element to focused state.
 

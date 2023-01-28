@@ -2,7 +2,9 @@
 sidebar_position: 6
 ---
 # clicknium.send_hotkey
-***def send_hotkey(hotkey: str) -> None***  
+```python
+def send_hotkey(hotkey: str) -> None
+```
 
 Send hotkey to the cursor's current position.
 

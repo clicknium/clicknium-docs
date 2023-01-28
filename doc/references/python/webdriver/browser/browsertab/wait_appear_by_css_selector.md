@@ -3,11 +3,13 @@ sidebar_position: 13
 sidebar_label: wait_appear_by_css_selector
 ---
 # BrowserTab.wait_appear_by_css_selector
-***def wait_appear_by_css_selector(
+```python
+def wait_appear_by_css_selector(
         self,
         css_selector: str,
         wait_timeout: int = 30
-    ) -> WebElement***  
+    ) -> WebElement
+```  
 
 In the active browser, wait for the element to appear by the given CSS selector.
 

@@ -4,13 +4,15 @@ sidebar_label: screenshot_to_image
 ---
 # BrowserTab.screenshot_to_image  
 
-***def screenshot_to_image(
+```python
+def screenshot_to_image(
         self,
         image_file: str,
         mode: Literal["bounds", "viewport", "full"] = ScreenShotMode.Full,
         rect: Rectangle = None,
         wait_for_page_delay: int = 0
-    ) -> None***  
+    ) -> None
+``` 
 
 
 Save current browser tab's screenshot to file using CDP tech. Only support for chromium web tabs.   

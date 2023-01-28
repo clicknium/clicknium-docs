@@ -4,7 +4,8 @@ sidebar_label: login
 ---
 # clicknium.sap.login
 
-***def login(
+```python
+def login(
         self,
         login_path: str,
         connection: str,
@@ -12,7 +13,8 @@ sidebar_label: login
         user: str,
         password: str,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Login to the SAP application.
 

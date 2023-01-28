@@ -3,11 +3,13 @@ sidebar_position: 2
 sidebar_label: find_element
 ---
 # clicknium.sap.find_element
-***def find_element(
+```python
+def find_element(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {}
-    ) -> SapElement***  
+    ) -> SapElement
+```  
 
 Return the SAP UI element defined by the given locator.
 

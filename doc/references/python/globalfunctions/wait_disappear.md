@@ -2,11 +2,13 @@
 sidebar_position: 5
 ---
 # clicknium.wait_disappear
-***def wait_disappear(
+```python 
+def wait_disappear(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         wait_timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```
 
 Wait for the UI element to disappear within specified timeout.
 

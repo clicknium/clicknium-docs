@@ -4,7 +4,9 @@ sidebar_label: close
 ---
 # browser.close
 
-***def close(self, is_force: bool = False) -> None***  
+```python
+def close(self, is_force: bool = False) -> None
+```  
 
 Close the browser.
 

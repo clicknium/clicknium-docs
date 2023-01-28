@@ -12,7 +12,7 @@ sidebar_position: 5
 ## Install
 
 1. You can install the extension in the following way:  
-    - Install the Brave extension via [Clicknium Python command](./../../references/python/webdriver/webextension/webextension.md)
+    - Install the Brave extension via [Clicknium Python command](./../../references/python/webdriver/webextension/webextension.md)  
 
     ```python
     from clicknium import clicknium as cc
@@ -20,13 +20,13 @@ sidebar_position: 5
     # install chrome extension
     cc.chromium('brave').extension.install_or_update()
     ```
-    - Follow the wizard to turn on the extension
+    - Follow the wizard to turn on the extension  
     ![brave turn on](../../img/brave_turnon.png)
 
     - Open Brave browser and click "Extensions" in the side navigation bar  
-    &emsp;&emsp;![brave extension page](../../img/brave_extension_off.png)   
+    ![brave extension page](../../img/brave_extension_off.png)   
     - Click the button "Enable" in the lower right corner of this extension.  
-    &emsp;&emsp;![brave extension page](../../img/brave_extension.png)
+    ![brave extension page](../../img/brave_extension.png)
 
 2. You can refer to console output for more installation details.
 

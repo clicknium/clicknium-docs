@@ -5,7 +5,9 @@ sidebar_label: install
 
 # clicknium.java.install
 
-***def install(self, java_install_path: str = '') -> None*** 
+```python
+def install(self, java_install_path: str = '') -> None
+```
 
 Install Java extension.
 

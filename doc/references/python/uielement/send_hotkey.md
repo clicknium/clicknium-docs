@@ -1,10 +1,12 @@
 # send_hotkey
-***def send_hotkey(
+```python
+def send_hotkey(
         self,
         hotkey: str,
         preaction: Literal["setfocus", "click"] = PreAction.SetFocus,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Send hotkey to target element.
 

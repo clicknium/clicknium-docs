@@ -5,14 +5,16 @@ sidebar_label: click
 
 # clicknium.mouse.click
 
-***def click(
+```python
+def click(
         self, 
         x: int, 
         y: int, 
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         delay: int = 0
-    ) -> None***  
+    ) -> None
+```  
 
 Perform a single click with the specified mouse button.
 

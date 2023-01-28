@@ -4,7 +4,9 @@ sidebar_label: get_tab
 ---
 # browser.get_tab
 
-***def get_tab(self, title: str = '', url: str = '') -> BrowserTab***  
+```python
+def get_tab(self, title: str = '', url: str = '') -> BrowserTab
+```  
 
 Get tab by specified title and/or url.
 

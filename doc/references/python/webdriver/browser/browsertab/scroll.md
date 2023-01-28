@@ -4,11 +4,13 @@ sidebar_label: scroll
 ---
 # BrowserTab.scroll
 
-***def scroll(
+```python
+def scroll(
         self,
         delta_x: int = 0,
         delta_y: int = 0
-    ) -> None***  
+    ) -> None
+```  
 
 Scroll the current browser tab with the scroll bar.
 

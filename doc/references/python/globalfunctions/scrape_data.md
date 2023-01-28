@@ -3,7 +3,8 @@ sidebar_position: 9
 ---
 # clicknium.scrape_data  
 
-***def scrape_data(
+```python
+def scrape_data(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         next_page_button_locator: Union[_Locator, str] = None,
@@ -12,7 +13,8 @@ sidebar_position: 9
         wait_page_load_time: int = 5,
         max_count: int = -1,
         timeout: int = 30
-    ) -> object***  
+    ) -> object
+``` 
 
 
  Scrape data from applications. It supports using a locator which targets the next page button as an automatic page turner.

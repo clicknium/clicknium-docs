@@ -1,9 +1,11 @@
 # select_item
-***def select_item(
+```python
+def select_item(
         self,
         item: str,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Select one option for the target element when it is a dropdown type control.
 

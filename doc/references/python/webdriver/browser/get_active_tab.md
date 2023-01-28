@@ -4,7 +4,9 @@ sidebar_label: get_active_tab
 ---
 # browser.get_active_tab
 
-***def get_active_tab(self) -> BrowserTab***  
+```python
+def get_active_tab(self) -> BrowserTab
+```  
 
 Get the current active tab of the browser.
 

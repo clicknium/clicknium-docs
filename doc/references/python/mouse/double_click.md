@@ -5,13 +5,15 @@ sidebar_label: double_click
 
 # clicknium.mouse.double_click
 
-***def double_click(
+``` python 
+def double_click(
         self, 
         x: int, 
         y: int, 
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey
-    ) -> None***  
+    ) -> None
+```  
 
 Perform a double click with the specified mouse button.
 

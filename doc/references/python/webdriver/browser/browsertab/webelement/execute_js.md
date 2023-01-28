@@ -4,12 +4,14 @@ sidebar_label: execute_js
 ---
 # WebElement.execute_js
 
-***def execute_js(
+```python
+def execute_js(
         self,
         javascript_code: str, 
         method: str = '', 
         timeout: int = 30
-    ) -> str***  
+    ) -> str
+```  
 
 Execute Javascript code for the target element.  
 

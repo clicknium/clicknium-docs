@@ -1,5 +1,6 @@
 # save_to_image  
-***def save_to_image(
+````python 
+def save_to_image(
         self,
         image_file: str,
         img_width: int = 0,
@@ -7,7 +8,8 @@
         xoffset: int = 0,
         yoffset: int  = 0,
         timeout: int = 30
-    ) -> None***
+    ) -> None
+```
 
 Save target element's screenshot to file with the specified size and offset.
 

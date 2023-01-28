@@ -2,7 +2,9 @@
 sidebar_position: 1
 ---
 # child
-***def child(self, index: int)***  
+```python
+def child(self, index: int)
+```  
 
 Get child element with index.
 

@@ -4,11 +4,13 @@ sidebar_label: select_item
 ---
 # SapElement.select_item
 
-***def select_item(
+```python
+def select_item(
         self,
         item: str,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Select the SAP item.
 

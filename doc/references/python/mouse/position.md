@@ -5,9 +5,11 @@ sidebar_label: position
 
 # clicknium.mouse.position
 
-***def position(
+```python 
+def position(
         self
-    ) -> Tuple[int,int]***  
+    ) -> Tuple[int,int]
+```
 
 Get the position of the mouse cursor.
 

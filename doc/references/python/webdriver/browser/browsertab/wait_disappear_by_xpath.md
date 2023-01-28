@@ -3,11 +3,13 @@ sidebar_position: 15
 sidebar_label: wait_disappear_by_xpath
 ---
 # BrowserTab.wait_disappear_by_xpath
-***def wait_disappear_by_xpath(
+```python
+def wait_disappear_by_xpath(
         self,
         xpath: str,
         wait_timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
 In the active browser, wait for the element to disappear by the given XPath.
 

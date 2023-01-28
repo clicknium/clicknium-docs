@@ -1,5 +1,7 @@
 # get_position
-***def get_position(self, timeout: int = 30) -> ElementPosition***  
+```python
+def get_position(self, timeout: int = 30) -> ElementPosition
+```
 
 Get position of the target element.
 

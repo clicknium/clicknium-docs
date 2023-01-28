@@ -1,11 +1,13 @@
 # set_text
-***def set_text(
+```python
+def set_text(
         self,
         text: str,
         by: Union[Literal["default", "set-text", "sendkey-after-click", "sendkey-after-focus"], InputTextBy]= InputTextBy.Default,
         overwrite: bool = True,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Set text for the target element, it can be used to input text to a system.  
 

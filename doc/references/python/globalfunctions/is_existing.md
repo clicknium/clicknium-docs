@@ -2,11 +2,13 @@
 sidebar_position: 3
 ---
 # clicknium.is_existing
-***def is_existing(
+```python
+ def is_existing(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         timeout: int = 30
-    ) -> bool***  
+    ) -> bool 
+ ```
 
 Check whether the UI element exists or not.
 

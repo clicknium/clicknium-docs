@@ -2,11 +2,13 @@
 sidebar_position: 2
 ---
 # clicknium.find_elements
-***def find_elements(
+```python 
+def find_elements(
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         timeout: int = 30
-    ) -> List[UiElement]***  
+    ) -> List[UiElement]
+```
 
 Return list of all matched UI elements by the given locator.
 

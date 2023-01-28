@@ -4,7 +4,9 @@ sidebar_label: update
 ---
 # WebDriver.extension.update
 
-***def update(self) -> None*** 
+```python
+def update(self) -> None
+``` 
 
 Update browser extension.
 

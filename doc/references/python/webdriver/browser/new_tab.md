@@ -4,7 +4,9 @@ sidebar_label: new_tab
 ---
 # browser.new_tab
 
-***def new_tab(self, url: str, is_wait_complete: bool = True, timeout: int = 30) -> BrowserTab***  
+```python
+def new_tab(self, url: str, is_wait_complete: bool = True, timeout: int = 30) -> BrowserTab
+```  
 
 Open a new tab in the current browser.
 

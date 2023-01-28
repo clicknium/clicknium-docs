@@ -5,12 +5,14 @@ sidebar_label: up
 
 # clicknium.mouse.up
 
-***def up(
+```python
+def up(
         self,
         x: int, 
         y: int, 
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left
-    ) -> None***  
+    ) -> None
+```
 
 Place the mouse at the desired location, and release the mouse button back up.
 

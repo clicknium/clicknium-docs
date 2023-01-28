@@ -4,11 +4,13 @@ sidebar_label: screenshot_to_image
 ---
 # WebElement.screenshot_to_image  
 
-***def screenshot_to_image(
+```python 
+def screenshot_to_image(
         self,
         image_file: str,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 
 Save target element's screenshot to file using cdp tech. Only support for chromium webelements.  

@@ -1,12 +1,14 @@
 # double_click
-***def double_click(
+```python
+def double_click(
         self,
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left,
         mouse_location: MouseLocation = MouseLocation(),
         by: Union[Literal["default", "mouse-emulation", "control-invocation"], MouseActionBy] = MouseActionBy.Default,
         modifier_key: Literal["nonekey", "alt", "ctrl", "shift","win"]  = ModifierKey.NoneKey,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+``` 
 
 Double click the target element.
 

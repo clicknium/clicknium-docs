@@ -4,13 +4,15 @@ sidebar_label: attach
 ---
 # WebDriver.attach
 
-***def attach(
+```python
+def attach(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         is_maximize: bool = True,
         timeout = 30
-    ) -> BrowserTab***  
+    ) -> BrowserTab
+```  
 
 Attach to an opened browser tab with specified locator.
 

@@ -4,7 +4,9 @@ sidebar_label: maximize
 ---
 # browser.maximize
 
-***def maximize(self) -> None***  
+```python
+def maximize(self) -> None
+```  
 
 Maximize the browser window.
 

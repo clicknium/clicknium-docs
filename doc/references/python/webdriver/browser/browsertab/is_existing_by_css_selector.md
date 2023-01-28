@@ -3,11 +3,13 @@ sidebar_position: 10
 sidebar_label: is_existing_by_css_selector
 ---
 # BrowserTab.is_existing_by_css_selector
-***def is_existing_by_css_selector(
+```python
+def is_existing_by_css_selector(
         self,
         css_selector: str,
         timeout: int = 30
-    ) -> bool***  
+    ) -> bool
+```  
 
 In the active browser, check whether the UI element exist or not by the given CSS selector.
 

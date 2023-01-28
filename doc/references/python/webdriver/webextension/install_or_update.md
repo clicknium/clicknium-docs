@@ -4,7 +4,9 @@ sidebar_label: install_or_update
 ---
 # WebDriver.extension.install_or_update
 
-***def install_or_update(self) -> bool*** 
+```python
+def install_or_update(self) -> bool
+``` 
 
 Install or update browser extension based on the current status of the detected extension..
 

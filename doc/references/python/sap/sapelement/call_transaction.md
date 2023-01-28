@@ -4,11 +4,13 @@ sidebar_label: call_transaction
 ---
 # SapElement.call_transaction
 
-***def call_transaction(
+```python
+def call_transaction(
         self,
         transaction_code: str,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```  
 
 Call the SAP transaction.
 

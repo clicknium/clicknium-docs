@@ -3,12 +3,14 @@ sidebar_position: 3
 sidebar_label: find_element
 ---
 # WebElement.find_element
-***def find_element(
+```python
+def find_element(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         timeout: int = 30
-    ) -> WebElement***  
+    ) -> WebElement
+```  
 
 Return the Web element defined by the given locator.
 

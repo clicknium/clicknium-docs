@@ -1,5 +1,7 @@
 # hover
-***def hover(self, timeout: int = 30) -> None***  
+```python
+def hover(self, timeout: int = 30) -> None
+```  
 
 Hover over the element, and the mouse will move upon the element and stay for a while.
 

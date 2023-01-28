@@ -20,13 +20,13 @@ sidebar_position: 6
     # install chrome extension
     cc.chromium('vivaldi').extension.install_or_update()
     ```
-    - Follow the wizard to turn on the extension
+    - Follow the wizard to turn on the extension  
     ![vivaldi turn on](../../img/vivaldi_turnon.png)
 
     - Open Vivaldi browser and click "Tools->Extensions" in the left side navigation bar  
     &emsp;&emsp;![Vivaldi extension page](../../img/vivaldi_extension_off.png)   
-    - Click the button "Enable" in the lower right corner of this extension.  
-    &emsp;&emsp;![Vivaldi extension page](../../img/vivaldi_extension.png)
+    - Click the button "Enable" in the lower right corner of this extension.    
+    &emsp;&emsp;![Vivaldi extension page](../../img/vivaldi_extension.png)  
 
 2. You can refer to console output for more installation details.
 3. Hidden the status bar, this is ***important***, as it has impact during recording.

@@ -4,12 +4,14 @@ sidebar_label: scroll
 ---
 # WebElement.scroll
 
-***def scroll(
+```python
+def scroll(
         self,
         delta_x: int = 0,
         delta_y: int = 0,
         timeout: int = 30
-    ) -> None***  
+    ) -> None
+```   
 
 Scroll the target element with the scroll bar.
 

@@ -3,12 +3,14 @@ sidebar_position: 11
 sidebar_label: wait_appear
 ---
 # BrowserTab.wait_appear
-***def wait_appear(
+```python
+def wait_appear(
         self,
         locator: Union[_Locator, str],
         locator_variables: dict = {},
         wait_timeout: int = 30
-    ) -> WebElement***  
+    ) -> WebElement
+```  
 
 Wait for the specified element of the web page to appear within given timeout.  
 

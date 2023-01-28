@@ -4,7 +4,9 @@ sidebar_label: close
 ---
 # BrowserTab.close
 
-***def close(self) -> None***  
+```python
+def close(self) -> None
+```  
 
 Close the browser tab. The browser will be closed too if no opened tab.  
 

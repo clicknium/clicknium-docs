@@ -5,12 +5,14 @@ sidebar_label: down
 
 # clicknium.mouse.down
 
-***def down(
+```python 
+def down(
         self,
         x: int, 
         y: int, 
         mouse_button: Literal["left", "middle", "right"] = MouseButton.Left
-    ) -> None***  
+    ) -> None
+```
 
 Place the mouse at the desired location, and press the mouse button down.
 
