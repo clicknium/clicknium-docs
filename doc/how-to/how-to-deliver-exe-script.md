@@ -12,7 +12,7 @@ In Visual Studio Code, press `Ctrl+Shift+P` to show the Command Palette, input `
 ![project create](../img/create_project.gif)
 
 When the project is created, a pop-up window in the lower right corner shows the general project initialization information, and the output panel shows details. After initialization, the current Python virtual environment can be seen when you open app.py.  
-![](./img/virtualEnv.png)
+![virtualEnv](img/virtualEnv.png)
 
 Compared to the ordinary Python project, there are a few more files:
 - app.py: Python source code.
@@ -80,7 +80,7 @@ Once the package is finished, the saving folder will be opened to show the targe
 
 You can also use [Pyinstaller](https://pyinstaller.org/en/stable/) to package Python script into an executable file. 
 
-## Run without a web browser extension
+## Run without the browser automation extension
 Web browser extension must be installed and enabled when developing the Clicknium web automation script. When developers deliver the script to business users, business users might not know how to install the Clicknium browser extension. The following code can check and install the extension.  
 ```Python
  if cc.chrome.extension.install_or_update():
