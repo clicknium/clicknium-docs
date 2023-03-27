@@ -1,4 +1,11 @@
 # Change Log
+## 0.1.14 (27 March 2023)
+### New features  
+- Add Headless support for Chrome and Edge in CDP mode.   
+### Improvements
+- Fix Javascript exection failure in CDP mode. 
+- Fix set_text failure with Windows grideview by simulating keyboard. 
+
 ## 0.1.12 (13 January 2023)
 ### New features  
 - Add CDP API support for Chrome and Edge.   
