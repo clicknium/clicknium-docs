@@ -3,12 +3,15 @@ sidebar_position: 7
 sidebar_label: Capture Similar Elements
 ---
 
+
+# Capture Similar Elements
+
 Using the [Okay Bear](https://opensea.io/collection/okay-bears) image in Opensea as an example, which is a typical Grid structure.
 
 ![](./img/okb.png)
 
 
-a.  Click the Capture button in the VS Code plugin to start the recorder: 
+a.  Click the Capture button in the VS Code plugin to start the Recorder: 
 
 ![](./img/Recorder.png)
 
@@ -28,7 +31,7 @@ After crawling the locator corresponding to the similar elements, call [find_ele
 
 Sample code：
 
-Get the picture url by [get_property](https://www.clicknium.com/documents/references/python/uielement/get_property). Download the pciture using request lib, and use [send_hotkey](https://www.clicknium.com/documents/references/python/uielement/send_hotkey) to press PgDn key to scroll and load more picutre. 
+Get the picture URL by [get_property](https://www.clicknium.com/documents/references/python/uielement/get_property). Download the picture using request lib, and use [send_hotkey](https://www.clicknium.com/documents/references/python/uielement/send_hotkey) to press the PgDn key to scroll and load more picture. 
 
 ```python
 import requests
