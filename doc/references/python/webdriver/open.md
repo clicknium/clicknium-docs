@@ -12,11 +12,12 @@ def open(
         is_wait_complete: bool = True,
         userdata_folder_mode: Literal["automatic", "default", "custom"] = WebUserDataMode.Automatic,
         userdata_folder_path: str = "",
+        args: List[str] = None,
         timeout: int = 30
     ) -> BrowserTab 
 ```
 
-Open browser with specified url to get a browser tab. Browser automation extensions should be installed and enable. CDP is supported for Chrome and Edge browser, ` chromecdp` and `edgecdp` can run without browser automation extension.    
+Open browser with specified url to get a browser tab. Browser automation extensions should be installed and enable. CDP is supported for Chrome and Edge browser, ` chromecdp` and `edgecdp` can run without browser automation extension and support `Headless mode` by adding `--headless` into `args`.  
 
 >**Remarks:**  
 >- When you open and run the Python script with "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)" in Visual Studio Code , the opened browser may be closed when exiting the debugging or running state.
@@ -37,6 +38,8 @@ Open browser with specified url to get a browser tab. Browser automation extensi
         &emsp;&emsp; `custom`：use the folder specified by parameter 'userdata_folder_path'.  
     &emsp;**userdata_folder_path**: str  
         &emsp;&emsp; User data's folder path.  
+    &emsp;**args**: additional arguments to pass to the browser instance. The list of Chromium flags can be found at https://peter.sh/experiments/chromium-command-line-switches/, ex: args=["--profile-directory=Default"]
+  
     &emsp;**timeout**: int  
         &emsp;&emsp; Timeout for the operation, the unit is second, and the default value is 30 seconds. 
 
@@ -54,13 +57,24 @@ ie_tab = cc.ie.open("https://www.bing.com")
 # open Chrome browser
 chrome_tab = cc.chrome.open("https://www.bing.com")
 # open Chrome browser with CDP
-chrome_tab = cc.chromecdp.open("https://www.bing.com")
+chrome_tab_cdp = cc.chromecdp.open("https://www.bing.com")
+# open Chrome browser with headless mode 
+chrome_headless_tab = cc.chromecdp.open("https://www.bing.com", args=["--headless"])
+
 
 # open Edge browser
 edge_tab = cc.edge.open("https://www.bing.com", is_wait_complete = True)
 # open Edge browser with CDP
-edge_tab = cc.edgecdp.open("https://www.bing.com", is_wait_complete = True)
+edge_headless_tab = cc.edgecdp.open("https://www.bing.com", is_wait_complete = True, args=["--headless"])
 
 # open Firefox browser
 firefox_tab = cc.firefox.open("https://www.bing.com", timeout = 10)
+
+
+# open Brave browser
+brave_tab = cc.chromium('brave').open("https://www.bing.com", timeout = 10)
+
+# open Vivaldi browser
+vivaldi_tab = cc.chromium('vivaldi').open("https://www.bing.com", timeout = 10)
+
 ```

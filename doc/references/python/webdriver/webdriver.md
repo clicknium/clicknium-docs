@@ -4,9 +4,13 @@
 
 - `clicknium.ie`: IE web driver  
 - `clicknium.chrome`: Chrome web driver  
+- `clicknium.chromecdp`: Chrome web driver with Chrome DevTools Protocol(CDP)  
 - `clicknium.edge`: Edge web driver  
+- `clicknium.edgecdp`: Edge web driver with Chrome DevTools Protocol(CDP)   
 - `clicknium.firefox`: Firefox web driver 
 - `clicknium.chromium()`: Chromium based web driver, such as "brave", "vivaldi" and so on 
+
+`clicknium.chromecdp` and `clicknium.edgecdp` can run without browser automation extension and support headless mode.   
 
 ## Properties
 - `browsers`: List[[Browser](./browser/browser.md)], return all open browsers by current browser type.  
@@ -26,4 +30,14 @@ cc.chrome.extension.install()
 
 # open chrome browser
 cc.chrome.open("www.bing.com")
+
+# open chrome browser via CDP
+cc.chromecdp.open("www.bing.com")
+
+# open chrome browser via CDP with headless mode 
+cc.chromecdp.open("www.bing.com", args=["--headless"])
+
+# open chromium based browser
+cc.chromium('vivaldi').open("https://www.bing.com", timeout = 10)
+cc.chromium('brave').open("https://www.bing.com", timeout = 10)
 ```
