@@ -1,4 +1,12 @@
 # Change Log
+## 0.1.14 (27 March 2023)
+### New features  
+- Add [Headless](../../../how-to/how-to-headless.md) support for Chrome and Edge in CDP mode. 
+
+### Improvements
+- Fix Javascript exection failure in CDP mode. 
+- Fix set_text failure with Windows grideview by simulating keyboard. 
+
 ## 0.1.12 (13 January 2023)
 ### New features  
 - Add CDP API support for Chrome and Edge.   
@@ -106,7 +114,7 @@
 - Improve browser extension installation experience.
 - Fix web automation bug: validation failed for web element with `tabIndex` property.
 - Fix bug: can not get actual element's rectangle, when window's DPI changed.
-- Fix bug: new_tab was not working when url does not start with `https://`,`http://` or `file://`.
+- Fix bug: new_tab was not working when url does not start with `https://`, `http://` or `file://`.
 - Fix bug: open browser can not get correct tab id when there is some other popup window.
 - Fix bug: send_hotkey does not support some modifier keys, such as '^' (for ctrl).
 

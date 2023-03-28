@@ -9,7 +9,7 @@ sidebar_position: 5
 >
 >- Please close Brave & Chrome browsers before installing the extension.
 
-## Install
+## Installation
 
 1. You can install the extension in the following way:  
     - Install the Brave extension via [Clicknium Python command](./../../references/python/webdriver/webextension/webextension.md)  
@@ -30,7 +30,16 @@ sidebar_position: 5
 
 2. You can refer to console output for more installation details.
 
+
+## Use Brave in Clicknium 
+```python
+from clicknium import clicknium as cc
+# open Brave browser
+brave_tab = cc.chromium('brave').open("https://www.bing.com", timeout = 10)
+```
+
 ## Notes
-You can do the following setting to avoid opening mulitple tabs when open brave browser.
+You can do the following setting to avoid opening mulitple tabs when open brave browser.  
 &emsp;&emsp;![brave extension page](../../img/brave_getstarted.png)
+
 

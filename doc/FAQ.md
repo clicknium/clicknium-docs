@@ -5,6 +5,25 @@ sidebar_label: FAQ
 
 # Frequently Asked Questions
 
+## How to launch a Windows applications
+
+To launch desktop applications, use Python's subprocess module 
+```python
+import subprocess
+
+process_notpad = subprocess.Popen("notepad")
+process_feishu = subprocess.Popen("C:\Users\kay\AppData\Local\sc\scp.exe")  
+```
+
+## Why did the locator fail after a while
+There are many reasons why a locator may fail, such as dynamic loading, version updates, and context changes. First, you can use the `Recapture&Compare` function on the locator page to re-record and compare the differences between the old and new locators. Different properties will be highlighted.
+
+
+![Image description](./img/recap&com.png)
+
+To make the locator more stable, it is recommended to use wildcards, regular expressions, parameterized locator, and other features to improve the locator's robustness.
+
+
 ## Login Failure
 
 When you try to login and got error: `Uncaught SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.` This exception is thrown when the "Block third-party cookies and site data" checkbox is set in Content Settings.  
@@ -82,3 +101,7 @@ In the "pyvenv.cfg" file, change "home" to the Python installation path
 ![](img/pack_error_7.png)
 
 The project will function normally,  you can run it again in Visual Studio Code and package it.
+
+## Why does mouse click, and type text has no effect
+
+Toggles between the system call method and the simulated mouse method. Sometimes, when recording a button, it may record the logo inside the button or the outer border. For system calls, only the button has the click property. Some input boxes also have a click or focus state to be activated, so you can choose to click or focus parameters before input. Since there is no return value after the system call is triggered, Clicknium cannot throw an error. In such cases, it is recommended to click the button in a simulated mouse way.
