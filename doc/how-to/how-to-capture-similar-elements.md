@@ -25,11 +25,11 @@ c. Ctrl + mouse click to grab the first and second elements.：
 
 ![](./img/firstelement_similar.png)
 
-![](./img/similarelements_save.png)
-After crawling the locator corresponding to the similar elements, call [find_elements](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab/webelement /find_elements) to return a UI element list ([find_element](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab /webelement/find_element) returns a single UI element.
+![](./img/similarelements_save.png)  
+After crawling the locator corresponding to the similar elements, call [find_elements](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab/webelement/find_elements) to return a UI element list ([find_element](https://www.clicknium.com/documents/references/python/webdriver/browser/browsertab/webelement/find_element) returns a single UI element.
 
 
-Sample code：
+## Sample code：
 
 Get the picture URL by [get_property](https://www.clicknium.com/documents/references/python/uielement/get_property). Download the picture using request lib, and use [send_hotkey](https://www.clicknium.com/documents/references/python/uielement/send_hotkey) to press the PgDn key to scroll and load more picture. 
 

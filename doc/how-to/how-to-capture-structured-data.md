@@ -22,7 +22,7 @@ Tables are relatively easy to understand, but what is non-tabular structured dat
 
 For example, let's capture the following table in [Coingecko](https://www.coingecko.com/).
 
-![coningecko](./img/coningecko.png)
+![coningecko](./img/coningecko.png)  
 3. Use the Ctrl+left mouse button to click on the first row and column of data in the table.
 Clicknium will automatically detect the capture object for the table and prompt whether to capture the full table information.
 
@@ -43,17 +43,16 @@ b. Capture the second cell in the first column: the second product name.
 
 c. The first column is captured successfully, click Add column to start capturing the second column elements.
 
-d. Capture the second column, the first element: the first product price.  
-
+d. Capture the second column, the first element: the first product price.    
 ![](./img/chairlist.png)   
 
-After capturing, Clicknium will organize the data into tables.
+After capturing, Clicknium will organize the data into tables.  
 ![](./img/chairdatapreview.png)  
 On the preview page, you can also change the column names and column order and select different attributes as column values.
 
 ![Modify column](./img/modifycolumn.png)
 
-### Sample Code:  
+## Sample Code:  
 For structured data, Clicknium provides the [scrape_data](https://www.clicknium.com/documents/references/python/globalfunctions/scrape_data) method, which returns text in JSON format. Not only this function supports passing in the locator of the page flip button to achieve automatic page flip, but page flip also supports setting controls and simulating the mouse, etc., waiting for the page to load, grabbing the number of data bars control and timeout.
 
 ![Datascraper API](./img/datascraperapi.png)
