@@ -1,9 +1,9 @@
 ---
-sidebar_position: 8
+sidebar_position: 7
 sidebar_label: Capture Structured Data
 ---
 
-# Capture structured data
+# Capture Structured Data
 
 In automated scenarios, there is a great demand for obtaining structured data, especially tabular data. Capturing similar elements is only suitable for capturing one column of data. Of course, one can capture a table column by column. However, this approach may lead to alignment issues between different columns, increasing the risk of errors and making the operation cumbersome.
 

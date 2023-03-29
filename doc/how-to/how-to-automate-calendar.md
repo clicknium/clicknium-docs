@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 9
 sidebar_label: Set Values for Calendar
 ---
 # How to Set Values for Calendar

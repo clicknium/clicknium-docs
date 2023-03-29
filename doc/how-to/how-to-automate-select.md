@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 sidebar_label: Set Values for Select/Dropdown list
 ---
 # How to Set Values for Select/Dropdown list
