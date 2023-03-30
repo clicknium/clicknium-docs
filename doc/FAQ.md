@@ -23,13 +23,15 @@ There are many reasons why a locator may fail, such as dynamic loading, version 
 
 To make the locator more stable, it is recommended to use wildcards, regular expressions, parameterized locator, and other features to improve the locator's robustness.
 
-
 ## Login Failure
 
 When you try to login and got error: `Uncaught SecurityError: Failed to read the 'localStorage' property from 'Window': Access is denied for this document.` This exception is thrown when the "Block third-party cookies and site data" checkbox is set in Content Settings.  
 To find the setting, open Chrome settings, click `Privacy and security` in navigation bar, click `Cookies and other site data`, and view the third item under General settings.
 ![pic](./img/block3rdcookies.PNG)  
 If this setting is checked, third-party scripts cookies are disallowed and access to localStorage may result in thrown SecurityError exceptions.
+
+## How to get Clicknium log after the script crash
+The default log path is `C:\Users\{currentUser}\AppData\Local\Clicknium\Log`. If you can't find a way to fix your script, you can send zip the log and send it to 'Clicknium@clicknium.com' with some info about your environment, such as OS version, Python version, etc. 
 
 ## Can not automate browser running instances with different user profiles
 
@@ -104,4 +106,21 @@ The project will function normally,  you can run it again in Visual Studio Co
 
 ## Why does mouse click, and type text has no effect
 
-Toggles between the system call method and the simulated mouse method. Sometimes, when recording a button, it may record the logo inside the button or the outer border. For system calls, only the button has the click property. Some input boxes also have a click or focus state to be activated, so you can choose to click or focus parameters before input. Since there is no return value after the system call is triggered, Clicknium cannot throw an error. In such cases, it is recommended to click the button in a simulated mouse way.
+Toggles between the system call method and the simulated mouse method. Sometimes, when recording a button, it may record the logo inside the button or the outer border. For system calls, only the button has the click property. Some input boxes also have a click or focus state to be activated, so you can choose to click or focus parameters before input. Since there is no return value after the system call is triggered, Clicknium cannot throw an error. In such cases, it is recommended to click the button in a simulated mouse way.  
+
+
+## How to set a timer to run
+
+a. Search for Task Scheduler in the taskbar
+
+b. Create a Task or Create a basic Task
+
+
+![Image description](img/taskscheduler.png)
+
+
+c. Task Config：
+
+-  Task name
+-  Trigger：Select trigger conditions, daily, weekly or monthly, at startup, at login, etc.
+-  Action： Select Launcher, Program or Script: Fill in the address of python.exe. Add parameter: the address of the automation script.
