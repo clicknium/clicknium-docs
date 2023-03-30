@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
-sidebar_label: Using custom attributes to locate web element
+sidebar_position: 2
+sidebar_label: Using Custom Attributes to Locate Web Element
 ---
-# How to use custom attributes to locate web elements
+# How to Use Custom Attributes to Locate Web Elements
 ##  Introduction
 From [Locator](../concepts/locator.md) and [Web Automation](../concepts/web.md), you know which attributes Clicknium used to locate web elements, such as "tag," "id," "name" and so forth.  
 A web element may occasionally include additional attributes, some of which are significant and can be used to identify the web element.

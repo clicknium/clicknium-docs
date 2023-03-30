@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
-sidebar_label: Using index variable in locator to find a series of elements
+sidebar_position: 3
+sidebar_label: Using Index Variable in Locator to Find A Series Elements
 ---
-# Using index variable in locator to find a series elements
+# Using Index Variable in Locator to Find A Series Elements
 ##  Introduction
 From Clicknium [Locator](../concepts/locator.md) definition, it supports a parametric locator.   
 Users can use the parametric locator in the automation project to replace the ones with the variables or data. It allows the locator to match a series of elements instead of a single target element.
