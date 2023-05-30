@@ -35,7 +35,7 @@ cc.chrome.open("www.bing.com")
 cc.chromecdp.open("www.bing.com")
 
 # open chrome browser via CDP with headless mode 
-cc.chromecdp.open("www.bing.com", args=["--headless"])
+cc.chromecdp.open("www.bing.com", headless = true)
 
 # open chromium based browser
 cc.chromium('vivaldi').open("https://www.bing.com", timeout = 10)

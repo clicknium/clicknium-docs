@@ -1,4 +1,20 @@
 # Change Log
+
+## 0.1.18 (30 May 2023)
+### New features  
+- Support to capture and operate across iframe elements.
+
+### Improvements
+- Improve performance.
+- Improve packaging issue. 
+- Support latest version of Brave and Vivaldi. 
+
+## 0.1.17 (9 May 2023)
+### Improvements
+- Refactor CDP API.
+- Support Chrome version 113.
+- Fix JAVA automation extension install issue. 
+
 ## 0.1.14 (27 March 2023)
 ### New features  
 - Add [Headless](../../../how-to/how-to-headless.md) support for Chrome and Edge in CDP mode. 
