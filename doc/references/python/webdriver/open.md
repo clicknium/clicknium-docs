@@ -17,7 +17,7 @@ def open(
     ) -> BrowserTab 
 ```
 
-Open browser with specified url to get a browser tab. Browser automation extensions should be installed and enable. CDP is supported for Chrome and Edge browser, ` chromecdp` and `edgecdp` can run without browser automation extension and support `Headless mode` by adding `--headless` into `args`.  
+Open browser with specified url to get a browser tab. Browser automation extensions should be installed and enable. CDP is supported for Chrome and Edge browser, ` chromecdp` and `edgecdp` can run without browser automation extension and support `Headless mode` by set `headless` = true in open function.  
 
 >**Remarks:**  
 >- When you open and run the Python script with "Start Debugging (F5)" or "Run Without Debugging (Ctrl+F5)" in Visual Studio Code , the opened browser may be closed when exiting the debugging or running state.
@@ -59,13 +59,13 @@ chrome_tab = cc.chrome.open("https://www.bing.com")
 # open Chrome browser with CDP
 chrome_tab_cdp = cc.chromecdp.open("https://www.bing.com")
 # open Chrome browser with headless mode 
-chrome_headless_tab = cc.chromecdp.open("https://www.bing.com", args=["--headless"])
+chrome_headless_tab = cc.chromecdp.open("https://www.bing.com", headless = true)
 
 
 # open Edge browser
 edge_tab = cc.edge.open("https://www.bing.com", is_wait_complete = True)
 # open Edge browser with CDP
-edge_headless_tab = cc.edgecdp.open("https://www.bing.com", is_wait_complete = True, args=["--headless"])
+edge_headless_tab = cc.edgecdp.open("https://www.bing.com", is_wait_complete = True, headless = true)
 
 # open Firefox browser
 firefox_tab = cc.firefox.open("https://www.bing.com", timeout = 10)
