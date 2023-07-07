@@ -1,4 +1,10 @@
 # Change Log
+## 0.1.21 (3 July 2023)
+### Improvements
+- Fix operating system resolution bug
+- Fix telemetry causing program to be stuck bug
+- Fix native message host cannot start bug
+
 ## 0.1.18 (30 May 2023)
 ### New features  
 - Support to capture and operate across iframe elements.
